@@ -57,7 +57,7 @@ p.s{margin:0;color:var(--mute);font-size:14px}
 .save[aria-pressed="true"],.btn.p{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
 mark{background:var(--hl);color:inherit;border-radius:2px}
 .empty{padding:50px 0;color:var(--mute)}
-.more{display:block;margin:24px auto 0;padding:11px 26px;border-radius:12px;border:0;background:var(--ink);color:var(--bg);cursor:pointer;font-weight:600}
+.more[hidden]{display:none}.more{display:block;margin:24px auto 0;padding:11px 26px;border-radius:12px;border:0;background:var(--ink);color:var(--bg);cursor:pointer;font-weight:600}
 .note{margin-top:28px;font-size:12.5px;color:var(--mute);max-width:70ch}
 dialog{border:1px solid var(--line);border-radius:18px;background:var(--panel);color:var(--ink);max-width:680px;width:calc(100% - 28px);padding:0;max-height:90vh}
 dialog::backdrop{background:rgba(5,8,20,.6)}
@@ -135,7 +135,7 @@ const ready=fetch("news.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;retu
 const $=s=>document.querySelector(s);
 const PS=10;
 const byId=id=>NEWS.find(x=>x.id===id)||st.saved.get(id);
-const sr=n=>sr(n)||[n.s,"#888"];
+const sr=n=>SRC[n.s]||[n.s,"#888"];
 const st={cat:"Todas",q:"",off:new Set(),saved:new Map(),per:99,ord:"d",n:PS,fs:17};
 try{JSON.parse(localStorage.getItem("pauta-saved3")||"[]").forEach(n=>st.saved.set(n.id,n))}catch(e){}
 const persist=()=>{try{localStorage.setItem("pauta-saved3",JSON.stringify([...st.saved.values()]))}catch(e){}};
