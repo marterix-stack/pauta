@@ -1,0 +1,522 @@
+{
+ "updated": "2026-10-20T20:37:17-03:00",
+ "sources": {
+  "bbc": [
+   "BBC News Brasil",
+   "#9f1239"
+  ],
+  "g1": [
+   "g1",
+   "#dc2626"
+  ],
+  "rt": [
+   "Reuters",
+   "#d97706"
+  ],
+  "icl": [
+   "ICL Notícias",
+   "#0369a1"
+  ],
+  "b247": [
+   "Brasil 247",
+   "#15803d"
+  ]
+ },
+ "items": [
+  {
+   "s": "b247",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Flávio Bolsonaro pede a Moraes acesso a inquérito por lavagem de dinheiro",
+   "x": "Defesa do candidato à Presidência quer consultar investigação que apura movimentações milionárias e possíveis vínculos com empresas do advogado Willer Tomaz",
+   "u": "https://www.brasil247.com/brasil/flavio-bolsonaro-pede-a-moraes-acesso-a-inquerito-por-lavagem-de-dinheiro/"
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "VÍDEOS: GR2 de terça-feira, 20 de Outubro de 2026",
+   "x": "Confira os vídeos do telejornal com as notícias do Sertão de Pernambuco.",
+   "u": "https://g1.globo.com/pe/petrolina-regiao/playlist/videos-gr2-de-terca-feira-20-de-outubro-de-2026.ghtml"
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "AO VIVO: assista à programação da NSC TV",
+   "x": "Veja a matéria completa em g1.",
+   "u": "https://g1.globo.com/sc/santa-catarina/ao-vivo/assista-ao-vivo-aos-telejornais-da-nsc.ghtml"
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Dupla é condenada por torturar e matar torcedor na saída de jogo na Arena Castelão, em Fortaleza",
+   "x": "Homem foi morto por criminosos na saída de um jogo na Arena Castelão, em junho de 2023, em Fortaleza Divulgação/ Governo do Estado. O Tribunal da 3ª Vara do Júri de Fortaleza condenou, na segunda-feira (19), um homem e uma mulher…",
+   "u": "https://g1.globo.com/ce/ceara/noticia/2026/10/20/dupla-e-condenada-por-torturar-e-matar-torcedor-na-saida-de-jogo-na-arena-castelao-em-fortaleza.ghtml"
+  },
+  {
+   "s": "b247",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Jango incomoda até hoje!",
+   "x": "Por que um presidente deposto há 62 anos ainda desperta tanto ódio?",
+   "u": "https://www.brasil247.com/blog/jango-incomoda-ate-hoje/"
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Moradores protestam contra corte de árvores para ampliação do Aeroporto de Congonhas",
+   "x": "Árvores próximas ao aeroporto de Congonhas são derrubadas Moradores do Jardim Aeroporto, na Zona Sul de São Paulo, protestam contra o corte de árvores em uma área verde na região do Aeroporto de Congonhas. Eles afirmam que foram…",
+   "u": "https://g1.globo.com/sp/sao-paulo/noticia/2026/10/20/moradores-protestam-contra-corte-de-arvores-para-ampliacao-do-aeroporto-de-congonhas.ghtml"
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "VÍDEOS: NE2 de terça-feira, 20 de outubro de 2026",
+   "x": "Assista aos vídeos do telejornal com as notícias de Pernambuco.",
+   "u": "https://g1.globo.com/pe/pernambuco/videos-ne2/playlist/videos-ne2-de-terca-feira-20-de-outubro-de-2026.ghtml"
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Motorista morre e duas crianças ficam feridas em batida entre carro e caminhão em Macatuba",
+   "x": "A Polícia Militar atendeu a ocorrência em Bauru (SP) Gabriel Pelosi/TV TEM Um motorista morreu e duas crianças ficaram feridas após uma batida entre um carro e um caminhão na Rodovia Juliano Lorenzetti, vicinal que liga Lençóis…",
+   "u": "https://g1.globo.com/sp/bauru-marilia/noticia/2026/10/20/motorista-morre-e-duas-criancas-ficam-feridas-em-batida-entre-carro-e-caminhao-em-macatuba.ghtml"
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Presa no Egito, Malévola já foi detida por desacato e lesão corporal em SP neste ano",
+   "x": "Malévola Alves é presa e diz que pagou fiança de R$ 1,6 mil Reprodução/Instagram A influenciadora Mariana Alves, conhecida nas redes sociais como Malévola Alves, foi presa no Egito com uma amiga após a circulação de vídeos em que…",
+   "u": "https://g1.globo.com/sp/sao-paulo/noticia/2026/10/20/presa-no-egito-malevola-ja-foi-detida-por-desacato-e-lesao-corporal-em-sp-neste-ano.ghtml"
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Jacundá decreta situação de emergência por incêndios florestais e efeitos da fumaça, no PA",
+   "x": "Jacundá decreta emergência por incêndios florestais e fumaça, no Pará. Divulgação A Prefeitura de Jacundá, no sudeste do Pará, decretou situação de emergência nas áreas afetadas por incêndios florestais e pelos efeitos da fumaça…",
+   "u": "https://g1.globo.com/pa/para/noticia/2026/10/20/jacunda-decreta-situacao-de-emergencia-por-incendios-florestais-e-efeitos-da-fumaca-no-pa.ghtml"
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 3,
+   "t": "Bebê de 11 meses internado em UTI no Acre está livre do sarampo, mas segue em estado grave, diz Saúde",
+   "x": "Criança apresenta leve melhora, mas continua em estado grave na UTI em Rio Branco O bebê de 11 meses que foi diagnosticado com sarampo e está internado em Rio Branco apresentou está livre da doença e apresentou uma leve melhora…",
+   "u": "https://g1.globo.com/ac/acre/noticia/2026/10/20/bebe-de-11-meses-internado-em-uti-no-acre-esta-livre-do-sarampo-mas-segue-em-estado-grave-diz-saude.ghtml"
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 3,
+   "t": "STF extingue mandado de segurança que buscava garantir mandato de Michel Magul para vaga de Aava Santiago",
+   "x": "Aava Santiago (PSB) Reprodução/Câmara Municipal de Goiânia O ministro do Supremo Tribunal Federal (STF) Dias Toffoli decidiu acabar de forma permanente com o mandado de segurança apresentado por Michel Afif Magul (PSDB), que…",
+   "u": "https://g1.globo.com/go/goias/noticia/2026/10/20/stf-extingue-mandado-de-seguranca-que-buscava-garantir-mandato-de-michel-magul-para-vaga-de-aava-santiago.ghtml"
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 3,
+   "t": "VÍDEOS: DF2 de terça-feira, 20 de outubro de 2026",
+   "x": "Veja as reportagens do telejornal com as notícias do DF.",
+   "u": "https://g1.globo.com/df/distrito-federal/videos-df2/playlist/videos-df2-de-terca-feira-20-de-outubro-de-2026.ghtml"
+  },
+  {
+   "s": "b247",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Pablo Marçal compara Renan Santos a Hitler e o acusa de criar “seita”",
+   "x": "Empresário afirma que ex-candidato à Presidência criou uma “seita” entre jovens e defende ideias incompatíveis com a direita",
+   "u": "https://www.brasil247.com/brasil/pablo-marcal-compara-renan-santos-a-hitler-e-o-acusa-de-criar-seita/"
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 3,
+   "t": "Livre de peste suína, Amapá quer liberar comércio de carne para outros estados e países",
+   "x": "Combate à peste suína: estados do Norte discutem estratégia para proteger produção local Com exames negativos em cerca de 15 mil porcos, o Amapá se prepara para obter o selo internacional de área livre de peste suína clássica e…",
+   "u": "https://g1.globo.com/ap/amapa/noticia/2026/10/20/livre-de-peste-suina-amapa-quer-liberar-comercio-de-carne-para-outros-estados-e-paises.ghtml"
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 3,
+   "t": "Assessor de deputado é exonerado da Alems após ser flagrado com R$ 127 mil na campanha eleitoral",
+   "x": "Assessor de deputado preso após subornar policiais e ser flagrado com R$ 127 mil. Reprodução José Antônio Pires de Souza, de 71 anos, conhecido como Zé Bocão, foi exonerado do cargo em comissão de assessor de gabinete parlamentar…",
+   "u": "https://g1.globo.com/ms/mato-grosso-do-sul/noticia/2026/10/20/assessor-de-deputado-e-exonerado-da-alems-apos-ser-flagrado-com-r-127-mil-na-campanha-eleitoral.ghtml"
+  },
+  {
+   "s": "g1",
+   "c": "Cultura",
+   "d": "2026-10-20",
+   "r": 3,
+   "t": "Adélia Prado vence prêmio de poesia da Biblioteca Nacional: 'Extrema alegria', diz filha",
+   "x": "Adélia Prado com o livro \"O Jardim das Oliveiras\" Reprodução/Instagram A poetisa Adélia Prado venceu o Prêmio Literário Biblioteca Nacional 2026, na categoria poesia, com o livro \"O jardim das oliveiras\". Os vencedores foram…",
+   "u": "https://g1.globo.com/mg/centro-oeste/noticia/2026/10/20/adelia-prado-vence-premio-de-poesia-da-biblioteca-nacional-extrema-alegria-diz-filha.ghtml"
+  },
+  {
+   "s": "b247",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "‘Se Flávio Bolsonaro autorizar quebrar o sigilo vai ter debate, porque presidente não pode debater com ladrão’, diz Lula",
+   "x": "Presidente exige que adversário autorize a divulgação de dados bancários, fiscais e telefônicos e afirma que não pode debater com “ladrão”",
+   "u": "https://www.brasil247.com/nordeste/se-flavio-bolsonaro-autorizar-quebrar-o-sigilo-vai-ter-debate-porque-presidente-nao-pode-debater-com-ladrao-diz-lula/"
+  },
+  {
+   "s": "b247",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Petrobras avalia adiamento da ANP e defende debate qualificado sobre gás",
+   "x": "Petrobras afirma que o adiamento da audiência sobre Gas Release permite avaliar melhor os impactos da proposta.",
+   "u": "https://www.brasil247.com/petrobras/petrobras-avalia-adiamento-da-anp-e-defende-debate-qualificado-sobre-gas/"
+  },
+  {
+   "s": "b247",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Mercopar reúne 545 expositores e renova parceria entre Sebrae RS e FIERGS",
+   "x": "Feira industrial em Caxias do Sul terá 545 expositores e programação até 23 de outubro.",
+   "u": "https://www.brasil247.com/sebrae/mercopar-reune-545-expositores-e-renova-parceria-entre-sebrae-rs-e-fiergs/"
+  },
+  {
+   "s": "b247",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "MEI deve quitar DAS mensal até terça-feira, informa o Sebrae",
+   "x": "Microempreendedores individuais têm até esta terça-feira (20) para pagar a guia mensal do DAS-MEI.",
+   "u": "https://www.brasil247.com/sebrae/mei-deve-quitar-das-mensal-ate-terca-feira-informa-o-sebrae/"
+  },
+  {
+   "s": "icl",
+   "c": "Economia",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Lula anuncia perdão de dívidas de MEIs e envio da PEC da Tarifa Zero ao Congresso",
+   "x": "O presidente Luiz Inácio Lula da Silva (PT) anunciou que sancionará nesta quarta-feira (21) o projeto de lei que prevê o perdão de dívidas de microempreendedores individuais (MEIs) com a União. Na mesma data, o governo pretende…",
+   "u": "https://iclnoticias.com.br/lula-anuncia-perdao-meis-congresso/"
+  },
+  {
+   "s": "b247",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Lavrov aponta declínio do Ocidente e critica sequestro de Maduro: “aventura sem precedentes”",
+   "x": "Chanceler russo afirma que a ordem mundial passa por uma inflexão e que as potências ocidentais tentam preservar sua hegemonia",
+   "u": "https://www.brasil247.com/mundo/lavrov-aponta-declinio-do-ocidente-e-critica-sequestro-de-maduro-aventura-sem-precedentes/"
+  },
+  {
+   "s": "b247",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 3,
+   "t": "PF aponta que Willer Tomaz pagou para ocultar links que o ligavam a Flávio Bolsonaro",
+   "x": "Relatório da Polícia Federal identifica negociação de R$ 9 mil para retirar 12 links; advogado nega esconder amizade com senador",
+   "u": "https://www.brasil247.com/brasil/pf-aponta-que-willer-tomaz-pagou-para-ocultar-links-que-o-ligavam-a-flavio-bolsonaro/"
+  },
+  {
+   "s": "icl",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Justiça nega prisão preventiva de motorista que atropelou e matou tio de Boulos",
+   "x": "A Justiça de São Paulo negou, nesta terça-feira (20), o pedido de prisão preventiva de Amilton Jusselino Rodrigues, investigado por atropelar e matar Carlos Boulos, de 80 anos, tio do ministro da Secretaria-Geral da Presidência…",
+   "u": "https://iclnoticias.com.br/justica-nega-prisao-motorista-matou-tio-boulos/"
+  },
+  {
+   "s": "bbc",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Perfis usam mulheres de IA em campanha por Flávio Bolsonaro e Lula para atrair público e até vender conteúdo adulto",
+   "x": "Levantamento da BBC News Brasil identificou que páginas têm quase 7 milhões de seguidores e centenas de milhares de curtidas. Avatares apoiam Lula e Bolsonaro.",
+   "u": "https://www.bbc.com/portuguese/articles/cmgr8qz1095jo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "s": "b247",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 3,
+   "t": "MP-SP apresenta ação contra Eduarda Campopiano por ataque transfóbico a Erika Hilton",
+   "x": "Ministério Público pede indenização de R$ 100 mil e curso sobre inclusão social e combate à homotransfobia",
+   "u": "https://www.brasil247.com/sudeste/mp-sp-apresenta-acao-contra-eduarda-campopiano-por-ataque-transfobico-a-erika-hilton/"
+  },
+  {
+   "s": "icl",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "De Flávio a Jorginho Mello, bolsonaristas tentam restringir cotas raciais",
+   "x": "Por Bianca Zambetta Flávio Bolsonaro (PL-RJ) tem um histórico de oposição às cotas raciais, que inclui manifestações públicas, iniciativas legislativas e questionamentos judiciais. O senador já se posicionou contra esse tipo de…",
+   "u": "https://iclnoticias.com.br/de-flavio-jorginho-bolsonaristas-cotas-raciais/"
+  },
+  {
+   "s": "icl",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Equipe de marketing busca resgatar o ‘Lula do Velho Testamento’ para debate final",
+   "x": "Há três tipos de convivas que orbitam em torno dos núcleos de poder que provocam repulsa no presidente Luiz Inácio Lula da Silva: os arautos das más notícias; os profetas do apocalipse; e os engenheiros de obra feita. “Se for me…",
+   "u": "https://iclnoticias.com.br/equipe-de-marketing-busca-resgatar-o-lula-do-velho-testamento-para-debate-final/"
+  },
+  {
+   "s": "bbc",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "O que J.R.R. Tolkien dizia sobre 'o momento mais trágico' de 'O Senhor dos Anéis'",
+   "x": "Em 1968, a BBC transmitiu trechos da última entrevista gravada de J.R.R. Tolkien, 31 anos depois da primeira edição de 'O Hobbit'. Em 2019, o vídeo completo foi desenterrado dos arquivos, trazendo revelações surpreendentes.",
+   "u": "https://www.bbc.com/portuguese/articles/cm0reljzj2jjo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "s": "icl",
+   "c": "Tecnologia",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Meta recusa pedido federal para criar canal de proteção a jornalistas",
+   "x": "Por Alex Rodrigues – Agência Brasil Dona do Instagram, do Facebook, do WhatsApp e de outras plataformas digitais e redes sociais, a empresa de tecnologia Meta se negou a criar um canal direto para receber denúncias de ameaças…",
+   "u": "https://iclnoticias.com.br/meta-recusa-pedido-canal-protecao-a-jornalistas/"
+  },
+  {
+   "s": "icl",
+   "c": "Economia",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Brasil supera Arábia Saudita e se torna 2º maior fornecedor de petróleo à China",
+   "x": "O Brasil ultrapassou a Arábia Saudita e se tornou o segundo maior fornecedor de petróleo bruto para a China no acumulado dos nove primeiros meses de 2026. Entre janeiro e setembro, o país asiático importou 44,29 milhões de…",
+   "u": "https://iclnoticias.com.br/economia/brasil-supera-arabia-saudita-se-torna/"
+  },
+  {
+   "s": "icl",
+   "c": "Economia",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Alimentos subiram 56,6% com Jair Bolsonaro, mais que o dobro da alta sob Lula",
+   "x": "A inflação dos alimentos durante o governo de Jair Bolsonaro (PL) foi mais que o dobro da registrada até agora na gestão do presidente Luiz Inácio Lula da Silva (PT), considerando o ritmo médio mensal de aumento dos preços. Entre…",
+   "u": "https://iclnoticias.com.br/economia/alimentos-subiram-56-6-com-bolsonaro/"
+  },
+  {
+   "s": "icl",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Milei quer demitir mais 20 mil servidores após eliminar 77 mil empregos públicos",
+   "x": "O governo do presidente argentino Javier Milei anunciou, nesta segunda-feira (19), um novo plano para eliminar 20 mil postos de trabalho na administração pública. A medida aprofunda a política de austeridade adotada pelo…",
+   "u": "https://iclnoticias.com.br/economia/milei-quer-demitir-mais-de-20-mil/"
+  },
+  {
+   "s": "bbc",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Mensagens de Vorcaro mostram comparação entre banqueiro e Jeffrey Epstein: 'Jeff tá amador demais'",
+   "x": "Conversas extraídas pela PF também contêm propostas de investimento em agências de modelos; polícia investiga suspeitas de exploração sexual envolvendo mulheres.",
+   "u": "https://www.bbc.com/portuguese/articles/ck4g18721rv2o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "s": "icl",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 3,
+   "t": "Conselho da Meta aponta falhas na moderação de conteúdos eleitorais",
+   "x": "O Conselho de Supervisão da Meta, empresa responsável pelo Facebook, Instagram e WhatsApp, criticou nesta terça-feira (20) as falhas recorrentes na moderação de conteúdos políticos durante períodos eleitorais. O órgão…",
+   "u": "https://iclnoticias.com.br/conselho-da-propria-meta-denuncia-falhas-na/"
+  },
+  {
+   "s": "icl",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 3,
+   "t": "Veja três vezes que Flávio Bolsonaro votou contra projetos de proteção à mulher",
+   "x": "Por Brasil de Fato Registros da Assembleia Legislativa do Estado do Rio de Janeiro (Alerj) mostram que o parlamentar figurou como único voto contrário em propostas voltadas aos direitos femininos, ao combate ao turismo sexual e à…",
+   "u": "https://iclnoticias.com.br/veja-tres-vezes-que-flavio-bolsonaro-votou/"
+  },
+  {
+   "s": "bbc",
+   "c": "Economia",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Eleição no Brasil é a mais importante para o mundo fora dos EUA em 2026, diz Daron Acemoglu",
+   "x": "Nobel de Economia em 2024 que leciona no prestigiado MIT, nos Estados Unidos, argumenta à BBC News Brasil que retorno de um Bolsonaro ao poder ameaça colapsar a democracia liberal brasileira — que encabeça o mundo em…",
+   "u": "https://www.bbc.com/portuguese/articles/ckvg74ve4371o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "s": "rt",
+   "c": "Mundo",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Checagem de fatos: Dados do TSE indicam aumento, e não redução de seções eleitorais em 2026",
+   "x": "Veja a matéria completa em Reuters.",
+   "u": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdTRJTW1QQU9SVFNvd1I0aC1YcjliTUMwTzhkOHNpZnh4blU4UHN5eEhmREZIMHJoUFBVR29teVAwdG1DRnZlQVE4U1NLazRYUHktR0NzZnhjZ1dXT2xISDhjWGtQd1dtUDNnRERSX2lfVnBJcnl5YlFxelo2Qmp4dGpkLU5BaXBiaHFV?oc=5"
+  },
+  {
+   "s": "bbc",
+   "c": "Economia",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Por que ajuste fiscal do novo presidente do Chile leva a crise com desemprego recorde",
+   "x": "O desemprego no Chile atingiu o nível recorde de 9,6%, o maior em mais de cinco anos. Os investimentos estão paralisados e a confiança dos consumidores diminuiu, em meio ao plano de austeridade fiscal do governo do presidente…",
+   "u": "https://www.bbc.com/portuguese/articles/cmewenzeklk8o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "s": "bbc",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "As pesquisas para presidente na reta final do 2º turno — o que diziam em 2018, 2022 e o que mostram agora",
+   "x": "O cenário eleitoral mudou ao longo dos anos: Flávio Bolsonaro ocupa a primeira posição nas pesquisas de 2026, enquanto Lula era o favorito em 2022 e Jair Bolsonaro, em 2018. Confira a trajetória nos gráficos da reportagem.",
+   "u": "https://www.bbc.com/portuguese/articles/cm8xzrr0gz82o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "s": "rt",
+   "c": "Mundo",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Checagem de fatos: É falso que pesquisa Quaest mostrou Lula com 54%; Flávio lidera com 46%",
+   "x": "Veja a matéria completa em Reuters.",
+   "u": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNVBTVkdzTDUzRzFBT3l2cjFzelJqZVlzelhERmpTYXBSNHY5QUhlODF6SV9hWjVEUUFQTTRVZUo3Wjg0Rzg0Qjg1MTBUeTdseUVJcllJV0lEYXM2MGtvc0JPUzdDMUZzX2Q4NWNlZE1rcFdWdFJJNWEwVlNMMzlvOFNMUkFRYXZaOUJz?oc=5"
+  },
+  {
+   "s": "rt",
+   "c": "Mundo",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Checagem de fatos: Janones e Salles discutiram em debate realizado em 2022",
+   "x": "Veja a matéria completa em Reuters.",
+   "u": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNano1eTdOaktSd0xzakxfQXFROE9CeU10NWVFTDlibEVvOVFjNHBwOXZMamIwSzdHQU9HV0pVMWNvWmk3WlR3Z3R4TXoteUZWTkdLMTROWWs0TG5SSVR2NjNUYVM0UUtMWFhpai11QTNOS3NTd3hVOGl2eTVrdnM4dFJleUUyUlJjM3hB?oc=5"
+  },
+  {
+   "s": "bbc",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Coreia do Norte publica fotos de Kim Jong-un: por que boatos sobre sua morte continuam surgindo?",
+   "x": "A imprensa estatal da Coreia do Norte publicou fotos do ditador com sua filha, depois que um novo rumor sobre sua morte se espalhou pela internet.",
+   "u": "https://www.bbc.com/portuguese/articles/cm1wvgzd4y4po?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "s": "bbc",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Efeito BYD: como Brasil virou 'laboratório' de empresas chinesas",
+   "x": "Maior produtora de veículos elétricos do mundo, montadora chinesa escolheu Camaçari para sediar sua maior fábrica na América Latina. BBC News Brasil viajou à Bahia para contar história dessa aproximação econômica e cultural.",
+   "u": "https://www.bbc.com/portuguese/articles/c8g47z0dg0ywo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "s": "bbc",
+   "c": "Mundo",
+   "d": "2026-10-20",
+   "r": 3,
+   "t": "Indústria da solidão: os serviços que oferecem companhia a chineses solitários",
+   "x": "À medida que a solidão aumenta na China, surgem novas atividades profissionais que oferecem apoio e companhia.",
+   "u": "https://www.bbc.com/portuguese/articles/cjn5vq4p0pdlo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "s": "bbc",
+   "c": "Mundo",
+   "d": "2026-10-20",
+   "r": 3,
+   "t": "Menopausa: por que médicos dizem que o medo da terapia hormonal é maior que o risco real",
+   "x": "Após os EUA retirarem o alerta mais grave de seus rótulos, especialistas brasileiros defendem que a terapia hormonal é mais segura — e menos usada — do que deveria.",
+   "u": "https://www.bbc.com/portuguese/articles/c98vzgy2vjzo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "s": "bbc",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 3,
+   "t": "O que Flávio Bolsonaro e Lula propõem sobre o Bolsa Família",
+   "x": "Lula e Flávio Bolsonaro disputam eleição para presidente no segundo turno e apresentam propostas diferentes para o Bolsa Família.",
+   "u": "https://www.bbc.com/portuguese/articles/c84g120zwq1zo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "s": "rt",
+   "c": "Mundo",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "- Reuters",
+   "x": "Veja a matéria completa em Reuters.",
+   "u": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOV3ozcVZ3eFZ0M1FMM3F5czIxMFpRSDR4VFNTdG9WcW5HMmZEdFhtZThrbkt1Z3lVdmI4Zk1fdWJrVGtOZUFGRzFSWXFleF9rUG9peVpjOVl5XzM5R0xtQUJhWUYxakpLSXpjaEk5cklweGZ3Z2RwWUFjLXJaZnVVRkltR1Vnb3NpVVBBek5GQm02Zw?oc=5"
+  },
+  {
+   "s": "bbc",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 3,
+   "t": "'Alberta mais forte em Canadá unido': província vota para seguir sendo parte do país",
+   "x": "Eleitores da província recusaram por ampla margem uma proposta para iniciar um processo para a independência.",
+   "u": "https://www.bbc.com/portuguese/articles/cq203eem703do?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "s": "bbc",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 3,
+   "t": "'O gado está morrendo': o impacto do El Niño na América Central",
+   "x": "Em faixa de terra conhecida como Corredor Seco, que atravessa cinco países, fenômeno climático agravou escassez de água e empurra milhares de famílias para uma situação de emergência e desespero.",
+   "u": "https://www.bbc.com/portuguese/articles/crq5xnxqw29lo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "s": "bbc",
+   "c": "Brasil",
+   "d": "2026-10-19",
+   "r": 3,
+   "t": "O líder de seita apocalíptica que deixou quase 200 crianças morrerem de fome",
+   "x": "O autoproclamado pastor Paul Mackenzie foi considerado culpado pela morte de 191 pessoas. Destas, todas, exceto uma, eram crianças.",
+   "u": "https://www.bbc.com/portuguese/articles/cw8dz7m0vp74o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "s": "rt",
+   "c": "Mundo",
+   "d": "2026-10-19",
+   "r": 4,
+   "t": "Checagem de fatos: Vídeo mostra manifestação bolsonarista em 2024, não ato pró-Flávio",
+   "x": "Veja a matéria completa em Reuters.",
+   "u": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMDA4ZF9UOXVtNHY0TmNYQ3pveDNweUlTWVNYa1BhajY2WXFvbGI3cGhCc0xKdHNXajMwTUl2OHI1ajNhYkV1cnZ5MTlaT2V1R2hsZUt5SW9IREhZUDhOOTh6NmdDdUhkWVpWRzE4SHhwQUtXSXJBUXl0a1UtS2FhbWpVYUl1U1ZBeXl3?oc=5"
+  },
+  {
+   "s": "rt",
+   "c": "Mundo",
+   "d": "2026-10-19",
+   "r": 4,
+   "t": "Checagem de fatos: Vídeo mostra Círio de Nazaré em Belém, não ato de Flávio em MG",
+   "x": "Veja a matéria completa em Reuters.",
+   "u": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYktmd29wZy1uZzU4Q005b0JlMFg5bERYU0NrdS1PbnlibVJXaGoyY2xXWHpUVUtia1YzNlFXQjl0T0oyNVc4R2xUdG8tZTh4VVJyek5vanpKOS0wWlgwczFjNkY4TkdLanM0MF9Mc0hYd0xleE1sYjYyYlpaSjAwY0xCYmFuQkVIWFNr?oc=5"
+  },
+  {
+   "s": "rt",
+   "c": "Mundo",
+   "d": "2026-10-19",
+   "r": 4,
+   "t": "Mundo - Reuters",
+   "x": "Veja a matéria completa em Reuters.",
+   "u": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE04eTJaRU5mTFNISXNMeXBPcTliWWlHS2dNMHoyR2M5SHFqTnBFNU85Z0JvTWtBcnZmLWtZbG9MMVF6MkRpd0w0OA?oc=5"
+  }
+ ]
+}
