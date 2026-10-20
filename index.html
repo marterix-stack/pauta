@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pauta — agregador de notícias</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&display=swap">
+<style>
+:root{--bg:#f5f6f9;--panel:#fff;--ink:#101936;--mute:#5a6480;--line:#dfe3ec;--bar:#0f1b3d;--bar-ink:#fff;--accent:#e4572e;--accent-ink:#fff;--hl:#ffe8a3;--cbg:93%;--cfg:30%;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);background:var(--bar)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b1020;--panel:#151c35;--ink:#eaeefb;--mute:#9aa5c6;--line:#27304f;--bar:#070b18;--accent:#ff7a4d;--accent-ink:#1a0c06;--hl:#5a4a10;--cbg:22%;--cfg:80%}}
+:root[data-theme="dark"]{--bg:#0b1020;--panel:#151c35;--ink:#eaeefb;--mute:#9aa5c6;--line:#27304f;--bar:#070b18;--accent:#ff7a4d;--accent-ink:#1a0c06;--hl:#5a4a10;--cbg:22%;--cfg:80%}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 15.5px/1.55 Sora,system-ui,-apple-system,"Segoe UI",sans-serif}
+button,input,select,summary{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+header{background:var(--bar);color:var(--bar-ink);display:flex;gap:16px;align-items:center;padding:14px 24px;flex-wrap:wrap}
+h1{margin:0;font-weight:800;font-size:26px;letter-spacing:-.04em}
+h1 i{display:inline-block;width:10px;height:10px;background:var(--accent);border-radius:50%;margin-left:3px}
+.date{opacity:.7;font-size:13px}
+.search{flex:1;min-width:190px;max-width:380px;margin-left:auto}
+.search input{width:100%;padding:9px 16px;border:0;border-radius:10px;background:rgba(255,255,255,.12);color:#fff}
+.search input::placeholder{color:rgba(255,255,255,.6)}
+.icon{border:0;background:rgba(255,255,255,.12);color:#fff;border-radius:10px;padding:9px 14px;cursor:pointer}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+.bar-in{max-width:1120px;margin:0 auto;padding:10px 24px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.cats{display:flex;gap:6px;overflow-x:auto;flex:1;min-width:0;padding-bottom:2px}
+.cats button{white-space:nowrap;border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:6px 13px;cursor:pointer;font-size:14px;display:flex;gap:6px;align-items:center}
+.cats button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.cats b{font-weight:400;opacity:.6;font-size:12px}
+.ctl{display:flex;gap:8px;align-items:center;font-size:13px;color:var(--mute)}
+select,summary{border:1px solid var(--line);background:var(--panel);border-radius:10px;padding:6px 10px;cursor:pointer;font-size:13px}
+details{position:relative}
+summary{list-style:none}summary::-webkit-details-marker{display:none}
+.pop{position:absolute;right:0;top:38px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:8px;min-width:230px;z-index:9;box-shadow:0 10px 30px rgba(0,0,0,.18)}
+.pop label{display:flex;gap:8px;align-items:center;padding:5px 8px;cursor:pointer;font-size:14px}
+.dot{width:10px;height:10px;border-radius:50%;flex:none}
+main{max-width:1120px;margin:0 auto;padding:20px 24px 40px}
+.count{color:var(--mute);font-size:13px;margin-bottom:12px}
+.chip{font-size:12px;font-weight:600;padding:2px 10px;border-radius:999px;background:hsl(var(--h) 60% var(--cbg));color:hsl(var(--h) 65% var(--cfg))}
+.meta{display:flex;gap:8px;align-items:center;font-size:12.5px;color:var(--mute);flex-wrap:wrap}
+.hero{display:grid;grid-template-columns:1.1fr 1fr;background:var(--panel);border:1px solid var(--line);border-radius:18px;overflow:hidden;margin-bottom:16px}
+.hero .th{width:100%;height:100%;min-height:260px;display:block}
+.hero .in{padding:26px;display:flex;flex-direction:column;gap:10px;justify-content:center}
+.hero h3{font-size:29px;line-height:1.12;letter-spacing:-.03em;font-weight:800;margin:0;cursor:pointer}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;overflow:hidden;display:flex;flex-direction:column}
+.card .th{width:100%;aspect-ratio:16/9;display:block}
+.card .in{padding:14px 16px 16px;display:flex;flex-direction:column;gap:8px;flex:1}
+.card h3{font-size:17px;line-height:1.28;margin:0;font-weight:600;cursor:pointer;letter-spacing:-.01em}
+h3:hover{text-decoration:underline}
+p.s{margin:0;color:var(--mute);font-size:14px}
+.card p.s{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.act{display:flex;gap:8px;margin-top:auto;padding-top:6px;align-items:center}
+.btn,.save{background:none;border:1px solid var(--line);border-radius:8px;height:32px;padding:0 11px;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;font-size:13px}
+.save[aria-pressed="true"],.btn.p{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+mark{background:var(--hl);color:inherit;border-radius:2px}
+.empty{padding:50px 0;color:var(--mute)}
+.more{display:block;margin:24px auto 0;padding:11px 26px;border-radius:12px;border:0;background:var(--ink);color:var(--bg);cursor:pointer;font-weight:600}
+.note{margin-top:28px;font-size:12.5px;color:var(--mute);max-width:70ch}
+dialog{border:1px solid var(--line);border-radius:18px;background:var(--panel);color:var(--ink);max-width:680px;width:calc(100% - 28px);padding:0;max-height:90vh}
+dialog::backdrop{background:rgba(5,8,20,.6)}
+dialog .th{width:100%;height:140px;display:block}
+dialog .in{padding:20px 26px 26px}
+dialog h3{font-size:26px;line-height:1.15;margin:10px 0 12px;letter-spacing:-.03em;font-weight:800;cursor:default}
+dialog h3:hover{text-decoration:none}
+.read{font-size:var(--fs,17px);line-height:1.7;max-width:60ch}
+.read p{margin:0 0 .8em}
+dialog .row{display:flex;gap:8px;margin-top:18px;flex-wrap:wrap}
+@media (max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hero{grid-template-columns:1fr}.hero .th{min-height:170px;height:170px}}
+@media (max-width:560px){.grid{grid-template-columns:1fr}header,.bar-in,main{padding-left:16px;padding-right:16px}.hero h3{font-size:24px}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Pauta<i></i></h1><span class="date" id="date"></span>
+  <div class="search"><input id="q" type="search" placeholder="Buscar notícias" aria-label="Buscar notícias"></div>
+  <button class="icon" id="theme" aria-label="Alternar tema">Tema</button>
+</header>
+<div class="bar"><div class="bar-in">
+  <div class="cats" id="cats"></div>
+  <div class="ctl">
+    <select id="per" aria-label="Período"><option value="99">Todo o período</option><option value="0">Hoje</option><option value="2">3 dias</option><option value="6">7 dias</option></select>
+    <select id="ord" aria-label="Ordem"><option value="d">Mais recentes</option><option value="r">Relevância</option></select>
+    <details><summary>Fontes</summary><div class="pop" id="srcs"></div></details>
+  </div>
+</div></div>
+<main>
+  <div class="count" id="count"></div>
+  <div id="feed"></div>
+  <button class="more" id="more" hidden>Carregar mais</button>
+  <p class="note" id="note"></p>
+</main>
+<dialog id="dlg"></dialog>
+<script>
+let SNAP=new Date("2026-10-19T12:00:00"),UPD=null;
+const SRC={mh:["Mercado Hoje","#b45309"],lu:["Lusa","#be123c"],tp:["Três Pontas Studio Live","#0b6e6e"],hc:["Hoje Cidades","#c2410c"],ab:["A Bola","#a21caf"],eu:["Euronews","#1d4ed8"],od:["Olhar Digital","#6b46c1"],tb:["Tecnoblog","#0e7490"],ga:["Revista Galérica","#be185d"],cc:["CCBB","#15803d"],ep:["Estado do Pará Online","#9a3412"],on:["Oficina da Net","#4d7c0f"]};
+const H={Brasil:150,Economia:30,Mundo:215,Tecnologia:272,Ciência:190,Esportes:2,Cultura:325};
+const U={focus:"https://mercadohoje.uai.com.br/2026/10/19/noticias-hoje-19-10-2026/",lusa:"https://www.lusa.pt/",tp:"https://www.trespontasstudiolive.com.br/principais-comemoracoes-do-brasil-e-do-mundo-desta-segunda-feira-19-de-outubro-de-2026/",hc:"https://hojecidades.com.br/jogos-de-hoje-19-outubro-2026-horarios-ms-onde-assistir/",ab:"https://www.abola.pt/noticias/19-de-outubro-de-2026-2026101823095909505",euT:"https://pt.euronews.com/video/2026/10/19/noticias-do-dia-19-de-outubro-2026-tarde",euM:"https://pt.euronews.com/video/2026/10/19/noticias-do-dia-19-de-outubro-2026-manha"};
+const OD="https://olhardigital.com.br/";
+const hid=s=>{let h=5381;for(const c of s)h=((h<<5)+h+c.charCodeAt(0))|0;return Math.abs(h)};
+const SNAPSHOT=[
+{s:"mh",c:"Economia",d:"2026-10-19",r:5,t:"Boletim Focus mantém projeção de inflação de 5,22% para 2026",x:"O mercado não mexeu nas estimativas em relação à semana anterior e vê a Selic fechando o ano em 13,25%.",l:"O relatório Focus do Banco Central repetiu a expectativa de IPCA em 5,22% para 2026 e a de Selic em 13,25% ao fim do ano. Na abertura do dia, o dólar comercial operava em queda perto de R$ 5,05, e o Ibovespa futuro recuava na casa dos 210 mil pontos.",u:U.focus},
+{s:"lu",c:"Brasil",d:"2026-10-19",r:5,t:"Apoiadores de Flávio Bolsonaro lotam a Avenida Paulista em ato de campanha",x:"Segundo a agência Lusa, milhares de pessoas se reuniram em São Paulo pedindo a vitória do candidato na eleição presidencial.",l:"A manifestação reuniu bolsonaristas na Paulista em apoio à candidatura de Flávio Bolsonaro. Entre as pautas do ato, conforme o relato da Lusa, estavam a anistia a Jair Bolsonaro e críticas ao ministro Alexandre de Moraes, do STF.",u:U.lusa},
+{s:"tp",c:"Brasil",d:"2026-10-19",r:4,t:"Moraes será relator de novo inquérito que envolve Flávio Bolsonaro no STF",x:"A informação circula entre os destaques políticos desta segunda-feira e é atribuída ao portal GP.",l:"O ministro Alexandre de Moraes ficou com a relatoria de um novo inquérito no Supremo que cita Flávio Bolsonaro. O registro aparece na lista de destaques do dia publicada pelo site Três Pontas Studio Live, que cita o GP como origem da notícia.",u:U.tp},
+{s:"hc",c:"Esportes",d:"2026-10-19",r:4,t:"Corinthians recebe o Vitória às 19h e tenta reagir na 31ª rodada",x:"O jogo na Neo Química Arena encerra a rodada do Brasileirão com o time paulista pressionado pela fase ruim.",l:"A partida fecha a 31ª rodada e o técnico Bruno Pivetti não conta com o goleiro Muriel, lesionado, nem com o meia Jean Carlos, suspenso. Também jogam hoje Goiás x Náutico, pela Série B, com objetivos distintos para cada lado.",u:U.hc},
+{s:"hc",c:"Esportes",d:"2026-10-19",r:3,t:"Cruzeiro pode garantir vaga na Libertadores Feminina diante do Bolívar",x:"A rodada desta segunda também tem Tottenham x Coventry e Getafe x Rayo Vallecano no futebol europeu.",l:"O Cruzeiro encara o Bolívar com chance de confirmar a classificação na Libertadores Feminina. Na Europa, o Tottenham, de Roberto De Zerbi, busca reagir após o empate em 1 a 1 com o Manchester United.",u:U.hc},
+{s:"ab",c:"Esportes",d:"2026-10-19",r:3,t:"Polícia francesa teria pedido adiamento de PSG x Barcelona após caos em Paris",x:"O destaque do site português ocorre em meio aos protestos que tomaram a capital francesa no fim de semana.",l:"A edição desta segunda do A Bola coloca em primeiro plano o pedido atribuído à polícia francesa para adiar o confronto entre PSG e Barcelona. O contexto são os distúrbios registrados em Paris após manifestações contra o custo de vida.",u:U.ab},
+{s:"eu",c:"Mundo",d:"2026-10-19",r:5,t:"França vive nova onda de protestos contra o custo de vida; prefeitura de Limoges pega fogo",x:"Lyon amanheceu com cenário de destruição, e Macron admitiu falhas nos serviços de inteligência.",l:"Manifestantes incendiaram a prefeitura de Limoges, cuja torre histórica desabou, e um posto de turismo em Lyon. Em Paris, lojas foram saqueadas e bicicletas queimadas, no dia seguinte a um ato que misturou o custo de vida com demandas estudantis.",u:U.euT},
+{s:"eu",c:"Mundo",d:"2026-10-19",r:4,t:"Forças ucranianas atacam São Petersburgo e a região de Leningrado com drones",x:"Imagens mostram fumaça sobre uma zona industrial e sobre um terminal petrolífero da cidade russa.",l:"Os ataques com drones atingiram áreas industriais em São Petersburgo. Comerciantes locais chegaram a combater focos de incêndio, segundo as imagens exibidas pela Euronews.",u:U.euT},
+{s:"lu",c:"Mundo",d:"2026-10-19",r:4,t:"Irã diz que petroleiro atingiu uma mina e pegou fogo no Estreito de Ormuz",x:"A informação, divulgada de madrugada, soma-se à tensão na região do Oriente Médio.",l:"A Lusa reportou que as autoridades iranianas atribuem o incêndio no navio à explosão de uma mina. O episódio ocorreu em Ormuz, uma das principais rotas do petróleo mundial.",u:U.lusa},
+{s:"eu",c:"Mundo",d:"2026-10-19",r:3,t:"Trump manifesta apoio a Netanyahu a nove dias das eleições em Israel",x:"O gesto rompe meses de silêncio do presidente americano sobre a disputa.",l:"A manifestação de apoio chega a nove dias das eleições legislativas israelenses e foi destacada pela Euronews no resumo da manhã.",u:U.euM},
+{s:"eu",c:"Mundo",d:"2026-10-19",r:3,t:"Albânia chega ao quinto dia de protestos, com centenas de detidos",x:"A polícia usou balas de borracha para dispersar manifestantes na capital, Tirana.",l:"Os confrontos entre manifestantes e policiais se repetem há cinco dias. Centenas de pessoas foram detidas, segundo o noticiário da Euronews.",u:U.euT},
+{s:"od",c:"Ciência",d:"2026-10-18",r:3,t:"Espada de bronze de 2.700 anos é achada fincada no chão perto de Gdańsk",x:"Um detectorista que só encontrava latas localizou a peça numa floresta polonesa em junho.",l:"Marcin Wiśniewski fazia uma busca legal quando o aparelho acusou a espada, datada entre 900 e 700 a.C. A peça tem marcas decorativas e uma pátina esverdeada, e foi retirada por técnicos com método arqueológico.",u:OD+"curiosidades/2026/10/18/um-detector-de-metais-so-encontrava-tampinhas-e-latas-ate-localizar-uma-espada-de-bronze/"},
+{s:"od",c:"Ciência",d:"2026-10-17",r:5,t:"Rover Perseverance supera recorde de distância percorrida em Marte",x:"O veículo passou a marca do Opportunity, e a Starship voltou à base após meses no oceano.",l:"Em 11 de outubro o Perseverance andou 91,31 metros e ultrapassou o recorde de 45,16 km do Opportunity. O resumo semanal também destaca o retorno do megafoguete Starship à terra firme, depois do primeiro pouso sem explosão.",u:OD+"2026/10/17/ciencia-e-espaco/robo-bate-recorde-de-distancia-em-marte-starship-volta-a-base-e-lua-se-afasta-da-terra/"},
+{s:"od",c:"Ciência",d:"2026-10-17",r:4,t:"Satélites revelam que o solo afunda em várias das 465 maiores cidades do mundo",x:"O estudo mostra que o ritmo varia entre cidades e até entre bairros, com casos fortes no México e no Sudeste Asiático.",l:"O afundamento é medido em milímetros e passa despercebido nas ruas. O levantamento mostra que as trajetórias não são iguais: algumas cidades estabilizam, enquanto outras seguem cedendo.",u:OD+"curiosidades/2026/10/17/satelites-analisaram-465-grandes-cidades-do-planeta-e-revelaram-um-problema-invisivel/"},
+{s:"od",c:"Ciência",d:"2026-10-16",r:3,t:"Como o Webb descobre gases em planetas distantes sem fotografá-los",x:"O telescópio analisa mudanças mínimas na luz da estrela quando o planeta passa à sua frente.",l:"Cada molécula absorve certos comprimentos de onda, deixando uma assinatura no espectro. Num caso recente, um gigante gasoso a cerca de 1.150 anos-luz mostrou indícios de nuvens e névoa que análises anteriores não captaram.",u:OD+"curiosidades/2026/10/16/o-james-webb-consegue-descobrir-moleculas-na-atmosfera-de-um-planeta/"},
+{s:"od",c:"Ciência",d:"2026-10-15",r:5,t:"Primeiro sinal de rádio de um exoplaneta é detectado a 63 anos-luz",x:"A fonte coincide com Beta Pictoris b e indica um grande campo magnético.",l:"Pela primeira vez, astrônomos ligaram um sinal de rádio diretamente a um planeta, e não à estrela que ele orbita. O sistema tem cerca de 23 milhões de anos e ao menos três gigantes gasosos.",u:OD+"curiosidades/2026/10/15/pela-primeira-vez-astronomos-captam-sinal-de-radio-vindo-de-um-planeta-fora-do-sistema-solar-a-63-anos-luz/"},
+{s:"od",c:"Ciência",d:"2026-10-15",r:3,t:"Proteína de tardígrado reduz em 40% o dano de raios X ao DNA humano",x:"Cientistas japoneses inseriram o gene em células humanas, que continuaram a se reproduzir.",l:"A proteína Dsup, do tardígrado, protegeu o DNA nas células testadas pela Universidade de Tóquio. Ainda não há evidência de que ela proteja pessoas contra radiação.",u:OD+"curiosidades/2026/10/15/cientistas-colocaram-gene-de-animal-indestrutivel-em-celulas-humanas-e-o-dna-ganhou-protecao-inedita/"},
+{s:"od",c:"Ciência",d:"2026-10-07",r:4,t:"Nobel de Química 2026 vai para Henri Kagan e Kenso Soai",x:"A dupla ajudou a explicar por que seres vivos usam, em geral, apenas uma versão de certas moléculas.",l:"O trabalho esclarece a origem da homoquiralidade, um mistério com cerca de um século. O Olhar Digital News também trouxe uma imagem sem filtros de yardangs em Marte, feita pelo Curiosity.",u:OD+"2026/10/08/videos/confira-o-olhar-digital-news-na-integra-07-10-2026"},
+{s:"od",c:"Ciência",d:"2026-10-07",r:3,t:"Gelo do Ártico atinge o 10º menor mínimo já registrado",x:"A extensão chegou a cerca de 4,6 milhões de km² em 12 de setembro, igualando 2008, 2010 e 2025.",l:"Os dados são do Centro Nacional de Dados de Neve e Gelo dos EUA. O resultado confirma a tendência de gelo marinho reduzido no verão do Ártico.",u:OD+"2026/10/08/videos/confira-o-olhar-digital-news-na-integra-07-10-2026"},
+{s:"tb",c:"Tecnologia",d:"2026-10-16",r:5,t:"iPhone Duo, o primeiro dobrável da Apple, entra em pré-venda no Brasil",x:"O preço parte de R$ 21.999, e as primeiras entregas estão previstas para 23 de outubro.",l:"O aparelho tem tela interna de 7,6 polegadas e chip A20 Pro. A versão mais cara chega a R$ 30.999 e, pela alta procura, algumas entregas podem ir até janeiro de 2027. Trocar a tela flexível custa até R$ 10.990, segundo estimativa oficial da Apple.",u:"https://tecnoblog.net/noticias/iphone-duo-comeca-a-ser-vendido-no-brasil-veja-os-precos/"},
+{s:"tb",c:"Tecnologia",d:"2026-10-19",r:4,t:"Chefe do Instagram admite que ainda não sabe como conter perfis de deep fake",x:"Adam Mosseri diz estar muito preocupado, mas descarta proibir todo conteúdo feito com IA.",l:"Criadores relataram a Mosseri perfis que usam avatares gerados por IA para reproduzir conteúdo original. A Meta avalia como direcionar mais tráfego aos autores e como tratar cópias integrais, segundo o The Independent, citado pelo Tecnoblog.",u:"https://tecnoblog.net/noticias/chefe-do-instagram-admite-que-ainda-nao-sabe-como-combater-deep-fakes"},
+{s:"tb",c:"Tecnologia",d:"2026-10-19",r:3,t:"Itaú permite pagar Pix com pontos acumulados, sem taxa",x:"O recurso vale para chave, QR Code e aproximação e é liberado aos poucos ao longo de outubro.",l:"A função chega primeiro a clientes do programa Pontos Itaú pelo app do banco, e o uso dos pontos aparece no extrato do programa. A previsão é atender todos os participantes até o fim do ano.",u:"https://tecnoblog.net/noticias/itau-agora-permite-usar-pontos-acumulados-para-pagar-pix/"},
+{s:"tb",c:"Tecnologia",d:"2026-10-19",r:3,t:"Usuários recorrem à IA para tirar anúncios e trocar a interface de TVs Android",x:"Projetos virais usam agentes de código para desativar apps pré-instalados e criar telas iniciais próprias.",l:"Em um dos casos divulgados, o agente acessou a TV pela rede local e desativou 25 pacotes instalados pela fabricante, trocando a tela inicial por uma mais simples. O tema ganhou força nas redes nos últimos dias.",u:"https://tecnoblog.net/noticias/usuarios-usam-ia-para-remover-anuncios-e-mudar-interfaces-de-tvs/"},
+{s:"ga",c:"Cultura",d:"2026-10-15",r:5,t:"50ª Mostra Internacional de Cinema em São Paulo vai até 29 de outubro",x:"As sessões acontecem em salas da cidade, com ingresso a partir de R$ 13 de segunda a quinta.",l:"De segunda a quinta, a meia custa R$ 13 e a inteira R$ 26. A agenda da Revista Galérica também destaca O Barco, de Grada Kilomba, no Sesc Pompeia, primeira itinerância da obra fora do Inhotim.",u:"https://revistagalerica.substack.com/p/agenda-cultural-24"},
+{s:"cc",c:"Cultura",d:"2026-10-13",r:4,t:"Vik Muniz abre a mostra A Olho Nu no CCBB em 27 de outubro",x:"A exposição fica em cartaz em Brasília e em Belo Horizonte até 31 de janeiro de 2027.",l:"A programação do CCBB também inclui Amazônicas – Poéticas Femininas, no Rio de Janeiro, até 16 de novembro.",u:"https://ccbb.com.br/brasilia/programacao/"},
+{s:"ep",c:"Cultura",d:"2026-10-15",r:3,t:"Festival de Cinemas dos Povos começa em Belém e segue até 21 de outubro",x:"A sétima edição do FIFEP acontece no Cine Líbero Luxardo.",l:"A agenda cultural da cidade para o fim de semana também trouxe teatro infantil inspirado em Brecht, a exposição de realidade virtual Floresta Encantada e música ligada ao Círio de Nazaré.",u:"https://estadodoparaonline.com/agenda-cultural-belem-cinema-teatro-exposicoes-outubro-2026/"},
+{s:"on",c:"Cultura",d:"2026-10-06",r:3,t:"Fim de outubro nos cinemas tem Ozzy e Black Sabbath e transmissão ao vivo do BTS",x:"O filme-show do Black Sabbath estreia dia 28, e a sessão do BTS em São Paulo, dia 30.",l:"No dia 29 chegam, entre outros, As Dez Vantagens de Morrer Depois de Você e o Festival de Cinema Francês do Brasil. Dia 24 há sessões do Hybe Cine Fest.",u:"https://www.oficinadanet.com.br/entretenimento/73132-filmes-cinemas-outubro-2026-estreias"}
+].map(n=>({...n,id:hid(n.u+n.t)}));
+let NEWS=[];
+const ready=fetch("news.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(j=>{if(!j.items||!j.items.length)throw 0;Object.assign(SRC,j.sources||{});SNAP=new Date();UPD=j.updated;NEWS=j.items.map(n=>({...n,id:hid(n.u+n.t)}))}).catch(()=>{NEWS=SNAPSHOT});
+const $=s=>document.querySelector(s);
+const PS=10;
+const byId=id=>NEWS.find(x=>x.id===id)||st.saved.get(id);
+const sr=n=>sr(n)||[n.s,"#888"];
+const st={cat:"Todas",q:"",off:new Set(),saved:new Map(),per:99,ord:"d",n:PS,fs:17};
+try{JSON.parse(localStorage.getItem("pauta-saved3")||"[]").forEach(n=>st.saved.set(n.id,n))}catch(e){}
+const persist=()=>{try{localStorage.setItem("pauta-saved3",JSON.stringify([...st.saved.values()]))}catch(e){}};
+const cats=["Todas","Brasil","Economia","Mundo","Tecnologia","Ciência","Esportes","Cultura","Salvas"];
+const age=d=>Math.round((SNAP-new Date(d+"T12:00:00"))/864e5);
+const when=d=>{const a=age(d);return a<=0?"hoje":a===1?"ontem":`há ${a} dias`};
+const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const hl=s=>{s=esc(s);if(!st.q)return s;const r=st.q.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");return s.replace(new RegExp("("+r+")","ig"),"<mark>$1</mark>")};
+function thumb(n,cls){const h=H[n.c],k=n.id,u=k+(cls||"");let g="";
+  for(let j=0;j<4;j++){const x=(k*37+j*53)%160,y=(k*23+j*31)%90,r=14+(k*7+j*11)%32;g+=`<circle cx="${x}" cy="${y}" r="${r}" fill="hsl(${h+j*14} 75% ${58+j*6}%)" opacity=".3"/>`}
+  return `<svg class="th" viewBox="0 0 160 90" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><defs><linearGradient id="g${u}" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="hsl(${h} 60% 36%)"/><stop offset="1" stop-color="hsl(${h+40} 65% 20%)"/></linearGradient></defs><rect width="160" height="90" fill="url(#g${u})"/>${g}</svg>`}
+const chip=n=>`<span class="chip" style="--h:${H[n.c]}">${n.c}</span>`;
+const meta=n=>`<div class="meta"><span class="dot" style="background:${sr(n)[1]}"></span><strong>${sr(n)[0]}</strong><span>${when(n.d)}</span></div>`;
+$("#date").textContent=SNAP.toLocaleDateString("pt-BR",{weekday:"long",day:"numeric",month:"long"});
+function nav(){
+  $("#cats").innerHTML=cats.map(c=>{const n=c==="Todas"?NEWS.length:c==="Salvas"?st.saved.size:NEWS.filter(x=>x.c===c).length;const d=H[c]!=null?`<span class="dot" style="background:hsl(${H[c]} 65% 50%)"></span>`:"";return `<button data-c="${c}" aria-pressed="${st.cat===c}">${d}${c}<b>${n}</b></button>`}).join("");
+  if(!$("#srcs").children.length||true){const open=document.activeElement&&document.activeElement.dataset&&document.activeElement.dataset.s;
+    $("#srcs").innerHTML=Object.entries(SRC).map(([k,v])=>`<label><input type="checkbox" data-s="${k}" ${st.off.has(k)?"":"checked"}><span class="dot" style="background:${v[1]}"></span>${v[0]}</label>`).join("");
+    if(open){const el=$(`[data-s="${open}"]`);if(el)el.focus()}}
+}
+function list(){
+  const q=st.q.toLowerCase();
+  return (st.cat==="Salvas"?[...st.saved.values()]:NEWS).filter(n=>!st.off.has(n.s)&&age(n.d)<=st.per&&(st.cat==="Todas"||st.cat==="Salvas"||n.c===st.cat)&&(!q||(n.t+" "+n.x).toLowerCase().includes(q)))
+   .sort((a,b)=>st.ord==="r"?b.r-a.r||age(a.d)-age(b.d):age(a.d)-age(b.d)||b.r-a.r);
+}
+const acts=n=>`<div class="act"><button class="save" data-v="${n.id}" aria-pressed="${st.saved.has(n.id)}">${st.saved.has(n.id)?"Salva":"Salvar"}</button><button class="btn" data-o="${n.id}">Ler resumo</button><a class="btn" href="${n.u}" target="_blank" rel="noopener">Fonte</a></div>`;
+function render(){
+  nav();
+  const l=list(),f=$("#feed");
+  $("#count").textContent=`${l.length} ${l.length===1?"notícia":"notícias"}`;
+  if(!l.length){f.innerHTML=`<div class="empty">${st.cat==="Salvas"?"Você ainda não salvou nenhuma notícia. Use o botão Salvar em qualquer matéria.":"Nenhuma notícia encontrada. Limpe a busca, amplie o período ou ative mais fontes."}</div>`;$("#more").hidden=true;return}
+  const v=l.slice(0,st.n),[a,...rest]=v;
+  f.innerHTML=`<article class="hero">${thumb(a,"H")}<div class="in">${chip(a)}<h3 data-o="${a.id}" tabindex="0">${hl(a.t)}</h3><p class="s">${hl(a.x)}</p>${meta(a)}${acts(a)}</div></article>`+
+   `<div class="grid">`+rest.map(n=>`<article class="card">${thumb(n)}<div class="in">${chip(n)}<h3 data-o="${n.id}" tabindex="0">${hl(n.t)}</h3><p class="s">${hl(n.x)}</p>${meta(n)}${acts(n)}</div></article>`).join("")+`</div>`;
+  $("#more").hidden=l.length<=st.n;
+}
+function open(id){
+  const n=byId(id),d=$("#dlg"),s=st.saved.has(id);
+  d.innerHTML=`${thumb(n,"D")}<div class="in">${chip(n)}<h3>${esc(n.t)}</h3>${meta(n)}<div class="read" style="--fs:${st.fs}px;margin-top:12px"><p>${esc(n.x)}</p>${n.l?`<p>${esc(n.l)}</p>`:""}</div><div class="row"><a class="btn p" href="${n.u}" target="_blank" rel="noopener">Ler na ${esc(sr(n)[0])}</a><button class="btn" data-v="${id}">${s?"Remover dos salvos":"Salvar"}</button><button class="btn" data-fs="-2" aria-label="Diminuir texto">A−</button><button class="btn" data-fs="2" aria-label="Aumentar texto">A+</button><button class="btn" data-close>Fechar</button></div></div>`;
+  d.dataset.id=id;if(!d.open)d.showModal();
+}
+document.addEventListener("click",e=>{
+  const c=e.target.closest("[data-c]");if(c){st.cat=c.dataset.c;st.n=PS;render();return}
+  const v=e.target.closest("[data-v]");if(v){const id=+v.dataset.v;st.saved.has(id)?st.saved.delete(id):st.saved.set(id,byId(id));persist();render();if($("#dlg").open)open(id);return}
+  const f=e.target.closest("[data-fs]");if(f){st.fs=Math.min(26,Math.max(14,st.fs+ +f.dataset.fs));open(+$("#dlg").dataset.id);return}
+  if(e.target.closest("[data-close]")||e.target===$("#dlg")){$("#dlg").close();return}
+  const o=e.target.closest("[data-o]");if(o)open(+o.dataset.o);
+});
+document.addEventListener("keydown",e=>{if(e.key==="Enter"&&e.target.dataset.o)open(+e.target.dataset.o)});
+document.addEventListener("change",e=>{const s=e.target.dataset.s;if(s){e.target.checked?st.off.delete(s):st.off.add(s);st.n=PS;render()}});
+$("#q").addEventListener("input",e=>{st.q=e.target.value.trim();st.n=PS;render()});
+$("#per").addEventListener("change",e=>{st.per=+e.target.value;st.n=PS;render()});
+$("#ord").addEventListener("change",e=>{st.ord=e.target.value;render()});
+$("#more").addEventListener("click",()=>{st.n+=PS-1;render()});
+$("#theme").addEventListener("click",()=>{const r=document.documentElement,dark=r.dataset.theme?r.dataset.theme==="dark":matchMedia("(prefers-color-scheme:dark)").matches;r.dataset.theme=dark?"light":"dark"});
+ready.then(()=>{
+  $("#date").textContent=SNAP.toLocaleDateString("pt-BR",{weekday:"long",day:"numeric",month:"long"});
+  $("#note").textContent=UPD?`Atualizado automaticamente em ${new Date(UPD).toLocaleString("pt-BR")}. Títulos e resumos pertencem aos veículos indicados: use o botão Fonte para ler a matéria completa. As imagens são ilustrações geradas pelo app.`:"Não foi possível carregar news.json; exibindo um retrato de 19/10/2026. Títulos e resumos reescritos a partir das fontes indicadas.";
+  render();
+});
+</script>
+</body>
+</html>
