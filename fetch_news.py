@@ -18,7 +18,7 @@ BRT = timezone(timedelta(hours=-3))
 UA = {"User-Agent": "Mozilla/5.0 (compatible; PautaBot/1.0)"}
 MAX_AGE_DAYS = 7      # descarta matérias mais antigas que isso
 MAX_PER_SOURCE = 10   # evita que uma fonte domine a lista
-TOTAL_MAX = 230
+TOTAL_MAX = 260
 
 
 def gnews(site):
@@ -118,9 +118,29 @@ SOURCES = {
         "name": "Terra Planeta", "color": "#0d9488", "default": "Ciência", "fallback": True,
         "feeds": [(gnews("terra.com.br/planeta"), "Ciência")],
     },
-    "natgeo": {
-        "name": "National Geographic Brasil", "color": "#ca8a04", "default": "Ciência", "fallback": True,
-        "feeds": [(gnews("nationalgeographicbrasil.com"), "Ciência")],
+    "super": {
+        "name": "Super Interessante", "color": "#e11d48", "default": "Ciência", "fallback": True,
+        "feeds": [("https://super.abril.com.br/feed/", "Ciência"), (gnews("super.abril.com.br"), "Ciência")],
+    },
+    "galileu": {
+        "name": "Galileu", "color": "#0284c7", "default": "Ciência", "fallback": True,
+        "feeds": [("https://revistagalileu.globo.com/rss/revistagalileu/", "Ciência"), (gnews("revistagalileu.globo.com"), "Ciência")],
+    },
+    "usp": {
+        "name": "Jornal da USP", "color": "#b45309", "default": "Ciência", "fallback": True,
+        "feeds": [("https://jornal.usp.br/feed/", "Ciência"), (gnews("jornal.usp.br"), "Ciência")],
+    },
+    "olhar": {
+        "name": "Olhar Digital", "color": "#6b46c1", "default": "Tecnologia", "fallback": True,
+        "feeds": [("https://olhardigital.com.br/feed/", None), (gnews("olhardigital.com.br"), None)],
+    },
+    "mongabay": {
+        "name": "Mongabay Brasil", "color": "#15803d", "default": "Ciência", "fallback": True,
+        "feeds": [("https://brasil.mongabay.com/feed/", "Ciência"), (gnews("brasil.mongabay.com"), "Ciência")],
+    },
+    "oeco": {
+        "name": "((o))eco", "color": "#16a34a", "default": "Ciência", "fallback": True,
+        "feeds": [("https://oeco.org.br/feed/", "Ciência"), (gnews("oeco.org.br"), "Ciência")],
     },
 }
 
