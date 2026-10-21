@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T22:32:02-03:00",
+ "updated": "2026-10-20T22:43:20-03:00",
  "sources": {
   "bbc": [
    "BBC News Brasil",
@@ -81,9 +81,29 @@
    "Terra Planeta",
    "#0d9488"
   ],
-  "natgeo": [
-   "National Geographic Brasil",
-   "#ca8a04"
+  "super": [
+   "Super Interessante",
+   "#e11d48"
+  ],
+  "galileu": [
+   "Galileu",
+   "#0284c7"
+  ],
+  "usp": [
+   "Jornal da USP",
+   "#b45309"
+  ],
+  "olhar": [
+   "Olhar Digital",
+   "#6b46c1"
+  ],
+  "mongabay": [
+   "Mongabay Brasil",
+   "#15803d"
+  ],
+  "oeco": [
+   "((o))eco",
+   "#16a34a"
   ]
  },
  "report": {
@@ -427,22 +447,125 @@
    "recentes": 7,
    "mantidas": 7
   },
-  "natgeo": {
-   "nome": "National Geographic Brasil",
+  "super": {
+   "nome": "Super Interessante",
    "feeds": [
     {
-     "url": "https://news.google.com/rss/search?hl=pt-BR&gl=BR&ceid=BR:pt-419&q=site%3Anationalgeographicbrasil.com%20when%3A2d",
+     "url": "https://super.abril.com.br/feed/",
      "ok": true,
-     "n": 0,
+     "n": 41,
      "erro": ""
     }
    ],
-   "recebidas": 0,
+   "recebidas": 41,
+   "recentes": 40,
+   "mantidas": 10
+  },
+  "galileu": {
+   "nome": "Galileu",
+   "feeds": [
+    {
+     "url": "https://revistagalileu.globo.com/rss/revistagalileu/",
+     "ok": false,
+     "n": 0,
+     "erro": "HTTP Error 400: Bad Request"
+    },
+    {
+     "url": "https://news.google.com/rss/search?hl=pt-BR&gl=BR&ceid=BR:pt-419&q=site%3Arevistagalileu.globo.com%20when%3A2d",
+     "ok": true,
+     "n": 20,
+     "erro": ""
+    }
+   ],
+   "recebidas": 20,
+   "recentes": 20,
+   "mantidas": 10
+  },
+  "usp": {
+   "nome": "Jornal da USP",
+   "feeds": [
+    {
+     "url": "https://jornal.usp.br/feed/",
+     "ok": true,
+     "n": 20,
+     "erro": ""
+    }
+   ],
+   "recebidas": 20,
+   "recentes": 20,
+   "mantidas": 10
+  },
+  "olhar": {
+   "nome": "Olhar Digital",
+   "feeds": [
+    {
+     "url": "https://olhardigital.com.br/feed/",
+     "ok": true,
+     "n": 10,
+     "erro": ""
+    }
+   ],
+   "recebidas": 10,
+   "recentes": 10,
+   "mantidas": 10
+  },
+  "mongabay": {
+   "nome": "Mongabay Brasil",
+   "feeds": [
+    {
+     "url": "https://brasil.mongabay.com/feed/",
+     "ok": true,
+     "n": 20,
+     "erro": ""
+    }
+   ],
+   "recebidas": 20,
    "recentes": 0,
    "mantidas": 0
+  },
+  "oeco": {
+   "nome": "((o))eco",
+   "feeds": [
+    {
+     "url": "https://oeco.org.br/feed/",
+     "ok": true,
+     "n": 12,
+     "erro": ""
+    }
+   ],
+   "recebidas": 12,
+   "recentes": 12,
+   "mantidas": 10
   }
  },
  "items": [
+  {
+   "s": "uol",
+   "c": "Cultura",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Nikolas tem áudio removido em post sobre nordestinos e culpa cantor Rubel",
+   "x": "Veja a matéria completa em UOL Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMjB2d0QzNmRXYlZiTXV6cGU4S19CcGpPLVJXSXZwWnFKVGxhRWF6YzdLWWpIVVlGT2Fzc0thT1UxeUw4S3NmYS0xZll6REZreGFWQWJMYVZZTzlvSXhOQW1uZTJrQm5LM254VWd5XzkweU12d1k2VmtwbGZJcDV4eXQ3MEFuZWNQTTJRZ2RuZmlzM09SUnV2WmRBOTROUjZYQVE?oc=5"
+  },
+  {
+   "s": "terrafut",
+   "c": "Esportes",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Série B: Londrina bate Cuiabá e se mantém na luta contra a degola",
+   "x": "Veja a matéria completa em Terra Futebol.",
+   "u": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPeXdjMllyYkNZNVhkVkZZam5uWVY5dURrckJURXNFX2VCQmlOVWpaeGZzUjE2cDJvYzVibUQzWDVKaVU3cVJUcW5uejU4UWo2dllISmNPR2EyQ01HNzlCWm5jNFAxRGp5MlY5anVOMDVRUTFMRE9TV1hVZWxaSU9EdWZMb1RyX2NjdGR5MHU5UnlqWDVzVVBWVXBJTkNKN05uRW1uWXg0TTB4bVQ4bHloVmJ1TWxJbW11eXRUb25LaDJlcmpKa184ZWtUd2RMc0FiTmd3WEZIU25sMS1pbHFReTRqR2l0Y3kxTVBDSkRrVHFrSjVTbDJpeERzbmFUTlVf?oc=5"
+  },
+  {
+   "s": "b247",
+   "c": "Mundo",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Justiça dos EUA condena brasileiro a 12 anos por esquema ligado ao PCC",
+   "x": "Ygor Fokin Saviolli foi preso pelo FBI na Flórida. Rede lavou mais de US$ 30 milhões e também foi investigada pela Polícia Federal",
+   "u": "https://www.brasil247.com/mundo/justica-dos-eua-condena-brasileiro-a-12-anos-por-esquema-ligado-ao-pcc/"
+  },
   {
    "s": "espn",
    "c": "Esportes",
@@ -457,6 +580,33 @@
    "c": "Brasil",
    "d": "2026-10-20",
    "r": 5,
+   "t": "Eleições 2026: lei eleitoral exige que cidades de todo o país ofereçam transporte público gratuito no dia do 2º turno",
+   "x": "Lei eleitoral exige que cidades de todo o país ofereçam transporte público gratuito no dia do 2º turno A lei eleitoral exige que cidades de todo o país ofereçam transporte público de graça no próximo domingo (25), dia do segundo…",
+   "u": "https://g1.globo.com/jornal-nacional/noticia/2026/10/20/eleicoes-2026-lei-eleitoral-exige-que-cidades-de-todo-o-pais-oferecam-transporte-publico-gratuito-no-dia-do-2o-turno.ghtml"
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Conheça Luiza Perote, modelo amazonense que estreou na passarela da Victoria’s Secret",
+   "x": "Veja a matéria completa em g1.",
+   "u": "https://g1.globo.com/am/amazonas/noticia/2026/10/20/conheca-luiza-perote-modelo-amazonense-que-estreou-na-passarela-da-victorias-secret.ghtml"
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Taxa do Lixo: prefeitura recorre à Justiça para reverter decisão que suspende cobrança em Goiânia",
+   "x": "Prefeitura de Goiânia recorre ao TJ para tentar manter cobrança da Taxa do Lixo A Prefeitura de Goiânia ingressou com recurso na Justiça nesta terça-feira (20) contra a decisão liminar que paralisou a Taxa do Lixo, nesta…",
+   "u": "https://g1.globo.com/go/goias/noticia/2026/10/20/taxa-do-lixo-prefeitura-recorre-a-justica-para-reverter-decisao-que-suspende-cobranca-em-goiania.ghtml"
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
    "t": "Carlos Alberto de Nóbrega passa bem após cirurgia para colocar marcapasso, afirma assessor",
    "x": "Carlos Alberto de Nóbrega Reprodução/TV Globo O apresentador e humorista Carlos Alberto de Nóbrega, de 90 anos, passou por uma cirurgia cardíaca na noite desta terça-feira (20), para a implantação de um marcapasso e está bem…",
    "u": "https://g1.globo.com/sp/sao-paulo/noticia/2026/10/20/carlos-alberto-de-nobrega-passa-bem-apos-cirurgia-para-colocar-marcapasso-afirma-assessor.ghtml"
@@ -474,7 +624,7 @@
    "s": "g1",
    "c": "Brasil",
    "d": "2026-10-20",
-   "r": 5,
+   "r": 4,
    "t": "Conselho Internacional de Supervisão da Meta critica atuação da empresa durante as eleições no Brasil",
    "x": "Veja a matéria completa em g1.",
    "u": "https://g1.globo.com/jornal-nacional/noticia/2026/10/20/conselho-internacional-de-supervisao-da-meta-critica-atuacao-da-empresa-durante-as-eleicoes-no-brasil.ghtml"
@@ -492,7 +642,7 @@
    "s": "g1",
    "c": "Brasil",
    "d": "2026-10-20",
-   "r": 5,
+   "r": 4,
    "t": "Aposta única de MT ganha R$ 9,4 mil na Quina 7147; prêmio principal acumula em R$ 55 milhões",
    "x": "G1 | Loterias - Quina 7147 Uma única aposta de Cuiabá acertou quatro dezenas no concurso 7147 da Quina, sorteado nesta terça-feira (20), e ganhou R$ 9.444,31. O jogo era simples, sem participação em bolão. Nenhuma aposta acertou…",
    "u": "https://g1.globo.com/mt/mato-grosso/noticia/2026/10/20/aposta-unica-de-mt-ganha-r-94-mil-na-quina-7147-premio-principal-acumula-em-r-55-milhoes.ghtml"
@@ -507,15 +657,6 @@
    "u": "https://iclnoticias.com.br/google-omite-ia-busca-bolsonaro-matar-lula/"
   },
   {
-   "s": "uol",
-   "c": "Brasil",
-   "d": "2026-10-20",
-   "r": 5,
-   "t": "Homem em surto morre após ser contido e algemado por PMs em SP",
-   "x": "Veja a matéria completa em UOL Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOczhsampJUWZfQlRoa01heUJDclI1YWRwMEgybVp0b0F6UHBCenhGZFlCYmM2b01UTFZHVTZtTWJkcVV1bzFwTXBrX0k3czY2U1VrNHBfVjFia3hXcUtMT3dLS193RFY1ZmpXa1BRcUVoZEFwT1JVdU8zLTl6UV9SZU05RFc3dGNWRXkxSEwyTmNrVTh5Nnp0bTdrQW5FakltSnB4U2hvZUZYdmRuQUllZmhiWVBaN3dvN1gyZjNacXV6aVpSVVJnX3JiUVdYckNPVDhBTDQ3c1o?oc=5"
-  },
-  {
    "s": "g1",
    "c": "Brasil",
    "d": "2026-10-20",
@@ -523,6 +664,15 @@
    "t": "Condenado por matar ex durante festa de aniversário no TO é preso quase sete anos após crime",
    "x": "Condenado a 32 anos pelo feminicídio de Diannes Maria em Gurupi, Maycon Jhonatan Bispo de Assis foi encontrado em Balneário Piçarras (SC) Divulgação p Maycon Jhonatan Bispo de Assis, que estava foragido desde novembro de 2019…",
    "u": "https://g1.globo.com/to/tocantins/noticia/2026/10/20/condenado-por-matar-ex-durante-festa-de-aniversario-no-to-e-preso-quase-sete-anos-apos-crime.ghtml"
+  },
+  {
+   "s": "uoleco",
+   "c": "Economia",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Aluguel de data centers para IA leva receita da SpaceX a US$ 14,58 bi",
+   "x": "Veja a matéria completa em UOL Economia.",
+   "u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOa3JTek1VWUNpenpIejdTZFZYUVZTdml3WmJHUjlDOGdneDFuVG52OW9VeVhNMUd3S2xYb3RPLVcwZXF1cHRLeHl6cGFPMkFTSzFIQ0xGNHdVUlpfMlFVdXJIZEtBQ0NNRkdQZW1sV3VXWjVpMEVDOGFpWHZHOWd2ZEhYbWlVRzRMT2VlcTU4aXhYV05PbWV1ZjFGQm5TakJKM2FMOXROd1J0OHptaFpSMmVGN3pXQXlDNWh5Sg?oc=5"
   },
   {
    "s": "g1",
@@ -537,28 +687,28 @@
    "s": "g1",
    "c": "Brasil",
    "d": "2026-10-20",
-   "r": 4,
+   "r": 3,
    "t": "Resumão diário do JN: Conselho Supervisor da Meta reconhece falhas na moderação de conteúdo eleitoral; Itamaraty acusa Milei de interferir no processo democrático do Brasil",
    "x": "A Meta afirmou ao TSE que dá tratamento igual para as duas campanhas à Presidência, mas o Conselho Supervisor da empresa reconheceu falhas recorrentes na moderação de conteúdo eleitoral. O Ministério das Relações Exteriores…",
    "u": "https://g1.globo.com/jornal-nacional/noticia/2026/10/20/resumao-diario-do-jn-conselho-supervisor-da-meta-reconhece-falhas-na-moderacao-de-conteudo-eleitoral-itamaraty-acusa-milei-de-interferir-no-processo-democratico-do-brasil.ghtml"
   },
   {
-   "s": "g1",
-   "c": "Brasil",
-   "d": "2026-10-20",
-   "r": 4,
-   "t": "Rede Amazônica realiza debate entre candidatos ao governo do Amazonas no 2º turno das eleições",
-   "x": "Veja a matéria completa em g1.",
-   "u": "https://g1.globo.com/am/amazonas/eleicoes/2026/ao-vivo/debate-omar-aziz-professora-maria-do-carmo-governo-amazonas.ghtml"
-  },
-  {
-   "s": "uol",
+   "s": "carta",
    "c": "Brasil",
    "d": "2026-10-20",
    "r": 5,
-   "t": "PL aciona TSE contra Lula por abuso no uso de dados oficiais do governo para enviar mensagens",
-   "x": "Veja a matéria completa em UOL Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQaVl5TVlFTzM4c2hVSl9aOEVnWVJxZ2VQemFWTG5sNHlja1Z0ZHk0dGRwckEySGFWSExIS09HR0U3Q2tzUUU4QnBwVXhKUm5CUS1qY2x4ZDVLYXMtcFRPczQ0UVVyenhMRWlyVTY2SExWQmJENDlLa3RzUkQxQkh3SlVnM29uU3BKd0NvcGhNUTRxcmpoVXZVV3dlWFZiR0ZDX1lsY3U5d1pPMVphUDd0U3VJUS1ibEZEQ3NabVR4d2dlVkFyLVQwYlo5Z0VSVGxqZlhJS01TT3A0eWtjUVA3alF6cVR4MUJqdmpQUkdvTVloeHJCN1M0cWU0RlhMZmtmbXc?oc=5"
+   "t": "Abacate faz bem para quê? Veja 6 benefícios da fruta para a saúde",
+   "x": "Delicioso e versátil, o abacate é uma fruta bastante presente na culinária e que permite diferentes combinações de sabores e texturas. Sua polpa macia pode ser aproveitada em preparações doces e salgadas, adaptando-se a diversas…",
+   "u": "https://www.cartacapital.com.br/bem-estar/abacate-faz-bem-para-que-veja-6-beneficios-da-fruta-para-a-saude/"
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 3,
+   "t": "Rede Amazônica realiza debate entre candidatos ao governo do Amazonas no 2º turno das eleições",
+   "x": "Veja a matéria completa em g1.",
+   "u": "https://g1.globo.com/am/amazonas/eleicoes/2026/ao-vivo/debate-omar-aziz-professora-maria-do-carmo-governo-amazonas.ghtml"
   },
   {
    "s": "icl",
@@ -570,22 +720,13 @@
    "u": "https://iclnoticias.com.br/influenciadora-malevola-alves-detida-egito/"
   },
   {
-   "s": "g1",
+   "s": "carta",
    "c": "Brasil",
    "d": "2026-10-20",
-   "r": 4,
-   "t": "VÍDEOS: Jornal Anhanguera 2ª Edição de terça-feira, 20 de outubro de 2026",
-   "x": "Assista agora os vídeos do Jornal Anhanguera 2ª Edição",
-   "u": "https://g1.globo.com/go/goias/edicao/2026/10/20/videos-jornal-anhanguera-2-edicao-de-terca-feira-20-de-outubro-de-2026.ghtml"
-  },
-  {
-   "s": "g1",
-   "c": "Mundo",
-   "d": "2026-10-20",
-   "r": 3,
-   "t": "Volodymyr Zelensky diz que voltou a receber ajuda americana contra ataques da Rússia",
-   "x": "Ucrânia diz que EUA voltaram a compartilhar alertas sobre ataques da Rússia O presidente da Ucrânia declarou que os Estados Unidos voltaram a compartilhar informações de inteligência e dados de satélite que ajudam os ucranianos a…",
-   "u": "https://g1.globo.com/jornal-nacional/noticia/2026/10/20/zelensky-diz-que-voltou-a-receber-ajuda-americana-contra-ataques-da-russia.ghtml"
+   "r": 5,
+   "t": "Nunes Marques nega que TSE tenha participado de mudança de locais de votação",
+   "x": "No início desta semana, o site do órgão eleitoral indicava que cerca de 4 mil seções seriam alteradas para o segundo turno",
+   "u": "https://www.cartacapital.com.br/politica/nunes-marques-nega-que-tse-tenha-participado-de-mudanca-de-locais-de-votacao/"
   },
   {
    "s": "b247",
@@ -606,13 +747,13 @@
    "u": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNMXpoY0p4YmI4cGcxbFlZMGNVS2RHMV9DMldHaG9TbDE4cF9qUERvRnV0b1lWR18zZkpCalRMNlp0cTlNOXFWSEt5c0VYeWlpQzEtRWVyRnlJRFpnZWZFMS1sSl9yWFdPSnRUS1h6cl85MXA2MGhfVDJmQzZQVExzbE1VTUd1N19XUEdNQ1AwcVBKMlN5Q3VmLWJXOGdHNmhWVFR4TnFIZzd0RTJubVp1RGxadHZ0TDRxNkFyRlVSXzFwYnBEMDZ5N0lDX29oaFZGaUFVWlhhZHdsazF0bjFQT3JhSkd4M1RRZkFGS0VjRlYzV1Nzc2hhdE5oMjdqdHhEcERTYWk1dVBqYmNQRldjWHhaX0ZZdEprR1ZUbXJhcEZjSmh4ZGc?oc=5"
   },
   {
-   "s": "g1",
-   "c": "Esportes",
+   "s": "olhar",
+   "c": "Tecnologia",
    "d": "2026-10-20",
-   "r": 3,
-   "t": "UFC lança concurso para professor efetivo em Fortaleza com salário de R$ 6,3 mil",
-   "x": "Reitoria da Universidade Federal do Ceará (UFC), em Fortaleza Divulgação A Universidade Federal do Ceará (UFC) divulgou edital para concurso público com cinco vagas para professor efetivo do Ensino Básico, Técnico e Tecnológico…",
-   "u": "https://g1.globo.com/ce/ceara/suachance/noticia/2026/10/20/ufc-lanca-concurso-para-professor-efetivo-em-fortaleza-com-salario-de-r-63-mil.ghtml"
+   "r": 5,
+   "t": "TSE cobra Meta por tratamento igual a Lula e Flávio; empresa nega favorecimento",
+   "x": "Ministro Marco Aurélio Bellizze ouviu representantes das duas campanhas e da plataforma O post TSE cobra Meta por tratamento igual a Lula e Flávio; empresa nega favorecimento apareceu primeiro em Olhar Digital .",
+   "u": "https://olhardigital.com.br/2026/10/20/pro/tse-cobra-meta-por-tratamento-igual-a-lula-e-flavio-empresa-nega-favorecimento/"
   },
   {
    "s": "uol",
@@ -645,10 +786,19 @@
    "s": "b247",
    "c": "Brasil",
    "d": "2026-10-20",
-   "r": 5,
+   "r": 4,
    "t": "‘É obrigação defender o Estado de Direito independentemente do resultado das eleições’ diz Hugo Motta",
    "x": "Presidente da Câmara afirma que respeitar a democracia é obrigação das autoridades e reforça compromisso às vésperas do segundo turno",
    "u": "https://www.brasil247.com/brasil/e-obrigacao-defender-o-estado-de-direito-independentemente-do-resultado-das-eleicoes-diz-hugo-motta/"
+  },
+  {
+   "s": "terra",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Como estão os crimes na esquina perto da Paulista onde músico da Filarmônica de Berlim foi assaltado",
+   "x": "Veja a matéria completa em Terra Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNUDE5TE9IRHlrZTM1UDhBWmRzblRIVHB3U25zR3NrVkpqZ2NLVUR2cURITXNsLUhiV0ZnMnJTUW1mMC1pV1IwQXZQejR2dGRReXBhNWY5emlLU1A5Y2NwaWw0QmtidjhRVFdLWGh5OFptSXZ4YVoxeWRQTGxsOEQ3TzVCQjFQSVVfT0ZkYjUtZkRwZDFNN0JlbHozR0lSY2NsTm9GbjV1QzNicXdmaW9zaENiejRFa1VYblhjMkNrbnprRHlGeVh5c2xpSlYwZ2xUVW8wOTZROVBlVWxrRi03c1ZYb0t5Znd6R2R5bGFpNGI5dVNid0sxcURDS2dCdGFXU2l6eDBLZGNhYXFEa2FyQUFuRk05cjJWTXM0RG8yV24?oc=5"
   },
   {
    "s": "uoleco",
@@ -658,15 +808,6 @@
    "t": "XP e Banco XP são condenados por COE ligado à Ambipar",
    "x": "Veja a matéria completa em UOL Economia.",
    "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWHFQRm40ZjR6ZlE3X2JFRHh2bFZyakY4VGdJNzVfc01hWXh6T2JIc3FCaVd6SkVCa0I4VjBNYWt0dnRYWUtybURXUW1KeWVqSF9NdndERHh5QU1qMzRjdTc4TWFvX3g4UHY4Uk5XLVg5Y3VMcnNfNWJ1cERjR2JxdE5CUWpYLTE0VWdGYS00dVZvWk1WZUN2ZFBibWhHOFItOXFRWEdCdVBRcDFKY1ZXWEo4blY?oc=5"
-  },
-  {
-   "s": "uol",
-   "c": "Brasil",
-   "d": "2026-10-20",
-   "r": 4,
-   "t": "Governo usa Lei Antifacção pela 1º vez para confiscar R$ 190 milhões em bens do PCC e do CV",
-   "x": "Veja a matéria completa em UOL Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOSFV3U0Z1SVhSWVVCVXNTZ0I4X09GMTVVWXBMb0p6WFZVRnZQREtEaVk2ZzljaVlmbTU5NUZlbjYzRGVLUDZYTXItd25LWnczUGxCVFlkMUllY1V2bjZ3UDcwNTltLXVqYk1CWjJKT0xtUUlkVmZxSG9tTXltaE1CM3ZJQ1k2emZONXUtb3dYcXdiZlBGZzEzQnVZRjM5cDdoYUduMVFHeS1CMUd0UDc5X3VTSDVmaG9VTE40NF85WmJIcTZlUjRlYmZvbDZscGtxUlZid3V3WWpCTzlNNnBBVkpfMkgtUDdFZmpsWElkRFJ3WjR4TjI0VFFXWG8?oc=5"
   },
   {
    "s": "bdf",
@@ -708,7 +849,7 @@
    "s": "uoleco",
    "c": "Economia",
    "d": "2026-10-20",
-   "r": 5,
+   "r": 4,
    "t": "Brasil se torna segundo maior fornecedor de petróleo para China",
    "x": "Veja a matéria completa em UOL Economia.",
    "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWHFCZGxvVkhOQjExOXVvTVotbU9wMnYtcHp3dDh1TkFrdmZ3amRPV3RadHNhcVhlSzhVSUR5ZjRZUWlxN3pzLTV0RGc5UG9LTC1vQ05LbGNaakYxU3lzNWtkQXN3UEZPUFR3Ymh2NEZmTkZQMlVmcEN6UU1JcGlxSVVRTWJfbElCdUVDY2NkTWV3cE9tTjZqWnhNNG1QWnlzemFOamx0ZlFwZHdOZDFHVVlVU2NxeUI1bEd6ckFUUnM?oc=5"
@@ -717,7 +858,7 @@
    "s": "uol",
    "c": "Brasil",
    "d": "2026-10-20",
-   "r": 4,
+   "r": 5,
    "t": "Flávio aciona TSE e acusa Lula de disparos em massa sobre programas sociais",
    "x": "Veja a matéria completa em UOL Notícias.",
    "u": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYXozNFpiRXpURlhBSUtnNXU4Zy04bXNDWFRLVXdjd0NmNnpUWkE4S05QdDlaRjRBSWtoejQtWVd2UHRPb25qbHBjRDZVbVFiWFJMSnZaTVhZaVpvZFd1STA0RUE4R2h4TGJPLWVKNW5NY1dsa0pkWktZdVAzZ1VjbTR2aVV2eHktM29wM3RydXVnX2tjZ0RNWjRGbEZFOEhtcUptYnp1eW52aEpoam8zajdMNDRwR2Z3QkhVMmJtZkxKbFhqQTRj?oc=5"
@@ -732,13 +873,13 @@
    "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPV3NtMmQ3aEk3LThLeWdpcV9CbkMwdjVzTVRqVkhJSjNnOUtjMTNwV3ZNLWRiLU1WWEt0REtwdXhEaktna0hPR0lNancyanNTLUt4Z3RqYTVGYkRRUWdmbjNybVY3TGFxV2hrVmdad056X1FLSXlvUE1aQWtiQmJIRjNoSU1RclM2SDN5S0pXS1VaN01rZXJNZmp3b1dnNnM?oc=5"
   },
   {
-   "s": "uol",
-   "c": "Brasil",
+   "s": "olhar",
+   "c": "Tecnologia",
    "d": "2026-10-20",
-   "r": 4,
-   "t": "É obrigação, independente do resultado de domingo, defender o Estado de Direito, diz Hugo Motta",
-   "x": "Veja a matéria completa em UOL Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNYms4aGExb0ZaRjZqSUJsZE5ac0NESlJSM3V6cmJaZmdpblJPZGJaYXRSQ3NoMW80WTg2NDh1OWx3Q2VMQ01QUXB5VmV3MU51MzNRb0pWWjlpMVBoekFPZzhUdkozRU54WkdWaEhFY0NBclJjaU5PeDR4aW1kcmNIV3B1N2kxTU1RcC1aYkZqZUhPdWRFX2lWQlNpZUJ1cEZvMk1TQVVoUzlHXzhOeWhGRTNGTUoyVjZjV3VOdU5pSFVpSVhtX0ZIbXZPTDl1VjA4MnF0Y1FjMmVhbEZPaTFIUHZHYnc5RTZrM1pZTml6dlRqcjIxZmlYZE81TDZkNEZK?oc=5"
+   "r": 5,
+   "t": "SpaceX tentará capturar Starship e seu propulsor em pleno voo pela primeira vez",
+   "x": "Elon Musk prevê nova tentativa em novembro; se conseguir recuperar as duas partes, empresa fará história na reutilização de foguetes orbitais O post SpaceX tentará capturar Starship e seu propulsor em pleno voo pela primeira vez…",
+   "u": "https://olhardigital.com.br/2026/10/20/ciencia-e-espaco/spacex-tentara-capturar-starship-e-seu-propulsor-em-pleno-voo-pela-primeira-vez/"
   },
   {
    "s": "bdf",
@@ -813,6 +954,15 @@
    "u": "https://www.cartacapital.com.br/economia/agu-busca-recuperar-r-190-milhoes-de-integrantes-do-pcc-e-do-cv/"
   },
   {
+   "s": "terra",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Mãe tem prejuízo de R$ 557 após família confirmar presença dos filhos e desistir de festa infantil",
+   "x": "Veja a matéria completa em Terra Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNSnoxVmhISGpxRWdKMHFROHJhaXhnclFxYU1sUE1VRWJ1X25KZE4wbGZ1MWktM0IxZmZucWk5cVAwMktSNHZoMVd1ekRJelNaaUtsc1Fwem56eEd2V3VPeGRyTktXalBqd05ZVm9PYkdfYXlXbWZGSzJGSzJOWDZzSWFLVF92ZUZHWnBONG1GNG0zRzRVUndIQjVDOExYckNmbFpfQVhxWHc0dTUwQmRLblBwQllLblVzY3I1YlZfT09nSzBzNGJ3WjRZQWJfNXlMcjlTSXc0STBXSTlQaFFEcElrcEdoNTRiWFFPZEFhNE9RZkRkYjZrb2U3aHdPbmVlcnZ3cTlDbHpwakx4UGVJcQ?oc=5"
+  },
+  {
    "s": "uol",
    "c": "Brasil",
    "d": "2026-10-20",
@@ -825,16 +975,25 @@
    "s": "uol",
    "c": "Brasil",
    "d": "2026-10-20",
-   "r": 3,
+   "r": 4,
    "t": "Quase 90% dos detidos em 'guerra' contra gangues em El Salvador não foram julgados",
    "x": "Veja a matéria completa em UOL Notícias.",
    "u": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOREdpZ0lKZ0FkVkF3elczbV9pYVJZZHNyOVpDWjlDMF9tQ2k3TkVnanlWMHpDMWU4RXJNc3JvZXBuSDlOM0tFdFZyWnZfc2NobkwzWlQwbHJRbVlxdXlNUG43Y1l4X1I1WFpxdGJaQWt6TGE2QUo4UV9oS2NCV3FwZjNQRXF4VkYzcEhpVDFnTzhDREwyUmw2dHd1dzl1S3FJcXFHa2ctdjNjRE55bzRHaHZIc0lxVFBhdDdBU1daNWdoSkhYWjFfMUx6UEdldDVFZEhGNW1oUi1Id0RLVHJybw?oc=5"
   },
   {
-   "s": "b247",
+   "s": "uol",
    "c": "Brasil",
    "d": "2026-10-20",
    "r": 4,
+   "t": "Marina Giannini",
+   "x": "Veja a matéria completa em UOL Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE82dmpXYU82VVBVOHNBSk8tNDRMOUdZOVFPLVhoSGlMY0l2S19GckVJdGdHZFNSLXc5VUllV1ozU19lcGRnOFI1VzJpTjQ0OVIzdmtpcUM3SDM0b3NHRGgw?oc=5"
+  },
+  {
+   "s": "b247",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 3,
    "t": "Nikolas acusa Rubel após Instagram retirar áudio de vídeo sobre o Nordeste",
    "x": "Publicação passou de 6,3 milhões de visualizações e 1,1 milhão de comentários. Meta atribuiu retirada do som a uma solicitação de direitos autorais",
    "u": "https://www.brasil247.com/sudeste/nikolas-acusa-rubel-apos-instagram-retirar-audio-de-video-sobre-o-nordeste/"
@@ -843,7 +1002,7 @@
    "s": "uol",
    "c": "Brasil",
    "d": "2026-10-20",
-   "r": 3,
+   "r": 4,
    "t": "Mulher com medida protetiva aciona botão do pânico e é achada morta em SC",
    "x": "Veja a matéria completa em UOL Notícias.",
    "u": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZHM2R25XRHRTSGRrTHFkVWNTbldVa0xReFZEdWpDS1hRV2dRakdsZjgtUW1uam12M1VlbXNHM0ZYNU1Ba3hmX19UbUF3Q1dNTGdzZ3k4Vjg0ZmtNNEFQbkQzcGFKa3pTYjZOdmhRS3NjYjFOaHNvYXJNQ252TlgwLTdTejF5cXI5eldHOV9YTzMxaE1rNXJDZ1BxRFFaU2JBbm9BcGE2cGNFREJQUi0yc204MEVreW9PTEJUX0EzZXRUN29jLTh6a3NPVWNJSVA3aUZKQmQxT24?oc=5"
@@ -858,6 +1017,33 @@
    "u": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdGlJZFI3WUszWlFqalJJY2VCaUREZk1oRmJBaGpHT1JPRXlSeVpsaEdfZnY2bU1sUnAyZ3Rja3hMUzRKVHp0cXBHYmwtNHpVd2NTQ3JSclFGbV9lOEJISWNKZENsNkF6a21OU01hZjZOdEJ4TkNsUGdNM3lKX19CRDd3dElwVWJvR09ZZ1FsRl9XOWZ2aXlDeUxac2RXTzdEMlkycF96T0dodlBnR09VZllYZFlKZmNhR0V0SjJfOA?oc=5"
   },
   {
+   "s": "uol",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 3,
+   "t": "Quina: Prêmio acumulado é de R$ 52,3 milhões; veja números sorteados",
+   "x": "Veja a matéria completa em UOL Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRE15TkZzcVdmY2lXVDVVeG9OcVNhbUtSeVR2Sm9aMkNtenN2SVVOQjRBQy04Vkk2YXRKdkJCTXdqaHNMM1d4RjRaVlVsSzlCNkgxR0V6elo5c1hlbGk1RTEwSVRRcVAyb0ZsMXBuZ2QycFBoTi1tMFpLMEdtV2Y3bTRVaElCWm5BbDRCOUNxNl95LWpMRkdvUWxaZVN1SWFERU5IS2lrQWNMdmwwMHc?oc=5"
+  },
+  {
+   "s": "uol",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 3,
+   "t": "Lotofácil: Prêmio acumula e sobe para R$ 8 milhões; confira dezenas",
+   "x": "Veja a matéria completa em UOL Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdzhxalE3bTZVR0N2eXpvamFDd2ZLcktEWDN4dXVlNEJVdUwyVnBDVGlQSGJjYjNNZWpnNTR1NG45UHBNRDZKUS0tR0ZLazk1SXZHcW5HM21MRzl1bGMxb0NOSzRCRnFrMXdRWW9jekI3eUw4d2IyWjFpcGJzT1MtMWdIYjhuZ1U4RzdpY0xUdHVRNHYyWlJtRl9GTHlZc05zaEFhUjByN2E5MVpvdGJMOEVNRQ?oc=5"
+  },
+  {
+   "s": "terra",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Homem em surto morre após ser contido e algemado por PMs em SP",
+   "x": "Veja a matéria completa em Terra Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNNFZPRmlvX0drMTRvRzM5VTZ0Zk1MTFhxRXFjZm8wU3ZoNGNlYjNHVDhzU05jWUsyQUVVWkxkamNoUERfeWlHWklSSnVHWE1tTWM5aTlSaUJ5SzFzOE1QMFJ2NmVtTHhXTy11bnAwWnJ0VFFkOGN0RVo5OWNNbV85UHcwbEdkeG03MEg5NW56ZkdXV2JHekVEcEtlMy1fM0ZxR3B6T0F1cHZpeEZCVXV5ZlZtY1pVRGVXTnBoSGxHU3o5VG5FUWxGUTh2RlpISzdXSUpjNTlxbTI3dU52YUxwdmlOZGJJeUx1c1NQSFRB?oc=5"
+  },
+  {
    "s": "b247",
    "c": "Brasil",
    "d": "2026-10-20",
@@ -865,15 +1051,6 @@
    "t": "PF investiga suspeita de sociedade oculta entre Flávio Bolsonaro e dono de bet",
    "x": "Investigação da PF aponta conexões entre o senador, Willer Tomaz e empresas ligadas à Best Bet, que recebeu autorização da Loterj para explorar apostas",
    "u": "https://www.brasil247.com/brasil/pf-investiga-suspeita-de-sociedade-oculta-entre-flavio-bolsonaro-e-dono-de-bet/"
-  },
-  {
-   "s": "b247",
-   "c": "Brasil",
-   "d": "2026-10-20",
-   "r": 3,
-   "t": "Lula pede voto pautado pela verdade e pelo respeito em carta aos católicos",
-   "x": "Presidente cita políticas sociais e pede que eleitores considerem a fé, a consciência e a trajetória dos candidatos no segundo turno",
-   "u": "https://www.brasil247.com/brasil/lula-pede-voto-pautado-pela-verdade-e-pelo-respeito-em-carta-aos-catolicos/"
   },
   {
    "s": "icl",
@@ -888,7 +1065,7 @@
    "s": "terra",
    "c": "Brasil",
    "d": "2026-10-20",
-   "r": 5,
+   "r": 4,
    "t": "Equador e Peru se comprometem a enfrentar juntos criminalidade e ameaça climática do El Niño",
    "x": "Veja a matéria completa em Terra Notícias.",
    "u": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQNFFTY1JHNmhUN3ZrZWJ6dmpndVhXaE80NGE5RlowSWozcUR3VXFfOVBKODJTTnowQUV1dHhkMmlFU3RLUVR2VWtfcDFTM2FuRTJ4bG1LT0NpaVdsLWFPU0syUGgzQVVKcEtSZy1NaENnaVEzT2NnVVBKaWJVY1ZmMVR4eFpycnV4Z0d6Tk5iQ19aaFpaZDVwUHh1OHIwZGxWZWJ5SVdVZGtlVVRFZ3JQQlZsSjl2NXkxSU14cXQteXV5SEtVcExGbE1KTmVMcU1Md2lqUU1heFNLcF8zeGRxNjJYNG1IYmFGaW8tX1BPZ0VSeVhheGt6U2otbVZzUUR6dzZTSEdMc2JkQQ?oc=5"
@@ -906,7 +1083,7 @@
    "s": "terra",
    "c": "Brasil",
    "d": "2026-10-20",
-   "r": 5,
+   "r": 4,
    "t": "Resíduos fecais contaminam sumidouros e poços de água potável no Estado de Yucatán, no México, diz Greenpeace",
    "x": "Veja a matéria completa em Terra Notícias.",
    "u": "https://news.google.com/rss/articles/CBMingJBVV95cUxNSzUzWnJxSDMxc21uUFpFbk9uMlRHZkY5THZPcy1mLWlyNmFSaXBfNWZnaVFhbGRhMENkN211dU9jTXhUQTBEODVnczNkUjBoYXlDLVBaTUJHd2xvb215MXZfOHZ4ZzNnNUdzdllPcXo1ZUhxX3FWZE9fNndKYkF5SVVVUVhsdFgteU1VbnVSRzRpUGtieU5PbV9HZzh5WHNxaFVORFNtRGNZZ2RPWjZKWVNuVW1HNnpJQ2d1YzVnOFhwTjk0SWpHYW92T1NoTVV1Y2tISmduUW1aak9nWG9TbUZzY1dTa2UySVJuUzktcXVjdW9yVWRWRTFvNzExaXBTUkUzdVNsMkttYm94cjdtdzBYVnJFcHRLVUNYZUx3?oc=5"
@@ -924,7 +1101,7 @@
    "s": "terrafut",
    "c": "Esportes",
    "d": "2026-10-20",
-   "r": 5,
+   "r": 4,
    "t": "Entenda por que mãe de Mbappé visitou escola na Zona Leste de São Paulo",
    "x": "Veja a matéria completa em Terra Futebol.",
    "u": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOYUVjVEE1VVA4TGdWMk1jR2NmODFnT1VqbTZ4WlFXZjQzVlliRHA1TVBQUVdHT2lycTYzY3NpTHNNVW5NOUhodWdDY0hDZHhvbHVjdmQ3bTRjT1ZLdXdEMk1Cc0kwTWxPOGdQZWpKZ2hRcnMyaEQzTDFsODFHcktCMllZaG5PXzRDWXA1MkNobUpTMm14cnl4YWg3djdnVFZTOGpvUGN0Y3NWMFNVZ3VmUkRLSjkydlFOdnRKbHlDS0g0Mm1vbWQ5RWpOLTIwRXNJWHZMbmdtZFFxT2d1NVRWQWlwbEd6QVNISUkzMHI4NlI?oc=5"
@@ -951,10 +1128,55 @@
    "s": "carta",
    "c": "Mundo",
    "d": "2026-10-20",
-   "r": 5,
+   "r": 4,
    "t": "Trump diz que Zelensky precisa chegar a um acordo com a Rússia",
    "x": "As declarações ocorrem após a deterioração das relações entre Washington e Kiev",
    "u": "https://www.cartacapital.com.br/mundo/trump-diz-que-zelensky-precisa-chegar-a-um-acordo-com-a-russia/"
+  },
+  {
+   "s": "olhar",
+   "c": "Tecnologia",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Resultado da Mega-Sena de hoje: veja números e ganhadores do concurso 3072 (terça, 20/10)",
+   "x": "O sorteio de R$ 187,6 milhões do concurso 3072 é realizado em São Paulo. Além dos seis números premiados, confira como resgatar seu prêmio! O post Resultado da Mega-Sena de hoje: veja números e ganhadores do concurso 3072 (terça…",
+   "u": "https://olhardigital.com.br/2026/10/20/internet-e-redes-sociais/resultado-da-mega-sena-de-hoje-veja-numeros-e-ganhadores-do-concurso-3072-terca-20-10/"
+  },
+  {
+   "s": "olhar",
+   "c": "Tecnologia",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Resultado da Quina de hoje: veja números e ganhadores do concurso 7147 (terça, 20/10)",
+   "x": "O sorteio de R$ 52,3 milhões do concurso 7147 é realizado em São Paulo. Além dos cinco números premiados, confira como resgatar seu prêmio O post Resultado da Quina de hoje: veja números e ganhadores do concurso 7147 (terça…",
+   "u": "https://olhardigital.com.br/2026/10/20/internet-e-redes-sociais/resultado-da-quina-de-hoje-veja-numeros-e-ganhadores-do-concurso-7147-terca-20-10/"
+  },
+  {
+   "s": "olhar",
+   "c": "Tecnologia",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Resultado da Lotofácil de hoje: veja números e ganhadores do concurso 3809 (terça, 20/10)",
+   "x": "O sorteio do concurso 3809 da Lotofácil acontece na noite desta terça-feira (20), às 21h. O prêmio está estimado em R$ 2 milhões O post Resultado da Lotofácil de hoje: veja números e ganhadores do concurso 3809 (terça, 20/10)…",
+   "u": "https://olhardigital.com.br/2026/10/20/internet-e-redes-sociais/resultado-da-lotofacil-de-hoje-veja-numeros-e-ganhadores-do-concurso-3809-terca-20-10/"
+  },
+  {
+   "s": "olhar",
+   "c": "Tecnologia",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Elon Musk estuda fusão entre Tesla e SpaceX; negócio pode criar gigante de R$ 19,4 trilhões",
+   "x": "Empresas criaram comitês independentes para avaliar a operação, que ainda depende de acordo e da aprovação dos acionistas O post Elon Musk estuda fusão entre Tesla e SpaceX; negócio pode criar gigante de R$ 19,4 trilhões apareceu…",
+   "u": "https://olhardigital.com.br/2026/10/20/pro/elon-musk-estuda-fusao-entre-tesla-e-spacex-negocio-pode-criar-gigante-de-r-19-4-trilhoes/"
+  },
+  {
+   "s": "carta",
+   "c": "Esportes",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Pistons constroem virada e vencem Celtics em abertura da nova temporada da NBA",
+   "x": "Vitória do Pistons passou por coletividade liderada por Cunningham e sequência de pontos no último período; Paul George atingiu marca de 3 pontos importante",
+   "u": "https://www.cartacapital.com.br/esporte/pistons-constroem-virada-e-vencem-celtics-em-abertura-da-nova-temporada-da-nba/"
   },
   {
    "s": "bdf",
@@ -978,7 +1200,7 @@
    "s": "terra",
    "c": "Brasil",
    "d": "2026-10-20",
-   "r": 5,
+   "r": 4,
    "t": "Trabalhadora morre atingida por big bag de aveia em Cruz Alta",
    "x": "Veja a matéria completa em Terra Notícias.",
    "u": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQeFdQQ3piYXZoYXhncEVqLXZidldUeUVGRW1IUkl4TFl5SkJGOWtkbkhwZ1g4REZRZ1l6VUhIWFB1bDZUREk4ZmFub09ycnJuRWhoamFWaWhYblVKcFVQcHRiekJOUnY5Q1g4OElTRFBIZnRBb1paQTVBOGQ5OFplb0Jvcm1sNGE5WU9FMmlhZkN2NW9DbFRaZ241VmYxT2pCYS1FaFdEMThrWEVrTnY5S2NjeXhqdDNGT0huZVFXRUhKb0N4TGljOW5DLUhQYW1nVkw4bXBNUnlhTkVadV9mZmRR?oc=5"
@@ -1005,10 +1227,19 @@
    "s": "carta",
    "c": "Brasil",
    "d": "2026-10-20",
-   "r": 5,
+   "r": 4,
    "t": "Flavio Bolsonaro apaga publicações contra o Bolsa Família",
    "x": "As publicações antigas contrastam com o discurso adotado pelo senador nos últimos anos",
    "u": "https://www.cartacapital.com.br/politica/flavio-bolsonaro-apaga-publicacoes-contra-o-bolsa-familia/"
+  },
+  {
+   "s": "carta",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Presidente do Vasco é internado com celulite facial antes de semifinal da Sul-Americana",
+   "x": "Pedrinho é internado com celulite facial e não acompanhará no Maracanã o duelo contra o Boca Juniors pela Sul-Americana; saiba mais",
+   "u": "https://www.cartacapital.com.br/esporte/presidente-do-vasco-e-internado-com-celulite-facial-antes-de-semifinal-da-sul-americana/"
   },
   {
    "s": "uoleco",
@@ -1074,10 +1305,46 @@
    "u": "https://iclnoticias.com.br/lula-anuncia-perdao-meis-congresso/"
   },
   {
+   "s": "olhar",
+   "c": "Tecnologia",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Anvisa aprova novo remédio contra câncer de pulmão; Brasil é o 2º país a liberar terapia",
+   "x": "Emrelis apresentou resposta objetiva em 34,6% dos pacientes com alta expressão da proteína c-Met em estudo clínico O post Anvisa aprova novo remédio contra câncer de pulmão; Brasil é o 2º país a liberar terapia apareceu primeiro…",
+   "u": "https://olhardigital.com.br/2026/10/20/medicina-e-saude/anvisa-aprova-novo-remedio-contra-cancer-de-pulmao-brasil-e-o-2-pais-a-liberar-terapia/"
+  },
+  {
+   "s": "espn",
+   "c": "Esportes",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Vasco x Boca Juniors AO VIVO: placar, lances e onde assistir ao jogo da Sul-Americana",
+   "x": "Veja a matéria completa em ESPN Flamengo.",
+   "u": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOOU9McWViTGdNZ2xyLUE0Vmw5dWpfcnlHLThIaEY5TS12STNsZUc3OW9wR09fbkIwZm5ENFlMRTN2Qjl6YTJZYlM4cy1FTnR0WVJ6ZjFpX3d1QjEzTWxWTnoxM1p3cmxGYWY0MzhPcmdPLVZOa0trS3Z6djNXSXE2YWhXTzJUNGFTS2c1SktfOXJzTUNMcU1kdERZZXNBZG1UN2pMLVVoaWpBSGIwYmxqZElGa2NoNEpQRTVmN0ZZMU81dk1CeklwUDlnaDNrQ19FcWdLMGlXZENMZw?oc=5"
+  },
+  {
+   "s": "usp",
+   "c": "Ciência",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Pesquisas medem o presente, modelos tentam prever o futuro, mas a incerteza sempre existe",
+   "x": "Por Kleber Carrilho , pesquisador na Universidade de Helsinque e cientista social pela USP",
+   "u": "https://jornal.usp.br/articulistas/kleber-carrilho/pesquisas-medem-o-presente-modelos-tentam-prever-o-futuro-mas-a-incerteza-sempre-existe/"
+  },
+  {
+   "s": "oeco",
+   "c": "Ciência",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Monitoramento do desmatamento no Brasil estará sob risco com Flávio Bolsonaro",
+   "x": "Atacado em várias frentes durante presidência de Jair Messias, INPE não merece outra gestão bolsonarista",
+   "u": "https://oeco.org.br/analises/monitoramento-do-desmatamento-no-brasil-estara-sob-risco-com-flavio-bolsonaro/"
+  },
+  {
    "s": "uoleco",
    "c": "Economia",
    "d": "2026-10-20",
-   "r": 4,
+   "r": 3,
    "t": "Afluente T lucra R$ 16 milhões no terceiro trimestre, alta de 9%",
    "x": "Veja a matéria completa em UOL Economia.",
    "u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOM05GSGJqdE1qeWoyajZDSzZERTROSzlWSTl1QklZekJHZ3E4Rkx3MmNjdGFMN3drN3ZMZ2J2UVd0M3dMQnkxLWE0ekZYSEhNRFp3Vk5HSUttRnl3OEtBeFFnb0ZyaVEzX1RjNXdMd18zdVlXVHpRY05rRDlJYW40T2UzOFVnVlRjX015eExQNmlIOWJhbUhVUW9wS3d6XzlORHJKN1BHUk5rc1FhbzlWcUVoNUo3NUNjcVZNWFZn?oc=5"
@@ -1092,22 +1359,22 @@
    "u": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNTWtjbUUtQkctQzlJZTk3RDV5N2hMRzdOSG45NTNzZGI2NkRHVFBvdDVtcW5mWUJsVFRwREU1T05BcmFOZ01WbVJ4SHhKTWttLWtLQVJIaXFrNWhGcGQwVDJfUlM2QVJLWXlCREJnd1VFQ1E4NkNaaTJ5M3M0TVptakVIdnZDZG92RVdLcUU2OVB3TWJzWjh3a1p5dFo4akZ4QkM5VWNjOGZrNTE2NGNsdzBSMXNwVXNOWl85bFFla2pjckRNb3pOXzJTU1lNdEpkVEtha2Frdk9QaFJKY2FqRktTY1Q?oc=5"
   },
   {
+   "s": "super",
+   "c": "Ciência",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "A Doença de Newcastle, detectada no Brasil, traz risco para os humanos?",
+   "x": "Conheça a doença viral que reapareceu entre perus de granjas de Santa Catarina cuja mortalidade pode chegar a 100%.",
+   "u": "https://super.abril.com.br/saude/a-doenca-de-newcastle-detectada-no-brasil-traz-risco-para-os-humanos/"
+  },
+  {
    "s": "terra",
    "c": "Brasil",
    "d": "2026-10-20",
-   "r": 4,
+   "r": 3,
    "t": "Quaest divulga nova pesquisa presidencial nesta quarta-feira; saiba o horário",
    "x": "Veja a matéria completa em Terra Notícias.",
    "u": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNbkk2WUkzSVdDSkx0VU5wek1QWnRWb1R4TzA0emY4cnpTenc4VEd0WFhDelNmNTJ5dUhkMWF5ZUx4ckFWQ3NkUTdOZlE4WjdvdWVpYW5kbkFfYmhNTERkMkpEazlQWUd0UTZhRmk1MXN0Vk5IQUgzNmMtZTAwWDVSbnlRbFVLZmE4d3hCYllOSmVtS3d1SjhONEZ0QTVmczF0bzMwZ0pzb2drYklIc2JWUG01RG5tMkRpVE9SMjE1WUtfQnN2OVRHUFI2Q0ozOXVZQXhreWNrbThzaFpLQmp3ZXhVNXNzOGQ3UUE3OUVBcDJCaXMzSlBsN29NUXNWVUtEN0hTU0N3?oc=5"
-  },
-  {
-   "s": "uoleco",
-   "c": "Economia",
-   "d": "2026-10-20",
-   "r": 3,
-   "t": "América Móvil tem lucro líquido de 24,28 bilhões de pesos mexicanos no 3º trimestre de 2026",
-   "x": "Veja a matéria completa em UOL Economia.",
-   "u": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQVzNhWEZ1Nk9ETXdoZmFzbTRiNXNDekg0ODJhQU9ZU3VXbmtYZ2ZhQXBpYXJySTRHYTBVWUJhRWZPOEhSUmtxMlF0TWR2T2hYVU9Mb0R5OXA5enZnOVFfLVpuT0tEWmN0eDhUbzZrMzlkcmlJeFFiZWdBWWd0N3pLUGJyQVcxNGFMV0Zyd2NYY0hKbDdROEQ2VEpuTm1yWUJ2VWlxQ2ZFUVk0UVRydmNRbDBwQldLMXRzQUxTRlJNWGVxaXV2WlZCQUsta21OanBwODdhV2JxaURZczBxZEczUk5BNExpTFZUV3lDOFZUN0NWWTRB?oc=5"
   },
   {
    "s": "bdf",
@@ -1122,19 +1389,10 @@
    "s": "terra",
    "c": "Brasil",
    "d": "2026-10-20",
-   "r": 4,
+   "r": 3,
    "t": "Mãe de menino Oliver reecontra filho mais velho pela primeira vez após crime que chocou o estado",
    "x": "Veja a matéria completa em Terra Notícias.",
    "u": "https://news.google.com/rss/articles/CBMimwJBVV95cUxONlQ5UnJ5aGVXdG9HX05jSnJOYXM0c0xva1g1WmRKRThTN09iVXNsT0wyZi1wY0g3NkpESW1xdFhlMHJmUWhGTmVnUHFNZVpjYXk5ci00X3pnbDVST2lpQTZWdjlUZVJGNDZ1S3VCTmxWbVlnbnZ2cG5zVXBsOHZuQ0JrVTJoTGozLVJIWm9ob19mOWNheHA3ZUpxV01tX3NMNUdhWjk0dlBiMVlfdE9DSnZSN3NoR0VZaDZfZGh1dEYxbXlFUUVORXVnakVBelNnbjgwYnF0cERXLU01cjVKbVlKY05tamNfdHhYdG16bUNLSWRhN19GMER2eEN5SlB4ZTNScDFSWTdGVHByckpfVkR4VmVicVRSWGg0?oc=5"
-  },
-  {
-   "s": "terra",
-   "c": "Mundo",
-   "d": "2026-10-20",
-   "r": 4,
-   "t": "COLUNA: RODRIGO LIMA - CHINA SEM FILTRO MISSÃO CUMPRIDA: ENCERRAMENTO EM GUANGZHOU",
-   "x": "Veja a matéria completa em Terra Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQZkg4WFFqa3dCWHdabDI0b0VOTEVPSVZPNjdjOW84Q1F2YU9Ja1lLQndReEZNWDEya2R4TTVVbmhpNmZ5ZFA0akxWRk9XWkFXWVJ1ajZwekhYS2M4R21LSlFtRldWSmxZV1RKb0hrNXdFNTFmV0lFbzhBUEc3WEtMcjlnQkFfcmhEcU5ZM29udW5MR1RZN09VTmVFakhwQVY0aFFpVGk2QW5QbTZISDVlLXhuSjg5NnB3MU5QYUdHYTg1RXlrdEZEZ2xXNEVIS3JUUzVXVTFLWXY1b2p0S0pIeFZZRVdTclR5Tk9WbUx6cG1IQnpXTV9IYQ?oc=5"
   },
   {
    "s": "terrafut",
@@ -1191,6 +1449,15 @@
    "u": "https://www.cartacapital.com.br/mundo/milhares-vao-as-ruas-em-portugal-apos-remocao-de-acampamentos-por-moradia/"
   },
   {
+   "s": "oeco",
+   "c": "Ciência",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Organizações indígenas alertam para riscos socioambientais no segundo turno das eleições",
+   "x": "Carta aberta critica o legado do governo Bolsonaro e questiona propostas que podem afetar a proteção ambiental e os direitos dos povos indígenas",
+   "u": "https://oeco.org.br/salada-verde/organizacoes-indigenas-alertam-para-riscos-socioambientais-no-segundo-turno-das-eleicoes/"
+  },
+  {
    "s": "icl",
    "c": "Brasil",
    "d": "2026-10-20",
@@ -1209,15 +1476,6 @@
    "u": "https://iclnoticias.com.br/equipe-de-marketing-busca-resgatar-o-lula-do-velho-testamento-para-debate-final/"
   },
   {
-   "s": "espn",
-   "c": "Esportes",
-   "d": "2026-10-20",
-   "r": 4,
-   "t": "Vasco x Boca Juniors AO VIVO: placar, lances e onde assistir ao jogo da Sul-Americana",
-   "x": "Veja a matéria completa em ESPN Flamengo.",
-   "u": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOOU9McWViTGdNZ2xyLUE0Vmw5dWpfcnlHLThIaEY5TS12STNsZUc3OW9wR09fbkIwZm5ENFlMRTN2Qjl6YTJZYlM4cy1FTnR0WVJ6ZjFpX3d1QjEzTWxWTnoxM1p3cmxGYWY0MzhPcmdPLVZOa0trS3Z6djNXSXE2YWhXTzJUNGFTS2c1SktfOXJzTUNMcU1kdERZZXNBZG1UN2pMLVVoaWpBSGIwYmxqZElGa2NoNEpQRTVmN0ZZMU81dk1CeklwUDlnaDNrQ19FcWdLMGlXZENMZw?oc=5"
-  },
-  {
    "s": "bbc",
    "c": "Brasil",
    "d": "2026-10-20",
@@ -1230,7 +1488,7 @@
    "s": "carta",
    "c": "Brasil",
    "d": "2026-10-20",
-   "r": 4,
+   "r": 3,
    "t": "O despertar da juventude renova as esperanças nas eleições deste ano",
    "x": "Temos menos de uma semana de luta pela frente, mas já é possível observar o crescimento das mobilizações populares, puxadas sobretudo por estudantes",
    "u": "https://www.cartacapital.com.br/opiniao/o-despertar-da-juventude-renova-as-esperancas-nas-eleicoes-deste-ano/"
@@ -1266,7 +1524,7 @@
    "s": "carta",
    "c": "Brasil",
    "d": "2026-10-20",
-   "r": 4,
+   "r": 3,
    "t": "Marçal compara Renan Santos a Hitler e menospreza eleitores do ex-candidato",
    "x": "As declarações ocorreram em podcast após Renan optar pela neutralidade no 2º turno; o ex-presidenciável rebateu o coach e ironizou a campanha de Flávio",
    "u": "https://www.cartacapital.com.br/politica/marcal-compara-renan-santos-a-hitler-e-menospreza-eleitores-do-ex-candidato/"
@@ -1299,40 +1557,13 @@
    "u": "https://iclnoticias.com.br/meta-recusa-pedido-canal-protecao-a-jornalistas/"
   },
   {
-   "s": "carta",
-   "c": "Brasil",
+   "s": "galileu",
+   "c": "Ciência",
    "d": "2026-10-20",
-   "r": 4,
-   "t": "Salada cremosa de frango com iogurte: aprenda essa receita proteica e fácil para o jantar",
-   "x": "Quando bate a vontade de um jantar leve, mas que ainda assim sustente, a salada de frango é sempre uma boa saída. Nesta versão, a cremosidade vem do iogurte natural, que substitui a maionese e deixa o prato mais leve e rico em…",
-   "u": "https://www.cartacapital.com.br/receitas/salada-cremosa-de-frango-com-iogurte-aprenda-essa-receita-proteica-e-facil-para-o-jantar/"
-  },
-  {
-   "s": "carta",
-   "c": "Brasil",
-   "d": "2026-10-20",
-   "r": 4,
-   "t": "Automedicação: 5 erros comuns que podem colocar a saúde em risco",
-   "x": "Tomar um analgésico para aliviar uma dor, repetir um medicamento que funcionou em outra ocasião ou seguir a recomendação de um familiar são atitudes comuns na rotina de muitas pessoas. Embora pareçam soluções simples para…",
-   "u": "https://www.cartacapital.com.br/bem-estar/automedicacao-5-erros-comuns-que-podem-colocar-a-saude-em-risco/"
-  },
-  {
-   "s": "carta",
-   "c": "Brasil",
-   "d": "2026-10-20",
-   "r": 3,
-   "t": "Hibisco faz bem para quê? Veja os benefícios e os cuidados ao consumir a planta",
-   "x": "O hibisco é uma planta da família Malvaceae, originária de regiões tropicais da África e atualmente cultivada em diversas partes do mundo, incluindo o Brasil. Conhecida por suas estruturas florais de coloração avermelhada, a…",
-   "u": "https://www.cartacapital.com.br/bem-estar/hibisco-faz-bem-para-que-veja-os-beneficios-e-os-cuidados-ao-consumir-a-planta/"
-  },
-  {
-   "s": "carta",
-   "c": "Brasil",
-   "d": "2026-10-20",
-   "r": 3,
-   "t": "Da infância à maturidade: 13 cuidados com a saúde que você não deveria deixar para depois",
-   "x": "Cuidar da saúde vai além de procurar atendimento médico quando surgem sintomas. Da infância à maturidade, pequenas mudanças no organismo podem indicar problemas que precisam de acompanhamento. Para auxiliar na prevenção, médicos…",
-   "u": "https://www.cartacapital.com.br/bem-estar/da-infancia-a-maturidade-13-cuidados-com-a-saude-que-voce-nao-deveria-deixar-para-depois/"
+   "r": 5,
+   "t": "Estudantes criam robô que resolve cubo mágico e quebram recorde; veja vídeo",
+   "x": "Veja a matéria completa em Galileu.",
+   "u": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPOXJRVnJCd183T05PdEM3LXJKMWxqVnlvenAweVRkaEIwOHhuTHZVd3A1N0dzbGpCczVaOC05V3VaZkhfZGhwaGw5YkJDSUFBMzVwMFotdU5xaVVhOTBLaUlzQ25Xa243YjJRTy0zUm4tY18wbXFqWVQ4blZlSDVSUWpaSVluMjIwdDZCNkZBZldGQ0hUbzFFTVUxZWhteGJvNDFsUDJ0WjdqZlV5VTV2WGpKY0hUck40YlUzcFUzWFpxN0diSVlGWmcteFd5c0FuMUFwVW9JVdIB5gFBVV95cUxPVVVNX3dDQzdtNm9YOWRqSUxkeUtBWVd4ZFpXb01sNUhkNGt2VHh6Q0dEckVXa21QODNNSG5CdDE5OFRPZWVzSlJOei1Pd0ZKX0xVWHg4WE1na1RFNzNRLTdfSHBWWHNfS2MydzZWWkFzd2xsSnJMd05iRjhuckVLbTh5blJvczBEVEVUaVc0TWtEMEJXRzFlUHhHWmJTOEdacTZjQU45UDVtcDdORkNjemk2eHRjYW0taTR0VHE2ZlNmUGtvUTJFXzdXSXB0ajZHTno0Rjd0aG9DRFRzZnlyY0xnajRvQQ?oc=5"
   },
   {
    "s": "espn",
@@ -1344,31 +1575,22 @@
    "u": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQcGlnN3haeHEwMzJkMXA4bm02S2R5TjZqVzhuNzF4aDM1VG1LbVhBYTdWaEtpTm5UeWdnOTRsMTdSZEZPbU8zMk90VXkta2d2SjdFVjZtb05zZGZtNjh0N2FzNXoxWjA2aXpVNDRDUDE2b0ZOR3dFZzFRdWdOS2s3TG5MaDJkaGdYNVozcnBwT3Q2bTE0VWh6bFhSWDVyVHhTWE8zSWNIT2tPQnIyXzh4Q3NfV080eklFUTV2Q0JQdjNRbHZnZWhyWF9sZUZqQWl4UlAxaXpQUHdxWUYyakFYdjNQTDMxRFFnOE13bHhhZWlhZnp2TktqRC0yYmQ?oc=5"
   },
   {
-   "s": "terra",
-   "c": "Brasil",
+   "s": "super",
+   "c": "Ciência",
    "d": "2026-10-20",
-   "r": 3,
-   "t": "99Food chega a Belém e amplia opções de delivery",
-   "x": "Veja a matéria completa em Terra Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZFB6bWl0RFltUmpIYnFENmVTQ2NaOVVSRG9IT1dMazVtb3ZvczhCdFpUbGtQUlZWbDNvY21ZRnd0RTlncnpWZ0gyQTUzN2pNU3VLNjl5ZWluWk5qSERNV28xbUxpQzZlYTRnZnh3aUxrTHpvOG1WLUtteWt4RkZxV2U1bjFvUDFLUE9IelFhbmR3cllSMURtNURuR1NqS2taOFozNlVKVmxyejc2Wmk5RUdLU3pOOURDQjc1Qi1ZN0FqNVlzcTQ4?oc=5"
+   "r": 5,
+   "t": "O que é um texugo-do-mel?",
+   "x": "Pequenininho, mas valentão: conheça o animal que tem sido comparado ao presidente Lula (PT) nas redes sociais..",
+   "u": "https://super.abril.com.br/ciencia/o-que-e-um-texugo-do-mel/"
   },
   {
-   "s": "espn",
+   "s": "espnb",
    "c": "Esportes",
    "d": "2026-10-20",
    "r": 4,
    "t": "PSG acaba com invencibilidade do Barcelona em jogaço de seis gols e segue 100% na liderança da Champions",
-   "x": "Veja a matéria completa em ESPN Flamengo.",
+   "x": "Veja a matéria completa em ESPN Brasil.",
    "u": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQN2ViQlNNZjRFOElVQkdkZDh6NlNUSEJIUTZxVkxsbHl3WG8wYndpZW9uVFBZQTViaWVValc1cC16Q3I3N2thNVUtSmJnOUNTbTBfV1M0RHJpT3hQaW1zZHRFbHVtbWxFQ1BVNUJ4NURtcTJmRXZoRUpvOVJNZkYxLXhjNE5Hd09YUVRIaW4tVWk1bUlwbzQwXzFSamQtV21oTjRqVEJXV0dIQ3BHMnQ1eWQ1S1J0MFlMWGZrVDgtZU16N3duTlloSnR6aERZY2NMS0JENzhSNTV3aFZncTlNenJFQ19McDA?oc=5"
-  },
-  {
-   "s": "terra",
-   "c": "Brasil",
-   "d": "2026-10-20",
-   "r": 3,
-   "t": "Manifestantes pelo direito à moradia em Portugal voltam às praças e prometem continuar pressão",
-   "x": "Veja a matéria completa em Terra Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPb0xKS2dxU2xqR0c0T09YQjJ1RjBXemV2YzR4eVRBc0tIWEVxVEEzMWRwdU9jOEtQTU5nQnZuOHZZbkMtZnZZVzlZUmdPTURXUUp6VGNNVFk2ZVI5ZDRoX0Y2TmhxS2k5VkxsVUNxVlRSZHl4ZnhqcVpsVGJfX3JSN3k1ZURQMnpYemkzOVY0MUFXcjd6NldYWVNkYXltNXBiUFZuVmZaWnlhbnVDY0pQZm84NmdVa2lZeTIzTGVNMFg2R00wREoyTHZhNm1mRWpXUktuM0FCYkxlYjJ3TV9wQWpLNHRCdGQzT1FnLVY2R0dyVnFuOTZyTXVuWUxlVzkyTko0cklyR2RzZ1hp?oc=5"
   },
   {
    "s": "espnb",
@@ -1389,10 +1611,19 @@
    "u": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNd2ZIU0hLeVB6dnZyUXc4WHJvMHVKd2F3WTVULTdKSmY0M3prYjdsRlpBVlZaeVlUSjd5UDVCYXhNU3p4MnQzOGctdFhITHZ1clVDT3FONDdBQldJNGFMVUJpLXVTenpEUEd1MjMyNHlUbXR4bWc0RU1USW40djY3ZU5FZ1I5bmZLS29JZG1pOHE4TlI4Umt0RFVubm01NERnZkhteTBVV1g0ckVCRE4zM0ZUZTJsV1J2TnlaMjVMbVIwejY0VUhENEh2UDYtdU9vMGczWXplSmU3NjNsak8yMUxsRHhIaUlOVEVTZWtwbUpYT0ZuWUdZcVE1ZFpHNklObXdKM3Y0NlJ5dnF5MHk4NGhB?oc=5"
   },
   {
+   "s": "galileu",
+   "c": "Ciência",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Polos da Terra se deslocaram 4 vezes nos últimos 320 milhões de anos",
+   "x": "Veja a matéria completa em Galileu.",
+   "u": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRkJyVkpIVDNHSWgyZjFkdlBmakJJMmphdXJkclRaYUdtMlQxYjJJWG1XTXB0aV9qT3dQdndyZGd1VjFxVHZzZkZ6bFZNRlhIeDBNdnA5XzJ3UEdsTzk5U2xrdzhvUURwdnVudVc5dER1MGlXVkZOQW05TmozVElvUVYxXzhzYXVKNnE1SFZ1VUlqTE1FaGk3VW9mcUVzYjFfMFktSi1EbGNDUVJKLUZMSDFvMVhYUkxsVDBmaC1XMGVZWERsWDltX0FpNNIB2gFBVV95cUxObUNZUHQ4OUU4dXRzNGduMFNOdjZPQnpqb0lwb1lUOVQyRlB4T0JHeThnd211SmZvME5qTHFGMlBWRVRVck5ldnp5WmhadW1maHNnX1VLM2RIS2xNd2N2SjRsNGxYYnVLS3FOY3QycVBjTUZHN09SalBhOVYxbjVzYllhS2Z4QmFwSlEzQzlhbG0xUTlQOHBVcXdKc3pvMU9ibUNFdWVEMzdzd3FpYlVJY2w0UUZDSGRJQ2UwRXNuTGctUTJSMXZieDc4MG1lNnNFOW11ODA4UFZaQQ?oc=5"
+  },
+  {
    "s": "terrafut",
    "c": "Esportes",
    "d": "2026-10-20",
-   "r": 4,
+   "r": 3,
    "t": "PSG derrota Barcelona e mantém os 100% da Champions League; Liverpool vira e também lidera",
    "x": "Veja a matéria completa em Terra Futebol.",
    "u": "https://news.google.com/rss/articles/CBMivwJBVV95cUxPMWhpRm15aGZXRTVIbm94TEtfNjdSa2dWa2tGS2NVTDZaYlhLcXVrWGdtbU1xYTBwX3JDYkxKVERYSEFRMktCVjdrY3hoUGluTkhBcnB5d0NiWXhndEtKb3hJb3Y2Yk9STWJId1FlRGZ4YWFyWDRyb3ZfZG5BUHo1YWdZSTNfTDIwa0dzQTVuQms1R1dtS25hWXVzUE1Nd0l1MUZUZlRSMVNjQUtYbjY4UzV4WmVkU1FKeE1yaUtEcGdQN2xILVhxRTB0TjVyQmI5VDJQOU5OVzFHNWlmV0VZLXJ4b05COVBPd2Q3cjJETUFHUDlnNTVFVy1zOTU1ZmpST3BOM2xOXzNQMUJxMmhTTG5SYl9qMTVlN09KUTJuVDhQcTB0SnhJdXRWWFd4T0hpbmh6dHhmeFF2YUtFeDhF?oc=5"
@@ -1405,6 +1636,15 @@
    "t": "Mensagens de Vorcaro mostram comparação entre banqueiro e Jeffrey Epstein: 'Jeff tá amador demais'",
    "x": "Conversas extraídas pela PF também contêm propostas de investimento em agências de modelos; polícia investiga suspeitas de exploração sexual envolvendo mulheres.",
    "u": "https://www.bbc.com/portuguese/articles/ck4g18721rv2o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "s": "olhar",
+   "c": "Tecnologia",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Casa mais limpa sem esforço: veja uma seleção de robôs aspiradores em promoção na Amazon",
+   "x": "Manter a casa limpa ficou muito mais fácil com os robôs aspiradores — e agora ficou ainda melhor, porque reunimos três ótimas opções em oferta na Amazon. Seja para quem busca praticidade no dia a dia ou quer estrear nesse tipo de…",
+   "u": "https://olhardigital.com.br/2026/10/20/reviews/casa-mais-limpa-sem-esforco-veja-uma-selecao-de-robos-aspiradores-em-promocao-na-amazon-2/"
   },
   {
    "s": "op",
@@ -1425,15 +1665,6 @@
    "u": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOY29vWUV0Mm5sMzlPNnBGb2Vxem1kYUtJNlc5SHEyUGJWYThsaWpZemtISjh5VjVIaEM1WkRqRkNlMzRYYXotR0NvcWg5eEJtcFQzM3F1aEtobVFNX19vdTVHX3A3UkdNOGJDbXJZZV9DUzdpNXM4eHozSGc2a1E2bXBYMHU1RDAtUnNlcERnUkkydHpZdmhqSUZFS0htMFlOX0ozOHpCLWd3R1RmdjBTWmFhekJCWUxjRG5jdmgzZGx0ZDk0aUN6eFFTLTVJNUNrOFNMZ1RkcWtVSGNsb3UzaFQ5OTJyM2JmMUptaGtXUGlGLTNuNldERnA4enhmazVCT1VmNHhhaG1ZZ1NwMXA3dEdR?oc=5"
   },
   {
-   "s": "terrafut",
-   "c": "Esportes",
-   "d": "2026-10-20",
-   "r": 3,
-   "t": "Cristiano Ronaldo ganha mais que o dobro de Messi",
-   "x": "Veja a matéria completa em Terra Futebol.",
-   "u": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRUV4TVN6dmY4Sy1iNndUbVVzUmhEamVYWmJJRlBnNFBKQjExRC1uWGoyUTJEWXpCay1KV1paclV0MHc2NlV5aG01R0dvS1RXMW16dWYxRWhtWnpENl9mN2hINUJJOVR2OFA5UnpTel9HVWtBeUg5TTVZRlJtQWktbVJLVUtnLVQ0WUJ6YVpYN1JrUGQ5OWtPVU96cUJBem15RVhlTjJreWFqMXV2VmMybG9lY0s3Q1BFcUxzT2xUM3FsNjV3U2d3QV9IelJaNkViN1Rv?oc=5"
-  },
-  {
    "s": "gefla",
    "c": "Esportes",
    "d": "2026-10-20",
@@ -1441,6 +1672,33 @@
    "t": "Técnico do Estudiantes não joga a toalha por reforço contra Flamengo: \"Já temos o plano montado\"",
    "x": "Flamengo pega o Estudiantes por vaga na final da Libertadores O Estudiantes não pôde escalar Marcos Rojo, sua contratação de emergência para o jogo de ida da semifinal da Libertadores, no 0 a 0 com o Flamengo na Argentina. Mas…",
    "u": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/20/tecnico-do-estudiantes-nao-joga-a-toalha-por-reforco-contra-flamengo-ja-temos-o-plano-montado.ghtml"
+  },
+  {
+   "s": "usp",
+   "c": "Ciência",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Crianças, natureza e clima: a proteção das presentes e futuras gerações ganha novos contornos no Brasil",
+   "x": "Por Silmara Veiga Montemor, membro da Comissão Especial do Clima e do Meio Ambiente da OAB-SP, e Maria da Penha Vasconcellos, professora da Faculdade de Saúde Pública e do Instituto de Estudos Avançados, ambos da USP",
+   "u": "https://jornal.usp.br/artigos/criancas-natureza-e-clima-a-protecao-das-presentes-e-futuras-geracoes-ganha-novos-contornos-no-brasil/"
+  },
+  {
+   "s": "super",
+   "c": "Ciência",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Conheça as cinco camadas da atmosfera terrestre e suas funções",
+   "x": "Entenda o que define cada camada que divide o nosso planeta do resto do Universo.",
+   "u": "https://super.abril.com.br/ciencia/conheca-as-cinco-camadas-da-atmosfera-terrestre-e-suas-funcoes/"
+  },
+  {
+   "s": "olhar",
+   "c": "Tecnologia",
+   "d": "2026-10-20",
+   "r": 3,
+   "t": "Anthropic revela prejuízo de R$ 435,8 bilhões e custos bilionários com IA",
+   "x": "Prospecto preliminar revela receita de R$ 88 bilhões no primeiro semestre de 2026, compromissos de computação superiores a R$ 3,24 trilhões e riscos relacionados à segurança da IA O post Anthropic revela prejuízo de R$ 435,8…",
+   "u": "https://olhardigital.com.br/2026/10/20/pro/anthropic-revela-prejuizo-de-r-435-8-bilhoes-e-custos-bilionarios-com-ia/"
   },
   {
    "s": "op",
@@ -1452,13 +1710,31 @@
    "u": "https://outraspalavras.net/descolonizacoes/cooperacao-verde-uma-nova-agenda-para-o-sul-global/"
   },
   {
+   "s": "olhar",
+   "c": "Tecnologia",
+   "d": "2026-10-20",
+   "r": 3,
+   "t": "Samsung Galaxy Fit3 em promoção: smartwatch elegante e funcional por um bom preço",
+   "x": "Se você está de olho em um smartwatch que una design moderno e recursos práticos do dia a dia, esta é uma boa hora para agir. Separamos duas ofertas do Samsung Galaxy Fit3 na Amazon — disponível nas versões Grafite e Prata — para…",
+   "u": "https://olhardigital.com.br/2026/10/20/reviews/samsung-galaxy-fit3-em-promocao-smartwatch-elegante-e-funcional-por-um-bom-preco/"
+  },
+  {
    "s": "espnb",
    "c": "Esportes",
    "d": "2026-10-20",
-   "r": 4,
+   "r": 3,
    "t": "KJ Lacey",
    "x": "Veja a matéria completa em ESPN Brasil.",
    "u": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOX2piWU56RzRNR1J1VG9KcDhiNzlGQXNCbllLaExDVWNFMjZ4dTg1YlQ2VTY1WloxMC1PTVFIOUlGeC1TUEEzeS1GZ2lOandXVkFZSUptMjRoTHFtcnFCNHNIM2FqSzJKRzhFUVU5aWFNMnBrbXRzRFlWbW8teVNDMy10aG12b3BOVW9jT0F3?oc=5"
+  },
+  {
+   "s": "usp",
+   "c": "Ciência",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Encontro resgata e celebra a história do campus da USP em Pirassununga",
+   "x": "Promovido pela Prefeitura do Campus USP Fernando Costa, o evento homenageia o político e engenheiro agrônomo Fernando Costa e discute o futuro do campus",
+   "u": "https://jornal.usp.br/institucional/encontro-discute-papel-de-fernando-costa-na-criacao-do-campus-de-pirassununga/"
   },
   {
    "s": "planeta",
@@ -1479,6 +1755,15 @@
    "u": "https://www.bbc.com/portuguese/articles/ckvg74ve4371o?at_medium=RSS&at_campaign=rss"
   },
   {
+   "s": "galileu",
+   "c": "Ciência",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Labradora recebe prêmio de Animal do Ano por farejar 'vômito do mar'; entenda",
+   "x": "Veja a matéria completa em Galileu.",
+   "u": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOLXJrVTFfMVctWnpXUThqREx0cFVqbjZIY0dTMlNPYUo0dnNtV1pTZGxUZVhoTm4xSC12WjNWUFQ3YXJfRFpQTXJpdkRRMzViblFpZlU0Y1BMLUo4eEExVG9hdGdIVlhPbExXRmdieFByQ3cyOEdqTVpPYXNzM2JtbjRfdTByam15cExDUEFiWkRqeXFTZ185VDlQV0V5S2dTb2RHVWJ1NHBkMk1NOTFjenkyREJubDdrNHc4d2NldTNUR2I5a1lrekRva29QQk01UlNtd2R6WFVJM0M5eWNZaUwtSnAzUdIB9AFBVV95cUxPR1ZtMVpoSl9xREFiQ256UC13Rk9fcU4zRUw3OVRQTW83Ym5zeWUzVGtfb1VTYVRUSmo4UnZFdGNHSlJ0NDR4NVhiMEZBalZHTmJZUUNMdFdIbG9vWFBPbHU1aEhlTlFBZ25DRW5EdEx5dnE3eVpyaWNUMWdZcFljMk9UMVJrcE9HYXpsbTU2d2pfMk8wV2dxenNSa1VNXzE3ZGFWUWtzR3VheVZuZHZsaVlVQVNnbDVJNzNGMDB3MDRUclF2Q0Jsc1BQbnFkYW5rNm9iMnJtYWxNZjFpNk5WQlJzbm5hV3RuSWRjbXg1WkQxcHR2?oc=5"
+  },
+  {
    "s": "intercept",
    "c": "Brasil",
    "d": "2026-10-20",
@@ -1497,15 +1782,6 @@
    "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BdlBPRXJPVTRQeG5oQ0l6S0RxX216SXdubHRsUDhueG1GX2kzUWx4Q1NDZHlDU0JKa1FmYmxuNGUzX1dHMFZRNDdjTkJtV2JsLVJhcW5lb1RZdThfZlhIMmFZZHo4VVAxbXc?oc=5"
   },
   {
-   "s": "espnb",
-   "c": "Esportes",
-   "d": "2026-10-20",
-   "r": 3,
-   "t": "Neto diz que Memphis usou o Corinthians e detona Seedorf: 'Mostrou que não sabe p... nenhuma de bola'",
-   "x": "Veja a matéria completa em ESPN Brasil.",
-   "u": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNRXRKT3ZGZDVBNVNCODZleUFqOXVXdF9NZkdkc0ZPZ09fMnZXbU5ObGViMjFYSmF3dURRUkFlSGxKRHFhb214NFNnNzIwUlJMYUduVGUxRzkwdVBlTGVUWDZrOFlqQTd2SldGWTV5cHNRZkFDYXd6eVZ5X1JoYk1Lc29Nd2x0QzhxdENTNmFGVUN3bHRhd2pfZ3Z0SUVYRURQSFloenZtU1puS0c3ZnpTdUJvcWh1cFFTSFhpMm01S1JxbkVra3poend5UmF6WVVxMV96aU5tNG96R01pc0xqZjBISUsyQzA?oc=5"
-  },
-  {
    "s": "rt",
    "c": "Mundo",
    "d": "2026-10-20",
@@ -1515,6 +1791,15 @@
    "u": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdTRJTW1QQU9SVFNvd1I0aC1YcjliTUMwTzhkOHNpZnh4blU4UHN5eEhmREZIMHJoUFBVR29teVAwdG1DRnZlQVE4U1NLazRYUHktR0NzZnhjZ1dXT2xISDhjWGtQd1dtUDNnRERSX2lfVnBJcnl5YlFxelo2Qmp4dGpkLU5BaXBiaHFV?oc=5"
   },
   {
+   "s": "galileu",
+   "c": "Ciência",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Região onde o degelo é mais acelerado no mundo agora sofre com metais na água",
+   "x": "Veja a matéria completa em Galileu.",
+   "u": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPN1Q3aUxMa1UyNzQ5b045YWtIOFBaSWFqbUM3aThmOFBBSHRFYmR1T0ZOUWhCQnNnTElOQm1DamZBQi14WmNmYkxpUE0yaExRWE1DZl9SbjdmVXF6UUVtTVZGVVFKc1o1QWc5MWdqLUh3blZ6V0ZRa1lxOHo5UWNZVkI1THBOZ2RTSTlQQnpBekszLTh6d2lKZnVmREJKNzBJdjBSY2M5ZHhjYUlFTk81aU9BME85YWt6YTBpQkN1ZDdEbFdLaHlldmhUbER5Q1M2VURhNFYyWdIB5gFBVV95cUxQUHNLVkZueWF3ME0xdVdnLThHV0wtei04SG53WHNUX3JxWG93U21OMWpFc1pWZFZpZ1BSZFB6RzE4OUFsRThGUlI4Z0dpbHB4ZFFyeV9VSXhvaG1wTV9ad05ianUtcHdFdDN2REJfbk9XWUlRT1dCMGlfTnlucGtXN2QyNXZQUjdvYnNSbkkwajdGVkhINHFaS1VISldNeS0wUGtnTGpYOVBlaWJyTTdDdTh2UU5pTm5yMG9aeFB1ZmxTZHE1X192S2U3OGdTUE80aXFTQllqZ2psSXlSNmdMY1BkcVFzQQ?oc=5"
+  },
+  {
    "s": "op",
    "c": "Brasil",
    "d": "2026-10-20",
@@ -1522,6 +1807,15 @@
    "t": "Lula e o aprendizado da campanha",
    "x": "Eleição mostra: bons indicadores são insuficientes quando as maiorias seguem endividadas e em trabalhos precários. Do apoio aos MEIs ao reajuste do Bolsa Família, acertos do presidente indicam que ele, enfim, percebeu: aceitar o…",
    "u": "https://outraspalavras.net/mercadovsdemocracia/lula-e-o-aprendizado-da-campanha/"
+  },
+  {
+   "s": "usp",
+   "c": "Ciência",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Estudo da USP investiga como a telemedicina transforma o atendimento em arquipélago amazônico",
+   "x": "Pesquisa de doutorado da Faculdade de Saúde Pública da USP analisa como o atendimento médico a distância reorganiza os serviços públicos de saúde e evidencia desafios relacionados às desigualdades territoriais e às diferenças…",
+   "u": "https://jornal.usp.br/universidade/estudo-da-usp-investiga-como-a-telemedicina-transforma-o-atendimento-em-arquipelago-amazonico/"
   },
   {
    "s": "op",
@@ -1549,6 +1843,24 @@
    "t": "O desastre econômico que Flávio planeja",
    "x": "“Tesouraço” à la Milei levaria o país a uma grave recessão. Além de impactos no SUS, Previdência e Educação, vai gerar desemprego e derrubar salários. Reduzir juros sem corte de gastos também deve ser bandeira na reta final da…",
    "u": "https://outraspalavras.net/mercadovsdemocracia/o-desastre-economico-que-flavio-planeja/"
+  },
+  {
+   "s": "usp",
+   "c": "Ciência",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Futebol de várzea paulistano passou por um processo de apagamento histórico",
+   "x": "Ausência de registros de clubes varzeanos da cidade, criados por negros e para negros, mostra que o apagamento se deu, entre outros motivos, por um racismo acadêmico",
+   "u": "https://jornal.usp.br/diversidade/futebol-de-varzea-paulistano-passou-por-um-processo-de-apagamento-historico/"
+  },
+  {
+   "s": "super",
+   "c": "Ciência",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "O que o 1º astronauta chinês respondeu quando lhe perguntaram se a Grande Muralha pode ser vista do espaço",
+   "x": "Até grandes heróis trazem grandes decepções",
+   "u": "https://super.abril.com.br/mundo-estranho/o-que-o-1o-astronauta-chines-respondeu-quando-lhe-perguntaram-se-a-grande-muralha-pode-ser-vista-do-espaco/"
   },
   {
    "s": "bbc",
@@ -1605,6 +1917,24 @@
    "u": "https://esquerdaonline.com.br/2026/10/20/onda-vermelha-disputa-a-virada/?utm_source=rss&utm_medium=rss&utm_campaign=onda-vermelha-disputa-a-virada"
   },
   {
+   "s": "usp",
+   "c": "Ciência",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Banco Vermelho leva mensagem de enfrentamento à violência contra a mulher",
+   "x": "Instalação na Faculdade de Direito de Ribeirão Preto (FDRP) da USP chama a atenção para o feminicídio e divulga canais de denúncia e acolhimento",
+   "u": "https://jornal.usp.br/campus-ribeirao-preto/banco-vermelho-leva-mensagem-de-enfrentamento-a-violencia-contra-a-mulher/"
+  },
+  {
+   "s": "galileu",
+   "c": "Ciência",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Autoridades investigam origem de objeto metálico encontrado em plantação de milho",
+   "x": "Veja a matéria completa em Galileu.",
+   "u": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNZzNsQjFCRldMYTVuTVZMNjYyLWVzUlZPMXNzenh5TzdWWGNvN2pHbjdGWlVFQ2lpZHJFLWFkdl82d3NpRmVVdEd4NzIxZVJTYWFUSlBTQ0QxZDk0dHEtaHlyWEpKaFdpaHNOMlRxVElJcVY3bnhIMzBZVEVURnZZWUlxMjFlRkpNTm5qNHFUT2JwQ3JQRUJ0dVZWQlpycXV6eExPOTBmb3JhdTJSbXJkRFFNc2V2S2hHRmdLYlR0X0RhM1BFNE9TSzZVaTFnNmtvNXVzZ3MyNURRMVRFU3RyNWpwRkpmd9IB9AFBVV95cUxOcU9hVllaTm8xVUczOHBOOXByZGtLZERPNkRoS3p0R2NjQXdPV1FMaWNfU1J1ZFppcjJwdnBGNzVLeG9lTlVveTFXUEpaWnk2dWhhYnlxSFpiZU85QXE3Ym9Vak9aQVpEaEN2ZGpBNjdleWtBWV9sTW01YkFWOExvWnVoYndyUVl3UXFaQjBXZDB3TVBhY2s0dDhJWkxuU1FqOFFxbWc1SUVYREtGMHk0WE1hTzZHdHVMNjN1WnhydFhDTkJ2ektBSnpiaXg3aU4yX293Y0hyc0dNRXYxelgtTHJ0QThxbzM4dnNQaWlRU0c5NjNZ?oc=5"
+  },
+  {
    "s": "op",
    "c": "Brasil",
    "d": "2026-10-20",
@@ -1632,6 +1962,24 @@
    "u": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNVBTVkdzTDUzRzFBT3l2cjFzelJqZVlzelhERmpTYXBSNHY5QUhlODF6SV9hWjVEUUFQTTRVZUo3Wjg0Rzg0Qjg1MTBUeTdseUVJcllJV0lEYXM2MGtvc0JPUzdDMUZzX2Q4NWNlZE1rcFdWdFJJNWEwVlNMMzlvOFNMUkFRYXZaOUJz?oc=5"
   },
   {
+   "s": "usp",
+   "c": "Ciência",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Peça conta a história do cangaceiro Jararaca para retratar o Brasil",
+   "x": "Montado pelo Grupo Pavilhão da Magnólia, \"Jararaca(s)\" está em cartaz no Teatro da USP, no Centro MariAntonia, até 8 de novembro",
+   "u": "https://jornal.usp.br/cultura/peca-conta-a-historia-do-cangaceiro-jararaca-para-retratar-o-brasil/"
+  },
+  {
+   "s": "usp",
+   "c": "Ciência",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Museu Republicano de Itu promove atividades educativas sobre a Guerra de Canudos",
+   "x": "Encontros gratuitos acontecem a partir de 30 de outubro e convidam o público a refletir sobre cidadania e as representações do povo a partir do seu acervo e da obra “Os Sertões”",
+   "u": "https://jornal.usp.br/universidade/museu-republicano-de-itu-promove-atividades-educativas-sobre-a-guerra-de-canudos/"
+  },
+  {
    "s": "rt",
    "c": "Mundo",
    "d": "2026-10-20",
@@ -1639,6 +1987,33 @@
    "t": "Checagem de fatos: Janones e Salles discutiram em debate realizado em 2022",
    "x": "Veja a matéria completa em Reuters.",
    "u": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNano1eTdOaktSd0xzakxfQXFROE9CeU10NWVFTDlibEVvOVFjNHBwOXZMamIwSzdHQU9HV0pVMWNvWmk3WlR3Z3R4TXoteUZWTkdLMTROWWs0TG5SSVR2NjNUYVM0UUtMWFhpai11QTNOS3NTd3hVOGl2eTVrdnM4dFJleUUyUlJjM3hB?oc=5"
+  },
+  {
+   "s": "galileu",
+   "c": "Ciência",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Professora de 78 anos é detida após bloquear caminho de robô entregador nos EUA",
+   "x": "Veja a matéria completa em Galileu.",
+   "u": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNTWRDR0FwamZrTkJ5MkR4YW9nSk5pMzQ0SFNGSGlNcW92UFUtRTRrVWY2cVJ4aDc1R2drRzc1dVVZQUViTHZ5ajJNYWJJUnJLNFpUTndvTHE4bjd3TklNajBQYUVxXzk1ZzVNa3p6UlhPUXZsMEZlVnlnek5lZEk2Y2hqaTNXUy14QnhvMnJ1MVZ5SEU3dEZvbjVTLW9KZHA3czhqYTUtdktUXzg3OVp5RDhiaklPWEhfekZZOWRWZkdRSjU1eEZHd0ZyamE0NllLS3VpdkgtT2Z0b3dVVURkZDI3dHFjNFJKRmFqUdIB-wFBVV95cUxQUmJrUWFjMG92QTY2d1VsWHZpWHVvakNyUExvNUh6OV9Zc0pjVGNLN3JWN2x4TTdJajhDWkVmNkZMTy1UbG1vSzdtV3ZOZWY4SUJXd1ZUVVFNNXVkcGFuWDN3TzlzcVVOVS12MFI0QzN4OUlCeWo4REJTcjVONzE0UzBkZ1hpV1lOb3ZXQXQxQnBkaHVFS21leHd3akJPUTNYSE1MSTg1eDFhN1ludU5FRUwzX1hPd1RXenNCRzk0eV9xUk0wYlRMWEhuTy1Vb2pLQUI3NXhrT09tT0lwTmNBZTNXeEoxcDFyc2MxOGVodTkwMEhLTzlNU0QxZw?oc=5"
+  },
+  {
+   "s": "usp",
+   "c": "Ciência",
+   "d": "2026-10-20",
+   "r": 3,
+   "t": "Inteligência artificial e futuro do trabalho são temas de encontro promovido na USP",
+   "x": "Especialistas da pesquisa acadêmica e do mercado de tecnologia se reúnem no dia 29 de outubro na Biblioteca Brasiliana, no campus do bairro do Butantã, para debater as transformações e o futuro das profissões",
+   "u": "https://jornal.usp.br/universidade/inteligencia-artificial-e-futuro-do-trabalho-sao-temas-de-encontro-promovido-na-usp/"
+  },
+  {
+   "s": "super",
+   "c": "Ciência",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Playlist: 5 coisas para ler e jogar em outubro de 2026",
+   "x": "Uma análise sobre a classe C brasileira, uma HQ sobre a crise climática e um romance em meio à Guerra da Ucrânia. Um jogo de tabuleiro e outro de navegador.",
+   "u": "https://super.abril.com.br/cultura/playlist-5-coisas-para-ler-e-jogar-em-outubro-de-2026/"
   },
   {
    "s": "gefla",
@@ -1650,10 +2025,19 @@
    "u": "https://ge.globo.com/gato-mestre/noticia/2026/10/20/classificacao-do-segundo-turno-flamengo-lidera-botafogo-deixa-o-z-4-que-agora-tem-o-gremio.ghtml"
   },
   {
+   "s": "usp",
+   "c": "Ciência",
+   "d": "2026-10-20",
+   "r": 3,
+   "t": "CEM-USP atualiza dados sobre transporte público na Grande São Paulo",
+   "x": "Bases cartográficas georreferenciadas, com informações referentes a 2025, podem ser acessadas gratuitamente por pesquisadores e gestores públicos",
+   "u": "https://jornal.usp.br/radio-usp/cem-usp-atualiza-dados-sobre-transporte-publico-na-grande-sao-paulo/"
+  },
+  {
    "s": "espn",
    "c": "Esportes",
    "d": "2026-10-20",
-   "r": 3,
+   "r": 4,
    "t": "Com hat-trick, Kaio Jorge é o melhor da 31ª rodada no Bola de Prata ESPN",
    "x": "Veja a matéria completa em ESPN Flamengo.",
    "u": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOb2QyN1pFSUVBaUhITHV6RjZZN3dLaVBqbVo3SjJPWms5NHdEdVNPOGJmdkdGUUFEblJlaWxmRlhiZmwyU0s3Q3lMYlNCRlpnN21sU2VnbkR0NTNSa281dVhpOEtyYU1LYkRJa2dwVThJMllreEJ2blo3SHBZa05zakFIcVBiMF9qMjdLbHFoRFJfSUxKSV9pSXJaTkhFc0VILTljOUxXMV9vbmpTQ1E0UzUzWWNmNno1WmY1OGV6Ui1XQQ?oc=5"
@@ -1686,6 +2070,24 @@
    "u": "https://www.bbc.com/portuguese/articles/c8g47z0dg0ywo?at_medium=RSS&at_campaign=rss"
   },
   {
+   "s": "espn",
+   "c": "Esportes",
+   "d": "2026-10-20",
+   "r": 3,
+   "t": "Rússia x Venezuela (17 de nov, 2026) Ao vivo",
+   "x": "Veja a matéria completa em ESPN Flamengo.",
+   "u": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9IM1ZJZVk0ZGFaS2hxY1NyTmx1cXZuS2JKZGFMYzh1RXhnV25fRWpGUXA1VThNc1N3Z3R0aVhuRUtNWm5LS1pjY05Pa0F4anFCUFliUERzZUZwODlaVTNkMDdvc2tDWmY1R1pQNzJZTHY0Q3NmNnRqTlBTSVRxUVU?oc=5"
+  },
+  {
+   "s": "galileu",
+   "c": "Ciência",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Anéis e moeda de ouro em túmulo de criança romana seriam para pagar 'taxa' do submundo",
+   "x": "Veja a matéria completa em Galileu.",
+   "u": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQRTZBMG01NmhuOUNCeFhQWWh5MDdFNWhhQmU1dWFlVlJMcjVVbzlJS1ppR3BtS1k5dXp5REJyT2V1cktneUdWdHBWdVVVYzI1X0FpbXF2Vm1OMktZOFU3WEVxY1dDRGRrWDNTd25DSzAtTDhUVndQZVhPaDJpZGkwb29XdDJLd1FCNVowR1BYb0R4eU85TktiY005YzRxQkx0MEpCVmlpWTV2bEVEeGE4UjRoeVBDY2FqdE5kNjRHRERadDNPOHlwbTcxeEUxOURvaUJnZWNOM1R2Y2ozQTVsUzNIRERQQURLazBxME4tUWvSAf8BQVVfeXFMUEtSUkdkNE1LU3Fvd3JtVTNTNWgzLWR1dU1rNlVUQ1dqVlJiR05GdmZ0Y0Vrc2ZmeVZfMWVSa0dPaWNoRnAtQWp5elZYRlBOdnNWNEZMakh5V3JoYWdObkVUbEJXQS13WnZ4NUxaRDVvRkNKUENGZkFSdmhuMkdxTWd5T2E2bWQzdWF2eURZaUpUNkI2VGQwSEZrTm5LcHowdU12eWdfQVd2RHZGZmFmNFQxVnhoRWlxUmJVMElfLXBEcUxXX0oyV1pZdUpLYWJSS1FpU1lHLVpfVmtrWHBoRm9vSDc3eWgyRU1GRTBhblFlQXplQTdBMEJoX1JacWxB?oc=5"
+  },
+  {
    "s": "gefla",
    "c": "Esportes",
    "d": "2026-10-20",
@@ -1693,6 +2095,15 @@
    "t": "Reportagem do Esporte Espetacular vence prêmio internacional de jornalismo",
    "x": "A história do menino peruano que fez sucesso no alto da colina A reportagem \"A voz de um sonho\", do Esporte Espetacular, venceu o prêmio Sportel Awards, em Mônaco, nesta segunda-feira, na categoria melhor reportagem. A produção…",
    "u": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/20/reportagem-do-esporte-espetacular-vence-premio-internacional-de-jornalismo.ghtml"
+  },
+  {
+   "s": "super",
+   "c": "Ciência",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Pérolas: 4 dicas do que assistir no Prime Video, Globoplay e Instagram em outubro",
+   "x": "Três filmes com boas doses de comédia e drama. E uma cientista do mundo dos cosméticos para acompanhar nas redes.",
+   "u": "https://super.abril.com.br/cultura/perolas-4-dicas-do-que-assistir-no-prime-video-globoplay-e-instagram-em-outubro/"
   },
   {
    "s": "bbc",
@@ -1713,6 +2124,15 @@
    "u": "https://www.bbc.com/portuguese/articles/c98vzgy2vjzo?at_medium=RSS&at_campaign=rss"
   },
   {
+   "s": "super",
+   "c": "Ciência",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "“Nintendo Switch Sports Resort” traz de volta jogos ao estilo do Wii",
+   "x": "Coleção de games de esporte tem boliche, tênis, vôlei e outras modalidades, disputadas com controles de movimento simples e divertidos; leia análise",
+   "u": "https://super.abril.com.br/coluna/bruno-garattoni/nintendo-switch-sports-resort-traz-de-volta-jogos-ao-estilo-do-wii/"
+  },
+  {
    "s": "gefla",
    "c": "Esportes",
    "d": "2026-10-20",
@@ -1720,6 +2140,15 @@
    "t": "Paquetá vive temporada mais artilheira da carreira em sua volta ao Flamengo; veja todos os gols",
    "x": "Veja todos os 13 gols de Lucas Paquetá pelo Flamengo em 2026 Mesmo ainda sem ser um titular absoluto do Flamengo, Paquetá já vive a sua temporada mais artilheira da carreira por clubes (sem contar a Seleção). O golaço marcado na…",
    "u": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/20/paqueta-vive-temporada-mais-artilheira-da-carreira-em-sua-volta-ao-flamengo-veja-todos-os-gols.ghtml"
+  },
+  {
+   "s": "galileu",
+   "c": "Ciência",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "3 em cada 10 cidades brasileiras não têm plano de contingência contra desastres climáticos",
+   "x": "Veja a matéria completa em Galileu.",
+   "u": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNeVZPcEI4MjFhV0tjWnlqR2l6X0hTNjBxc2lYVEhiaGhoX3FSbE1jcElPbmprdlA5VXZLX0FaN3YxbWZfM2tBV09SUEFxMzRsYl95ODhuTEFZVXJfQ0J1R2Z5U1FTZlJlT2RsUXI1NXM3X0xabC1KZkkwMlUxaVIzRkdEUk51Nl9EZnJacDkyZ29BTXlHMVFlR3g4WE1ESmxGTDRLc2pzaFRzVmNVVmxaTWJGNFBJbUkxc1p6ME9ZWGcxLVdGVWtlMEN6S2hnLUNyWFZIQmY1VUhaZDlaN3NfdExvMjZmZFQ5RXROY0I1V1dmYVh1M1ZkWDlhUdIBigJBVV95cUxNZ1hwZW51bURwS0RySlpRVG5wbU9oWGk3dWt4MDl3SzRRX1hBRnYwU1B2aE1qVE1aTWg3YmFKa1RzckVoRkJDVGNSMXVOSlZQZVptNTFMWUhoV05OUm9Zc1FMeWVQd3VYSTVVd2xQa1FWdGJHQVlQMWJVWUszOGJDaFBPM1J1RTlFQmJmbG5LblhNajh2YkdhbTlJcS04T3gzS0cwVVY3MlA5NFV4ZnlFZ0lrOEpqR25PMFdHRlJ5dEN1VXVTMFpLSV82bDVyb0luZ0UxOFB6dWhWYVoycnhnNzM3Zzc5Smo1ZjFrcDVkdWxrMjRqMC1iMWpHRm1COTk0MXpZczNCbGtFUQ?oc=5"
   },
   {
    "s": "planeta",
@@ -1749,6 +2178,33 @@
    "u": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVlFXX2pxUGdPM282UTNvNW1mSWNCRHF4X2ttYXo0OEN4NFpOdk00RzJzMlB1Zkx6LVJ0VmpVbEhyNE9teTBhaV90M3BYc2NhZzlWc1ZubWwtMGZ4V0JEUGlCakJsOGw0MGRjczlWV1o1ZDVpLTBTUnFzQ05fR1BTZnNMZzlnTC1qQlFJQWVOb2ktR3J2Rm5xZDhjMWtPN3dFLXl2SVhlOUdLaGRXbHY2SlpPVldQMkVZNkNxQldaWGtDQ19tNnhta3J2NGxhUQ?oc=5"
   },
   {
+   "s": "oeco",
+   "c": "Ciência",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Nova espécie de perereca-de-vidro é descoberta no coração do Cerrado",
+   "x": "Anfíbio é o primeiro do gênero registrado na região central do bioma, reforçando a urgência de investimentos em pesquisa e conservação na savana brasileira",
+   "u": "https://oeco.org.br/noticias/nova-especie-de-perereca-de-vidro-e-descoberta-no-coracao-do-cerrado/"
+  },
+  {
+   "s": "oeco",
+   "c": "Ciência",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "O recado das urnas para a floresta",
+   "x": "Os brasileiros votaram pedindo menor custo de vida e maior segurança. Por que a Amazônia é vital para os eleitos satisfazerem essas demandas",
+   "u": "https://oeco.org.br/colunas/o-recado-das-urnas-para-a-floresta/"
+  },
+  {
+   "s": "super",
+   "c": "Ciência",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Por que, quanto mais fundo se vai no oceano, mais alongados ficam os peixes?",
+   "x": "Em tese, isso ajuda a nadar longas distâncias, o que é especialmente importante nas profundezas abissais",
+   "u": "https://super.abril.com.br/mundo-estranho/por-que-quanto-mais-fundo-se-vai-no-oceano-mais-alongados-ficam-os-peixes/"
+  },
+  {
    "s": "rt",
    "c": "Mundo",
    "d": "2026-10-20",
@@ -1774,6 +2230,15 @@
    "t": "Contra o Estudiantes, Flamengo pode repetir feito de Boca e Peñarol na Libertadores; veja",
    "x": "Podcast analisa amasso do Flamengo contra o Bahia e moral para semifinal da Libertadores Após defender a liderança do Campeonato Brasileiro por mais uma rodada, o Flamengo agora volta o foco para a Libertadores. E terá a chance…",
    "u": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/20/contra-o-estudiantes-flamengo-pode-repetir-feito-de-boca-e-penarol-na-libertadores-veja.ghtml"
+  },
+  {
+   "s": "galileu",
+   "c": "Ciência",
+   "d": "2026-10-20",
+   "r": 3,
+   "t": "Ciência | Galileu",
+   "x": "Veja a matéria completa em Galileu.",
+   "u": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1yYVpGeDVfZGVIZmkxYktMeXZ1NGtGaGVDc2g4SHNSWkthaXlOR2F3ZWNSOVpKeFFfNHFJVU1zMmdiTzRMUjZTa29seVN5QVhuQXlJdEdQWkJQX1JlVHNrZGlQUDV2eGhLX0k0OVJCUQ?oc=5"
   },
   {
    "s": "gefla",
@@ -1812,6 +2277,15 @@
    "u": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNX2RUVlJ2bVU4UXVETXczSUV6NGZPSGVjOVQ4dm43WVZxS19Jal9ObElpVXR6Unkyai1WTTlRb0RVeGhaUDg0b2o0YjhsMWZjTGh5Qjg4QWt5b0x0ZnhMUFpOdm9KeWVRa1lUaUJFZ2lKVkFibkxkTHlQa0toMzY1WmgzbEJPY3FPYjlBV3FwUWNlYmVwUENNdWxQQXlWLUMwVHFUTE1mcGV2eU5sVHYtSFpod1NJNmFqMWhseTRoRk1nUlpqNVJmZUJ5cmVkOTd3NWNvS1ZHWDhTMFA2OVJKMDhzQl9HQQ?oc=5"
   },
   {
+   "s": "galileu",
+   "c": "Ciência",
+   "d": "2026-10-19",
+   "r": 3,
+   "t": "- Globo",
+   "x": "Veja a matéria completa em Galileu.",
+   "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTE50SmJIQWR0SmZCREtBWjVzOTktWlJkRi1KajFHVTJPV3hqNEhxbHg1TDRIYkc2ME5xaXdyQjFqTmEtSXVXTXNmQXVuV19kT0t3a01tTEdORGdwSk5pLUJyLTFXdUVhbWpLNWdZ?oc=5"
+  },
+  {
    "s": "uole",
    "c": "Esportes",
    "d": "2026-10-19",
@@ -1819,6 +2293,15 @@
    "t": "Bruno Lima: Sharjah paga R$ 12,6 mi ao Santos por Chermont após semanas de atraso",
    "x": "Veja a matéria completa em UOL Esporte.",
    "u": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSjZ4RnI2UDRjZ21CdXJlQmo2emV3MTZDa2ptRi1GT0V5SG1CNmszQ1J4QkZGNkZMRHZTWnJiSFR5RF9qb1VKY0RTNkJHRktod1RBdjJRYWdDbF9WbTNiQnlqaUxyeFRtTmo4RkNSNTFoMXlMWnpBN2E2b1VsWVl1a2JzNVpkV0xsS19QMm9PY1RPMzNNZFJhM2tlT1F5cWFPOVMyZ3k2a3FidEljRjY1SFVXTll5LTBaUldPd0c4NEFheTIxWHVR?oc=5"
+  },
+  {
+   "s": "super",
+   "c": "Ciência",
+   "d": "2026-10-19",
+   "r": 3,
+   "t": "Quem é Elizabeth Holmes: entenda a condenação da fundadora da Theranos",
+   "x": "Com o novo documentário “You Can See Everything”, da A24, relembre como a bilionária mais jovem do mundo foi condenada por fraude.",
+   "u": "https://super.abril.com.br/historia/quem-e-elizabeth-holmes-entenda-a-condenacao-da-fundadora-da-theranos/"
   },
   {
    "s": "gefla",
@@ -1839,6 +2322,15 @@
    "u": "https://outraspalavras.net/desigualdades-mundo/a-sombra-do-sobrevivencialismo-em-portugal-e-no-brasil/"
   },
   {
+   "s": "super",
+   "c": "Ciência",
+   "d": "2026-10-19",
+   "r": 3,
+   "t": "Agência espacial japonesa lança primeira missão para coletar amostras das luas de Marte",
+   "x": "A Martian Moons eXploration (MMX) deve dedicar os próximos cinco anos para buscar pistas sobre a origem de Fobos e Deimos.",
+   "u": "https://super.abril.com.br/ciencia/primeira-missao-para-coletar-amostras-das-luas-de-marte-e-lancada/"
+  },
+  {
    "s": "op",
    "c": "Cultura",
    "d": "2026-10-19",
@@ -1846,6 +2338,15 @@
    "t": "Europa: a Geração Z exige o Comum",
    "x": "Num continente acossado pela ultradireita, entra em cena novo ator. Protestos por Moradia, Escola e Trabalho desafiam “austeridade” e espalham-se por onze países. Repressão feroz não os pára. Trama-se greve internacional pela…",
    "u": "https://outraspalavras.net/movimentoserebeldias/europa-a-geracao-z-exige-o-comum/"
+  },
+  {
+   "s": "oeco",
+   "c": "Ciência",
+   "d": "2026-10-19",
+   "r": 4,
+   "t": "Em ato no Pará, Flávio Bolsonaro promete que vai acabar com “entraves ambientais”",
+   "x": "O candidato à presidência afirmou caso seja eleito, deixará o proprietário fazer “o que quiser na sua terra” e que proprietário “vai poder fazer o que quiser”",
+   "u": "https://oeco.org.br/noticias/em-ato-no-para-flavio-bolsonaro-promete-que-vai-acabar-com-entraves-ambientais/"
   },
   {
    "s": "rt",
@@ -1920,6 +2421,24 @@
    "u": "https://esquerdaonline.com.br/2026/10/19/sete-dias-para-decidir-o-futuro-do-brasil/?utm_source=rss&utm_medium=rss&utm_campaign=sete-dias-para-decidir-o-futuro-do-brasil"
   },
   {
+   "s": "oeco",
+   "c": "Ciência",
+   "d": "2026-10-19",
+   "r": 4,
+   "t": "Açaí manejado: produto da extração vegetal ou cultivo agrícola?",
+   "x": "Classificação do açaí como lavoura permanente distorce dados sobre a produção e reduz o reconhecimento do trabalho de comunidades tradicionais",
+   "u": "https://oeco.org.br/analises/acai-manejado-produto-da-extracao-vegetal-ou-cultivo-agricola/"
+  },
+  {
+   "s": "oeco",
+   "c": "Ciência",
+   "d": "2026-10-19",
+   "r": 4,
+   "t": "Bolsonaro abriu caminho para o crime organizado dominar territórios da Amazônia",
+   "x": "Estudo realizado em parceria com Ministério da Defesa mostra como medidas do governo Bolsonaro favoreceram criminosos na Amazônia; Lula reverteu a crise com resposta do Estado",
+   "u": "https://oeco.org.br/analises/bolsonaro-abriu-caminho-para-o-crime-organizado-dominar-territorios-da-amazonia/"
+  },
+  {
    "s": "crf",
    "c": "Esportes",
    "d": "2026-10-19",
@@ -1974,6 +2493,24 @@
    "u": "https://www.intercept.com.br/2026/10/17/ceos-globo-metropoles-favores-vorcaro/"
   },
   {
+   "s": "oeco",
+   "c": "Ciência",
+   "d": "2026-10-16",
+   "r": 4,
+   "t": "Amazônia tem a menor taxa de desmatamento já registrada pelo Inpe",
+   "x": "Foram 3,3 mil km² desmatados de floresta, uma queda de 41% em relação a 2025, segundo o Prodes. Dados foram divulgados nesta sexta-feira (16) pelo MMA",
+   "u": "https://oeco.org.br/externo/amazonia-tem-a-menor-taxa-de-desmatamento-ja-registrada-pelo-inpe/"
+  },
+  {
+   "s": "oeco",
+   "c": "Ciência",
+   "d": "2026-10-16",
+   "r": 3,
+   "t": "Ex-ministros do Meio Ambiente se juntam em manifesto pelas UCs brasileiras",
+   "x": "Documento, assinado por sete ex-ministros e quatro ex-presidentes do ICMBio, alerta para possível enfraquecimento dos órgãos ambientais e ameaças às áreas protegidas",
+   "u": "https://oeco.org.br/salada-verde/ex-ministros-do-meio-ambiente-se-juntam-em-manifesto-pelas-ucs-brasileiras/"
+  },
+  {
    "s": "intercept",
    "c": "Mundo",
    "d": "2026-10-16",
@@ -1981,6 +2518,15 @@
    "t": "EXCLUSIVO: Flávio Bolsonaro pagou R$ 600 mil a empresa que vende nos EUA sistema de IA para manipular eleições",
    "x": "Elytron ofereceu operação clandestina para mapear eleitores, criar contas falsas, espalhar mentiras e desacreditar rivais, indicam documentos revelados por ex-consultor. Campanha de Flávio nega contratação de qualquer serviço…",
    "u": "https://www.intercept.com.br/2026/10/16/flavio-pagou-empresa-eua-sistema-manipular-eleicoes/"
+  },
+  {
+   "s": "oeco",
+   "c": "Ciência",
+   "d": "2026-10-16",
+   "r": 3,
+   "t": "A transparência necessária de SP nas obras contra as chuvas",
+   "x": "Pacote de R$ 29 bilhões de SP inclui obras antigas e não esclarece quanto será investido em novas ações contra os efeitos do El Niño",
+   "u": "https://oeco.org.br/colunas/a-transparencia-necessaria-de-sp-nas-obras-contra-as-chuvas/"
   },
   {
    "s": "intercept",
