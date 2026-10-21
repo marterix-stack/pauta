@@ -18,7 +18,7 @@ BRT = timezone(timedelta(hours=-3))
 UA = {"User-Agent": "Mozilla/5.0 (compatible; PautaBot/1.0)"}
 MAX_AGE_DAYS = 7      # descarta matérias mais antigas que isso
 MAX_PER_SOURCE = 10   # evita que uma fonte domine a lista
-TOTAL_MAX = 180
+TOTAL_MAX = 230
 
 
 def gnews(site):
@@ -101,6 +101,26 @@ SOURCES = {
     "espn": {  # matérias da ESPN Brasil que citam o Flamengo (a página do time não tem RSS)
         "name": "ESPN Flamengo", "color": "#c2410c", "default": "Esportes", "fallback": True,
         "feeds": [(gnews("espn.com.br Flamengo"), "Esportes")],
+    },
+    "espnb": {
+        "name": "ESPN Brasil", "color": "#dc2626", "default": "Esportes", "fallback": True,
+        "feeds": [(gnews("espn.com.br"), "Esportes")],
+    },
+    "uoleco": {
+        "name": "UOL Economia", "color": "#ca8a04", "default": "Economia", "fallback": True,
+        "feeds": [("https://rss.uol.com.br/feed/economia.xml", "Economia"), (gnews("economia.uol.com.br"), "Economia")],
+    },
+    "terrafut": {
+        "name": "Terra Futebol", "color": "#047857", "default": "Esportes", "fallback": True,
+        "feeds": [(gnews("terra.com.br/esportes/futebol"), "Esportes")],
+    },
+    "planeta": {
+        "name": "Terra Planeta", "color": "#0d9488", "default": "Ciência", "fallback": True,
+        "feeds": [(gnews("terra.com.br/planeta"), "Ciência")],
+    },
+    "natgeo": {
+        "name": "National Geographic Brasil", "color": "#ca8a04", "default": "Ciência", "fallback": True,
+        "feeds": [(gnews("nationalgeographicbrasil.com"), "Ciência")],
     },
 }
 
