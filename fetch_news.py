@@ -18,7 +18,7 @@ BRT = timezone(timedelta(hours=-3))
 UA = {"User-Agent": "Mozilla/5.0 (compatible; PautaBot/1.0)"}
 MAX_AGE_DAYS = 7      # descarta matérias mais antigas que isso
 MAX_PER_SOURCE = 10   # evita que uma fonte domine a lista
-TOTAL_MAX = 150
+TOTAL_MAX = 180
 
 
 def gnews(site):
@@ -89,6 +89,18 @@ SOURCES = {
     "terra": {
         "name": "Terra Notícias", "color": "#059669", "default": "Brasil", "fallback": True,
         "feeds": [(gnews("terra.com.br/noticias"), None)],
+    },
+    "gefla": {
+        "name": "ge Flamengo", "color": "#b91c1c", "default": "Esportes", "fallback": True,
+        "feeds": [("https://ge.globo.com/rss/ge/futebol/times/flamengo/", "Esportes"), (gnews("ge.globo.com/futebol/times/flamengo"), "Esportes")],
+    },
+    "crf": {  # site oficial do clube: não tem RSS, então usa o Google Notícias
+        "name": "Flamengo (site oficial)", "color": "#111827", "default": "Esportes", "fallback": True,
+        "feeds": [(gnews("flamengo.com.br/noticias/futebol"), "Esportes")],
+    },
+    "espn": {  # matérias da ESPN Brasil que citam o Flamengo (a página do time não tem RSS)
+        "name": "ESPN Flamengo", "color": "#c2410c", "default": "Esportes", "fallback": True,
+        "feeds": [(gnews("espn.com.br Flamengo"), "Esportes")],
     },
 }
 
