@@ -2,11 +2,16 @@ name: Atualizar notícias
 
 on:
   schedule:
-    - cron: "0 9 * * *"   # todo dia às 06h no horário de Brasília
+    # 6 vezes ao dia, de 3 em 3 horas, das 06h às 21h (horário de Brasília = UTC-3)
+    - cron: "7 9,12,15,18,21,0 * * *"
   workflow_dispatch:       # permite rodar na mão pela aba Actions
 
 permissions:
   contents: write
+
+concurrency:
+  group: atualizar-noticias
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -22,4 +27,4 @@ jobs:
           git config user.name "pauta-bot"
           git config user.email "pauta-bot@users.noreply.github.com"
           git add news.json
-          git diff --cached --quiet || (git commit -m "Atualiza notícias" && git push)
+          git diff --cached --quiet || (git commit -m "Atualiza notícias" && git pull --rebase && git push)
