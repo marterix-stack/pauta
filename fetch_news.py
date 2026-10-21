@@ -214,19 +214,27 @@ def norm(title):
     return re.sub(r"[^a-z0-9]", "", title.lower())[:45]
 
 
+REPORT = {}  # resumo por fonte, gravado em news.json para a página status.html
+
+
 def collect():
     now = datetime.now(timezone.utc)
     oldest = now - timedelta(days=MAX_AGE_DAYS)
     items, seen = [], set()
     for key, src in SOURCES.items():
         found = []
+        rep = {"nome": src["name"], "feeds": [], "recebidas": 0, "recentes": 0, "mantidas": 0}
+        REPORT[key] = rep
         for url, fixed_cat in src["feeds"]:
             try:
                 entries = list(parse_feed(fetch(url)))
             except Exception as exc:  # um feed fora do ar não derruba o resto
                 print(f"[erro] {key}: {url} -> {exc}", file=sys.stderr)
+                rep["feeds"].append({"url": url, "ok": False, "n": 0, "erro": str(exc)[:120]})
                 continue
             print(f"[ok] {key}: {len(entries)} itens em {url}")
+            rep["feeds"].append({"url": url, "ok": True, "n": len(entries), "erro": ""})
+            rep["recebidas"] += len(entries)
             for e in entries:
                 e["fixed"] = fixed_cat
             found.extend(entries)
@@ -234,6 +242,7 @@ def collect():
                 break
         found = [e for e in found if e["url"] and e["title"] and e["dt"] and e["dt"] >= oldest]
         found.sort(key=lambda e: e["dt"], reverse=True)
+        rep["recentes"] = len(found)
         kept = 0
         for e in found:
             title = e["title"]
@@ -257,6 +266,7 @@ def collect():
                 "_ts": e["dt"].timestamp(),
             })
             kept += 1
+            rep["mantidas"] = kept
             if kept >= MAX_PER_SOURCE:
                 break
     items.sort(key=lambda i: i["_ts"], reverse=True)
@@ -273,6 +283,7 @@ def main():
     data = {
         "updated": datetime.now(BRT).isoformat(timespec="seconds"),
         "sources": {k: [v["name"], v["color"]] for k, v in SOURCES.items()},
+        "report": REPORT,
         "items": items,
     }
     with open("news.json", "w", encoding="utf-8") as f:

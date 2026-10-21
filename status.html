@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pauta — status das fontes</title>
+<style>
+body{font:15px/1.5 system-ui,sans-serif;margin:0;padding:20px;background:#0b1230;color:#e8ecf8}
+h1{font-size:20px;margin:0 0 4px}.sub{color:#9aa5c7;margin-bottom:18px}
+table{border-collapse:collapse;width:100%;max-width:900px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid #26305a;vertical-align:top}
+th{color:#9aa5c7;font-weight:600;font-size:13px}
+.ok{color:#4ade80}.warn{color:#fbbf24}.bad{color:#f87171}
+small{display:block;color:#9aa5c7;word-break:break-all;margin-top:2px}
+a{color:#93c5fd}
+</style></head><body>
+<h1>Status das fontes</h1>
+<div class="sub" id="sub">Carregando…</div>
+<table><thead><tr><th>Fonte</th><th>Situação</th><th>Recebidas</th><th>Dos últimos 7 dias</th><th>No site</th></tr></thead><tbody id="b"></tbody></table>
+<p class="sub"><a href="./">← Voltar ao Pauta</a></p>
+<script>
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+fetch("news.json",{cache:"no-store"}).then(r=>r.json()).then(j=>{
+  const rep=j.report;
+  if(!rep){document.getElementById("sub").textContent="Este news.json é antigo e não tem relatório. Suba o fetch_news.py novo e rode o robô de novo.";return}
+  const keys=Object.keys(rep);
+  const tot=keys.reduce((a,k)=>a+rep[k].mantidas,0);
+  document.getElementById("sub").textContent=`${j.items.length} notícias no site · ${keys.length} fontes · atualizado em ${new Date(j.updated).toLocaleString("pt-BR")}`;
+  document.getElementById("b").innerHTML=keys.map(k=>{
+    const r=rep[k];
+    let st,cl;
+    if(!r.feeds.some(f=>f.ok)){st="Feed fora do ar";cl="bad"}
+    else if(!r.recebidas){st="Feed vazio";cl="warn"}
+    else if(!r.recentes){st="Só matérias antigas";cl="warn"}
+    else if(!r.mantidas){st="Tudo repetido";cl="warn"}
+    else{st="Funcionando";cl="ok"}
+    const det=r.feeds.map(f=>`<small>${f.ok?"✓":"✗"} ${esc(f.url)}${f.ok?` (${f.n})`:" — "+esc(f.erro)}</small>`).join("");
+    return `<tr><td>${esc(r.nome)}${det}</td><td class="${cl}">${st}</td><td>${r.recebidas}</td><td>${r.recentes}</td><td>${r.mantidas}</td></tr>`;
+  }).join("");
+}).catch(()=>{document.getElementById("sub").textContent="Não consegui carregar o news.json."});
+</script></body></html>
