@@ -17,8 +17,8 @@ from email.utils import parsedate_to_datetime
 BRT = timezone(timedelta(hours=-3))
 UA = {"User-Agent": "Mozilla/5.0 (compatible; PautaBot/1.0)"}
 MAX_AGE_DAYS = 7      # descarta matérias mais antigas que isso
-MAX_PER_SOURCE = 14   # evita que uma fonte domine a lista
-TOTAL_MAX = 90
+MAX_PER_SOURCE = 10   # evita que uma fonte domine a lista
+TOTAL_MAX = 150
 
 
 def gnews(site):
@@ -57,6 +57,38 @@ SOURCES = {
     "b247": {
         "name": "Brasil 247", "color": "#15803d", "default": "Brasil", "fallback": True,
         "feeds": [("https://www.brasil247.com/rss", None), (gnews("brasil247.com"), None)],
+    },
+    "carta": {
+        "name": "CartaCapital", "color": "#b91c1c", "default": "Brasil", "fallback": True,
+        "feeds": [("https://www.cartacapital.com.br/feed/", None), (gnews("cartacapital.com.br"), None)],
+    },
+    "bdf": {
+        "name": "Brasil de Fato", "color": "#be123c", "default": "Brasil", "fallback": True,
+        "feeds": [("https://www.brasildefato.com.br/rss2.xml", None), ("https://www.brasildefato.com.br/rss", None), (gnews("brasildefato.com.br"), None)],
+    },
+    "intercept": {
+        "name": "Intercept Brasil", "color": "#1f2937", "default": "Brasil", "fallback": True,
+        "feeds": [("https://www.intercept.com.br/feed/", None), (gnews("intercept.com.br"), None)],
+    },
+    "op": {
+        "name": "Outras Palavras", "color": "#7c3aed", "default": "Brasil", "fallback": True,
+        "feeds": [("https://outraspalavras.net/feed/", None), (gnews("outraspalavras.net"), None)],
+    },
+    "eo": {
+        "name": "Esquerda Online", "color": "#dc2626", "default": "Brasil", "fallback": True,
+        "feeds": [("https://esquerdaonline.com.br/feed/", None), (gnews("esquerdaonline.com.br"), None)],
+    },
+    "uol": {
+        "name": "UOL Notícias", "color": "#d97706", "default": "Brasil", "fallback": True,
+        "feeds": [("https://rss.uol.com.br/feed/noticias.xml", None), (gnews("noticias.uol.com.br"), None)],
+    },
+    "uole": {
+        "name": "UOL Esporte", "color": "#ea580c", "default": "Esportes", "fallback": True,
+        "feeds": [("https://rss.uol.com.br/feed/esporte.xml", "Esportes"), (gnews("esporte.uol.com.br"), "Esportes")],
+    },
+    "terra": {
+        "name": "Terra Notícias", "color": "#059669", "default": "Brasil", "fallback": True,
+        "feeds": [(gnews("terra.com.br/noticias"), None)],
     },
 }
 
