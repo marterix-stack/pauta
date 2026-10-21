@@ -210,6 +210,44 @@ def clean(text, limit=230):
     return text
 
 
+IMG_RE = re.compile(r"<img[^>]+?src=[\"']([^\"']+)[\"']", re.I)
+BAD_IMG = re.compile(r"(pixel|spacer|blank|1x1|logo|avatar|gravatar|emoji|/ads?/|googleusercontent\.com/.{0,5}$)", re.I)
+
+
+def good_img(u):
+    u = html.unescape((u or "").strip())
+    if u.startswith("//"):
+        u = "https:" + u
+    if not u.lower().startswith(("http://", "https://")) or BAD_IMG.search(u):
+        return ""
+    if u.lower().startswith("http://"):
+        u = "https://" + u[7:]
+    return u[:500]
+
+
+def find_image(node):
+    """Procura a foto da matéria: media:content/thumbnail, enclosure ou <img> no corpo."""
+    html_bits = []
+    for el in node.iter():
+        tag = el.tag.split("}")[-1]
+        u = el.get("url") or ""
+        kind = (el.get("type") or el.get("medium") or "").lower()
+        if tag in ("content", "thumbnail", "enclosure", "image") and u:
+            if tag == "thumbnail" or kind.startswith("image") or (tag == "content" and not kind and re.search(r"\.(jpe?g|png|webp)", u, re.I)):
+                g = good_img(u)
+                if g:
+                    return g
+        if tag in ("description", "encoded", "summary", "content") and el.text:
+            html_bits.append(el.text)
+    for bit in html_bits:
+        m = IMG_RE.search(bit)
+        if m:
+            g = good_img(m.group(1))
+            if g:
+                return g
+    return ""
+
+
 def parse_feed(xml_bytes):
     root = ET.fromstring(xml_bytes)
     for node in root.iter():
@@ -227,6 +265,7 @@ def parse_feed(xml_bytes):
             "url": url,
             "desc": clean(desc.text if desc is not None else ""),
             "dt": parse_date(date.text if date is not None else None),
+            "img": find_image(node),
         }
 
 
@@ -283,6 +322,7 @@ def collect():
                 "t": title,
                 "x": summary,
                 "u": e["url"],
+                "i": e.get("img", ""),
                 "_ts": e["dt"].timestamp(),
             })
             kept += 1
