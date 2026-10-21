@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T20:37:17-03:00",
+ "updated": "2026-10-20T21:02:49-03:00",
  "sources": {
   "bbc": [
    "BBC News Brasil",
@@ -20,9 +20,176 @@
   "b247": [
    "Brasil 247",
    "#15803d"
+  ],
+  "carta": [
+   "CartaCapital",
+   "#b91c1c"
+  ],
+  "bdf": [
+   "Brasil de Fato",
+   "#be123c"
+  ],
+  "intercept": [
+   "Intercept Brasil",
+   "#1f2937"
+  ],
+  "op": [
+   "Outras Palavras",
+   "#7c3aed"
+  ],
+  "eo": [
+   "Esquerda Online",
+   "#dc2626"
+  ],
+  "uol": [
+   "UOL Notícias",
+   "#d97706"
+  ],
+  "uole": [
+   "UOL Esporte",
+   "#ea580c"
+  ],
+  "terra": [
+   "Terra Notícias",
+   "#059669"
   ]
  },
  "items": [
+  {
+   "s": "b247",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Lula pede voto pautado pela verdade e pelo respeito em carta aos católicos",
+   "x": "Presidente cita políticas sociais e pede que eleitores considerem a fé, a consciência e a trajetória dos candidatos no segundo turno",
+   "u": "https://www.brasil247.com/brasil/lula-pede-voto-pautado-pela-verdade-e-pelo-respeito-em-carta-aos-catolicos/"
+  },
+  {
+   "s": "icl",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Flávio defendeu milícias e atacou juízas que enfrentaram policiais criminosos",
+   "x": "Por Cleber Lourenço O senador Flávio Bolsonaro (PL-RJ) defendeu a atuação de milícias no Rio de Janeiro, afirmou que esses grupos traziam benefícios à população e chegou a propor sua regulamentação. O parlamentar também criticou…",
+   "u": "https://iclnoticias.com.br/flavio-defendeu-milicias-atacou-juizas/"
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Carreatas em apoio a Lula são realizadas na Zona Sul de Aracaju",
+   "x": "Carreata em Sergipe é puxada por apoiadores da candidatura de Lula Jeová Luiz/TV Sergipe Duas carreatas em apoio à candidatura de Lula à Presidência da República estão sendo realizadas, na noite desta terça-feira (20), pelas ruas…",
+   "u": "https://g1.globo.com/se/sergipe/eleicoes/2026/noticia/2026/10/20/carreatas-em-apoio-a-lula-sao-realizadas-na-zona-sul-de-aracaju.ghtml"
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "VÍDEOS: Jornal Anhanguera 2ª Edição-TO de terça-feira, 20 de outubro de 2026",
+   "x": "Veja a matéria completa em g1.",
+   "u": "https://g1.globo.com/to/tocantins/playlist/videos-jornal-anhanguera-2-edicao-to-de-terca-feira-20-de-outubro-de-2026.ghtml"
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Mulher é presa por furto de produtos dermatológicos em farmácia na área nobre de Fortaleza",
+   "x": "Presa é suspeita de furtar produtos dermatológicos de alto valor em farmácia de Fortaleza. Divulgação Uma mulher de 26 anos foi presa em flagrante por suspeita de envolvimento no furto de produtos dermatológicos de alto valor em…",
+   "u": "https://g1.globo.com/ce/ceara/noticia/2026/10/20/mulher-e-presa-por-furto-de-produtos-dermatologicos-em-farmacia-de-fortaleza.ghtml"
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Ambulância tomba em rodovia e deixa motorista e paciente feridos em Amparo",
+   "x": "Ambulância tombou na Rodovia João Beira (SP-95) em Amparo, nesta terça-feira (20); paciente e motorista ficam feridos Amparo News/Divulgação O tombamento de uma ambulância às margens da Rodovia João Beira (SP-95), em Amparo (SP)…",
+   "u": "https://g1.globo.com/sp/campinas-regiao/noticia/2026/10/20/ambulancia-tomba-em-rodovia-e-deixa-motorista-e-paciente-feridos-em-amparo.ghtml"
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Resultados das Loterias Caixa",
+   "x": "Veja a matéria completa em g1.",
+   "u": "https://g1.globo.com/loterias/sorteios-caixa/ao-vivo/resultado-loterias-caixa.ghtml"
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Em Mossoró, Allyson propõe isenção de IPVA para motos de até 179 cilindradas",
+   "x": "Veja a matéria completa em g1.",
+   "u": "https://g1.globo.com/rn/rio-grande-do-norte/eleicoes/2026/noticia/2026/10/20/em-mossoro-allyson-propoe-isencao-de-ipva-para-motos-de-ate-179-cilindradas.ghtml"
+  },
+  {
+   "s": "uol",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Faturamento mostra porque Flávio não quer abrir sigilo, diz campanha do PT",
+   "x": "Veja a matéria completa em UOL Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZXFMRzlzTTBteXJZM2JpWEJDcDhGVFNtd1djSFB3OXVlTnBNMUNRdE9zWFVMbGQ1UTk4VTVwMXh4dGdqcjB1SGVCZ3lwenBxVlo1V0RBODZEb0dtdEJ1Z1lmdWZ3YVFkWFZzU2l6VkpRZndHU1hUSGVSOFlHdGZveDhuY2lhY2VUNEluU0RzS0dWbFRyR0RuM2Vqd0VFRzJMU2dXTWNUenVFeTVvYi1kOEJ0dXczUFY3OGNaODdxa1RkZE5o?oc=5"
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "AGU pede que Justiça retire R$ 190,3 milhões em bens de suspeitos de envolvimento com crime organizado",
+   "x": "A Advocacia-Geral da União (AGU) entrou nesta terça-feira (20) com as primeiras ações na Justiça com o objetivo de retirar bens de suspeitos de envolvimento com o crime organizado, com base na lei antifacção. De acordo com a AGU…",
+   "u": "https://g1.globo.com/politica/noticia/2026/10/20/agu-pede-que-justica-retire-r-1903-milhoes-em-bens-de-suspeitos-de-envolvimento-com-crime-organizado.ghtml"
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Apoiadores de Flávio Bolsonaro fazem ato em Aracaju",
+   "x": "Manifestação em apoio a Flávio Bolsonaro em Aracaju Jeová Luiz/TV Sergipe/g1 Apoiadores de Flávio Bolsonaro (PL) em Sergipe realizam um ato na noite desta terça-feira (20), na Zona Sul de Aracaju. Além de lideranças locais, como…",
+   "u": "https://g1.globo.com/se/sergipe/eleicoes/2026/noticia/2026/10/20/apoiadores-de-flavio-bolsonaro-fazem-ato-em-aracaju.ghtml"
+  },
+  {
+   "s": "g1",
+   "c": "Cultura",
+   "d": "2026-10-20",
+   "r": 3,
+   "t": "TZ da Coronel apresenta em novembro 'Lado mau', álbum em que faz feat com Matuê na faixa 'Mundo fashion'",
+   "x": "O rapper TZ da Coronel (à direita) anuncia o álbum 'Lado mau' com 'Mundo fashion', música gravada com Matuê (à esquerda) Divulgação ♫ NOTÍCIA ♬ Aos 25 anos, o rapper fluminense TZ da Coronel abre os trabalhos promocionais do…",
+   "u": "https://g1.globo.com/pop-arte/musica/blog/mauro-ferreira/post/2026/10/20/tz-da-coronel-apresenta-em-novembro-lado-mau-album-em-que-faz-feat-com-matue-na-faixa-mundo-fashion.ghtml"
+  },
+  {
+   "s": "b247",
+   "c": "Mundo",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Entidades acionam Congresso dos EUA e pedem investigação da Meta por atuação nas eleições do Brasil",
+   "x": "Carta de organizações da sociedade civil cita falhas na moderação, anúncios políticos irregulares e diferenças na distribuição de conteúdo durante a campanha",
+   "u": "https://www.brasil247.com/brasil/entidades-acionam-congresso-dos-eua-e-pedem-investigacao-da-meta-por-atuacao-nas-eleicoes-do-brasil/"
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 3,
+   "t": "Policiais militares de folga impedem roubo de carga de cigarros e resgatam reféns em Timon",
+   "x": "Policiais de folga impedem roubo de carga de cigarros em Timon Dois policiais militares de folga impediram o roubo de uma carga de cigarros e conseguiram resgatar dois trabalhadores que foram feitos reféns na manhã desta…",
+   "u": "https://g1.globo.com/ma/maranhao/noticia/2026/10/20/policiais-militares-de-folga-impedem-roubo-de-carga-de-cigarros-e-resgatam-refens-em-timon.ghtml"
+  },
+  {
+   "s": "icl",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "‘Por Marielle Franco, vá e vote’: Roger Waters, do Pink Floyd, manifesta apoio a Lula",
+   "x": "Por Brasil de Fato O músico britânico e fundador da lendária banda de rock progressivo Pink Floyd, Roger Waters, publicou um vídeo em suas redes sociais manifestando apoio à candidatura do presidente Luiz Inácio Lula da Silva…",
+   "u": "https://iclnoticias.com.br/marielle-vote-pink-floyd-manifesta-apoio-lula/"
+  },
   {
    "s": "b247",
    "c": "Brasil",
@@ -33,148 +200,76 @@
    "u": "https://www.brasil247.com/brasil/flavio-bolsonaro-pede-a-moraes-acesso-a-inquerito-por-lavagem-de-dinheiro/"
   },
   {
-   "s": "g1",
+   "s": "uol",
    "c": "Brasil",
    "d": "2026-10-20",
    "r": 5,
-   "t": "VÍDEOS: GR2 de terça-feira, 20 de Outubro de 2026",
-   "x": "Confira os vídeos do telejornal com as notícias do Sertão de Pernambuco.",
-   "u": "https://g1.globo.com/pe/petrolina-regiao/playlist/videos-gr2-de-terca-feira-20-de-outubro-de-2026.ghtml"
+   "t": "Brasil denuncia tentativa de ingerência no segundo turno após comentários de Milei",
+   "x": "Veja a matéria completa em UOL Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMVhRQWtOZ3BPcU1uRTJmamNoMzhuWE5SNWJaMHNVQWVQRkswYjNwSTlWVEpKQktrQjJPV0pRQlpYSWt1TmNhb1hYN3Q5LWpnTWRkZHJfYzdlTzhlT3RGR3o1V0h3NVJaN1lFS1lrWXFhMXkzejl6cU81ZmEtaWIyNUNHUTR5d3hHQ1BjbnVyNEV2ejZDQTFsX1pLb3hBeWtibTZvZmUxNnd1dWVMOFQ3a1JvN0VMYW9kalFGNl8xdDRVZWx6TEMzeDAzNzJTSlJlbDc3cDZaUUVjS1NNU0l1c1E5ano?oc=5"
   },
   {
-   "s": "g1",
+   "s": "uol",
    "c": "Brasil",
    "d": "2026-10-20",
    "r": 5,
-   "t": "AO VIVO: assista à programação da NSC TV",
-   "x": "Veja a matéria completa em g1.",
-   "u": "https://g1.globo.com/sc/santa-catarina/ao-vivo/assista-ao-vivo-aos-telejornais-da-nsc.ghtml"
+   "t": "Pesquisa Lula e Flávio: veja números atualizados do segundo turno presidencial",
+   "x": "Veja a matéria completa em UOL Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQd0N1UkdOQTVkdGFrUVBEdTZLNjNSMWVDcDJlM0wxZjh0QVE1a0dYWDhuY3pfeW05WFJvcFY1YTRzQlhZampGZlpQVW1DTEV5S2pQTUFkNmFqVXdfaVFrN3VxYUxCSmtET3oxc3NkSExPc0E1VGVvU0VpNXpmNXhTZnJYRWFZMGdlblNUWW9RZmwxclc2amJXOUg5QzF0TTFuVldudmZtYWlvVmI1aTRoZlZLQmMzUHcyWUM2cV9HUjhRb0pVX2czYkxB?oc=5"
   },
   {
-   "s": "g1",
+   "s": "uol",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Gilmar Mendes: Brasil é uma democracia constitucional sólida e assim permanecerá",
+   "x": "Veja a matéria completa em UOL Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOOE5LMUtTNHQ0RjhVeVpmYldvRU9XdVNzWHdCVjRLb0hsZjJBUzNPT2o1RWtNbWFwU0NMYVRWQVRxQndFTVIwQVY4RjFaWi1mZWZVWU1ReHdIY1phX3B0YVgyd2tiaDFEYlZ0WHllaldvZUR4TnBWM2U2NFVVNmtiSXE4QnVJTnd5OXpZSlo1a0d5UDczek1xVUZRR0dpRmRhVG5YQjJjU0VfUmp6SjdPejJPY0tWTUppRUs5OVZ0Zk5lVUdvQnBNbTVfZGpqZmduMHdrWGt1T0RmblYxRDF1X2pxOEdKRmVFVk5rWU5HYw?oc=5"
+  },
+  {
+   "s": "carta",
    "c": "Brasil",
    "d": "2026-10-20",
    "r": 5,
-   "t": "Dupla é condenada por torturar e matar torcedor na saída de jogo na Arena Castelão, em Fortaleza",
-   "x": "Homem foi morto por criminosos na saída de um jogo na Arena Castelão, em junho de 2023, em Fortaleza Divulgação/ Governo do Estado. O Tribunal da 3ª Vara do Júri de Fortaleza condenou, na segunda-feira (19), um homem e uma mulher…",
-   "u": "https://g1.globo.com/ce/ceara/noticia/2026/10/20/dupla-e-condenada-por-torturar-e-matar-torcedor-na-saida-de-jogo-na-arena-castelao-em-fortaleza.ghtml"
+   "t": "Flavio Bolsonaro apaga publicações contra o Bolsa Família",
+   "x": "As publicações antigas contrastam com o discurso adotado pelo senador nos últimos anos",
+   "u": "https://www.cartacapital.com.br/politica/flavio-bolsonaro-apaga-publicacoes-contra-o-bolsa-familia/"
   },
   {
    "s": "b247",
    "c": "Brasil",
    "d": "2026-10-20",
-   "r": 5,
+   "r": 4,
    "t": "Jango incomoda até hoje!",
    "x": "Por que um presidente deposto há 62 anos ainda desperta tanto ódio?",
    "u": "https://www.brasil247.com/blog/jango-incomoda-ate-hoje/"
   },
   {
-   "s": "g1",
+   "s": "uol",
    "c": "Brasil",
    "d": "2026-10-20",
    "r": 4,
-   "t": "Moradores protestam contra corte de árvores para ampliação do Aeroporto de Congonhas",
-   "x": "Árvores próximas ao aeroporto de Congonhas são derrubadas Moradores do Jardim Aeroporto, na Zona Sul de São Paulo, protestam contra o corte de árvores em uma área verde na região do Aeroporto de Congonhas. Eles afirmam que foram…",
-   "u": "https://g1.globo.com/sp/sao-paulo/noticia/2026/10/20/moradores-protestam-contra-corte-de-arvores-para-ampliacao-do-aeroporto-de-congonhas.ghtml"
-  },
-  {
-   "s": "g1",
-   "c": "Brasil",
-   "d": "2026-10-20",
-   "r": 4,
-   "t": "VÍDEOS: NE2 de terça-feira, 20 de outubro de 2026",
-   "x": "Assista aos vídeos do telejornal com as notícias de Pernambuco.",
-   "u": "https://g1.globo.com/pe/pernambuco/videos-ne2/playlist/videos-ne2-de-terca-feira-20-de-outubro-de-2026.ghtml"
-  },
-  {
-   "s": "g1",
-   "c": "Brasil",
-   "d": "2026-10-20",
-   "r": 4,
-   "t": "Motorista morre e duas crianças ficam feridas em batida entre carro e caminhão em Macatuba",
-   "x": "A Polícia Militar atendeu a ocorrência em Bauru (SP) Gabriel Pelosi/TV TEM Um motorista morreu e duas crianças ficaram feridas após uma batida entre um carro e um caminhão na Rodovia Juliano Lorenzetti, vicinal que liga Lençóis…",
-   "u": "https://g1.globo.com/sp/bauru-marilia/noticia/2026/10/20/motorista-morre-e-duas-criancas-ficam-feridas-em-batida-entre-carro-e-caminhao-em-macatuba.ghtml"
-  },
-  {
-   "s": "g1",
-   "c": "Brasil",
-   "d": "2026-10-20",
-   "r": 4,
-   "t": "Presa no Egito, Malévola já foi detida por desacato e lesão corporal em SP neste ano",
-   "x": "Malévola Alves é presa e diz que pagou fiança de R$ 1,6 mil Reprodução/Instagram A influenciadora Mariana Alves, conhecida nas redes sociais como Malévola Alves, foi presa no Egito com uma amiga após a circulação de vídeos em que…",
-   "u": "https://g1.globo.com/sp/sao-paulo/noticia/2026/10/20/presa-no-egito-malevola-ja-foi-detida-por-desacato-e-lesao-corporal-em-sp-neste-ano.ghtml"
-  },
-  {
-   "s": "g1",
-   "c": "Brasil",
-   "d": "2026-10-20",
-   "r": 4,
-   "t": "Jacundá decreta situação de emergência por incêndios florestais e efeitos da fumaça, no PA",
-   "x": "Jacundá decreta emergência por incêndios florestais e fumaça, no Pará. Divulgação A Prefeitura de Jacundá, no sudeste do Pará, decretou situação de emergência nas áreas afetadas por incêndios florestais e pelos efeitos da fumaça…",
-   "u": "https://g1.globo.com/pa/para/noticia/2026/10/20/jacunda-decreta-situacao-de-emergencia-por-incendios-florestais-e-efeitos-da-fumaca-no-pa.ghtml"
-  },
-  {
-   "s": "g1",
-   "c": "Brasil",
-   "d": "2026-10-20",
-   "r": 3,
-   "t": "Bebê de 11 meses internado em UTI no Acre está livre do sarampo, mas segue em estado grave, diz Saúde",
-   "x": "Criança apresenta leve melhora, mas continua em estado grave na UTI em Rio Branco O bebê de 11 meses que foi diagnosticado com sarampo e está internado em Rio Branco apresentou está livre da doença e apresentou uma leve melhora…",
-   "u": "https://g1.globo.com/ac/acre/noticia/2026/10/20/bebe-de-11-meses-internado-em-uti-no-acre-esta-livre-do-sarampo-mas-segue-em-estado-grave-diz-saude.ghtml"
-  },
-  {
-   "s": "g1",
-   "c": "Brasil",
-   "d": "2026-10-20",
-   "r": 3,
-   "t": "STF extingue mandado de segurança que buscava garantir mandato de Michel Magul para vaga de Aava Santiago",
-   "x": "Aava Santiago (PSB) Reprodução/Câmara Municipal de Goiânia O ministro do Supremo Tribunal Federal (STF) Dias Toffoli decidiu acabar de forma permanente com o mandado de segurança apresentado por Michel Afif Magul (PSDB), que…",
-   "u": "https://g1.globo.com/go/goias/noticia/2026/10/20/stf-extingue-mandado-de-seguranca-que-buscava-garantir-mandato-de-michel-magul-para-vaga-de-aava-santiago.ghtml"
-  },
-  {
-   "s": "g1",
-   "c": "Brasil",
-   "d": "2026-10-20",
-   "r": 3,
-   "t": "VÍDEOS: DF2 de terça-feira, 20 de outubro de 2026",
-   "x": "Veja as reportagens do telejornal com as notícias do DF.",
-   "u": "https://g1.globo.com/df/distrito-federal/videos-df2/playlist/videos-df2-de-terca-feira-20-de-outubro-de-2026.ghtml"
+   "t": "Pesquisa presidente: veja quem está na frente na disputa de 2º turno",
+   "x": "Veja a matéria completa em UOL Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOa000TDRGbXJkZjJkQWdhRzJqeFFUcjJiOW1mZUlMYkI3THViTjhlZzdTQ1VZcHFRSjJ6c0dPMENVN2Q2VmwtMk0zZ202Nm5CajJINURCbmc5RDFoT3dHTXBzWUJya0hYWkp3emcwMXRlS0U4S2wxT193TjVzM2xMdjlGWmNIaGRsSnE2Qjk5NE1SQm04YjFzTXlRMHNTNWR5YWJoUGNud3NWYVp5UDV1MklDM1hGVkpMQl9v?oc=5"
   },
   {
    "s": "b247",
    "c": "Brasil",
    "d": "2026-10-20",
-   "r": 5,
+   "r": 4,
    "t": "Pablo Marçal compara Renan Santos a Hitler e o acusa de criar “seita”",
    "x": "Empresário afirma que ex-candidato à Presidência criou uma “seita” entre jovens e defende ideias incompatíveis com a direita",
    "u": "https://www.brasil247.com/brasil/pablo-marcal-compara-renan-santos-a-hitler-e-o-acusa-de-criar-seita/"
   },
   {
-   "s": "g1",
+   "s": "uol",
    "c": "Brasil",
    "d": "2026-10-20",
-   "r": 3,
-   "t": "Livre de peste suína, Amapá quer liberar comércio de carne para outros estados e países",
-   "x": "Combate à peste suína: estados do Norte discutem estratégia para proteger produção local Com exames negativos em cerca de 15 mil porcos, o Amapá se prepara para obter o selo internacional de área livre de peste suína clássica e…",
-   "u": "https://g1.globo.com/ap/amapa/noticia/2026/10/20/livre-de-peste-suina-amapa-quer-liberar-comercio-de-carne-para-outros-estados-e-paises.ghtml"
-  },
-  {
-   "s": "g1",
-   "c": "Brasil",
-   "d": "2026-10-20",
-   "r": 3,
-   "t": "Assessor de deputado é exonerado da Alems após ser flagrado com R$ 127 mil na campanha eleitoral",
-   "x": "Assessor de deputado preso após subornar policiais e ser flagrado com R$ 127 mil. Reprodução José Antônio Pires de Souza, de 71 anos, conhecido como Zé Bocão, foi exonerado do cargo em comissão de assessor de gabinete parlamentar…",
-   "u": "https://g1.globo.com/ms/mato-grosso-do-sul/noticia/2026/10/20/assessor-de-deputado-e-exonerado-da-alems-apos-ser-flagrado-com-r-127-mil-na-campanha-eleitoral.ghtml"
-  },
-  {
-   "s": "g1",
-   "c": "Cultura",
-   "d": "2026-10-20",
-   "r": 3,
-   "t": "Adélia Prado vence prêmio de poesia da Biblioteca Nacional: 'Extrema alegria', diz filha",
-   "x": "Adélia Prado com o livro \"O Jardim das Oliveiras\" Reprodução/Instagram A poetisa Adélia Prado venceu o Prêmio Literário Biblioteca Nacional 2026, na categoria poesia, com o livro \"O jardim das oliveiras\". Os vencedores foram…",
-   "u": "https://g1.globo.com/mg/centro-oeste/noticia/2026/10/20/adelia-prado-vence-premio-de-poesia-da-biblioteca-nacional-extrema-alegria-diz-filha.ghtml"
+   "r": 4,
+   "t": "MP pede condenação de Eduarda Campopiano por transfobia contra Erika Hilton",
+   "x": "Veja a matéria completa em UOL Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQ05xWlhxYXhUamtvS3dOYzAzQkxLejF0S2hqOUptaHhmSDZRM1M2b3FrOVlsZzdiNW1OaXpjX3JLN0hkaUFjTWRweDJFdWlrT1c5bzN0QktTZ2lzUVJEVXM4ZmxYY3psd192M2UxVG45X0NsNUlvUm9JVDUtRTNtbXNxMDZyR19EM2dseGJMT01GZnVqaHIyQk12cV9ZUTFuWGU1V21RY3FFTnJ5VXFqQTNYTHNTdnVOMWQ0Zg?oc=5"
   },
   {
    "s": "b247",
@@ -184,6 +279,15 @@
    "t": "‘Se Flávio Bolsonaro autorizar quebrar o sigilo vai ter debate, porque presidente não pode debater com ladrão’, diz Lula",
    "x": "Presidente exige que adversário autorize a divulgação de dados bancários, fiscais e telefônicos e afirma que não pode debater com “ladrão”",
    "u": "https://www.brasil247.com/nordeste/se-flavio-bolsonaro-autorizar-quebrar-o-sigilo-vai-ter-debate-porque-presidente-nao-pode-debater-com-ladrao-diz-lula/"
+  },
+  {
+   "s": "uol",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Pesquisa segundo turno: veja números atualizados da disputa Lula x Flávio",
+   "x": "Veja a matéria completa em UOL Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQU1oMWFiSEZzUVZQV1V5T0RjSjVGQUtyaHNCbWpod1ljRTcxeXpMWTlnTzJ6Z0hLcy1YcUdQbF9MakptZWxNWnVmRTl2QXo2S0ZUN2lOaDJFRkc2elpGVHNhdVhoVU80eVMyaExLaHhHMkg4LWdNQnUzcTcxVW40VVlyT2hadkpJZTBlc085SHBjd1RPNmpHblFESTlXTjJ5MXN1bnVPQ2UzYXJHTG1ONk5QOFY1YXFlLWVBcDczaFJBaWs?oc=5"
   },
   {
    "s": "b247",
@@ -207,7 +311,7 @@
    "s": "b247",
    "c": "Brasil",
    "d": "2026-10-20",
-   "r": 4,
+   "r": 3,
    "t": "MEI deve quitar DAS mensal até terça-feira, informa o Sebrae",
    "x": "Microempreendedores individuais têm até esta terça-feira (20) para pagar a guia mensal do DAS-MEI.",
    "u": "https://www.brasil247.com/sebrae/mei-deve-quitar-das-mensal-ate-terca-feira-informa-o-sebrae/"
@@ -222,28 +326,46 @@
    "u": "https://iclnoticias.com.br/lula-anuncia-perdao-meis-congresso/"
   },
   {
-   "s": "b247",
+   "s": "terra",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Quaest divulga nova pesquisa presidencial nesta quarta-feira; saiba o horário",
+   "x": "Veja a matéria completa em Terra Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNbkk2WUkzSVdDSkx0VU5wek1QWnRWb1R4TzA0emY4cnpTenc4VEd0WFhDelNmNTJ5dUhkMWF5ZUx4ckFWQ3NkUTdOZlE4WjdvdWVpYW5kbkFfYmhNTERkMkpEazlQWUd0UTZhRmk1MXN0Vk5IQUgzNmMtZTAwWDVSbnlRbFVLZmE4d3hCYllOSmVtS3d1SjhONEZ0QTVmczF0bzMwZ0pzb2drYklIc2JWUG01RG5tMkRpVE9SMjE1WUtfQnN2OVRHUFI2Q0ozOXVZQXhreWNrbThzaFpLQmp3ZXhVNXNzOGQ3UUE3OUVBcDJCaXMzSlBsN29NUXNWVUtEN0hTU0N3?oc=5"
+  },
+  {
+   "s": "uol",
    "c": "Brasil",
    "d": "2026-10-20",
    "r": 4,
-   "t": "Lavrov aponta declínio do Ocidente e critica sequestro de Maduro: “aventura sem precedentes”",
-   "x": "Chanceler russo afirma que a ordem mundial passa por uma inflexão e que as potências ocidentais tentam preservar sua hegemonia",
-   "u": "https://www.brasil247.com/mundo/lavrov-aponta-declinio-do-ocidente-e-critica-sequestro-de-maduro-aventura-sem-precedentes/"
+   "t": "Newsletters",
+   "x": "Veja a matéria completa em UOL Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSTU0RF95QjBlWG9zenN6ZVJ6ZGRuZEtjeGkzblRhcm5SNks1X1RhMWxSa3lXYUVzeDlrUHBnNmlTYjV2NjRIeWxpMXFnT2FuNFd5RW5QMFlWTl9sWVRIM0F5N1FPUkRXS3BDMTBpOEtva1pVTWN4VVpRNkwwcncwYjE1dw?oc=5"
+  },
+  {
+   "s": "bdf",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Arcebispo de Curitiba se reúne com Alckmin e destaca diálogo com vice-presidente",
+   "x": "Nesta terça-feira (20), em visita a Curitiba (PR), o vice-presidente Geraldo Alckmin (PSB) se reuniu com Dom José Antônio Peruzzo, arcebispo metropolitano da capital paranaense, na Cúria Diocesana. Pela manhã, Alckmin se reuniu…",
+   "u": "https://www.brasildefato.com.br/2026/10/20/arcebispo-de-curitiba-se-reune-com-alckmin-e-destaca-dialogo-com-vice-presidente/"
   },
   {
    "s": "b247",
    "c": "Brasil",
    "d": "2026-10-20",
    "r": 3,
-   "t": "PF aponta que Willer Tomaz pagou para ocultar links que o ligavam a Flávio Bolsonaro",
-   "x": "Relatório da Polícia Federal identifica negociação de R$ 9 mil para retirar 12 links; advogado nega esconder amizade com senador",
-   "u": "https://www.brasil247.com/brasil/pf-aponta-que-willer-tomaz-pagou-para-ocultar-links-que-o-ligavam-a-flavio-bolsonaro/"
+   "t": "Lavrov aponta declínio do Ocidente e critica sequestro de Maduro: “aventura sem precedentes”",
+   "x": "Chanceler russo afirma que a ordem mundial passa por uma inflexão e que as potências ocidentais tentam preservar sua hegemonia",
+   "u": "https://www.brasil247.com/mundo/lavrov-aponta-declinio-do-ocidente-e-critica-sequestro-de-maduro-aventura-sem-precedentes/"
   },
   {
    "s": "icl",
    "c": "Brasil",
    "d": "2026-10-20",
-   "r": 5,
+   "r": 4,
    "t": "Justiça nega prisão preventiva de motorista que atropelou e matou tio de Boulos",
    "x": "A Justiça de São Paulo negou, nesta terça-feira (20), o pedido de prisão preventiva de Amilton Jusselino Rodrigues, investigado por atropelar e matar Carlos Boulos, de 80 anos, tio do ministro da Secretaria-Geral da Presidência…",
    "u": "https://iclnoticias.com.br/justica-nega-prisao-motorista-matou-tio-boulos/"
@@ -258,22 +380,40 @@
    "u": "https://www.bbc.com/portuguese/articles/cmgr8qz1095jo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "s": "b247",
-   "c": "Brasil",
+   "s": "uol",
+   "c": "Mundo",
    "d": "2026-10-20",
    "r": 3,
-   "t": "MP-SP apresenta ação contra Eduarda Campopiano por ataque transfóbico a Erika Hilton",
-   "x": "Ministério Público pede indenização de R$ 100 mil e curso sobre inclusão social e combate à homotransfobia",
-   "u": "https://www.brasil247.com/sudeste/mp-sp-apresenta-acao-contra-eduarda-campopiano-por-ataque-transfobico-a-erika-hilton/"
+   "t": "Trump quer transformar sala de imprensa da Casa Branca em piscina coberta",
+   "x": "Veja a matéria completa em UOL Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdXpVNER2WEdXV0ROaEJqVWlUX05BSkF0NU01LU9wUExCTG90bEFkbWpXcThsOEJoS2gtbksybkN4VVc4bVZrQTJEXy1mVTRnNmFNd0ZlS0dNSFJKSzlYc0VoeWVsYVhfTENQMURJMXl3OXE2WmJTLVExem5vcGF1eHNxRjZDSEJzMS1xRmdLU2dPTHFYQWVKZ2RhOUxUbnoyNEFSd0JrNTJZV0RUWk5IS0E0WmlPWUdDRGhnUlNRa2lSZVo0OUp0a3hmZzJDb3pCUy1KZnVR?oc=5"
+  },
+  {
+   "s": "carta",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Milhares vão às ruas em Portugal após remoção de acampamentos por moradia",
+   "x": "Os manifestantes protestam contra a inação do governo diante da crise imobiliária",
+   "u": "https://www.cartacapital.com.br/mundo/milhares-vao-as-ruas-em-portugal-apos-remocao-de-acampamentos-por-moradia/"
   },
   {
    "s": "icl",
    "c": "Brasil",
    "d": "2026-10-20",
-   "r": 5,
+   "r": 4,
    "t": "De Flávio a Jorginho Mello, bolsonaristas tentam restringir cotas raciais",
    "x": "Por Bianca Zambetta Flávio Bolsonaro (PL-RJ) tem um histórico de oposição às cotas raciais, que inclui manifestações públicas, iniciativas legislativas e questionamentos judiciais. O senador já se posicionou contra esse tipo de…",
    "u": "https://iclnoticias.com.br/de-flavio-jorginho-bolsonaristas-cotas-raciais/"
+  },
+  {
+   "s": "uol",
+   "c": "Economia",
+   "d": "2026-10-20",
+   "r": 3,
+   "t": "Petróleo cai após sinal de diálogo EUA-Irã",
+   "x": "Veja a matéria completa em UOL Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTGY4WDE3LWFwRkFVbGRidXluWUwtZEZSbzFKTEJvQ2RYZExCMUR4RWlLenBHNW4yeERsc25rZUI4cVlTcEVZdmZyT1MxdGoyRHlSdGFyNG44T1lMbWtfV0FCUWFqUkotYTd3aDIwdnptd2hUMmlmNldwcjI3dzlXNGRERUcxeENsT2p6M1JVVjFoMHd6eGE4TEJ1ZHpUd2d1MFllc04wRFNUUDVQYUww?oc=5"
   },
   {
    "s": "icl",
@@ -294,6 +434,33 @@
    "u": "https://www.bbc.com/portuguese/articles/cm0reljzj2jjo?at_medium=RSS&at_campaign=rss"
   },
   {
+   "s": "carta",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "O despertar da juventude renova as esperanças nas eleições deste ano",
+   "x": "Temos menos de uma semana de luta pela frente, mas já é possível observar o crescimento das mobilizações populares, puxadas sobretudo por estudantes",
+   "u": "https://www.cartacapital.com.br/opiniao/o-despertar-da-juventude-renova-as-esperancas-nas-eleicoes-deste-ano/"
+  },
+  {
+   "s": "carta",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Marçal compara Renan Santos a Hitler e menospreza eleitores do ex-candidato",
+   "x": "As declarações ocorreram em podcast após Renan optar pela neutralidade no 2º turno; o ex-presidenciável rebateu o coach e ironizou a campanha de Flávio",
+   "u": "https://www.cartacapital.com.br/politica/marcal-compara-renan-santos-a-hitler-e-menospreza-eleitores-do-ex-candidato/"
+  },
+  {
+   "s": "bdf",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "‘O Brasil precisa de verdade, não de mentira’: Alckmin visita Curitiba nesta terça-feira (20)",
+   "x": "O vice-presidente Geraldo Alckmin (PSB) veio a Curitiba (PR) para agendas de campanha, nesta terça-feira (20). Candidato à reeleição na chapa do presidente Luiz Inácio Lula da Silva (PT), Alckmin participou de um ato político com…",
+   "u": "https://www.brasildefato.com.br/2026/10/20/o-brasil-precisa-de-verdade-nao-de-mentira-alckmin-visita-curitiba-nesta-terca-feira-20/"
+  },
+  {
    "s": "icl",
    "c": "Tecnologia",
    "d": "2026-10-20",
@@ -301,6 +468,78 @@
    "t": "Meta recusa pedido federal para criar canal de proteção a jornalistas",
    "x": "Por Alex Rodrigues – Agência Brasil Dona do Instagram, do Facebook, do WhatsApp e de outras plataformas digitais e redes sociais, a empresa de tecnologia Meta se negou a criar um canal direto para receber denúncias de ameaças…",
    "u": "https://iclnoticias.com.br/meta-recusa-pedido-canal-protecao-a-jornalistas/"
+  },
+  {
+   "s": "carta",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Salada cremosa de frango com iogurte: aprenda essa receita proteica e fácil para o jantar",
+   "x": "Quando bate a vontade de um jantar leve, mas que ainda assim sustente, a salada de frango é sempre uma boa saída. Nesta versão, a cremosidade vem do iogurte natural, que substitui a maionese e deixa o prato mais leve e rico em…",
+   "u": "https://www.cartacapital.com.br/receitas/salada-cremosa-de-frango-com-iogurte-aprenda-essa-receita-proteica-e-facil-para-o-jantar/"
+  },
+  {
+   "s": "carta",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Automedicação: 5 erros comuns que podem colocar a saúde em risco",
+   "x": "Tomar um analgésico para aliviar uma dor, repetir um medicamento que funcionou em outra ocasião ou seguir a recomendação de um familiar são atitudes comuns na rotina de muitas pessoas. Embora pareçam soluções simples para…",
+   "u": "https://www.cartacapital.com.br/bem-estar/automedicacao-5-erros-comuns-que-podem-colocar-a-saude-em-risco/"
+  },
+  {
+   "s": "carta",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Hibisco faz bem para quê? Veja os benefícios e os cuidados ao consumir a planta",
+   "x": "O hibisco é uma planta da família Malvaceae, originária de regiões tropicais da África e atualmente cultivada em diversas partes do mundo, incluindo o Brasil. Conhecida por suas estruturas florais de coloração avermelhada, a…",
+   "u": "https://www.cartacapital.com.br/bem-estar/hibisco-faz-bem-para-que-veja-os-beneficios-e-os-cuidados-ao-consumir-a-planta/"
+  },
+  {
+   "s": "carta",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Da infância à maturidade: 13 cuidados com a saúde que você não deveria deixar para depois",
+   "x": "Cuidar da saúde vai além de procurar atendimento médico quando surgem sintomas. Da infância à maturidade, pequenas mudanças no organismo podem indicar problemas que precisam de acompanhamento. Para auxiliar na prevenção, médicos…",
+   "u": "https://www.cartacapital.com.br/bem-estar/da-infancia-a-maturidade-13-cuidados-com-a-saude-que-voce-nao-deveria-deixar-para-depois/"
+  },
+  {
+   "s": "carta",
+   "c": "Mundo",
+   "d": "2026-10-20",
+   "r": 3,
+   "t": "Horóscopo coreano: descubra qual é o seu animal e confira as previsões da semana",
+   "x": "O horóscopo coreano é uma tradição inspirada na astrologia chinesa que associa 12 animais a características da personalidade e aspectos da vida cotidiana. Com raízes na China antiga, esse sistema segue o calendário lunar e se…",
+   "u": "https://www.cartacapital.com.br/astrologia/horoscopo-coreano-descubra-qual-e-o-seu-animal-e-confira-as-previsoes-da-semana/"
+  },
+  {
+   "s": "carta",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 3,
+   "t": "A democracia tem memória, e seu futuro está em disputa",
+   "x": "No mesmo dia em que escolheremos o novo presidente, completam-se 51 anos da morte de Vladimir Herzog, torturado e assassinado pela ditadura",
+   "u": "https://www.cartacapital.com.br/politica/a-democracia-tem-memoria-e-seu-futuro-esta-em-disputa/"
+  },
+  {
+   "s": "bdf",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Relembre: Flávio Bolsonaro atacou juízas para defender policiais acusados de envolvimento com milícias e grupos de extermínio",
+   "x": "Voltou a circular nas redes sociais uma entrevista do senador e candidato a presidente pelo PL, Flávio Bolsonaro, em que ele defende policiais militares presos por envolvimento com milícias e grupos de extermínio, que agrediram a…",
+   "u": "https://www.brasildefato.com.br/2026/10/20/relembre-flavio-bolsonaro-atacou-juizas-para-defender-policiais-acusados-de-envolvimento-com-milicias-e-grupos-de-exterminio/"
+  },
+  {
+   "s": "bdf",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Buraco do Jazz encerra temporada com shows gratuitos no DF",
+   "x": "Após uma década de atividades, o Buraco do Jazz fará a sua despedida de temporada com uma programação especial que ocorre desta quinta-feira (22) a sábado (24), a partir das 18h, no Centro Cultural Três Poderes (CC3P), no…",
+   "u": "https://www.brasildefato.com.br/2026/10/20/buraco-do-jazz-encerra-temporada-com-shows-gratuitos-no-df/"
   },
   {
    "s": "icl",
@@ -315,7 +554,7 @@
    "s": "icl",
    "c": "Economia",
    "d": "2026-10-20",
-   "r": 4,
+   "r": 3,
    "t": "Alimentos subiram 56,6% com Jair Bolsonaro, mais que o dobro da alta sob Lula",
    "x": "A inflação dos alimentos durante o governo de Jair Bolsonaro (PL) foi mais que o dobro da registrada até agora na gestão do presidente Luiz Inácio Lula da Silva (PT), considerando o ritmo médio mensal de aumento dos preços. Entre…",
    "u": "https://iclnoticias.com.br/economia/alimentos-subiram-56-6-com-bolsonaro/"
@@ -324,7 +563,7 @@
    "s": "icl",
    "c": "Brasil",
    "d": "2026-10-20",
-   "r": 4,
+   "r": 3,
    "t": "Milei quer demitir mais 20 mil servidores após eliminar 77 mil empregos públicos",
    "x": "O governo do presidente argentino Javier Milei anunciou, nesta segunda-feira (19), um novo plano para eliminar 20 mil postos de trabalho na administração pública. A medida aprofunda a política de austeridade adotada pelo…",
    "u": "https://iclnoticias.com.br/economia/milei-quer-demitir-mais-de-20-mil/"
@@ -339,22 +578,157 @@
    "u": "https://www.bbc.com/portuguese/articles/ck4g18721rv2o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "s": "icl",
+   "s": "terra",
    "c": "Brasil",
    "d": "2026-10-20",
-   "r": 3,
-   "t": "Conselho da Meta aponta falhas na moderação de conteúdos eleitorais",
-   "x": "O Conselho de Supervisão da Meta, empresa responsável pelo Facebook, Instagram e WhatsApp, criticou nesta terça-feira (20) as falhas recorrentes na moderação de conteúdos políticos durante períodos eleitorais. O órgão…",
-   "u": "https://iclnoticias.com.br/conselho-da-propria-meta-denuncia-falhas-na/"
+   "r": 5,
+   "t": "Flávio recebeu cerca de R$ 26 milhões em doações privadas, 34 vezes mais que Lula",
+   "x": "Veja a matéria completa em Terra Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOcGFET2Vtd0JuTE8tbGJvTEFuLV85N3NBdkpqNmZuanN1UWV5SHVkU0Qtc1R0RTlnZDQwOE9hMW9UU0dUX21vVWtKZXVueHVwQ0tvZkZuaVY5cWFZWkpsVlV6UFhRdkNJNHM2T29CV1dOTGpzZ296SVctV1Fqcmd3dVIwbVpqRHpPWmx3RmlQaFpmWmkzNzAzWHctLS1NTFN6RzVqeE1uZ0tWTVhZTWtaNjN5dEtLOTF3MmVJYlhVLXF5QzRlWE9za0lRUzFZXzBUZ3UzUzQ5S2JGWndxTVdyUDdtS1JZcFVYSFV4RndETV9NUXE5blAwekc4V2Y?oc=5"
   },
   {
-   "s": "icl",
+   "s": "bdf",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Sem quórum, sessão da Câmara do DF tem defesa da educação pública e reivindicações de servidores",
+   "x": "A sessão ordinária da Câmara Legislativa do Distrito Federal (CLDF) desta terça-feira (20) não teve quórum para votação das matérias previstas na ordem do dia. Nos comunicados de líderes e parlamentares, os discursos abordaram…",
+   "u": "https://www.brasildefato.com.br/2026/10/20/sem-quorum-sessao-da-camara-do-df-tem-defesa-da-educacao-publica-e-reivindicacoes-de-servidores/"
+  },
+  {
+   "s": "op",
+   "c": "Tecnologia",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Quem controla as eleições na era digital",
+   "x": "Internet libertou a circulação de ideias dos gastos e máquinas eleitorais. Mas as big techs fragmentaram espaço público e passaram a definir que grupos receberão quais mensagens. Só uma grande reforma do espaço digital resgatará…",
+   "u": "https://outraspalavras.net/tecnologiaemdisputa/pochmann-quem-controla-eleicoes-era-digital/"
+  },
+  {
+   "s": "terra",
+   "c": "Mundo",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Avião de pequeno porte cai no meio de avenida e quase atinge carros nos EUA; veja vídeo",
+   "x": "Veja a matéria completa em Terra Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPS1Fwc1h5MHJDWXNSR0dobURoNmN4V25DMmk4U3Fsa1V5d1VESFJxZDloUFdDVHZUQlk2UHhwTnJ6RG05S1JObFk4ekJfZEgxd1J6SXZRb3pPS0ZOT1hPZ0M3QTlRUWYySzBhNzNpeTctMWl6cTlSLVdRa1VaSkxJZ0FtRnBFS0t0b3lPNkJPcmZCWXdkNEJudnB5N0hrMGZrS2pvSXJ5Y3BiUU8xVXQ1eEhET3BVRU1UQWZXV1dsXzU5TXZaa2w0UTBtVGxYdGVORTF2M0t0SklWWEFqcDF1T1ZoMTRpZ3JuMHVmU0tHUjBzOE1hSG5uX2RGTm44a3FFeFE?oc=5"
+  },
+  {
+   "s": "terra",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "12º Congresso Vitafor Science será em Fortaleza",
+   "x": "Veja a matéria completa em Terra Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTHlhNW9yX2Yxdmx5OC1JQVlCNlVtYnJET3hTcnNGcVZaNXRkOEdxclRFbEFEY01UVEprV2ltbnA4dXBHdWZFM0hRUUlmNHNZRlRvZGRIMDhLRi0tSnBEeVpyWXl6c3o1LUxzMmhSbWtTSnZ5d3hYR2tkX2dvX1ROWW16bnZoOVRtY25jVjE3T2F0WE8wUlYyc0gyTVFkXzZpbFMtX2NGV18taFM3VG1IRE5xbjdaSkNGdEEzMHM0ZlJ2b1gx?oc=5"
+  },
+  {
+   "s": "terra",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "AliExpress devolve diferença se cliente achar preço menor",
+   "x": "Veja a matéria completa em Terra Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdV96bnZvR0l0N1k3MWZQYW9NY0xRSUh3ZUdFLU9IYUdSZGstTHJ0aGtqRWtlb1FEOE1wQ2JtY09UU1BocS10SWh6Z1NycnRzRUtpQ1BCX3RteHB3RVRvTUE2ZG1ua0w4d3U4dmo0MGxzUDBMVk9ZTTNSdHptd2pIUjl1NjU3b055cWJHbjhqZ09Kc1dqaUVoejJ6bU1GOTVaOHdvR1NkVDFHVGllS014SU13MHo4T0Vhb1ItNUpyWVlYWE9vUXl2N3ZmRmYwcnhma1V3?oc=5"
+  },
+  {
+   "s": "op",
+   "c": "Cultura",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Cooperação verde: uma nova agenda para o Sul Global",
+   "x": "Livro apresenta caminhos para uma aliança entre China e América Latina que articule industrialização, inovação e transição energética. O potencial: autonomia e desenvolvimento sustentável. O desafio: garantir transferência…",
+   "u": "https://outraspalavras.net/descolonizacoes/cooperacao-verde-uma-nova-agenda-para-o-sul-global/"
+  },
+  {
+   "s": "terra",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Cresce uso de trade-in e upgrade para renovar smartphones",
+   "x": "Veja a matéria completa em Terra Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTEthMGNsUWRwZ21hSWU3Vnp5bXFvLVlVYW81cEJFV2MyREFYR1NCOW1WRWRSUjRUYUR4YWRCWEVIR2FKVTRCdXQtYlN3WXFyYTdIUko4THVYQ19PV0ROMmNpM1I1STB5YldlaEJVdTBhcXZMWEtMQ2J1SVNCTklvUFVRY0tiUElVSTBvVFNPUDJ2dzRQYzk2aVZXVkVpNF8tRmJFS3BrSnB4aFB6Vm5pb3A4Qlo0TjJQeVRVNy1TN1BlSGFCT3VKOThTczc4SjZJY2g0?oc=5"
+  },
+  {
+   "s": "terra",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Ensino de inglês integra aulas ao vivo, IA e storytelling",
+   "x": "Veja a matéria completa em Terra Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQcXdiOGdtVDFYVDVoYzB3YlpLTDhVTEl6TXF3V0d2cU52V3BvMHR3UzNncFRYcUxoVTdTZVBhMmZHTWhCby1wWTI5TnZhZGZzenpJVnRYV2NyU3pyVTY3aXBsRFVaRHptV0V5NlRuaDVQelY2MTN2VWF5aTdSZFAwSzlTdzRnZWJhSVBHY3poSmNsTEo1STN5N2QyOFZ0dlRFcHJkRmFMWGx0SFhhbVlKX1plNk1FUjBRR0xtazZFUFU0dVlVemFOQk1MeEpmME5EU2c?oc=5"
+  },
+  {
+   "s": "terra",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Alta performance no balé é um alerta para jovens bailarinos",
+   "x": "Veja a matéria completa em Terra Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbTZqS3ZVUzc2UTRISm5pb2VWdTM4QnhEaXhZazd0ZkREVGphTkhZNVlZV3pHb2RWR3lyMU14aENVV3FVT3g5cW1vQWpZS1VZRFB2LWwtZWFmc0xBblZPdW5GZUpYaFVBT2ZaNTlRS0FaT2Y1TXpCMkZuRzA3dExwSFJvSTQ5TExhY1JwT25iTGtPWTJnOVJ4ZlF2WG04Z1hDcFVsdVRwSzFnV3paWE5Udl96YnQ3WldjMndrbU9TTlB4UDhadVhXQTZXQTZhVk9UWWV5TDJR?oc=5"
+  },
+  {
+   "s": "bdf",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Iniciativas em espaços públicos no DF estimulam voto consciente no 2º turno",
+   "x": "Uma mesa com café e bolo no Cruzeiro, um jogo de cartas na Rodoviária do Plano Piloto, flores distribuídas em paradas de ônibus da W3 Norte e ações organizadas por moradores de Santa Maria. No Distrito Federal, voluntários têm…",
+   "u": "https://www.brasildefato.com.br/2026/10/20/iniciativas-em-espacos-publicos-no-df-estimulam-voto-consciente-no-2o-turno/"
+  },
+  {
+   "s": "terra",
    "c": "Brasil",
    "d": "2026-10-20",
    "r": 3,
-   "t": "Veja três vezes que Flávio Bolsonaro votou contra projetos de proteção à mulher",
-   "x": "Por Brasil de Fato Registros da Assembleia Legislativa do Estado do Rio de Janeiro (Alerj) mostram que o parlamentar figurou como único voto contrário em propostas voltadas aos direitos femininos, ao combate ao turismo sexual e à…",
-   "u": "https://iclnoticias.com.br/veja-tres-vezes-que-flavio-bolsonaro-votou/"
+   "t": "Influenciador Lucas Dias divulga apelo por quarto adaptado para jovem em estado vegetativo",
+   "x": "Veja a matéria completa em Terra Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOd05yTW54OWFLaUZjTWUxMUNFTUFRcmdRdTB1WVZyeTdrS0toOHhfRHRIdGFtMHJ0UFFIcmc2c0NsUjB5TWlCMlVNa3BITWQ2UkpIVGFCcUxranUtWHJpeEp5ZUZ2azRBTFBNU2ZvVUdoMHRUUXR4RWp1WEhpYzFTcHFUckwyRFJJVXlHeVRCZzJZM1NPbWtKbkpzeDY4Q2dlQ29ldzBoNV9RalYtTUxLZkI2SElhM1o4VlRLa2N1elNqNHFjSmZjNGxjV2dMWnh3b3Fkcm1yYzdSOTNpWEtodENHSHJqb2ZZSUZZUGw2VFJVS3R0N0pzTnY5cVpqeU0?oc=5"
+  },
+  {
+   "s": "bdf",
+   "c": "Cultura",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Festival Primavera Cultural promove atividades gratuitas de cordel e circo em Guaíba (RS)",
+   "x": "O 4º Festival Primavera Cultural segue com atividades gratuitas durante o mês de outubro, ocupando a sede do Ponto de Cultura Biguá e escolas de Guaíba (RS). Entre as próximas atrações estão a vivência brincante “Adivinha quem é?…",
+   "u": "https://www.brasildefato.com.br/2026/10/20/festival-primavera-cultural-promove-atividades-gratuitas-de-cordel-e-circo-em-guaiba-rs/"
+  },
+  {
+   "s": "terra",
+   "c": "Mundo",
+   "d": "2026-10-20",
+   "r": 3,
+   "t": "Musk ordenou redução da velocidade do Starlink que pegou Ucrânia de surpresa, diz WSJ",
+   "x": "Veja a matéria completa em Terra Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQUERBdGZFN09MQjFrTzVOS1BlWHU0Q0I2NlgzVXg0LVp5T0otOVMtOWk3OVRRQTZ5eDFjSmdyclBzZ3FRQUttcWUzeDQ5VVpzNGU5YWJLTUZNajVVR0dXeFZJQ2g4WXd2WDgtRmUtb0p6cXlZWmtDVGRoNHNkTktCQmJMQVpneExqb3JKbG1qWHY5YXB6ZGp6WVJXRzgza19YM0hWZWpJRTM4S2c5ZlQ2T1liTkRkVWt3Q1g2eG1hSGwwTUJmT3VNamhvUGlZRU1ES0Y2N091bEdqSG01dTdrTTl0ZVlmSkdObV9wMXV2YnVpNFkzY2tUQmhWWHpSQmc?oc=5"
+  },
+  {
+   "s": "bdf",
+   "c": "Esportes",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Jogadores e torcidas do futebol se posicionam em defesa da democracia e apoiam Lula",
+   "x": "O futebol brasileiro, historicamente marcado por sua relação com a política e as lutas sociais, também tem sido espaço de manifestações em defesa da democracia e de apoio ao presidente Luiz Inácio Lula da Silva (PT). Entre…",
+   "u": "https://www.brasildefato.com.br/2026/10/20/jogadores-e-torcidas-do-futebol-se-posicionam-em-defesa-da-democracia-e-apoiam-lula/"
+  },
+  {
+   "s": "bdf",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 3,
+   "t": "Irmãos Brazão: advogado e filho de mandantes do assassinato de Marielle fazem campanha para Flávio Bolsonaro",
+   "x": "Pessoas ligadas aos irmãos Domingos e Chiquinho Brazão, condenados como mandantes do assassinato da vereadora Marielle Franco (Psol), estão engajadas na campanha do senador Flávio Bolsonaro (PL-RJ) à presidência, na reta final do…",
+   "u": "https://www.brasildefato.com.br/2026/10/20/irmaos-brazao-advogado-e-filho-de-mandantes-do-assassinato-de-marielle-fazem-campanha-para-flavio-bolsonaro/"
+  },
+  {
+   "s": "bdf",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 3,
+   "t": "MEC inaugura Campus São Leopoldo do IFSul nesta quarta-feira (21)",
+   "x": "O Ministério da Educação (MEC) inaugura nesta quarta-feira (21), às 15h, o Campus São Leopoldo do Instituto Federal Sul-Rio-Grandense (IFSul), na Região Metropolitana de Porto Alegre. A cerimônia será aberta ao público e contará…",
+   "u": "https://www.brasildefato.com.br/2026/10/20/mec-inaugura-campus-sao-leopoldo-do-ifsul-nesta-quarta-feira-21/"
   },
   {
    "s": "bbc",
@@ -366,6 +740,15 @@
    "u": "https://www.bbc.com/portuguese/articles/ckvg74ve4371o?at_medium=RSS&at_campaign=rss"
   },
   {
+   "s": "intercept",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Sabrina Fernandes: ‘Flávio Bolsonaro é Jair Bolsonaro’",
+   "x": "A socióloga e economista Sabrina Fernandes, numa edição especial em vídeo da coluna “No Fim do Túnel”, comenta o segundo turno das eleições e as dificuldades do campo democrático para falar de propostas políticas e projeto de…",
+   "u": "https://www.intercept.com.br/2026/10/20/sabrina-fernandes-flavio-bolsonaro-jair-bolsonaro/"
+  },
+  {
    "s": "rt",
    "c": "Mundo",
    "d": "2026-10-20",
@@ -373,6 +756,33 @@
    "t": "Checagem de fatos: Dados do TSE indicam aumento, e não redução de seções eleitorais em 2026",
    "x": "Veja a matéria completa em Reuters.",
    "u": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdTRJTW1QQU9SVFNvd1I0aC1YcjliTUMwTzhkOHNpZnh4blU4UHN5eEhmREZIMHJoUFBVR29teVAwdG1DRnZlQVE4U1NLazRYUHktR0NzZnhjZ1dXT2xISDhjWGtQd1dtUDNnRERSX2lfVnBJcnl5YlFxelo2Qmp4dGpkLU5BaXBiaHFV?oc=5"
+  },
+  {
+   "s": "op",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Lula e o aprendizado da campanha",
+   "x": "Eleição mostra: bons indicadores são insuficientes quando as maiorias seguem endividadas e em trabalhos precários. Do apoio aos MEIs ao reajuste do Bolsa Família, acertos do presidente indicam que ele, enfim, percebeu: aceitar o…",
+   "u": "https://outraspalavras.net/mercadovsdemocracia/lula-e-o-aprendizado-da-campanha/"
+  },
+  {
+   "s": "op",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Quem ganhará os sentidos do Brasil nas redes?",
+   "x": "Em ação puxada por André Janones, a camiseta verde-amarela se tornou manifestação de apoio a Lula. Interrompeu, assim, a leitura automática de símbolos nacionais sequestrados pelo bolsonarismo – e lembrou que a disputa pelo…",
+   "u": "https://outraspalavras.net/tecnologiaemdisputa/quem-ganhara-os-sentidos-do-brasil-nas-redes/"
+  },
+  {
+   "s": "op",
+   "c": "Economia",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "O desastre econômico que Flávio planeja",
+   "x": "“Tesouraço” à la Milei levaria o país a uma grave recessão. Além de impactos no SUS, Previdência e Educação, vai gerar desemprego e derrubar salários. Reduzir juros sem corte de gastos também deve ser bandeira na reta final da…",
+   "u": "https://outraspalavras.net/mercadovsdemocracia/o-desastre-economico-que-flavio-planeja/"
   },
   {
    "s": "bbc",
@@ -384,6 +794,15 @@
    "u": "https://www.bbc.com/portuguese/articles/cmewenzeklk8o?at_medium=RSS&at_campaign=rss"
   },
   {
+   "s": "op",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "Direito à Cidade em tempos de austeridade fiscal",
+   "x": "Flávio promete “tesouraço” e Congresso mais bolsonarista pode ferir de morte o princípio da função social da propriedade. Risco extrapola o desmonte de direitos: para se consolidar, o fiscalismo precisa implodir a participação…",
+   "u": "https://outraspalavras.net/outras-cidades/direito-a-cidade-em-tempos-de-austeridade-fiscal/"
+  },
+  {
    "s": "bbc",
    "c": "Brasil",
    "d": "2026-10-20",
@@ -391,6 +810,42 @@
    "t": "As pesquisas para presidente na reta final do 2º turno — o que diziam em 2018, 2022 e o que mostram agora",
    "x": "O cenário eleitoral mudou ao longo dos anos: Flávio Bolsonaro ocupa a primeira posição nas pesquisas de 2026, enquanto Lula era o favorito em 2022 e Jair Bolsonaro, em 2018. Confira a trajetória nos gráficos da reportagem.",
    "u": "https://www.bbc.com/portuguese/articles/cm8xzrr0gz82o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "s": "eo",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Checagem: Flávio Bolsonaro fez 110 afirmações falsas ou enganosas na noite do debate da Band",
+   "x": "Uma checagem fala por fala do que Flávio Bolsonaro (PL) disse no debate da Band, em 18 de outubro, e[.....] O post Checagem: Flávio Bolsonaro fez 110 afirmações falsas ou enganosas na noite do debate da Band apareceu primeiro em…",
+   "u": "https://esquerdaonline.com.br/2026/10/20/checagem-flavio-bolsonaro-fez-110-afirmacoes-falsas-ou-enganosas-na-noite-do-debate-da-band/?utm_source=rss&utm_medium=rss&utm_campaign=checagem-flavio-bolsonaro-fez-110-afirmacoes-falsas-ou-enganosas-na-noite-do-debate-da-band"
+  },
+  {
+   "s": "eo",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Onda vermelha disputa a virada",
+   "x": "Quem faz o seu destino são as suas escolhas, não as suas chances Provérbio popular português O segundo turno está[.....] O post Onda vermelha disputa a virada apareceu primeiro em Esquerda Online .",
+   "u": "https://esquerdaonline.com.br/2026/10/20/onda-vermelha-disputa-a-virada/?utm_source=rss&utm_medium=rss&utm_campaign=onda-vermelha-disputa-a-virada"
+  },
+  {
+   "s": "op",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 4,
+   "t": "As falhas da Folha",
+   "x": "Tomar os três incêndios na UFPE como mote para a defesa de um modelo obscuro de financiamento das universidades traz sabor de mau gosto e falta de pudor. Quero, aqui, denunciar a preguiça do jornal, quando passa a plagiar a si…",
+   "u": "https://outraspalavras.net/alemdamercadoria/as-falhas-da-folha/"
+  },
+  {
+   "s": "eo",
+   "c": "Brasil",
+   "d": "2026-10-20",
+   "r": 5,
+   "t": "Entre o diagnóstico, o prognóstico e a ação: como realizar uma virada histórica",
+   "x": "As últimas pesquisas de intenção de voto falaram em alto bom som: temos todas as condições de vitória. Lula e[.....] O post Entre o diagnóstico, o prognóstico e a ação: como realizar uma virada histórica apareceu primeiro em…",
+   "u": "https://esquerdaonline.com.br/2026/10/20/entre-o-diagnostico-o-prognostico-e-a-acao-como-realizar-uma-virada-historica/?utm_source=rss&utm_medium=rss&utm_campaign=entre-o-diagnostico-o-prognostico-e-a-acao-como-realizar-uma-virada-historica"
   },
   {
    "s": "rt",
@@ -447,13 +902,13 @@
    "u": "https://www.bbc.com/portuguese/articles/c98vzgy2vjzo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "s": "bbc",
-   "c": "Brasil",
+   "s": "uole",
+   "c": "Esportes",
    "d": "2026-10-20",
-   "r": 3,
-   "t": "O que Flávio Bolsonaro e Lula propõem sobre o Bolsa Família",
-   "x": "Lula e Flávio Bolsonaro disputam eleição para presidente no segundo turno e apresentam propostas diferentes para o Bolsa Família.",
-   "u": "https://www.bbc.com/portuguese/articles/c84g120zwq1zo?at_medium=RSS&at_campaign=rss"
+   "r": 5,
+   "t": "Guilherme Dorini: Medina vira no fim, vence australiano e vai à semifinal em Portugal",
+   "x": "Veja a matéria completa em UOL Esporte.",
+   "u": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVlFXX2pxUGdPM282UTNvNW1mSWNCRHF4X2ttYXo0OEN4NFpOdk00RzJzMlB1Zkx6LVJ0VmpVbEhyNE9teTBhaV90M3BYc2NhZzlWc1ZubWwtMGZ4V0JEUGlCakJsOGw0MGRjczlWV1o1ZDVpLTBTUnFzQ05fR1BTZnNMZzlnTC1qQlFJQWVOb2ktR3J2Rm5xZDhjMWtPN3dFLXl2SVhlOUdLaGRXbHY2SlpPVldQMkVZNkNxQldaWGtDQ19tNnhta3J2NGxhUQ?oc=5"
   },
   {
    "s": "rt",
@@ -465,31 +920,31 @@
    "u": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOV3ozcVZ3eFZ0M1FMM3F5czIxMFpRSDR4VFNTdG9WcW5HMmZEdFhtZThrbkt1Z3lVdmI4Zk1fdWJrVGtOZUFGRzFSWXFleF9rUG9peVpjOVl5XzM5R0xtQUJhWUYxakpLSXpjaEk5cklweGZ3Z2RwWUFjLXJaZnVVRkltR1Vnb3NpVVBBek5GQm02Zw?oc=5"
   },
   {
-   "s": "bbc",
-   "c": "Brasil",
-   "d": "2026-10-20",
-   "r": 3,
-   "t": "'Alberta mais forte em Canadá unido': província vota para seguir sendo parte do país",
-   "x": "Eleitores da província recusaram por ampla margem uma proposta para iniciar um processo para a independência.",
-   "u": "https://www.bbc.com/portuguese/articles/cq203eem703do?at_medium=RSS&at_campaign=rss"
+   "s": "uole",
+   "c": "Esportes",
+   "d": "2026-10-19",
+   "r": 5,
+   "t": "Bruno Lima: Sharjah paga R$ 12,6 mi ao Santos por Chermont após semanas de atraso",
+   "x": "Veja a matéria completa em UOL Esporte.",
+   "u": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSjZ4RnI2UDRjZ21CdXJlQmo2emV3MTZDa2ptRi1GT0V5SG1CNmszQ1J4QkZGNkZMRHZTWnJiSFR5RF9qb1VKY0RTNkJHRktod1RBdjJRYWdDbF9WbTNiQnlqaUxyeFRtTmo4RkNSNTFoMXlMWnpBN2E2b1VsWVl1a2JzNVpkV0xsS19QMm9PY1RPMzNNZFJhM2tlT1F5cWFPOVMyZ3k2a3FidEljRjY1SFVXTll5LTBaUldPd0c4NEFheTIxWHVR?oc=5"
   },
   {
-   "s": "bbc",
-   "c": "Brasil",
-   "d": "2026-10-20",
-   "r": 3,
-   "t": "'O gado está morrendo': o impacto do El Niño na América Central",
-   "x": "Em faixa de terra conhecida como Corredor Seco, que atravessa cinco países, fenômeno climático agravou escassez de água e empurra milhares de famílias para uma situação de emergência e desespero.",
-   "u": "https://www.bbc.com/portuguese/articles/crq5xnxqw29lo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "s": "bbc",
+   "s": "op",
    "c": "Brasil",
    "d": "2026-10-19",
+   "r": 4,
+   "t": "A sombra do sobrevivencialismo, em Portugal e no Brasil",
+   "x": "Protestos em Porto, com jovens acampados, mostram: geração mais qualificada da história do país já não consegue pagar um teto. Desiludidos, muitos emigram. A raiz da crise: a propriedade acima de um direito. Brasil pode fazer…",
+   "u": "https://outraspalavras.net/desigualdades-mundo/a-sombra-do-sobrevivencialismo-em-portugal-e-no-brasil/"
+  },
+  {
+   "s": "op",
+   "c": "Cultura",
+   "d": "2026-10-19",
    "r": 3,
-   "t": "O líder de seita apocalíptica que deixou quase 200 crianças morrerem de fome",
-   "x": "O autoproclamado pastor Paul Mackenzie foi considerado culpado pela morte de 191 pessoas. Destas, todas, exceto uma, eram crianças.",
-   "u": "https://www.bbc.com/portuguese/articles/cw8dz7m0vp74o?at_medium=RSS&at_campaign=rss"
+   "t": "Europa: a Geração Z exige o Comum",
+   "x": "Num continente acossado pela ultradireita, entra em cena novo ator. Protestos por Moradia, Escola e Trabalho desafiam “austeridade” e espalham-se por onze países. Repressão feroz não os pára. Trama-se greve internacional pela…",
+   "u": "https://outraspalavras.net/movimentoserebeldias/europa-a-geracao-z-exige-o-comum/"
   },
   {
    "s": "rt",
@@ -510,6 +965,33 @@
    "u": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYktmd29wZy1uZzU4Q005b0JlMFg5bERYU0NrdS1PbnlibVJXaGoyY2xXWHpUVUtia1YzNlFXQjl0T0oyNVc4R2xUdG8tZTh4VVJyek5vanpKOS0wWlgwczFjNkY4TkdLanM0MF9Mc0hYd0xleE1sYjYyYlpaSjAwY0xCYmFuQkVIWFNr?oc=5"
   },
   {
+   "s": "op",
+   "c": "Brasil",
+   "d": "2026-10-19",
+   "r": 3,
+   "t": "Freixo: por uma Segurança que encare as milícias",
+   "x": "Deputado que presidiu histórica CPI das milícias é eleito de novo no Rio. Quer atacar a lavagem de dinheiro, o patrimônio oculto e o mercado imobiliário do crime. Propõe direcionar recursos às regiões mais impactadas e combater…",
+   "u": "https://outraspalavras.net/estadoemdisputa/freixo-por-uma-seguranca-que-encare-as-milicias/"
+  },
+  {
+   "s": "intercept",
+   "c": "Tecnologia",
+   "d": "2026-10-19",
+   "r": 5,
+   "t": "Microsoft exibe fake news sobre Lula no Windows e no portal MSN",
+   "x": "Conteúdo foi feito por um site parceiro da plataforma, que tem entre os seus sócios um candidato a deputado federal pelo PL em 2022. O post Microsoft exibe fake news sobre Lula no Windows e no portal MSN apareceu primeiro em…",
+   "u": "https://www.intercept.com.br/2026/10/19/microsoft-exibe-fake-news-sobre-lula-windows-portal-msn/"
+  },
+  {
+   "s": "eo",
+   "c": "Brasil",
+   "d": "2026-10-19",
+   "r": 4,
+   "t": "Sete dias para decidir o futuro do Brasil",
+   "x": "O povo brasileiro, liderado pela juventude que foi às ruas já no dia seguinte ao primeiro turno, tem demonstrado que[.....] O post Sete dias para decidir o futuro do Brasil apareceu primeiro em Esquerda Online .",
+   "u": "https://esquerdaonline.com.br/2026/10/19/sete-dias-para-decidir-o-futuro-do-brasil/?utm_source=rss&utm_medium=rss&utm_campaign=sete-dias-para-decidir-o-futuro-do-brasil"
+  },
+  {
    "s": "rt",
    "c": "Mundo",
    "d": "2026-10-19",
@@ -517,6 +999,96 @@
    "t": "Mundo - Reuters",
    "x": "Veja a matéria completa em Reuters.",
    "u": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE04eTJaRU5mTFNISXNMeXBPcTliWWlHS2dNMHoyR2M5SHFqTnBFNU85Z0JvTWtBcnZmLWtZbG9MMVF6MkRpd0w0OA?oc=5"
+  },
+  {
+   "s": "eo",
+   "c": "Brasil",
+   "d": "2026-10-19",
+   "r": 4,
+   "t": "Caravana de Guilherme Cortez e movimento Revide já reuniu mais de 10 mil jovens no país",
+   "x": "As 48 horas seguintes à apuração do primeiro turno foram muito decisivas para a reorganização da esquerda nestas eleições. E[.....] O post Caravana de Guilherme Cortez e movimento Revide já reuniu mais de 10 mil jovens no país…",
+   "u": "https://esquerdaonline.com.br/2026/10/19/caravana-de-guilherme-cortez-e-movimento-revide-ja-reuniu-mais-de-10-mil-jovens-no-pais/?utm_source=rss&utm_medium=rss&utm_campaign=caravana-de-guilherme-cortez-e-movimento-revide-ja-reuniu-mais-de-10-mil-jovens-no-pais"
+  },
+  {
+   "s": "eo",
+   "c": "Brasil",
+   "d": "2026-10-19",
+   "r": 4,
+   "t": "Disputar o Futuro e a Centralidade da Campanha para Eleger “Lula Presidente”: para não dizer que não falei das flores",
+   "x": "Resta menos de uma semna para o segundo turno das eleições de 2026. O Brasil está em disputa. O cenário[.....] O post Disputar o Futuro e a Centralidade da Campanha para Eleger “Lula Presidente”: para não dizer que não falei das…",
+   "u": "https://esquerdaonline.com.br/2026/10/19/disputar-o-futuro-e-a-centralidade-da-campanha-para-eleger-lula-presidente-para-nao-dizer-que-nao-falei-das-flores/?utm_source=rss&utm_medium=rss&utm_campaign=disputar-o-futuro-e-a-centralidade-da-campanha-para-eleger-lula-presidente-para-nao-dizer-que-nao-falei-das-flores"
+  },
+  {
+   "s": "intercept",
+   "c": "Brasil",
+   "d": "2026-10-17",
+   "r": 5,
+   "t": "Jornalismo de joelhos: CEOs da Globo e do Metrópoles trocavam favores com Vorcaro por manchetes",
+   "x": "Mensagens vazadas revelam executivos alterando notícias, bancando perseguição a repórteres e colocando redações inteiras a serviço de um banqueiro. O post Jornalismo de joelhos: CEOs da Globo e do Metrópoles trocavam favores com…",
+   "u": "https://www.intercept.com.br/2026/10/17/ceos-globo-metropoles-favores-vorcaro/"
+  },
+  {
+   "s": "intercept",
+   "c": "Mundo",
+   "d": "2026-10-16",
+   "r": 4,
+   "t": "EXCLUSIVO: Flávio Bolsonaro pagou R$ 600 mil a empresa que vende nos EUA sistema de IA para manipular eleições",
+   "x": "Elytron ofereceu operação clandestina para mapear eleitores, criar contas falsas, espalhar mentiras e desacreditar rivais, indicam documentos revelados por ex-consultor. Campanha de Flávio nega contratação de qualquer serviço…",
+   "u": "https://www.intercept.com.br/2026/10/16/flavio-pagou-empresa-eua-sistema-manipular-eleicoes/"
+  },
+  {
+   "s": "intercept",
+   "c": "Economia",
+   "d": "2026-10-16",
+   "r": 4,
+   "t": "Alta da bolsa após primeiro turno mostra empolgação do mercado com a possível perda de direitos",
+   "x": "O Ibovespa bateu recorde após o primeiro turno porque investidores preveem lucros com arrocho de aposentadorias. Não é otimismo com o país; é especulação. O post Alta da bolsa após primeiro turno mostra empolgação do mercado com…",
+   "u": "https://www.intercept.com.br/2026/10/16/alta-bolsa-valores-empolgacao-perda-direitos/"
+  },
+  {
+   "s": "intercept",
+   "c": "Brasil",
+   "d": "2026-10-15",
+   "r": 4,
+   "t": "Vice de Flávio Bolsonaro poupou ‘big boss’ da fraude do INSS em relatório da CPMI",
+   "x": "Alfredo Gaspar chegou a mencionar o nome de Wilson Gomes, condenado por lavar dinheiro para o tráfico, em sessão da comissão, mas não pediu seu indiciamento; ligado aos Golden Boys, Gomes teria feito acordo com ministro de…",
+   "u": "https://www.intercept.com.br/2026/10/15/vice-flavio-bolsonaro-poupou-big-boss-fraude-inss-relatorio-cpmi/"
+  },
+  {
+   "s": "intercept",
+   "c": "Brasil",
+   "d": "2026-10-15",
+   "r": 4,
+   "t": "A gente não quer só comida, a gente quer comida e body splash",
+   "x": "Você está entre as 33 milhões de pessoas que não votaram no primeiro turno? Então este texto é para você: ele cheira a grana extra, prosperidade e morango do amor. O post A gente não quer só comida, a gente quer comida e body…",
+   "u": "https://www.intercept.com.br/2026/10/15/a-gente-quer-comida-body-splash/"
+  },
+  {
+   "s": "eo",
+   "c": "Brasil",
+   "d": "2026-10-14",
+   "r": 4,
+   "t": "Doze dias que valem por anos",
+   "x": "A razão, ainda que severa, é sempre amiga sincera. Provérbio popular português 1 Aconteceu algo raro, nos últimos quatro dias,[.....] O post Doze dias que valem por anos apareceu primeiro em Esquerda Online .",
+   "u": "https://esquerdaonline.com.br/2026/10/14/doze-dias-que-valem-por-anos/?utm_source=rss&utm_medium=rss&utm_campaign=doze-dias-que-valem-por-anos"
+  },
+  {
+   "s": "eo",
+   "c": "Brasil",
+   "d": "2026-10-14",
+   "r": 4,
+   "t": "A esquerda sabe falar com o povo?",
+   "x": "O resultado do primeiro turno das eleições de 2026 gerou um debate nas redes sociais e nos meios da esquerda:[.....] O post A esquerda sabe falar com o povo? apareceu primeiro em Esquerda Online .",
+   "u": "https://esquerdaonline.com.br/2026/10/14/a-esquerda-sabe-falar-com-o-povo/?utm_source=rss&utm_medium=rss&utm_campaign=a-esquerda-sabe-falar-com-o-povo"
+  },
+  {
+   "s": "intercept",
+   "c": "Brasil",
+   "d": "2026-10-14",
+   "r": 4,
+   "t": "ENTREVISTA: ‘A Meta está sabotando as eleições’, diz Letícia Cesarino",
+   "x": "A antropóloga Letícia Cesarino, autora do lançamento “Ecologias de crise”, argumenta que as plataformas não são ferramentas neutras e o campo democrático precisa de estratégias híbridas, nos algoritmos e além dos algoritmos, para…",
+   "u": "https://www.intercept.com.br/2026/10/14/entrevista-meta-sabotando-eleicoes/"
   }
  ]
 }
