@@ -18,7 +18,7 @@ BRT = timezone(timedelta(hours=-3))
 UA = {"User-Agent": "Mozilla/5.0 (compatible; PautaBot/1.0)"}
 MAX_AGE_DAYS = 7      # descarta matérias mais antigas que isso
 MAX_PER_SOURCE = 10   # evita que uma fonte domine a lista
-TOTAL_MAX = 260
+TOTAL_MAX = 300
 
 
 def gnews(site):
@@ -132,7 +132,7 @@ SOURCES = {
     },
     "olhar": {
         "name": "Olhar Digital", "color": "#6b46c1", "default": "Tecnologia", "fallback": True,
-        "feeds": [("https://olhardigital.com.br/feed/", None), (gnews("olhardigital.com.br"), None)],
+        "feeds": [("https://olhardigital.com.br/feed/", "Tecnologia"), (gnews("olhardigital.com.br"), "Tecnologia")],
     },
     "mongabay": {
         "name": "Mongabay Brasil", "color": "#15803d", "default": "Ciência", "fallback": True,
@@ -141,6 +141,26 @@ SOURCES = {
     "oeco": {
         "name": "((o))eco", "color": "#16a34a", "default": "Ciência", "fallback": True,
         "feeds": [("https://oeco.org.br/feed/", "Ciência"), (gnews("oeco.org.br"), "Ciência")],
+    },
+    "diolinux": {
+        "name": "Diolinux", "color": "#2563eb", "default": "Tecnologia", "fallback": True,
+        "feeds": [("https://diolinux.com.br/feed/", "Tecnologia"), (gnews("diolinux.com.br"), "Tecnologia")],
+    },
+    "viva": {
+        "name": "Viva o Linux", "color": "#ca8a04", "default": "Tecnologia", "fallback": True,
+        "feeds": [("https://www.vivaolinux.com.br/index.rdf", "Tecnologia"), (gnews("vivaolinux.com.br"), "Tecnologia")],
+    },
+    "canaltech": {
+        "name": "Canaltech", "color": "#0891b2", "default": "Tecnologia", "fallback": True,
+        "feeds": [("https://canaltech.com.br/rss/", "Tecnologia"), (gnews("canaltech.com.br"), "Tecnologia")],
+    },
+    "g1tec": {
+        "name": "g1 Tecnologia", "color": "#dc2626", "default": "Tecnologia", "fallback": True,
+        "feeds": [("https://g1.globo.com/rss/g1/tecnologia/", "Tecnologia"), (gnews("g1.globo.com/tecnologia"), "Tecnologia")],
+    },
+    "techtudo": {
+        "name": "TechTudo", "color": "#e11d48", "default": "Tecnologia", "fallback": True,
+        "feeds": [("https://www.techtudo.com.br/rss/techtudo/", "Tecnologia"), (gnews("techtudo.com.br"), "Tecnologia")],
     },
 }
 
@@ -259,7 +279,7 @@ def parse_feed(xml_bytes):
             continue
         url = (link.text or link.get("href") or "").strip()
         desc = first(node, "description", "summary", "content")
-        date = first(node, "pubDate", "published", "updated")
+        date = first(node, "pubDate", "published", "updated", "date")
         yield {
             "title": clean(title.text, 300),
             "url": url,
