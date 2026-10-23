@@ -84,7 +84,7 @@ SOURCES = {
     },
     "uole": {
         "name": "UOL Esporte", "color": "#ea580c", "default": "Esportes", "fallback": True,
-        "feeds": [("https://rss.uol.com.br/feed/esporte.xml", "Esportes"), (gnews("esporte.uol.com.br"), "Esportes")],
+        "feeds": [("https://rss.uol.com.br/feed/esporte.xml", "Esportes"), (gnews("uol.com.br/esporte"), "Esportes")],
     },
     "terra": {
         "name": "Terra Notícias", "color": "#059669", "default": "Brasil", "fallback": True,
@@ -135,7 +135,7 @@ SOURCES = {
         "feeds": [("https://olhardigital.com.br/feed/", "Tecnologia"), (gnews("olhardigital.com.br"), "Tecnologia")],
     },
     "mongabay": {
-        "name": "Mongabay Brasil", "color": "#15803d", "default": "Ciência", "fallback": True,
+        "name": "Mongabay Brasil", "color": "#15803d", "default": "Ciência", "fallback": True, "max_age_days": 30,
         "feeds": [("https://brasil.mongabay.com/feed/", "Ciência"), (gnews("brasil.mongabay.com"), "Ciência")],
     },
     "oeco": {
@@ -319,7 +319,8 @@ def collect():
             found.extend(entries)
             if src["fallback"] and entries:
                 break
-        found = [e for e in found if e["url"] and e["title"] and e["dt"] and e["dt"] >= oldest]
+        src_oldest = now - timedelta(days=src.get("max_age_days", MAX_AGE_DAYS))
+        found = [e for e in found if e["url"] and e["title"] and e["dt"] and e["dt"] >= src_oldest]
         found.sort(key=lambda e: e["dt"], reverse=True)
         rep["recentes"] = len(found)
         kept = 0
