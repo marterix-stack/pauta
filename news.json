@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T15:26:05-03:00",
+ "updated": "2026-10-24T18:24:04-03:00",
  "sources": {
   "bbc": [
    "BBC News Brasil",
@@ -138,7 +138,7 @@
     }
    ],
    "recebidas": 32,
-   "recentes": 24,
+   "recentes": 25,
    "mantidas": 10
   },
   "g1": {
@@ -197,13 +197,13 @@
     {
      "url": "https://news.google.com/rss/search?hl=pt-BR&gl=BR&ceid=BR:pt-419&q=site%3Areuters.com%20when%3A2d",
      "ok": true,
-     "n": 6,
+     "n": 5,
      "erro": ""
     }
    ],
-   "recebidas": 6,
-   "recentes": 6,
-   "mantidas": 6
+   "recebidas": 5,
+   "recentes": 5,
+   "mantidas": 5
   },
   "icl": {
    "nome": "ICL Notícias",
@@ -238,19 +238,13 @@
    "feeds": [
     {
      "url": "https://www.cartacapital.com.br/feed/",
-     "ok": false,
-     "n": 0,
-     "erro": "not well-formed (invalid token): line 305, column 64"
-    },
-    {
-     "url": "https://news.google.com/rss/search?hl=pt-BR&gl=BR&ceid=BR:pt-419&q=site%3Acartacapital.com.br%20when%3A2d",
      "ok": true,
-     "n": 100,
+     "n": 20,
      "erro": ""
     }
    ],
-   "recebidas": 100,
-   "recentes": 100,
+   "recebidas": 20,
+   "recentes": 20,
    "mantidas": 10
   },
   "bdf": {
@@ -380,7 +374,7 @@
     }
    ],
    "recebidas": 100,
-   "recentes": 73,
+   "recentes": 74,
    "mantidas": 10
   },
   "crf": {
@@ -389,13 +383,13 @@
     {
      "url": "https://news.google.com/rss/search?hl=pt-BR&gl=BR&ceid=BR:pt-419&q=site%3Aflamengo.com.br/noticias/futebol%20when%3A2d",
      "ok": true,
-     "n": 5,
+     "n": 6,
      "erro": ""
     }
    ],
-   "recebidas": 5,
-   "recentes": 5,
-   "mantidas": 5
+   "recebidas": 6,
+   "recentes": 6,
+   "mantidas": 6
   },
   "espn": {
    "nome": "ESPN Flamengo",
@@ -479,11 +473,11 @@
     {
      "url": "https://super.abril.com.br/feed/",
      "ok": true,
-     "n": 45,
+     "n": 44,
      "erro": ""
     }
    ],
-   "recebidas": 45,
+   "recebidas": 44,
    "recentes": 44,
    "mantidas": 10
   },
@@ -648,193 +642,13 @@
  },
  "items": [
   {
-   "s": "espnb",
-   "c": "Esportes",
+   "s": "icl",
+   "c": "Mundo",
    "d": "2026-10-24",
    "r": 5,
-   "t": "Chapecoense x Fluminense: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo do Brasileirão",
-   "x": "Veja a matéria completa em ESPN Brasil.",
-   "u": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxONWxDdmNDTFd0NTdrSFY5V1RPUlVxV3FwTzdGd0R1SUVyZVhEc05PTWp4eDJqLTRNbnJINGFPcURYTDExaTRrb3Y3REJyUWZYcDNVeFdaMGk0RTNFdU8wYlhJNVpmdUd0NlVwM2NOM2NMWlJwRG9ObVJUenYxTFVndTZLalVsYXk4ajdIS0doTTM3YnZYRnBLeVJUcHFiNnc2TjdXcENYTlRZVVZvTmlqR0FscGtLbGZQX2JQdnFmcWNueHM5WW5aaWw0WGtQNDhOSUYtd2tkNjF1Y25wbU1vTExTTW1LaVBzcldPLVVKQkNCY2JWVkE?oc=5",
-   "i": ""
-  },
-  {
-   "s": "espnb",
-   "c": "Esportes",
-   "d": "2026-10-24",
-   "r": 5,
-   "t": "Juventude x Náutico: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo da Série B do Brasileirão",
-   "x": "Veja a matéria completa em ESPN Brasil.",
-   "u": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPd2xXNzVaQzMtYzVDUDNXSGt0RFBjRkg2YTJIMTlPaDhwUXJsdURTMWZOanFEdEF3NzNDOFdaVVdpSjJOd0VPRGZDWC1XNk1uUVE3eVQxcFVyeG9QbWRmX29MbWwxNFRVOGFGM2wzdWg5TEZsdFM1cjk2NmF5YkRrekxGdFl5X0tTQ0FpRXA5ei13QW9SdTMzSFVSNElvU1NMUUVoTjBHNGlpb2g0OFdUYzF2Tkp1RTJyMXNlOWNrb29KemkzREZHaW1EcUlkM05HSmVKRUFWY3d6Q3BwamtYNDNxa1RkdUkxWi04R3c5cjJ4QUdVSHVB?oc=5",
-   "i": ""
-  },
-  {
-   "s": "uol",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 5,
-   "t": "Procuradoria pede fim de ação do PT sobre abertura de sigilos de Lula e Flávio Bolsonaro",
-   "x": "Veja a matéria completa em UOL Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdVY2WHBsLXdyTm9ldnJ3bDJFbFRXbWJQQ0tsZXdEckxCb05Rd3BhdEo4Z1cyT0RQVDBQbm9pTVduMDc4Ul9DSlhWWXRRVHRFVXc2aW9wcGg5S1hoenljVjJCbVdMLXhCNHNzSDNjanJYSVBYRF9TRmlkekR5b0xZelVNYVRpM0hISk5MdmR5QWR0R2RiNFdnSnpiMTNtNnh2eU9janp3WWc1bU9CVzlrYUxpeWI?oc=5",
-   "i": ""
-  },
-  {
-   "s": "terrafut",
-   "c": "Esportes",
-   "d": "2026-10-24",
-   "r": 5,
-   "t": "Ronaldinho tem data para retorno oficial aos gramados após 11 anos",
-   "x": "Veja a matéria completa em Terra Futebol.",
-   "u": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPRmpUclJodk9sLWZmOFVuWnA0M0cyTmJpdkViOFlpdjdxdnBmMnRhVkZYZ2puLWxfTlZLaFU4U1lYV0ZqejlnY21jOElzYkF6ZVFld2hqajNYR2FUOUkwS01yMEwxN2xhM0JwazNZcjlrVlJKdng4NncxRFVPTlBmR3Y1S3ZfclNRWmRURWpQbFVuWkRGTzl3QnlUdXhYa3pHc2t0SzBsNFpxMktqa1JnZzF4ek1iV2ZRUDhLNHZCR0FvWWhzU2JRMVliUlo3MU42RVlwV29uUDdaUVFmWGJkS3VMVVNWVEQ4ZEJmRUdyZWx1YUQ5SXZSdGkxNGQ?oc=5",
-   "i": ""
-  },
-  {
-   "s": "b247",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 5,
-   "t": "Ex-diretor do Datafolha diz que ‘é grande a chance de Lula ultrapassar Flávio’",
-   "x": "Mauro Paulino aponta possibilidade de virada na disputa presidencial; última pesquisa do instituto será divulgada neste sábado, após o debate da TV Globo",
-   "u": "https://www.brasil247.com/geral/ex-diretor-do-datafolha-diz-que-e-grande-a-chance-de-lula-ultrapassar-flavio/",
-   "i": "https://www.brasil247.com/wp-content/uploads/2026/10/1ede43b9-e719-4e5c-9d6e-f0cfa552a943.png"
-  },
-  {
-   "s": "g1",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 5,
-   "t": "Homem é preso em flagrante suspeito de matar ex-companheira a facadas no oeste da Bahia",
-   "x": "Veja a matéria completa em g1.",
-   "u": "https://g1.globo.com/ba/bahia/noticia/2026/10/24/homem-e-preso-suspeito-de-matar-ex-na-bahia.ghtml",
-   "i": "https://s2-g1.glbimg.com/GNlfQIC0thc6iZpwMtO2kj8U-0w=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/c/v/ceqKq5Te2KAZvAIsGNWw/whatsapp-image-2026-10-24-at-15.02.35.jpeg"
-  },
-  {
-   "s": "g1",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 5,
-   "t": "VÍDEO: pedestre e motociclista escapam por 'milagre' de ser atingidos por guindaste derrubado por monotrilho",
-   "x": "Pedestre e motociclista escapam de ser atingidos por guindaste Um pedestre e um motociclista escaparam por segundos de serem atingidos por um guindaste que tombou após ser atingido por uma composição do monotrilho da Linha…",
-   "u": "https://g1.globo.com/sp/sao-paulo/noticia/2026/10/24/video-pedestre-e-motociclista-escapam-por-milagre-de-ser-atingidos-por-guindaste-derrubado-por-monotrilho.ghtml",
-   "i": "https://s2-g1.glbimg.com/eErZ6HyVlkIDMhVS8Af3L0twg9I=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/1/A/Ax1CoASp2Hs2Y9AiiKgw/fotojet-2026-10-24t123611.066.jpg"
-  },
-  {
-   "s": "g1",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 5,
-   "t": "Eleições 2026: votação começa uma hora mais cedo em 11 municípios do AM; veja horários",
-   "x": "Eleições 2026 no Amazonas - urna eletrônica Divulgação/TRE-AM Os eleitores de 11 municípios do Amazonas devem ficar atentos ao horário de votação no segundo turno das Eleições 2026, neste domingo (25). Nessas cidades, as urnas…",
-   "u": "https://g1.globo.com/am/amazonas/eleicoes/2026/noticia/2026/10/24/eleicoes-2026-votacao-comeca-uma-hora-mais-cedo-em-11-municipios-do-am-veja-horarios.ghtml",
-   "i": "https://s2-g1.glbimg.com/J1R0JWkQbGQVVJpgPpQS1ajxcMU=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/I/w/DsUmTASCa3GW8faI7H0A/eleicoes-2026-no-amazonas-urna-eletronica-foto-divulgacao-tre-am.jpeg"
-  },
-  {
-   "s": "g1",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Concursos públicos têm vagas abertas na região de Presidente Prudente com salários de até R$ 25,2 mil",
-   "x": "Moradores de Prudente e regiãtêm diversas oportunidades de concurso público com inscrições abertas Divulgação Moradores de Presidente Prudente e região que buscam estabilidade financeira e empregos no setor público têm diversas…",
-   "u": "https://g1.globo.com/sp/presidente-prudente-e-regiao/noticia/2026/10/24/concursos-publicos-tem-vagas-abertas-na-regiao-de-presidente-prudente-com-salarios-de-ate-r-252-mil.ghtml",
-   "i": "https://s2-g1.glbimg.com/F_VD1uOABJ1JUB-evjEP1Udy89c=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/k/h/iLi7IwTyu4dXUHCqxNfA/imagem-ilustrativa-para-concurso-foto-divulgacao.jpg"
-  },
-  {
-   "s": "terrafut",
-   "c": "Esportes",
-   "d": "2026-10-24",
-   "r": 5,
-   "t": "Avaí x Botafogo-SP pela Série B: onde assistir ao vivo, horário e escalação",
-   "x": "Veja a matéria completa em Terra Futebol.",
-   "u": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPWVo4bnBZd2lSUWZHbDFFbnZSU2I1ZlJnQWFhRGZjMm1tZWtoby1TMk4tNjJrMlRaQWNSZnVxV2hUUDhsS0Y2QWdPZDUtSjdUMG5PUGlRdjJ1VU1BeVhKdEQyWDNPTHNrMmtuUU5zQzU1YjRmVHhseE5EdVhudjRndllQME93SjFzaEQyR3ZNUHBST2hQel9JTHAxTUV6dW9NQ0NSMF9pLUszRjdpSURUUVB0UEtqR0E0NGs3eGVBTmZnQWlLX3VTRWxGWk8talJXQm12SjBtUS1PMlhubzFyLW1mYVlHN3JaMG5LcVpxTlE4aDg?oc=5",
-   "i": ""
-  },
-  {
-   "s": "g1",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Eleições 2026: urnas eletrônicas chegam a locais de votação em Campinas para 2º turno",
-   "x": "Eleições 2026: Campinas distribui urnas para segundo turno com 873 mil eleitores Cerca de 2,5 mil urnas eletrônicas foram transportadas para os 267 locais de votação de Campinas (SP) na manhã deste sábado (24), véspera do segundo…",
-   "u": "https://g1.globo.com/sp/campinas-regiao/noticia/2026/10/24/eleicoes-2026-urnas-eletronicas-chegam-a-locais-de-votacao-em-campinas-para-2o-turno.ghtml",
-   "i": "https://s2-g1.glbimg.com/qR3GvXtNX1_aaeC5FBe2DoJARco=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/P/J/QYiH4LRemrtDOzXTnPHg/copia-de-foto-1200-680px-3-.png"
-  },
-  {
-   "s": "g1",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "VÍDEOS: MG1 de sábado, 24 de outubro de 2026",
-   "x": "Assista aos vídeos dos telejornais com as notícias de Minas Gerais.",
-   "u": "https://g1.globo.com/mg/minas-gerais/videos-mg1/playlist/videos-mg1-de-sabado-24-de-outubro-de-2026.ghtml",
-   "i": "https://s2-g1.glbimg.com/WPVSLrWsqPzLkvgoFGUl9oR0I1U=/s01.video.glbimg.com/deo/vi/30/90/15119030"
-  },
-  {
-   "s": "terrafut",
-   "c": "Esportes",
-   "d": "2026-10-24",
-   "r": 5,
-   "t": "Boca Jrs infringiu lei brasileira ao expor bet no Maracanã; veja possíveis punições",
-   "x": "Veja a matéria completa em Terra Futebol.",
-   "u": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPTHlkaFlvdlYxWERTUFlVMFlPVV9UN2pyZlhmbjZnTEY1M2hMSG5rN3NzMEFsZy1MY3FlSVU1VEJMS0xneHpMQ0lpdFc5MnQ3WV93dEJiV0pGQ2ItT3RPNldINW9hbHczN3o2REhVZ1pOOTM4ZFVMQXBkWm5oOUNqbjc0aUZoN2Y5M2RtZXFGMzFHakZuMW15OVY3Q3p1S09wZjlOSS1NemU1Q21tRWNkUHdaazZicG5VYlplQUFGWHhUUW1sTnh6d3R0Zm1hcEVpcWJQUFQzN1MyUnVReXAwRFBhTUhlelVyZW5LTHNDVUJ1R3hIQTlQaTNTRFdwbVp3M01neUdJRVd3TXlKeXJ5M2ZR?oc=5",
-   "i": ""
-  },
-  {
-   "s": "g1",
-   "c": "Cultura",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Atriz de 'O Clone', Adriana Lessa visita o AC pela 1ª vez e relembra ligação de personagem com Norte",
-   "x": "Atriz de 'O Clone' visita o Acre e atua em espetáculo teatral em cartaz na capital A atriz Adriana Lessa, conhecida nacionalmente por interpretar a personagem 'Deusa' na novela O Clone, da TV Globo, está em Rio Branco pela…",
-   "u": "https://g1.globo.com/ac/acre/noticia/2026/10/24/atriz-de-o-clone-adriana-lessa-visita-o-ac-pela-1a-vez-e-relembra-ligacao-de-personagem-com-norte.ghtml",
-   "i": "https://s2-g1.glbimg.com/zYddV1JvJ8ealo1sXG-i3dDgA9g=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/X/u/SKTQUBRT2KWymBnttNgA/midia-de-distribuicao-g1-2026-10-24t123842.582.jpg"
-  },
-  {
-   "s": "g1",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Eleições 2026: Acompanhe a cobertura do 2º turno em Roraima",
-   "x": "Veja a matéria completa em g1.",
-   "u": "https://g1.globo.com/rr/roraima/eleicoes/2026/ao-vivo/eleicoes-2026-acompanhe-a-cobertura-do-2-turno-em-roraima.ghtml",
-   "i": "https://s2-g1.glbimg.com/3zhF6Rnr3ZIoooSTsU6cIVasxb0=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/I/g/mPNB0zSJAJRGg0Csrs9g/lulaeflavio.jpg"
-  },
-  {
-   "s": "g1",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 3,
-   "t": "Justiça do Trabalho proíbe construtora de fazer propaganda eleitoral e eventos com políticos e funcionários",
-   "x": "Ministério Público do Trabalho em São José do Rio Preto (SP) Divulgação A Justiça do Trabalho expediu uma liminar proibindo uma construtora com sede em São José do Rio Preto (SP) de promover qualquer tipo de propaganda…",
-   "u": "https://g1.globo.com/sp/sao-jose-do-rio-preto-aracatuba/noticia/2026/10/24/justica-do-trabalho-proibe-construtora-de-fazer-propaganda-eleitoral-e-eventos-com-politicos-e-funcionarios.ghtml",
-   "i": "https://s2-g1.glbimg.com/AFCYenH7mi4n_io79GKwSKkHGa4=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/G/k/XgYdPATou7xo7HAyR5ZQ/design-sem-nome-2026-10-24t143126.883.jpg"
-  },
-  {
-   "s": "uole",
-   "c": "Esportes",
-   "d": "2026-10-24",
-   "r": 5,
-   "t": "Paulo Vinicius Coelho (PVC): Flamengo envia recurso por Rojo e Conmebol não deve deferir. Saiba por quê",
-   "x": "Veja a matéria completa em UOL Esporte.",
-   "u": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNeVJsWnpVb1J2QmFRTFpSOE5FenV2dEwzU0pHMGpWM1BxR2plTmdGZXpDZUNUSVQwV2dySTY4TWxURTliSjR5ZkVEdEtPc1kycnhpZW85X2dETnI2SjF3VDdZbG85eDBNNTlWZENSSWYtTExYNWx4dVhsck84NmwycVl2TDFQN0FWNlE2STdlRDFOTUMweDJuYllvOHQ5Mmw0SzJGdHNkZGhSWnB2RmdUM2k2c1Bod0g0cm50NnhDYkNTQ09Ub1NNa1pXaw?oc=5",
-   "i": ""
-  },
-  {
-   "s": "g1",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 3,
-   "t": "Mais de 7 mil agentes de segurança reforçam policiamento no 2º turno das eleições no MA",
-   "x": "Veja a matéria completa em g1.",
-   "u": "https://g1.globo.com/ma/maranhao/noticia/2026/10/24/mais-de-7-mil-agentes-de-seguranca-reforcam-policiamento-no-2o-turno-das-eleicoes-no-ma.ghtml",
-   "i": "https://s2-g1.glbimg.com/5HnWTJT6SCeq0VnAzDmYVClHPuM=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/H/0/3KnKGtRXmDfGA4TRhjWg/unnamed-2-.jpg"
-  },
-  {
-   "s": "terrafut",
-   "c": "Esportes",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "São Bernardo x Vila Nova: onde assistir ao vivo, horário e escalações pela Série B",
-   "x": "Veja a matéria completa em Terra Futebol.",
-   "u": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNYjJfZk9ITmw0dkhSbEhSOXZkZjA1M2h0MUR6ZGRnRGpTbVQ4eFBjRDl5WEhyZ2szTFp3VXFMN2VaRW56TG5BZzNDV0xtNEJfOXBydHMtSUpULUlZS3k3Q041cUxVNF9YSldqTjRhMThQOW5tb1JlY0s0bmdRbU9EaS1yTmpJSEpSc1NhTUFrcEl2WDI3SFBtUXhpNVFSTTg4X2ZvdUFuWTdVbWV1cTFxQzdtRFpNc0dSbFd3VUZWMXhNYWhuNVp0RUJjUWFBQ1B2ZkFoVzdMYmFMOG1ja3dqYVVob09XVGpFSEVEMEFHNHdOYzFldmpyOXF3bG4?oc=5",
+   "t": "Brasileiros viajam centenas de quilômetros para tentar impedir vitória de Flávio Bolsonaro",
+   "x": "Neste sábado, quem entrou em trens pela Europa pode ter se deparado com uma cena incomum: brasileiros vestidos de vermelho, adesivo no peito e muita esperança. Pelo continente, centenas de eleitores que vivem em cidades sem…",
+   "u": "https://iclnoticias.com.br/brasileiros-viajam-centenas-de-quilometros-para-tentar-impedir-vitoria-de-flavio-bolsonaro/",
    "i": ""
   },
   {
@@ -842,40 +656,110 @@
    "c": "Cultura",
    "d": "2026-10-24",
    "r": 5,
-   "t": "Paolla Oliveira declara apoio a Lula em defesa da democracia: “Eu voto 13” (vídeo)",
-   "x": "Atriz alerta para propostas de Flávio Bolsonaro sobre armas, indulto aos condenados pelo 8 de janeiro e mudanças nos recursos da saúde e da educação",
-   "u": "https://www.brasil247.com/geral/paolla-oliveira-declara-apoio-a-lula-em-defesa-da-democracia-eu-voto-13-video/",
-   "i": "https://www.brasil247.com/wp-content/uploads/2026/08/SaveClip.App_746131283_18610893061001905_3975950392702338048_n-1-1.jpg"
+   "t": "Dira Paes repudia fala de Flávio Bolsonaro em debate: “A dignidade de Belém e do seu povo está muito acima de qualquer ofensa”",
+   "x": "Atriz criticou declaração de candidato que chamou a capital paraense de “esgoto a céu aberto” e defendeu o respeito à história, à cultura e à população da cidade",
+   "u": "https://www.brasil247.com/brasil/dira-paes-repudia-fala-de-flavio-bolsonaro-em-debate-a-dignidade-de-belem-e-do-seu-povo-esta-muito-acima-de-qualquer-ofensa/",
+   "i": "https://www.brasil247.com/wp-content/uploads/2020/10/20190517170536_5cded5bb99731d5e154a1122jpeg.jpeg"
   },
   {
-   "s": "uol",
+   "s": "g1",
    "c": "Brasil",
    "d": "2026-10-24",
    "r": 5,
-   "t": "Tenente da reserva aponta arma após tirar bandeira do PT de mulheres no RS",
-   "x": "Veja a matéria completa em UOL Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQ0U1SzVzN1FHc0VZb2JxM1VrTU85cXlkMERYNlFuSGg2NElYZEhXMDhBcTFSV0VMSzFldlA3RENsNDdoaDZzaWxXLW9mdFN0b2FtdmZwX24yenJLNkhNVTl0U21zR3k2LTdtSUJ6NGJldUJ2enhDZktmdFhVSWVHVGVtcnVRNWhldEg3Ymloa2VxQzFKNTV2TGNRUXJTUFk?oc=5",
-   "i": ""
+   "t": "Polícia investiga se asfalto cedeu e causou tombamento de guindaste sobre estrutura do monotrilho",
+   "x": "Pedestre e motociclista escapam de ser atingidos por guindaste A Polícia Civil vai investigar se o asfalto do pátio de uma empresa na Zona Leste de São Paulo cedeu e provocou o acidente envolvendo um guindaste e uma composição da…",
+   "u": "https://g1.globo.com/sp/sao-paulo/noticia/2026/10/24/policia-investiga-se-asfalto-cedeu-e-causou-tombamento-de-guindaste-sobre-estrutura-do-monotrilho.ghtml",
+   "i": "https://s2-g1.glbimg.com/Jfw18V2OxcfOvhJ1ZM3vgVYaXNA=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/V/7/Y8fE2CRg6fFeE3ADhXWg/guindaste-caido-1.jpeg"
   },
   {
-   "s": "olhar",
-   "c": "Tecnologia",
+   "s": "g1",
+   "c": "Brasil",
    "d": "2026-10-24",
    "r": 5,
-   "t": "Eleições 2026: é possível votar apenas com o e-Título?",
-   "x": "No dia da votação, o eleitor precisa seguir alguns procedimentos antes de registrar o voto na urna eletrônica O post Eleições 2026: é possível votar apenas com o e-Título? apareceu primeiro em Olhar Digital .",
-   "u": "https://olhardigital.com.br/2026/10/24/pro/eleicoes-2026-e-possivel-votar-apenas-com-o-e-titulo-2/",
-   "i": "https://olhardigital.com.br/wp-content/uploads/2026/09/e-titulo-1-1024x683.jpg"
+   "t": "O que os estudantes esperam do Enem? Veja os sonhos de quem vai fazer a prova",
+   "x": "Cadernos de prova do primeiro dia do ENEM 2025. Angelo Miguel/MEC Faltando poucos dias para o Exame Nacional do Ensino Médio (Enem) 2026, os estudantes já conseguem imaginar o que gostariam de fazer depois da prova. Para alguns…",
+   "u": "https://g1.globo.com/pb/paraiba/la-vem-o-enem/noticia/2026/10/24/o-que-os-estudantes-esperam-do-enem-veja-os-sonhos-de-quem-vai-fazer-a-prova.ghtml",
+   "i": "https://s2-g1.glbimg.com/JJfIrTr4ANcMGy0XdPbqYwZJ7dQ=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/A/U/4hHTu7Q5yobD1aNsmaJQ/54913047179-56e2bcc6a5-6k.jpg"
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 5,
+   "t": "Jovem é suspeita de atear fogo no colchão do namorado após término em Boa Vista",
+   "x": "Namorada é suspeita de atear fogo no colchão do namorado após término em Boa Vista Arquivo pessoal Uma jovem, de 18 anos, é suspeita de atear fogo ao colchão do namorado, de 19 anos, após o fim do relacionamento, em Boa Vista. O…",
+   "u": "https://g1.globo.com/rr/roraima/noticia/2026/10/24/jovem-e-suspeita-de-atear-fogo-a-colchao-do-namorado-casa-apos-termino-em-boa-vista.ghtml",
+   "i": "https://s2-g1.glbimg.com/JSJ9qfTeuXQi7p1L4qjrYtfBFoU=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/7/t/psb383QoAcGWIeSwWrxw/fogo.jpg"
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Datafolha para presidente no DF, votos válidos: Flávio Bolsonaro, 56%; Lula, 44%",
+   "x": "Lula (à esq) e Flávio Bolsonaro (à dir) participaram de sabatinas na TV Globo Divulgação Pesquisa Datafolha divulgada neste sábado (24), véspera do segundo turno, mostra como está a disputa pela presidência da República no…",
+   "u": "https://g1.globo.com/df/distrito-federal/eleicoes/2026/noticia/2026/10/24/datafolha-df-presidente-segundo-turno-24-outubro.ghtml",
+   "i": "https://s2-g1.glbimg.com/N0TJf3AoEH77dTNK7yI09dD1g-U=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/B/o/dk6ENyTWW5wUNKM1FjMA/2turnonobrasil1.jpg"
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Mulher morre após ficar presa em caminhonete que afundou em rio no TO",
+   "x": "Corpo de Bombeiros do Tocantins Divulgação/Bombeiros Uma mulher de 74 anos morreu em um acidente de trânsito próximo a Babaçulândia, no norte do Tocantins. A vítima ficou presa em uma caminhonete que saiu da pista e caiu em um…",
+   "u": "https://g1.globo.com/to/tocantins/noticia/2026/10/24/mulher-morre-apos-ficar-presa-em-caminhonete-que-afundou-em-rio-no-to.ghtml",
+   "i": "https://s2-g1.glbimg.com/-GR_pPj6h8fqeXgNt7EXH0VJx2U=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/O/w/GBcHUwR1SAVWj6dfOcZw/whatsapp-image-2025-03-13-at-09.51.10.jpeg"
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Datafolha no DF, votos válidos: Celina Leão, 59%; Leandro Grass, 41%",
+   "x": "Celina Leão e Leandro Grass Ingrid Ribeiro/TV Globo e Amanda Sales/TV Globo Pesquisa Datafolha divulgada neste sábado (24), véspera do segundo turno, mostra como está a disputa pelo governo do Distrito Federal. O levantamento…",
+   "u": "https://g1.globo.com/df/distrito-federal/eleicoes/2026/noticia/2026/10/24/datafolha-df-governador-segundo-turno-24-outubro.ghtml",
+   "i": "https://s2-g1.glbimg.com/SCHfl8TQD0JCpqB3CQz2812As9E=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/p/Q/XOmAuCQJqYfR6Jxvwkuw/fotojet-2-.jpg"
+  },
+  {
+   "s": "super",
+   "c": "Ciência",
+   "d": "2026-10-24",
+   "r": 5,
+   "t": "Primata peçonhento “perdido” há quase um século reaparece na Indonésia",
+   "x": "O lóris-lento-de-Bangka estava fora do radar dos cientistas, mas circulava por quintais, estradas e linhas de energia na ilha de Bangka.",
+   "u": "https://super.abril.com.br/ciencia/primata-peconhento-perdido-ha-quase-um-seculo-reaparece-na-indonesia/",
+   "i": "https://super.abril.com.br/wp-content/uploads/2026/10/SI_loris-lento_site.jpg"
+  },
+  {
+   "s": "terra",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 5,
+   "t": "Ex-jogador, meia Carlos Alberto é visto em ato de Flávio Bolsonaro no Rio de Janeiro",
+   "x": "Veja a matéria completa em Terra Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQYmFTWjNOTXJnS1BvOFVweTI1N25KM2dMSF9tem1nMjJRZjVmSkZUenRZTUNENFo0RWhySk52SlJaN29FSk9UU294QVhKRVBFUlg1ZFJxSWVwNWJ5WTJ5c3dWOUlSMVhHcmxkVlNTSVg0UkNUT1pfc2hSbzZIUUVUMTk1aXQydVA3Tmk0RUJlb1QyRzNNTmxMM1dGVjVhZVV6aDBiLWN1cmFUUE9odkxxbHlYX2pnQ3J5eGdhYjJpdGU3dWFqdUJER093c09NR3VReU1DRlA0QmJPZVo5Q0tCYy1KcFI4VTU5STlyaHc2NEFIbktOZndEWnc2RGtSclFpRTgwY01rOGxPMm8?oc=5",
+   "i": ""
   },
   {
    "s": "canaltech",
    "c": "Tecnologia",
    "d": "2026-10-24",
    "r": 5,
-   "t": "7 sites e serviços famosos que rodam em PHP e você não sabia",
-   "x": "Duas falhas críticas no PHP colocaram milhões de sites em alerta nesta semana. As vulnerabilidades, divulgadas na quarta-feira (21), permitem que hackers executem códigos maliciosos em servidores sob determinadas condições e já…",
-   "u": "https://canaltech.com.br/internet-e-redes-sociais/sites-servicos-famosos-em-php-que-voce-nao-sabia/",
-   "i": "https://tl.ctcdn.com.br/VQs9TJgd4PGyqkSwDfklsBbMRhk=/0x0/filters:format(webp):quality(85)/f14d4c5a-481f-4393-819c-b4bb90063eb6.jpg"
+   "t": "Do slasher ao sobrenatural: 8 franquias de terror para assistir na Netflix",
+   "x": "Para quem gosta de terror , maratonar uma franquia recheada de sustos, elementos sobrenaturais e criaturas assombrosas é praticamente um banquete de extrema qualidade. No streaming, a Netflix aparece como a melhor plataforma para…",
+   "u": "https://canaltech.com.br/entretenimento/slasher-sobrenatural-franquias-terror-assistir-netflix/",
+   "i": ""
+  },
+  {
+   "s": "bdf",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 5,
+   "t": "‘Para o Brasil voltar a ser colônia’: o que o plano de governo de Flávio Bolsonaro esconde?",
+   "x": "Neste domingo (25), o presidente Luiz Inácio Lula da Silva (PT) e Flávio Bolsonaro (PL) disputam o segundo turno das eleições presidenciais mais apertadas da história recente do país. O candidato da extrema-direita, em várias…",
+   "u": "https://www.brasildefato.com.br/2026/10/24/para-o-brasil-voltar-a-ser-colonia-o-que-o-plano-de-governo-de-flavio-bolsonaro-esconde/",
+   "i": ""
   },
   {
    "s": "uole",
@@ -888,43 +772,93 @@
    "i": ""
   },
   {
-   "s": "olhar",
-   "c": "Tecnologia",
+   "s": "g1",
+   "c": "Brasil",
    "d": "2026-10-24",
-   "r": 5,
-   "t": "Hora de renovar o setup: uma seleção de notebooks em promoção na Amazon",
-   "x": "Se você está pensando em trocar de notebook ou adquirir um novo para trabalho ou estudo, a Amazon reuniu algumas opções interessantes em diferentes faixas de configuração. Separamos três modelos que merecem atenção — confira…",
-   "u": "https://olhardigital.com.br/2026/10/24/reviews/hora-de-renovar-o-setup-uma-selecao-de-notebooks-em-promocao-na-amazon-3/",
-   "i": "https://m.media-amazon.com/images/I/41v22G+lFNL._SL500_.jpg"
+   "r": 4,
+   "t": "Apoiadores de Lula fazem passeata pelas ruas do Centro de Florianópolis",
+   "x": "Veja a matéria completa em g1.",
+   "u": "https://g1.globo.com/sc/santa-catarina/eleicoes/2026/noticia/2026/10/24/ato-lula-florianopolis-sabado.ghtml",
+   "i": "https://s2-g1.glbimg.com/ICaFMtZuCFuIIsEc-_yE_Le5xdU=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/A/K/idIsdfQnOITrkdxGDcyg/ato-lula-florianopolis.jpg"
   },
   {
-   "s": "bbc",
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Prefeitura de cidade na Bahia e chefe de gabinete são alvos de decisão judicial por suposto assédio eleitoral",
+   "x": "Guia do Eleitor: O que é e como denunciar assédio eleitoral A Justiça do Trabalho determinou, em decisão liminar neste sábado (24), a suspensão imediata de práticas que podem caracterizar assédio eleitoral contra servidores e…",
+   "u": "https://g1.globo.com/ba/bahia/eleicoes/2026/noticia/2026/10/24/prefeitura-de-cidade-na-bahia-e-alvo-de-decisao-judicial-por-suposto-assedio-eleitoral.ghtml",
+   "i": "https://s2-g1.glbimg.com/Etp0zrLAIwtbLqA5XwXznmynQtE=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/q/8/i2DCoZSIisN6YKW8EAwA/whatsapp-image-2025-07-16-at-15.09.28.png"
+  },
+  {
+   "s": "icl",
    "c": "Brasil",
    "d": "2026-10-24",
    "r": 5,
-   "t": "Flávio gasta 6 vezes o valor de Lula em anúncios na última semana de campanha",
-   "x": "Levantamento da BBC mostra aceleração do investimento do candidato do PL; peças exploram segurança, benefícios sociais e críticas ao adversário.",
-   "u": "https://www.bbc.com/portuguese/articles/cq5yn91y2wwlo?at_medium=RSS&at_campaign=rss",
-   "i": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/c330/live/8c0d72e0-cfc3-11f1-b441-2b33b063138f.png"
-  },
-  {
-   "s": "terrafut",
-   "c": "Esportes",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Internacional x Botafogo: onde assistir ao vivo, horário e escalações pelo Brasileirão",
-   "x": "Veja a matéria completa em Terra Futebol.",
-   "u": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPZy1FVTg2ckN5aXN0UlVDM09oWDcwMDNGQUZTMFczd1BWUlBLTW1sSlRsNl8yam5BS2RXN0ZScFY1aVQ4dnYzaDBXbTlRZmRNZ1VMUDhtMWFGajVUel9qZkdXVllkaXF1UjI1dW5qTnY0Z1VxNkVrR0hWWnBlbFpqSERrcVVIX2RiY1RuZWw0Mm00Z2RTaVJuX3gxNEtZVHpwdEwxdVBDcFZEWHg3akVlWEVSbjJRZ2xJNEc0djdJMUhGUWpyaEdVeWtJcXJ4Y2x3cnZJNUpUcjR0QkFHMlEySVNsNnhMb0YyM1JVV3lXY1F1UWQ3WFFmQVJ6LTJod1YtNkE?oc=5",
+   "t": "No último dia de campanha, Flávio Bolsonaro refaz os passos do pai e lota orla da Barra da Tijuca",
+   "x": "Por João Pedro Lima – Tempo Real RJ Depois de se encontrar com apoiadores em Minas Gerais, o senador e candidato à Presidência da República Flávio Bolsonaro (PL) se deslocou para o Rio de Janeiro, mais precisamente para o reduto…",
+   "u": "https://iclnoticias.com.br/no-ultimo-dia-de-campanha-flavio-bolsonaro-refaz-os-passos-do-pai-e-lota-orla-da-barra-da-tijuca/",
    "i": ""
   },
   {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 3,
+   "t": "Homem morre após ser baleado por policial militar de folga em Presidente Epitácio",
+   "x": "Veja a matéria completa em g1.",
+   "u": "https://g1.globo.com/sp/presidente-prudente-e-regiao/noticia/2026/10/24/homem-morre-apos-ser-baleado-por-policial-militar-de-folga-em-presidente-epitacio.ghtml",
+   "i": "https://s2-g1.glbimg.com/z8fVLsxtmc7GkxMeesZLcHXYgpA=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/D/z/Art65nQvq9ONWiqerYKw/captura-de-tela-2026-10-24-170159.jpg"
+  },
+  {
+   "s": "terra",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 5,
+   "t": "Pesquisa BTG-Nexus: Flávio Bolsonaro tem 52,4% em votos válidos no 2º turno e Lula, 47,6%",
+   "x": "Veja a matéria completa em Terra Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOYXVqZUwzLWJfZFprZHVNcG91YjBHNWYwX3pKajQtZkgxeXlobk04NzI2RUV6X3RGeVhER3VXT2dfNTEwQzZOUW5TRHBCX3h4MjdFS3lfakNaYlZDTHd4MWdWSFMtNjE4cUduSUJ4dE5qSGRPN0F2Z3ZuTWJfLUtjcEpEOWdHQWhqd01vNHJVN29nQ1hvejJocnFVYWlibGdBeGNnb2FaNUJ6a0hLUlA5Rmh5RW1JRGl3bTc5eFowZ2lPY2FiUUw2d2doa2Rta3loRldPRnBIY001NkFfMXVRTVRyRi1jXzU0TVRvN3l5ZXZGOEp5RXZSNkExT2k4WHdXejQtUzBPQXZoNzZfZ3c?oc=5",
+   "i": ""
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 3,
+   "t": "Avião interceptado pela FAB e queimado por piloto em MT vinha da Bolívia",
+   "x": "Avião é incendiado após tentativa de interceptação pela FAB em MT O avião de pequeno porte que foi incendiado na zona rural de Juara, a 650 km de Cuiabá, na sexta-feira (23), vinha da Bolívia, segundo a Força Aérea Brasileira…",
+   "u": "https://g1.globo.com/mt/mato-grosso/noticia/2026/10/24/aviao-interceptado-pela-fab-e-queimado-por-piloto-em-mt-vinha-da-bolivia.ghtml",
+   "i": "https://s2-g1.glbimg.com/t8l64sh8TNTTCt_lBI66Ub0QSX8=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/H/P/hxSHOjQxAhX4mm69FK2g/videos-g1-1-.png"
+  },
+  {
    "s": "terrafut",
    "c": "Esportes",
    "d": "2026-10-24",
-   "r": 4,
-   "t": "Vitória x Athletico-PR: onde assistir ao vivo, horário e escalações pelo Brasileirão",
+   "r": 5,
+   "t": "Ponte Preta x Fortaleza: onde assistir ao vivo, horário e escalações pela Série B",
    "x": "Veja a matéria completa em Terra Futebol.",
-   "u": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPd0poT3IweXVPM3lVR285SFczaEUzMWwzeFhjc2hydFZnb3EtbTdES01xN0NDN1l3UU05NlhPMUlTQ3NNdi03OHJSQ0QxYlhSdjZ4RjIzcEk2cEpaM0lLRlI5S0pzOHVhajBpdm51R0pHTkdSUGloS3VDU18wdVFXc0NZNW16Mzh5T1lqZEZWYkEzcFJVaVdDUnpBYjlNamdEOFl1NTZGazFLcnZoTE9ta1pvVWp0WmhnbmJSLWN4aUxsVUo0cXN5Tmh3OWpndmY2aGwwUWIzcmdkUlR4TE1UR1BmWGVxLWpsYjdiOE91aElWSFg2bzVvUUg5dXNDN2M?oc=5",
+   "u": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQaUNxdVFCb1RfRDFTbHBOWXJhVWxBMEM2WDAxemJCX1dLOHlTa09OOVpsWHltRmhmWE1INlc5c05wR2JxOVhUR1ViOTM3ejNQSzFjamJuVGxiSU15RUJSeTFqVkFxemFMUFdkNjhTMzBaclJfU0phREJzbzRfNF9xQUdMOGoxN3F5S3hIckNGOHFMSy1VTDJfanRFOEg2dGpDSjJKeFVuUnpPQmp3bUthcnFsVXpmaHRieVlrRjR3R2pldC01VmRMSUhvNlBZUDF5TGdlZDktNmZkcjJjNkV0RThyN3htd0xpXzRseVRlYlM3d1ROODdOM29CQQ?oc=5",
+   "i": ""
+  },
+  {
+   "s": "b247",
+   "c": "Esportes",
+   "d": "2026-10-24",
+   "r": 5,
+   "t": "Pesquisa BTG/Nexus aponta empate técnico entre Lula e Flávio Bolsonaro",
+   "x": "Presidente tem 49,5% dos votos válidos e adversário, 50,5% na amostra total; oscilações de 0,2 ponto estão dentro da margem de erro de 2,2 pontos",
+   "u": "https://www.brasil247.com/poder/pesquisa-btg-nexus-aponta-empate-tecnico-entre-lula-e-flavio-bolsonaro/",
+   "i": "https://www.brasil247.com/wp-content/uploads/2026/10/Debate-Politico-em-Azul-unerquicklich.jpg"
+  },
+  {
+   "s": "terrafut",
+   "c": "Esportes",
+   "d": "2026-10-24",
+   "r": 5,
+   "t": "Chapecoense x Fluminense pelo Brasileirão: onde assistir ao vivo, horário e escalação",
+   "x": "Veja a matéria completa em Terra Futebol.",
+   "u": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOelV5cHdCRWpIUlY0WGNzS1IzX2ZZQ2psMkFXUG1BUUxnUUFfT3BoS3l4RHk0U3UxWGhPd0pkZTdydnA2ZzFseGZ3bFlQUXpBM2ZucUtHb3Zna2pSaksxRHFaVENTaFllLVljUmdYYUVUcm1NeW9FVUFPZFNUNDlrR3YzckcwQnRUTmdnQTJuVEdGV2lnWkFLR3JCWkdHLVZyNTVKUXB5ZHF3bDBCWjNrUkNYRTFOMElwZWwwQUpVbE9sTDdqRmZxaUUwdktlS0hpOTd0UGQxcE1uY3gyNDJubzVCNVVpUzZUU2ZCMWhDcGV4R2RTTEFFVlBWZ0FkUGJO?oc=5",
    "i": ""
   },
   {
@@ -932,19 +866,159 @@
    "c": "Brasil",
    "d": "2026-10-24",
    "r": 5,
-   "t": "Lula tem 50,3% e Flávio, 49,7% dos votos válidos, aponta pesquisa Brazil Economy/Colectta",
-   "x": "Pesquisa divulgada na véspera do segundo turno mostra diferença de apenas 0,6 ponto percentual entre os candidatos; levantamento ouviu 3 mil eleitores em 101 municípios",
-   "u": "https://www.brasil247.com/brasil/lula-tem-503-e-flavio-497-dos-votos-validos-aponta-pesquisa-brazil-economy-colectta/",
-   "i": "https://www.brasil247.com/wp-content/uploads/2026/10/Novo-Projeto-2026-10-24T080714.191.jpg"
+   "t": "“Lava a boca pra falar de Belém”: paraenses rebatem Flávio Bolsonaro após comentário sobre a capital",
+   "x": "Declaração sobre esgoto a céu aberto e urubus na capital paraense provoca indignação e ironia nas redes sociais; promessa de ferrovia no Nordeste também repercute",
+   "u": "https://www.brasil247.com/brasil/lava-a-boca-pra-falar-de-belem-paraenses-rebatem-flavio-bolsonaro-apos-comentario-sobre-a-capital/",
+   "i": "https://www.brasil247.com/wp-content/uploads/2026/10/fla.jpg"
+  },
+  {
+   "s": "bbc",
+   "c": "Economia",
+   "d": "2026-10-24",
+   "r": 5,
+   "t": "Taxação de bilionários: eleitores da Califórnia podem aprovar primeiro imposto do tipo no mundo?",
+   "x": "Os eleitores estão prestes a decidir se os super-ricos entre eles devem entregar bilhões de dólares para financiar melhorias no sistema de saúde.",
+   "u": "https://www.bbc.com/portuguese/articles/c65ynxj5kvpvo?at_medium=RSS&at_campaign=rss",
+   "i": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/9b0f/live/ff750910-ce7d-11f1-bc2e-018d645d8d21.jpg"
+  },
+  {
+   "s": "espn",
+   "c": "Esportes",
+   "d": "2026-10-24",
+   "r": 5,
+   "t": "Palmeiras x Bragantino: onde assistir ao vivo e escalações do jogo do Brasileirão",
+   "x": "Veja a matéria completa em ESPN Flamengo.",
+   "u": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNY0ljY0k0Q3FmOEtrTy1xdlBNS3hrcVhiMXd1ekVTNEJObGNBZDhIMkJlS3FQS1FQRkQ3MXZVdWNtc2ZMLTlkZ05IUDJ5MVpRd0lTYUZOaGJza041RWJ4bEIwZzF2WWtTZGNLdVc0RlhTS0czeFJkeXdxYVZ4Q3RnZW5PV2tTektwemlSUGpKV25fejlEQWFVd190bGdvRUFOZDJ3emJCM2xWV01SeDk0dGZRbFk4UHNHcEdnRHhENlRVM0YwcHc5cks5ejNkRG9a?oc=5",
+   "i": ""
+  },
+  {
+   "s": "terrafut",
+   "c": "Esportes",
+   "d": "2026-10-24",
+   "r": 5,
+   "t": "CRB x Londrina pela Série B: onde assistir ao vivo, horário e escalação",
+   "x": "Veja a matéria completa em Terra Futebol.",
+   "u": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNdEM5VmVvQ1oyLWpWVmRteThucXNIa1hOR2V3VzNWVGJiaW5hWS1GcUI1eEQ0cjlrWUFBVnZDT0tIS3B0TExpNTFvRHJJVEF3UFNLNGVLY0xTWW1yWVM4VG5DU084X0tyVWZyUFVUSWxEeDV3Ylg0WlM5X29VUXIwRU4waDNucE1TRURISmZmTC1JVVZaSVBpS1R2RUJtLV9KZjlxMmNkcWhTLW52c1NVOW8zY05tOVVJbzZKSGZrbzhWRG93SXEwYzYtbDlLY0V0aExCcGc2WWR0WmJxVkl4X0FIYjFyWlJJdGJIQk93?oc=5",
+   "i": ""
+  },
+  {
+   "s": "terrafut",
+   "c": "Esportes",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Brasileiro Série A",
+   "x": "Veja a matéria completa em Terra Futebol.",
+   "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLWViLWJNSkVlcllNODc3RnEzWUJWd2EwS3EyYnZ3SzU2ZGxUM1lBTVdEaDhHNW1RS0pEaXRfVTE2dmR6VmN1d3BTU2l4Y0dXamZiX0JENEpKQ0NDYnVWZmpiTVNsSV8zQzJmT0RRd1pDTFVqeWNTenVlR3FPQXBtTWJwTmdkajU3eEZrNkxoNmVnMDl2WkVDSU1kajQ0Rk0?oc=5",
+   "i": ""
   },
   {
    "s": "uol",
    "c": "Brasil",
    "d": "2026-10-24",
    "r": 5,
-   "t": "Thais Bilenky: Flávio perdeu mais que Lula na Globo, mas segue na frente",
+   "t": "Kássio nega pedido do PT e exige aval prévio para transporte de indígenas",
    "x": "Veja a matéria completa em UOL Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQm5IVndWVEFGN3pZemkwMmppc291Qlh6QmlHYjFtRGRzMXA4dnpvZFE2eGJpNGFaM3dHd1Z1ckx0Q094RlBqV3VBaTBmZjRrNjQ0M2VrYnF0TVVzRm1fYmFvMXJZa0hmWUY1cEJKX29Ua0g1RGtWbHpvTUJfQUFIRVdYRFRRenBBbF8wakVpNlZCakJOUkdVcE91bUVKcmZHQ2g5U0NTTzBIeGhrVTEtWnVENkVTZ3E5UG1ETEdn?oc=5",
+   "u": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNOWo2dkNrQ3l6TjhadlJRcVVoNFJUaFVvRnFJRURlLUpPRk5rcU9ydENrWHNlcXNlQ28tanpSTW5Mb1BIcjNTV2hsa3A2SkhnVGMyRlBTLXBSRTRhTXBTUzJlbS1fcWRiWm5lTWZVcnhPekVlSTJ3Y3k2MEZYNGFxa0x6TV9fS1ctbFhJUzV1dkVWYjF4UEoyU3dHakJmZElRekpqVUhpN084aFRxNjNIX2IzNUtJNDBSZ1pWUnNOa1VScGJC?oc=5",
+   "i": ""
+  },
+  {
+   "s": "b247",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Mãe de Ana Clara vai a ato de Lula em Copacabana após confronto com Flávio Bolsonaro",
+   "x": "Cristiane Gomes da Silva cobrou explicações do senador no debate da TV Globo sobre a defesa do policial acusado de matar sua filha de cinco anos em Niterói",
+   "u": "https://www.brasil247.com/brasil/mae-de-ana-clara-vai-a-ato-de-lula-em-copacabana-apos-confronto-com-flavio-bolsonaro/",
+   "i": "https://www.brasil247.com/wp-content/uploads/2026/10/cristiane-ana-clara-debate-globo-cd049d1f.jpg"
+  },
+  {
+   "s": "uole",
+   "c": "Esportes",
+   "d": "2026-10-24",
+   "r": 5,
+   "t": "Palmeiras é confirmado com Maurício diante do RB Bragantino: veja escalação",
+   "x": "Veja a matéria completa em UOL Esporte.",
+   "u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOX25mNE9tRjUzLVJxZTBHcEdPU0dESU1nNXdzRElxOGZ6U3c3OHdGbmNJa0Q2YU4telI5SVRBMnNEdmpHZzhZWWVHV1Q0ZkF4T3gxemc1aDNOQ2g5djdRa1ZGa0J4aGU0WWtHTVJGRGxoY0Vzd2x3MHEtc3VnUHZGRkIwb3h1TEdIcUpqX2p5WkRGUXUtOWNySVREWDcweFJWWEo3bHZ1WnA?oc=5",
+   "i": ""
+  },
+  {
+   "s": "espnb",
+   "c": "Esportes",
+   "d": "2026-10-24",
+   "r": 5,
+   "t": "Vasco x Corinthians: onde assistir ao vivo e escalações do jogo do Brasileirão",
+   "x": "Veja a matéria completa em ESPN Brasil.",
+   "u": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQV0ZHSE16ZC1hTDFjcUY4amU5Wl9mMjZaRXo2SDNYbVpfS0d6WXJldXh1cndLNDQ5YTM4NHF0dW1QOVM5bjhqU1lQWTA2aVB6dHJ6MzRtaVFHQ0hLSWpXNC04NG5ZSWwyRmFsclVLS190OVV4Y1JsUXVUVUVfYzloWHg0MnVWdmhJbGp2Q09HdEZEV0pMN0g0ZVktTEpGb0pjM0NialVqX0JRVEg3TGZlZ0FrWlZYNnJIR3NPa29QUTdkR3lQUnUxSUo5aXByZG5yQXc?oc=5",
+   "i": ""
+  },
+  {
+   "s": "uole",
+   "c": "Esportes",
+   "d": "2026-10-24",
+   "r": 5,
+   "t": "UFC 333: Petr Yan vence trilogia contra Merab Dvalishvili e mantém cinturão peso-galo",
+   "x": "Veja a matéria completa em UOL Esporte.",
+   "u": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPdTYtSjZXeDBuaTlRNDQ5bmRkd2ZoSjRkSmdjS2JFVDl0MFRhNjA2WHFkX0RGUS1oZG02d3ZKOGl5RE9ENGxSakpTa2ZYSE1pVXlOVXNCVWVWUzNpLUR1NVBSaUNZTHpLWVpLRnZEYWQwdzNfbVdScXR0WHU5WDBETUxGeG55a2dxUVpOMlNxd3dfOFFzYnF5LUU4U1VhZEJPOHZrNGNXc0piZjlWcl9CcFlYNkFkS19wOE96cWM1RFhSVEM5OGNIWGQ5cnBjS0dyS3dRRVJOQThhTmlyckpKSHNXS3VsVlV0YURvZg?oc=5",
+   "i": ""
+  },
+  {
+   "s": "icl",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 5,
+   "t": "Em último ato com apoiadores na Paulista, Lula compara eleição atual à de 1989",
+   "x": "Por Arthur Guimarães de Oliveira, Bárbara Blum, Catia Seabra, Juliana Arreguy e Mariana Brasil (Folhapress) – O presidente Luiz Inácio Lula da Silva (PT) comparou a eleição atual à de 1989 ao chegar ao seu último ato de campanha…",
+   "u": "https://iclnoticias.com.br/em-ultimo-ato-com-apoiadores-na-paulista-lula/",
+   "i": "https://iclnoticias.com.br/app/uploads/2026/10/35647824-high-scaled.webp"
+  },
+  {
+   "s": "olhar",
+   "c": "Tecnologia",
+   "d": "2026-10-24",
+   "r": 5,
+   "t": "Som de cinema em casa: soundbars em promoção na Amazon",
+   "x": "Transformar a sala em uma experiência de cinema nunca foi tão acessível. Separamos três ótimas opções de soundbars disponíveis agora na Amazon para quem quer melhorar o áudio da TV sem complicação. Confira as ofertas abaixo e…",
+   "u": "https://olhardigital.com.br/2026/10/24/reviews/som-de-cinema-em-casa-soundbars-em-promocao-na-amazon/",
+   "i": "https://m.media-amazon.com/images/I/31-PibOKVoL._SL500_.jpg"
+  },
+  {
+   "s": "b247",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Leilão inédito da União destina 44% do gás natural para setores químico e de fertilizantes",
+   "x": "Resultado de pleito da Abiquim junto ao Ministério de Minas e Energia, certame representa o primeiro avanço prático de uma agenda de três anos para ampliar o acesso a um dos principais insumos da indústria a preços competitivos",
+   "u": "https://www.brasil247.com/industria/leilao-inedito-da-uniao-destina-44-do-gas-natural-para-setores-quimico-e-de-fertilizantes/",
+   "i": "https://www.brasil247.com/wp-content/uploads/2026/02/20260225200248_bfa9bd24f0bbe8789b8af51f02b87c0545b957cb07266613da76dfa6e33dbd6b.jpg"
+  },
+  {
+   "s": "terra",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 5,
+   "t": "Flávio ou Lula? Ambulantes contam qual ato movimenta mais as vendas",
+   "x": "Veja a matéria completa em Terra Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPMDMwYXR6VzF3TFh4WUhjZGRhYUhwUTkzZGg4TGpZYkJVamJlWWJ5ZElXTjNLYUtkOTMtWVMwYjM5NncwcHRPcXoxZ203NHQ2SUZJTHVKaTdwMXl5NG53M0Z5TUpsQTJqYllGaHM2ZXNfZUh0NnN2RXl5dVU5bFB6ZmVfX0FxRWR2bFhHNk5OR2hERF9qampKdzl0SFFlTzlzRFpEZWdrd0xRSkwtRUxla1A0N1VpbEk3cnZhM0c0VEh4MDFuT1lHQzRHemJFWGRqbnFQOEVyVk9RTmxSN2w4T2hkeHM3clFRN09rdXEyckN1ZGxz?oc=5",
+   "i": ""
+  },
+  {
+   "s": "icl",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Da demonização de Lula à guerra espiritual: como a extrema direita mobiliza a fé",
+   "x": "Por Felipe Rabioglio e Schirlei Alves A disputa pela Presidência da República não ocorre apenas no campo das propostas econômicas, dos programas sociais ou das políticas públicas. Na campanha de 2026, setores da extrema direita…",
+   "u": "https://iclnoticias.com.br/demonizacao-de-lula-guerra-espiritual/",
+   "i": "https://iclnoticias.com.br/app/uploads/2026/10/55602120819_1ebb1ee965_o-scaled-e1792872623437.webp"
+  },
+  {
+   "s": "icl",
+   "c": "Ciência",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Greta Thunberg afirma que vitória de Flávio Bolsonaro significaria um desastre para o planeta",
+   "x": "Por Ítalo Leite (Folhapress) – A ativista ambiental sueca Greta Thunberg foi ao Instagram para falar sobre a eleição presidencial que está acontecendo no Brasil. Segundo a jovem, o mundo voltou seu olhar para o país que decide…",
+   "u": "https://iclnoticias.com.br/greta-thunberg-flavio-bolsonaro-desastre/",
    "i": ""
   },
   {
@@ -952,20 +1026,730 @@
    "c": "Tecnologia",
    "d": "2026-10-24",
    "r": 5,
-   "t": "Quer jogar sem travar? Confira uma seleção de notebooks gamer em promoção na Amazon",
-   "x": "Se você está pensando em renovar o setup ou dar aquele upgrade no desempenho, a Amazon está com uma seleção interessante de notebooks gamer disponíveis agora mesmo. São três opções com boas configurações de hardware — do…",
-   "u": "https://olhardigital.com.br/2026/10/24/reviews/quer-jogar-sem-travar-confira-uma-selecao-de-notebooks-gamer-em-promocao-na-amazon-16/",
-   "i": "https://m.media-amazon.com/images/I/41vA9EpxNLL._SL500_.jpg"
+   "t": "Frente fria traz chuva no domingo de eleições em várias regiões",
+   "x": "Frente fria traz chuva e tempestades no domingo de eleições, enquanto o Piauí bate 40°C. Veja a previsão do tempo completa para o país O post Frente fria traz chuva no domingo de eleições em várias regiões apareceu primeiro em…",
+   "u": "https://olhardigital.com.br/2026/10/24/ciencia-e-espaco/frente-fria-traz-chuva-no-domingo-de-eleicoes-em-varias-regioes/",
+   "i": "https://olhardigital.com.br/wp-content/uploads/2026/10/iStock-105934727-1024x683.jpg"
+  },
+  {
+   "s": "uole",
+   "c": "Esportes",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Sem apoio a Massis, situação do São Paulo fecha com candidato à presidência",
+   "x": "Veja a matéria completa em UOL Esporte.",
+   "u": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdW0zRm5SZk8tUHVfY2hJN2NrNnFFcVRKNlFIdE5ZNk53RWFtYWpsLWptM1B4bV8xRzRmV0ZlV2NqdS1NTUd6ejR0WG9IaUJWZDJDdTl4TjNjTkNub1d4ZVFXaE9KNHJmTGw5RTh6VEktX09SeGJjUTBCSTVWdGxqSUgzTElrVGRPdVhJRzJoODJYb3VVUDNNVUY2REtYS1pRZEhFZDg4NVBPTkR6eHBGSmVaZ1RQSEo5bXo4T1pucE5Pa0IyMVpITkd5V1hhMjh0WTNuajZVTQ?oc=5",
+   "i": ""
+  },
+  {
+   "s": "b247",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Fonteles pede ofensiva nas redes para ampliar apoio a Lula na reta final da eleição",
+   "x": "Governador do Piauí criticou declarações do senador sobre os nove dedos do presidente e o caso da menina Ana Clara, além de defender o combate à desinformação e a redução da abstenção eleitoral",
+   "u": "https://www.brasil247.com/brasil/fonteles-pede-ofensiva-nas-redes-para-ampliar-apoio-a-lula-na-reta-final-da-eleicao/",
+   "i": "https://www.brasil247.com/wp-content/uploads/2026/10/Novo-Projeto-2026-10-06T160350.846.jpg"
+  },
+  {
+   "s": "terra",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Ato em favor de Flávio Bolsonaro tem 'Caixão do PT' e 'Batman Bolsonarista' no Rio de Janeiro",
+   "x": "Veja a matéria completa em Terra Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOaFVfLVF1WTF4QkhkeF9VOEF0ODBMaVVYSlZzV3lmcm5LaHo1TTI5WUprUEpqZ0wtYnBhS2tpOVpLVE1FdHdoWDltNjJHMklsR1BlNEtCbmoydTliQXlNVE52XzhHNTREc3RVVGNTQmFHaWNoc29Wb0hZcnk5eFFTTmVJaVlmTk1QWkhmVVh3M3YyNFdFS0ZWZHFnQzQxTllwcGtYcHRhQ281bnZUTWxUbF84WjlnazEwLTFVX1lrdEZ4UGV3enFYNXd3Skt0M0RleWlaUnpTSktleDkyY3VCUGJhNGtGeWtjOHFyZ3hmSWVtQkhjLWhGOGsxUk9rek81V0N3T09JTkRlRXRSUFFialJVUQ?oc=5",
+   "i": ""
+  },
+  {
+   "s": "uole",
+   "c": "Esportes",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Rebeca Andrade festeja tricampeonato mundial no salto: 'Medalha com sabor de retorno'",
+   "x": "Veja a matéria completa em UOL Esporte.",
+   "u": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQUy1fZXphRFdLMkJGNnNTQVIzTUJKTGJjb1J4di1kbEFKYS1aOHgzMTdxaGZWTkxQSjRlMERDNmFIRDNjbVFuZ3laSkZUTnZIdEtQTWN3dFAxekVUUGlFTV9oendMMXFGNWtrbWpudFZHdGk3cm9Uem5QZDJUdm8wTGh4QzVUUl91QjVNRDhjekZzOC1CSnZQLTFZTWl0OWM3a2tIeWRwLW93SnprQzRxaUlZc1hWQzhRNm9LSXkxTWY5M1R2SXhkOEczdWc3MnZsZ1ctX3BZYndjRkszUU5yNi1sNGs0R2lO?oc=5",
+   "i": ""
+  },
+  {
+   "s": "b247",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "A verdade não pode ter dois pesos e duas medidas",
+   "x": "Quem fala a verdade não tem medo de mostrar extrato bancário",
+   "u": "https://www.brasil247.com/blog/a-verdade-nao-pode-ter-dois-pesos-e-duas-medidas/",
+   "i": "https://www.brasil247.com/wp-content/uploads/2026/10/Novo-Projeto-2026-10-24T082923.773.jpg"
+  },
+  {
+   "s": "carta",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 5,
+   "t": "Brasileiros já vão às urnas na Nova Zelândia; relembre os números do 1º turno",
+   "x": "As seções no país abriram às 16h (de Brasília)",
+   "u": "https://www.cartacapital.com.br/cartaexpressa/brasileiros-ja-vao-as-urnas-na-nova-zelandia-relembre-os-numeros-do-1o-turno/",
+   "i": "https://www.cartacapital.com.br/wp-content/uploads/2026/10/Lula-PT-e-Flavio-Bolsonaro-PL-candidatos-a-presidencia-da-Republica-Foto-1_-Ricardo-Stuckert_Campanha-_-Foto-2_-Vittor-Sales_Campanha.png"
+  },
+  {
+   "s": "olhar",
+   "c": "Tecnologia",
+   "d": "2026-10-24",
+   "r": 5,
+   "t": "Som em qualquer lugar: as melhores caixas Bluetooth portáteis em promoção na Amazon",
+   "x": "Quer levar música de qualidade para a praia, a festa ou a próxima viagem? Reunimos uma seleção de caixas de som Bluetooth portáteis em oferta na Amazon para você escolher a que mais combina com o seu estilo. Confira as opções!…",
+   "u": "https://olhardigital.com.br/2026/10/24/reviews/som-em-qualquer-lugar-as-melhores-caixas-bluetooth-portateis-em-promocao-na-amazon/",
+   "i": "https://m.media-amazon.com/images/I/51ZzeFl5p3L._SL500_.jpg"
+  },
+  {
+   "s": "b247",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Levantamento interno aponta Lula um ponto à frente de Flávio Bolsonaro, diz Edinho Silva",
+   "x": "Presidente do PT afirma que dados da campanha indicavam vantagem do petista na sexta-feira e defende mobilização para atrair eleitores ausentes no primeiro turno",
+   "u": "https://www.brasil247.com/brasil/levantamento-interno-aponta-lula-um-ponto-a-frente-de-flavio-bolsonaro-diz-edinho-silva/",
+   "i": "https://www.brasil247.com/wp-content/uploads/2026/10/dsc4399-e1792176416574.jpg"
   },
   {
    "s": "bdf",
    "c": "Brasil",
    "d": "2026-10-24",
    "r": 5,
-   "t": "Entre notícias e resistências: a luta do Tururu pelo direito à comunicação",
-   "x": "Por André Fidelis* Historicamente a comunidade do Tururu é estereotipada na grande mídia como um local estritamente violento. Há registros, por exemplo, da década de 70, do Diário de Pernambuco (jornal de grande circulação local)…",
-   "u": "https://www.brasildefato.com.br/colunista/cese/2026/10/24/entre-noticias-e-resistencias-a-luta-do-tururu-pelo-direito-a-comunicacao/",
+   "t": "“A sociedade brasileira não quer retrocesso”, diz Lula em coletiva de imprensa antes de ato na Paulista",
+   "x": "O presidente e candidato à reeleição Luiz Inácio Lula da Silva (PT) realiza, na tarde deste sábado (24), em São Paulo, o último ato público de sua campanha à reeleição. Ao chegar à capital paulista, o presidente concedeu uma…",
+   "u": "https://www.brasildefato.com.br/2026/10/24/a-sociedade-brasileira-nao-quer-retrocesso-diz-lula-em-coletiva-de-imprensa-antes-de-ato-na-paulista/",
    "i": ""
+  },
+  {
+   "s": "bbc",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 5,
+   "t": "Vai votar em outra cidade? Veja regras de como usar o transporte gratuito no seu Estado",
+   "x": "Gratuidade vale para o 2º turno deste domingo (25), mas as regras mudam conforme o Estado",
+   "u": "https://www.bbc.com/portuguese/articles/ckpqgyzlwdj7o?at_medium=RSS&at_campaign=rss",
+   "i": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/4743/live/9ee2f350-cfe5-11f1-aa62-a1cf89c34605.jpg"
+  },
+  {
+   "s": "terrafut",
+   "c": "Esportes",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Estêvão no quase e falha de goleiro: Chelsea perde para Tottenham",
+   "x": "Veja a matéria completa em Terra Futebol.",
+   "u": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPMnlpQ0I3VGl6YU9iQ1kyMzVLOXNjTW9OeVZLaFRxdVBwekFQd2tsVHZPTWRQU05qNnVZOUdoVXVkdDZEdXRKY0hWY0RKaTZfck5FaGtsUVBNS3d0S094Ymljd3VYQmtzbnJOYkoxdXg0dUF5LVIxQ0RCeFFoSHd4RHpTVldyYWtLd1ZfYnlYczY4ODJHblBwRUZfWkxCVHVhTE14ZHgxMkR4bGtmSWJGalF4MG15MzFKUUpGb3dncndMemRSdUY4U3ZaREFOY3lxVHhYN2ZfUW84OUhXNnRwYzV1NGxOeW1wRElIejQ5ME5TUF9rZ2RYamVETFVfdXRSYm9pZjV6Y1lTaC00VVZv?oc=5",
+   "i": ""
+  },
+  {
+   "s": "bdf",
+   "c": "Cultura",
+   "d": "2026-10-24",
+   "r": 5,
+   "t": "Gaby Amarantos rebate Flávio sobre Belém: “Terra mais linda, maravilhosa e perfumada”",
+   "x": "A cantora Gaby Amarantos criticou neste sábado (24) a declaração de Flávio Bolsonaro (PL) sobre Belém durante o debate presidencial da TV Globo, realizado na sexta-feira (23). Em participação na transmissão comandada pelo…",
+   "u": "https://www.brasildefato.com.br/2026/10/24/gaby-amarantos-rebate-flavio-sobre-belem-terra-mais-linda-maravilhosa-e-perfumada/",
+   "i": ""
+  },
+  {
+   "s": "carta",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 5,
+   "t": "Tribunais definem as urnas que serão auditadas no 2º turno",
+   "x": "O TSE realizou uma auditoria em seus sistemas neste sábado 24",
+   "u": "https://www.cartacapital.com.br/politica/tribunais-definem-as-urnas-que-serao-auditadas-no-2o-turno/",
+   "i": "https://www.cartacapital.com.br/wp-content/uploads/2026/09/Eleições-Clima-Fotos-Agência-Brasil00001-1.jpg"
+  },
+  {
+   "s": "icl",
+   "c": "Cultura",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Bolsonaristas atacam religiões afro-brasileiras para evocar guerra espiritual contra Flávio",
+   "x": "Por Anna Virginia Balloussier (Folhapress) – Bolsonaristas têm recorrido a imagens de manifestações religiosas de matriz africana para associar apoiadores de Lula (PT) a supostas ameaças espirituais. A influenciadora Bella…",
+   "u": "https://iclnoticias.com.br/bolsonaristas-atacam-afro-guerra-flavio/",
+   "i": ""
+  },
+  {
+   "s": "uole",
+   "c": "Esportes",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Pole Position: Hamilton lidera treino que mostrou qual será o desafio da classificação",
+   "x": "Veja a matéria completa em UOL Esporte.",
+   "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQ2hGVFBfNHNKNk93cnhZRWJUYzFnRXJXaG94NU5WVkVzSm14YWVxWUNZbTlCRlAweWh6dUlDQW9wbWlhcDVGYTYtMlA3ME9PNU5xeDgzcTFSSWdiN2VMdjcwMUhjOG9VVzVVMHJidFM0czZtSG1xQUI3MmdDdkJ3TmJHYklMRmE5R255YkFJbWpjT1pvRXNqZXBfT1AycFRmLXc?oc=5",
+   "i": ""
+  },
+  {
+   "s": "terrafut",
+   "c": "Esportes",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Vasco x Corinthians: onde assistir ao vivo, horário e escalações pelo Brasileirão",
+   "x": "Veja a matéria completa em Terra Futebol.",
+   "u": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOWGlpNkI2RU8xVnVCb1hCQXZWTkhQZFBYWjY0dkxZZk9aOG5BbVY2dUJpaHpaR0VrT19fWURUc3l0dEFiTHdUYkFZeFNZaVlkVk5HWTlCbW4tWGhIVUpnUnRUbGJONnd0d0VBVTJ1WXpHeEo3UHJfeVhSVmY1NVJsY2FKZmR5dDdUbVRiaEZUWjBsYVZJZjJaTHFxVkxnNnlZVEtXa1o3SGlidDF3MUktOFpTZm9hVXFjaldrUmFOUG1UOWpLYXljNFdtZTl3NWFJOVdleUtYNUFfTWx5Y1Q5V3FEeUtHNDBGMHctdXJUWjN6R0ZDRUhWWUJfaw?oc=5",
+   "i": ""
+  },
+  {
+   "s": "canaltech",
+   "c": "Tecnologia",
+   "d": "2026-10-24",
+   "r": 5,
+   "t": "SUV seminovo da Jeep fica no precinho e sai mais barato que Tera em outubro",
+   "x": "Quem procura um SUV seminovo em outubro pode encontrar no Jeep Renegade uma alternativa aos modelos zero-quilômetro mais baratos do mercado . A versão Longitude 2023 reúne motor turbo, transmissão automática convencional e uma…",
+   "u": "https://canaltech.com.br/carros/suv-seminovo-da-jeep-fica-no-precinho-e-sai-mais-barato-que-tera-em-outubro/",
+   "i": "https://tl.ctcdn.com.br/-VmlBl2FlwTvWCM-8DxiW_NIFjI=/0x0/filters:format(webp):quality(85)/a8a9fca0-cd51-4982-88fd-30726a62b543.jpg"
+  },
+  {
+   "s": "uole",
+   "c": "Esportes",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Transmissão ao vivo de Vasco x Corinthians pelo Brasileirão: veja onde assistir",
+   "x": "Veja a matéria completa em UOL Esporte.",
+   "u": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQLS0xb3M4N1ZNa3lsR3k0X2lsNTFQeUJBLWJFUHYzcjBLM2lrMDR0cmVtMTVNdW5NUTFubloxYzhpZEhadUJWeV9hS25fY2VRa2RMbEJOUHIxOVBOOWc5Q1hlemdNTXotSFc5bmFkdTlzbjN1dnVDekV6Wm53VkRnVTdXYVNacFZqQ1ZZUUc4a1RuRndWUXZOdm45U1FyUUdkMWFkM0pFd2RlZVd1OEs3enRjMjkzM2Q3TkN3Z3llc2IxdnlSUXlKd0ZwLXZOZW1lYU1pUEZrNGx2YlZNM1E?oc=5",
+   "i": ""
+  },
+  {
+   "s": "terra",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Apoiador de Lula relata morte da mãe por covid e critica gestão Bolsonaro: 'Vítima da falta de cuidado’",
+   "x": "Veja a matéria completa em Terra Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQbVMxV1BTOElBN25DWHZPWmtHWmJMbWVuSTlNUEdIMUw3WEh2U2Y3YVNrVURMdU5Jd0JjUDFLVFlkYXBSdkY5Q3l4ZWwybHhXSzdTelB0aHpJMXhTcWlvMG54cjU2d3ZZY0h5QXUtQzVrWGtrY3ROODB2OW1tWVhNR2hKbHJ0STFiRk1waEVoWkh6aG5TYzVfX2RuTmNWRktYVG8tMHBKT2pTOElBc1hsUlU3dGZIWHU2eURNN2F1NGdTWExBUExtVVZEWkJYSFRsUzRsRVV3eVdKMFk4RHVCOVpoYmRYczUzc0tpQTA1Yi14NDE0dXRud3hYQ2xUVFZMeHk4TkRzb3FMZS1xdWw4ZGZvOTRZbHhiUGdlcDNXT09LZw?oc=5",
+   "i": ""
+  },
+  {
+   "s": "b247",
+   "c": "Cultura",
+   "d": "2026-10-24",
+   "r": 3,
+   "t": "Letícia Spiller critica “tesouraço” de Flávio Bolsonaro e alerta para impacto dos cortes sociais",
+   "x": "Atriz questiona proposta de reduzir R$ 250 bilhões em gastos públicos e destaca os efeitos das medidas sobre mulheres, famílias trabalhadoras e serviços essenciais",
+   "u": "https://www.brasil247.com/sudeste/leticia-spiller-critica-tesouraco-de-flavio-bolsonaro-e-alerta-para-impacto-dos-cortes-sociais/",
+   "i": "https://www.brasil247.com/wp-content/uploads/2026/10/Leticia-Spiller.jpg"
+  },
+  {
+   "s": "terra",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Em live de 24 horas, Janones vaza número de Lula",
+   "x": "Veja a matéria completa em Terra Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPN1g0LVZNNlVKU1owWHhCNy05QXM0NzdfblRBa1ZuTS0zVzduZTZkT0pENXNWakRHeTBuRHpFV0JyN0ZmbUdMZGpORHRUYmtWRmFFWjlRbUxBSDlpb192S2k1VGJZV2dWWEQ5SFFOQlhfWHRKVDRjenBJQUJLNk9CWEdIeUJHV1pvVFZaalZNRkNoRHVyUHFCa083bmwyMjRBTHpNbjktN3NkWlJVcE5IbUVEWXhvNXlucE9KWXhxRnNCN0NqVndpdk5XNFdSaUtoclE?oc=5",
+   "i": ""
+  },
+  {
+   "s": "olhar",
+   "c": "Tecnologia",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Quer melhorar sua experiência nos games? Confira uma seleção de headsets gamer em promoção",
+   "x": "Seja para dominar partidas online, se comunicar com a equipe ou simplesmente mergulhar no som dos jogos, um bom headset gamer faz toda a diferença. Reunimos três opções que estão em oferta na Amazon agora e atendem diferentes…",
+   "u": "https://olhardigital.com.br/2026/10/24/reviews/quer-melhorar-sua-experiencia-nos-games-confira-uma-selecao-de-headsets-gamer-em-promocao-3/",
+   "i": "https://m.media-amazon.com/images/I/31wtNDb12iL._SL500_.jpg"
+  },
+  {
+   "s": "uole",
+   "c": "Esportes",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "City perde invencibilidade, Tottenham embala e Magalhães decide no Inglês",
+   "x": "Veja a matéria completa em UOL Esporte.",
+   "u": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNSWkyMHNlVmUzQnpYRmpqaFB4cmJRNTRTb2lEN3ptSV9DS1dabnlmUFNmR2JLT01LWC0zY19HQlhUbnFYSUo0WTR2WW9iTXJvYm10b1ZzRDA2V1BjTnJpNzJIMEEwM2Q1TG5SWVQybVNrWHdfdGdlWFlBYmE2NVNzVHpYNUo3SDZXTzlfRkRSRFBDaGYtSkpraWRlbE13UXAzM0NSWjNUSV8ySnl6cV83WHE5UnF2LWt2aWJXX0hEelBKQmV1Qzkyb2xjUWVjVEVOZk5kRnctVjB0X3B1?oc=5",
+   "i": ""
+  },
+  {
+   "s": "b247",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 3,
+   "t": "Amigo de Flávio Bolsonaro tentou ampliar mansão em ilha de Angra usando decreto de Cláudio Castro",
+   "x": "Empresa de Willer Tomaz pediu para dobrar a taxa de ocupação do terreno após flexibilização ambiental; imóvel é alvo de disputa judicial com o jogador Richarlison, e o caso integra investigação da Polícia Federal",
+   "u": "https://www.brasil247.com/sudeste/amigo-de-flavio-bolsonaro-tentou-ampliar-mansao-em-ilha-de-angra-usando-decreto-de-claudio-castro/",
+   "i": "https://www.brasil247.com/wp-content/uploads/2026/08/143762-768x452-2.jpg"
+  },
+  {
+   "s": "uole",
+   "c": "Esportes",
+   "d": "2026-10-24",
+   "r": 3,
+   "t": "Onde vai passar Palmeiras x Santa Fé pela Libertadores Feminina? Como assistir",
+   "x": "Veja a matéria completa em UOL Esporte.",
+   "u": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNcjl5MzBsTWJORU9VT1RrMC1WZjlTRzFtcXgydy04eWFOUlZJUEFoLXkySmxlZ0xXaDM4dmtNVElaRHJxdUZaeDZmQmRLS1pLT0Z4OEhreHExMWVIaEo5MFJWYlR0OHZwd0RTZ0NEUWpZY3NsczhZMkthNFhkTWdDSGQ5X3BfaG9pczd2OXNXemZFMHhISjBSTG1JZDhselY0MnpHVUNSMUhBUVJ0UjJpd0otaF9pSlJHVDd6YUdJV3hJcnN3OC1YODNlek9lQ2c4VDEwZVI3ZmxHektn?oc=5",
+   "i": ""
+  },
+  {
+   "s": "terrafut",
+   "c": "Esportes",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Palmeiras x Red Bull Bragantino: onde assistir ao vivo, horário e escalações pelo Brasileirão",
+   "x": "Veja a matéria completa em Terra Futebol.",
+   "u": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNTDdTcFJzbHRUM2czbWx0bGZETVNPdWNEMG5aMF85eHlNcWRzNGpHLUVKUkhqQTIzVVNRTVc1OEJtLWp6QllmdjgyQTJrdDBmT2lmZmxOYU9USE9VNGFRZVpOZ0dGVHBXLW1RQ2JldzZtN25yU2hiQTZDZVNzcE41dWtYRzBFM0hfVW84eGFNTVpBMnhiR0l2ZWZsUlFpaS0zcXlONkNYYlcyeGlmNG94R3RmN1dPV3IzelctejE4b01ucjZySU83VXQ4U3BuMVkxYkd0cHRJbUtaZjlvcWIxZ3FqR09ZU3lNcktyVTVZUDdtcWk4YWpBWnJob0ktbkNGU0tzNjBQLXBLMTQ?oc=5",
+   "i": ""
+  },
+  {
+   "s": "carta",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 5,
+   "t": "Justiça manda prefeitura colocar 100% da frota de ônibus em SP no 2° turno",
+   "x": "O prefeito Ricardo Nunes (MDB) e o presidente da SPTrans estão sujeitos a multa de 100 mil reais cada um se descumprirem a ordem sem justificativa",
+   "u": "https://www.cartacapital.com.br/cartaexpressa/justica-manda-prefeitura-colocar-100-da-frota-de-onibus-em-sp-no-2-turno/",
+   "i": "https://www.cartacapital.com.br/wp-content/uploads/2025/12/onibus-sp.jpg"
+  },
+  {
+   "s": "crf",
+   "c": "Esportes",
+   "d": "2026-10-24",
+   "r": 5,
+   "t": "Em Saquarema, Flamengo vence o Sampaio Corrêa e abre vantagem nas quartas do Estadual Sub-20",
+   "x": "Veja a matéria completa em Flamengo (site oficial).",
+   "u": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVHIzZ0k3N1h6bUJYd0lKRlFYbmZlVm0xYTVpZkdqM0xtUTdiRjVQU3h2OWFlYjhVTk9WZ2oxTFMzLW9DSmUxTmo0c3NnWEZuY2tzWUZCMnlBX1l1Q0hRcDlLQ0F2SXpaZUlSLXo0amllbXBfUXZLT0RPUUlOdFdmMkdNVVZOWVBJNklJbnZxb0FRdVZWSGJieUM0dVNULThHYkp3bUpRdlMyTVhHTGViMnB3X2NhLTQ5LWNodWRMbXJqQnhhY2NROUp6SjNMSEMyNFdrR0d2LVcyY0lL?oc=5",
+   "i": ""
+  },
+  {
+   "s": "uole",
+   "c": "Esportes",
+   "d": "2026-10-24",
+   "r": 3,
+   "t": "Sem Makhachev, UFC anuncia Prates vs Morales por título interino em janeiro",
+   "x": "Veja a matéria completa em UOL Esporte.",
+   "u": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNY3AtLUtpSmZIX1dJem56dlo0Z0MtdzVTTk9iakFWYmhBRTZCLVFPcTVQMEJvSnh0c1RVYmpKTWVwVE5BSm9ZOEpBczZsXy1aeFNIYXFCX25DcXpYUWstTlhyNWE0SVZtaTFQMlM0dUhIbk53VzMzZElreG1tcjJXMEtvby1PdU5sZllkMG1yZVlJZW5RNlVCbDRCWDFvQ2N0ZWJWY3Rwb3dSX3FXZXFsWEg0Q2FlMGVUMHg0alI1bENCVXlwZVd3ZV9mYUpocTBuNUZXMkhtS0piTlVhN1Jj?oc=5",
+   "i": ""
+  },
+  {
+   "s": "olhar",
+   "c": "Tecnologia",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Ouça mais e gaste menos: selecionamos ótimos fones Bluetooth em promoção",
+   "x": "Se você está em busca de um bom fone de ouvido sem fio, este é o momento certo para agir. Reunimos três opções de fones Bluetooth em promoção na Amazon, com perfis diferentes — do modelo compacto para o dia a dia ao esportivo…",
+   "u": "https://olhardigital.com.br/2026/10/24/reviews/ouca-mais-e-gaste-menos-selecionamos-otimos-fones-bluetooth-em-promocao-3/",
+   "i": "https://m.media-amazon.com/images/I/31eeSqQHCvL._SL500_.jpg"
+  },
+  {
+   "s": "terra",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Ex-BBB Gizelly e eleitores relatam falha no e-Título ao mostrar local de votação; TRE-SP nega mudança",
+   "x": "Veja a matéria completa em Terra Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPQVpSakw5RXl4M3doenlOWFkxUjlER2FadmNaNk01eWtEWExmU1VyTWRTZ29xbkhDLW5PcV96Vm1uZzRrMWFaSklpd0YwaUoyZ2VtTnBFNnVzaHhlSGQ0aUhGdzN4aTJJRWlROXRSd2dVcC1jXzQ4VVlqYnRpZGJSeGVTcGFQdVdjaUtTMjAxMDE0VS1jaFU4UWhGUHZmNmFRYU0tdEpXTlZYRjVXYTZtS1c1RUNaR3cxd3lGak5IQTNsaHRaOF9LNUVKTlBQOGFCMzNQRVNiWlhDT21fMmppUmMwVnRXUHdDTVpLYkxtLWl2ZUllRWNaTEZlQzhTN2hnMU8xSEhRaGpCaklNeWlPZWVzZk9ZelNI?oc=5",
+   "i": ""
+  },
+  {
+   "s": "terrafut",
+   "c": "Esportes",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Roma arranca empate com Napoli no fim e segue invicta no Italiano",
+   "x": "Veja a matéria completa em Terra Futebol.",
+   "u": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNTzdPQ0FoNUtNVGlLYkVZQXA4cnpNUjdmODVQMkZWRFE5Ul8wRXBLVmFfekpXNmFlWlpEVEN2U2luZGxJOWkxczgxZ0ZqQ0J2dEVyaWlNbE1sUk5MdkU4aV9WMXpWNDBOaW05SU5jU3cyWnl5eTJSV05hdzlIb1NPQ0VQOWpUOVFXZlltaWVROWE1UFdhU0RORk1IVTlLT2R0c3RYVkUyQzNZTWJPR3FKTV90SXYzSHZGc09PSXF2OXh6VVJWQjJxV3Y3cFh1RHBzYWN2V1ZkdzBIY09KUW1kWWJIcVl3SHoxMHowUEpVblFWM1lTREV1MU1qMUE3aVJpdEg2c003bjlPcTlYNjNHTGtCOE5NczR1VFZuU2lOQQ?oc=5",
+   "i": ""
+  },
+  {
+   "s": "uol",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 5,
+   "t": "Natália Portinari: Contador de Flávio e Careca do INSS é acusado de apagar dados após operação",
+   "x": "Veja a matéria completa em UOL Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcnNua2tNVE9SV2VvOW4tM0IyU2Y2NVRBQjVDTTNmeFRhNU9sZ1lJbWhsYkxrcjgyN21sWWJLRVZfcXRtcVExZnNiNGF2R1hRVFAwRFE0dkZrYzhOVUlxZjNUY0pYbVE4VU1NeDNyMzJWMV9rTVJHczVfWmZnVF8zM1pqYWZCSkRhQkVGZGZTZlMwd09hREpucTFOeWs5QUpPNGxPNTZqZVlxVWNmZVNZdDVqaEswMkRLdXpwMVRnRVI5VVFEYVRLa25HRU4yTnJubV9vSjJJdw?oc=5",
+   "i": ""
+  },
+  {
+   "s": "terrafut",
+   "c": "Esportes",
+   "d": "2026-10-24",
+   "r": 3,
+   "t": "Dortmund bate o Eintracht Frankfurt e assume liderança da Bundesliga",
+   "x": "Veja a matéria completa em Terra Futebol.",
+   "u": "https://news.google.com/rss/articles/CBMiogJBVV95cUxOUDJNWF9ZTzhFcEljd2F3ZHdHTXNkTFNzTXpLa3dnQ1c1U2w1OFd5dUlnSk9qWnVJcFJINDZVNkJ1LTNhMFp6S2NaSm9paFJYZjNfQWZqTUMtNnNjOGVjZ3BQOE5xOXFYaldfbml5Rmxkd1JQZEVoT2pyNVdneUc1N0tUYnRWekRSbElITm9zVjdTcVN1ZnFGemVweVJLT3o1SmJfTWhtckJVVXAyQzh2eTB5X2pLTkNuLThIOFMzUzE0bEs1ZlpDRW1fQV9QXzcwRE1MS2wzcHpXVkd4X2daRVlhUW43UEVOV1NUOXlUVGw4Z3Z6ekQ1aG1aandtNHJxb3JrUjE0WUNVSnhBMEFoLWpIOUZrTlB6ZVBreFpLc0xLZw?oc=5",
+   "i": ""
+  },
+  {
+   "s": "canaltech",
+   "c": "Tecnologia",
+   "d": "2026-10-24",
+   "r": 5,
+   "t": "Como se proteger de golpes feitos com IA?",
+   "x": "A inteligência artificial (IA) tornou os golpes digitais mais convincentes . Os criminosos usam as capacidades da IA de imitar vozes, criar vídeos falsos e produzir mensagens que reproduzem um estilo de escrita para fingir ser…",
+   "u": "https://canaltech.com.br/seguranca/como-se-proteger-de-golpes-feitos-com-ia/",
+   "i": "https://tl.ctcdn.com.br/GuHlIeHlJF65Bn9SHhUgVZ5n7Pk=/0x0/filters:format(webp):quality(85)/1846c6a3-4788-41d5-9a18-a48a3f18c13d.jpeg"
+  },
+  {
+   "s": "espnb",
+   "c": "Esportes",
+   "d": "2026-10-24",
+   "r": 5,
+   "t": "São Bernardo x Vila Nova (24 de out, 2026) Ao vivo",
+   "x": "Veja a matéria completa em ESPN Brasil.",
+   "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9EYW9ybEtzSnlzNnBEbzdVYnJhTl9raTN4N01mQ0tWdlc3X0p2LUNwNGhHbzFJaXFrcFlab056Vm1qY2Z1VlUwR2JtamlIZ3pyZlREODJlLUpvZVJnZGVob2NkY3FvRG5lX2c?oc=5",
+   "i": ""
+  },
+  {
+   "s": "espnb",
+   "c": "Esportes",
+   "d": "2026-10-24",
+   "r": 5,
+   "t": "Atlético-GO x Novorizontino (24 de out, 2026) Ao vivo",
+   "x": "Veja a matéria completa em ESPN Brasil.",
+   "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1SbHcxZmNRdGR4czM0YzQ1X2IxRUZ5Um1UNXd1clFfSmlKRXdqV0ttV1AzRFhUdWwzZmFLc3hMR21ndG9wSGZOLXVwUklONmI5bXJqeXRucks5aWVpcFh1VlNyLU0zbWhrY0E?oc=5",
+   "i": ""
+  },
+  {
+   "s": "espnb",
+   "c": "Esportes",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Internacional x Botafogo (24 de out, 2026) Estatísticas dos times",
+   "x": "Veja a matéria completa em ESPN Brasil.",
+   "u": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYlBCUTNfc2xsek9pQ05xUVQ1Nk93UndQMlNMWDBycFdHZzI5OGJzc0lNWWQyaGRXdnItZFVXaGwybUtxUVZYZmdKZU9tYmxGSVdvM04tbG80NXVEcGZCbHpSTUxUQXRPYnFycnp1SVU1ZG1yTUl1c2x3TTF1U2tzM21CZlU5V2dqbGc?oc=5",
+   "i": ""
+  },
+  {
+   "s": "espnb",
+   "c": "Esportes",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Vitória x Athletico-PR (24 de out, 2026) Estatísticas dos times",
+   "x": "Veja a matéria completa em ESPN Brasil.",
+   "u": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMmU0X2pTLWgxelljZ0VQT0IzbnJMak1yakxzNm1KbVV6d3h3RG1fNG5QU1NPczFUSVkxMVdIRHNFVnZ2aTItazVBX3FkVklHaWJpQXdQQlJ5UTJoMjVMZkhTV216dkFaMWpnMF9vVE5NN2hKY2NiY3ZKeTdUelJRQXlGUThqdWVtWWc?oc=5",
+   "i": ""
+  },
+  {
+   "s": "terra",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Homens armados matam ao menos 40 pessoas no nordeste da Nigéria, diz Anistia Internacional",
+   "x": "Veja a matéria completa em Terra Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOLS10QWEwZVcxbVF0SEdrbHpKdWlZbmg4QzhyZXZXaWU5TXI4Vnl6aWFYWGxVYjRWbm84Y2ptdEozY0dNblR2WW9sS1hTRjJtU1p5dVZqTl9pMG9fN052QW9zRmFxVmtFNDhPZEZFVDF1eTBYbjhyQW5lOEEtTWhyUTJlM00wa1VLdUNMSEpvTkpZNGpxQmhQeVZtRTRsZ1NObnlCRTBhNHRhUGYzVGNMd1A4TDBHMU1zMUlidWhIekNEV0tjVy1zS2VPbGJJTTVPQllGQjB5QTdDSURHQ0o4djRITHgybGJlangyb3RyeEZzT004VWZnWmQxNkF0dkpxZjVpcDR3?oc=5",
+   "i": ""
+  },
+  {
+   "s": "espnb",
+   "c": "Esportes",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Tottenham vence Chelsea com Palmer expulso e gol contra bizarro para subir na tabela da Premier League",
+   "x": "Veja a matéria completa em ESPN Brasil.",
+   "u": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNU3U4d2FpWU5HZkZUTUJNaHdhMWZRMEhRdWExb0FFZl90QXFremJPN0EzWC1acjdvNURkbnlQOERINkRJR1hkcTY4LWpxcl9YSG9jVWU4LTY4b1UwUC1EYUJqQ24yMU9UaFN4OWt6dzhtTTFQR2JHZ0xYQkVsS3ZVRUlpMG9uYlNMSXdaOGZCY2tGN2xzSjRHTHVrd1RFTjl2MzNxTkJMZTNzMEhrakFuaEZnRmNBSHZGdzdYZ1BYUy1UVXhNMnlwMndmY19yWEFQWHJLRi1rYUNwaV9NanRZa053a01LV28?oc=5",
+   "i": ""
+  },
+  {
+   "s": "terrafut",
+   "c": "Esportes",
+   "d": "2026-10-24",
+   "r": 3,
+   "t": "Lionel Messi recebe prêmio esportivo na Espanha",
+   "x": "Veja a matéria completa em Terra Futebol.",
+   "u": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOWDMyOW1NcDBKUTlwaWRtNVZQWDhIVjV6WUNreUZvakdXSmlkZTkxUmdLUG1VakN0NTVyZlRuSnlXWThNWld2RXNpOEF6MEp4WTItQkNQbGs2YVJrVVBVSE5XbzZRa0Via0pUc1JXdm5LRnY3R2dES21ISVJQY2xsREN2aS1jRnlnRGlhOWZlT0cwdjBpSEUwWFlFUGxLeE1rbHh3ZUNCU29OMW5TYkxiX2hDbm11RFVTWGZYc2QwR1VfV25keDlQUGRodHVaQnAtNzBPUzBLY3lieDN6MlVHeDRrVQ?oc=5",
+   "i": ""
+  },
+  {
+   "s": "espnb",
+   "c": "Esportes",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Mirassol x São Paulo (24 de out, 2026) Estatísticas dos times",
+   "x": "Veja a matéria completa em ESPN Brasil.",
+   "u": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZlpBbXBfbkd0TjJsbV9ZTm9WNWZiUUo5REROR1JCQWxiQW1ma2NPX1lVc3JVaHhHMmhUNi02bHlXQXYycE91VmhQWFhEWmwyY0N3LWx5TGhQaEVfaDVRYkJYTVpEZExaM2Y0NzA3ODVMU0RobmxIVmFMMUl4WjZndGJHRTZrVEs2QUE?oc=5",
+   "i": ""
+  },
+  {
+   "s": "uol",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 5,
+   "t": "Mesmo com desculpas de Flávio, PL mantém nas redes fala sobre nove dedos",
+   "x": "Veja a matéria completa em UOL Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNR1JRUlZrQ3V4RXUtNlY0MTF2d3AxRXpwYVl6TEdjMlBuUFpBR2lUZkZudTFscy11QnBiM0JSdFR1NnJsYkMySzdSUl9Xbzk5V2s3SkYzV2RhU1kwVFRxbUNnLXdQUmY4c0NBSHg5SzZMaldiLXgxV0Q4dndzUnNQYWl1YVJvaWFJQUF3OWZkaEJ2a2xTbUthY1NqeHE1STZ2Q0hlWlhrVVpmcjhqd3dHNmVNajl4T09qRS00a3NYalM?oc=5",
+   "i": ""
+  },
+  {
+   "s": "terra",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 3,
+   "t": "Vaticano atualiza estado de saúde do papa Leão XIV após diagnóstico de câncer",
+   "x": "Veja a matéria completa em Terra Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNUHdVaXNrdmZvUW5adDhSQ0l3a2Z5NnQxOVREMXYyTEp1bWk3dTJVdElibnJ1WjRGSWgwSUtaQlBKTmhNNVdqeHFlbm9CMGhvcHBjbVgtQzdsWUViRE9CQkhMalFKTHR4X0t6bjNqdk9yZ3Q1aWhJWUNDOFNSOVl4NVk2SU81UWZvb19fR1oxQ1BBQXMzLThMemlxZHVnMlhzRXVBQkhSRThjVEUxVE1pMHpzYjhqSmFILW80NWV3TUVCcEFUY1ZrWC1ZWHdJS3VpS3BCN2NfZWJSLVNERUpQeU9MT1FQN0hsV3BER0hB?oc=5",
+   "i": ""
+  },
+  {
+   "s": "terra",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 3,
+   "t": "Vídeo mostra momento em que dois aviões colidem no ar e quatro pilotos morrem",
+   "x": "Veja a matéria completa em Terra Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPMjNOQ09mY0FRZ2hobDRtbFpQRGZFN05VZkJKR2g1QjB6dmV6WU1MSm1vTkUyVDVPTTlkWHBmZ1c4R0gyRXJjZ2I5Tlh1M2U3LS1ndnpGVWhpYUI5dDVDcWZoSHlEVDVXMWZDY2pjaFZXLVd1dGg4UGJtS2NwemFhRE15T0N1R0hockJtaVpnZ2hYdFFHR2syaXRFek8wQkhNUjRKZFhXZml6RnpBdXJzZkpnNTVwbUtoT0FqRTlqQl9rbWFwNVRHaTFZNE0yZWk4ZWgtVmU5dURtcWpyVkI3NVNRR3I0T3I0dGlXWkJn?oc=5",
+   "i": ""
+  },
+  {
+   "s": "olhar",
+   "c": "Tecnologia",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Upgrade na memória do PC: selecionamos ótimas opções de RAM DDR5 em oferta",
+   "x": "Se o seu computador está pedindo mais desempenho, pode ser hora de investir em memória RAM. Reunimos três boas opções de módulos DDR5 disponíveis na Amazon — tecnologia atual, com velocidades elevadas e compatibilidade ampla…",
+   "u": "https://olhardigital.com.br/2026/10/24/reviews/upgrade-na-memoria-do-pc-selecionamos-otimas-opcoes-de-ram-ddr5-em-oferta/",
+   "i": "https://m.media-amazon.com/images/I/31gCBkYzPSL._SL500_.jpg"
+  },
+  {
+   "s": "olhar",
+   "c": "Tecnologia",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "OVNI? Triângulos pretos misteriosos são avistados sobre área confidencial nos EUA",
+   "x": "Arquivos do Pentágono revelam objeto não identificado cruzando o céu a quase 3.000 km/h antes de desaparecer sem deixar rastros. O post OVNI? Triângulos pretos misteriosos são avistados sobre área confidencial nos EUA apareceu…",
+   "u": "https://olhardigital.com.br/2026/10/24/ciencia-e-espaco/ovni-triangulos-pretos-misteriosos-sao-avistados-sobre-area-confidencial-nos-eua/",
+   "i": ""
+  },
+  {
+   "s": "uol",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Segundo turno começa no exterior; brasileiros na Nova Zelândia são os primeiros a votar",
+   "x": "Veja a matéria completa em UOL Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQZjlLa21QSklnSG1aZFNaLW9WcWpsX0FBSWtNNEJvcTZNX0M2RlRxS0Mxamdud2FRQnpVcnpsZUp3VmthMU9pUUUwdXhxbmlfRTcyWEx4aEdGcWQ2MDVwZmVHbDFNMFdoell5clBPNEk5eWt4MmJlNDFGQlM5aXFtQ2Vwblk5NGRjN0lQaDFSdERlVl9qYWI4dHRCMmd3S2VKSTl6aFdkc0xVR09TMm93ZVc2VjlZTF9CSlpMaTJFZXI5MmdSS29ITkhBMFJqWnB5M0FId09kVmNwbEg1TWlUaHdyd1VnUjVCMUtEaWcyc0l5eGM?oc=5",
+   "i": ""
+  },
+  {
+   "s": "carta",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Médico ligado ao Einstein diz que não atende ‘petistas vagabundos’",
+   "x": "A publicação, em uma rede social, foi apagada antes de completar 24 horas; o cardiologista ainda chamou Lula de 'Nove Dedos'",
+   "u": "https://www.cartacapital.com.br/cartaexpressa/medico-ligado-ao-einstein-diz-que-nao-atende-petistas-vagabundos-em-rede-social/",
+   "i": "https://www.cartacapital.com.br/wp-content/uploads/2026/10/dina.jpg"
+  },
+  {
+   "s": "espnb",
+   "c": "Esportes",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Mirassol x São Paulo: onde assistir ao vivo e escalações do jogo do Brasileirão",
+   "x": "Veja a matéria completa em ESPN Brasil.",
+   "u": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQV1NvTkxpOXZCRXdodkNFUGlvVVVDSVgzQWkyY1U1bnhPMm13Z0JqNmhkcTZQajFGUjN1YlZvclF2b256QnZuNGNFZmc1d0ktUWxoTklhSkIyUFJnQkpnY2I3alBCWFZKNHV0YjQ4d2Nudm1ZWTRVNDkzMGlmaXBPLXJpb0MwbElfV08wcHZJckJJV1ZTRWNGVjZDTGp3b2JGWWpBUUlzY3pDbE44QXl6MXI0bDB5QnRTRHhaQWpTMWduaXoyejNJaHZiMFhrOHpoUDdnTlNZc28xdm4zSjhwc0ozNmdtLXo1ckRGUU8zOEU?oc=5",
+   "i": ""
+  },
+  {
+   "s": "espnb",
+   "c": "Esportes",
+   "d": "2026-10-24",
+   "r": 3,
+   "t": "Chapecoense x Fluminense: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo do Brasileirão",
+   "x": "Veja a matéria completa em ESPN Brasil.",
+   "u": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxONWxDdmNDTFd0NTdrSFY5V1RPUlVxV3FwTzdGd0R1SUVyZVhEc05PTWp4eDJqLTRNbnJINGFPcURYTDExaTRrb3Y3REJyUWZYcDNVeFdaMGk0RTNFdU8wYlhJNVpmdUd0NlVwM2NOM2NMWlJwRG9ObVJUenYxTFVndTZLalVsYXk4ajdIS0doTTM3YnZYRnBLeVJUcHFiNnc2TjdXcENYTlRZVVZvTmlqR0FscGtLbGZQX2JQdnFmcWNueHM5WW5aaWw0WGtQNDhOSUYtd2tkNjF1Y25wbU1vTExTTW1LaVBzcldPLVVKQkNCY2JWVkE?oc=5",
+   "i": ""
+  },
+  {
+   "s": "espnb",
+   "c": "Esportes",
+   "d": "2026-10-24",
+   "r": 3,
+   "t": "Progreso x Defensor (1 de nov, 2026) Ao vivo",
+   "x": "Veja a matéria completa em ESPN Brasil.",
+   "u": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbDhFVDRtTjNqTnpveGM0UWw3UzdhWVVZR1h0NktWRHFkV2lrUUZKaDhlbXZZSmphM3Z5RTJtX19SaTFjTF9ILVZLby0xZXAtRDFDaU5YNUMxcG0wZ0x2V3l4aTNtUGlTanJyeThpZTZRSXZPZnVsLTZmcm1Jek5nM1cwMmNLTDlIbk1NUA?oc=5",
+   "i": ""
+  },
+  {
+   "s": "canaltech",
+   "c": "Tecnologia",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "O que é e como funciona a Conta Meta no WhatsApp, Instagram e Facebook?",
+   "x": "A Conta Meta é uma nova forma de login unificado nas plataformas da empresa, como Instagram, Facebook, WhatsApp, Meta AI e os sistemas dos óculos inteligentes. A credencial traz mais camadas de segurança e facilita o acesso entre…",
+   "u": "https://canaltech.com.br/apps/o-que-e-e-como-funciona-a-conta-meta-no-whatsapp-instagram-e-facebook/",
+   "i": "https://tl.ctcdn.com.br/MHu49zMPET5hsfVdOUuePc54BwI=/0x0/filters:format(webp):quality(85)/8410f5d7-fdbe-44a2-8979-2caf9fcad650.webp"
+  },
+  {
+   "s": "galileu",
+   "c": "Ciência",
+   "d": "2026-10-24",
+   "r": 5,
+   "t": "- Globo",
+   "x": "Veja a matéria completa em Galileu.",
+   "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB2dVpWM2VrN1ROYnU5aTUyRlZrNFRBdU81cnA0RUllU1o2dFpmQnRLVFlWQkd0dHBNRDZ6Zkk5SFNKMGtDNGdkemR1RXhkVzdDLS1kbl9CUEVQR1JuSU5VbGRISDM?oc=5",
+   "i": ""
+  },
+  {
+   "s": "olhar",
+   "c": "Tecnologia",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Quer mais velocidade no PC? Confira uma seleção de SSDs NVMe em promoção na Amazon",
+   "x": "Quem trabalha com arquivos pesados, edição de vídeo ou simplesmente quer que o computador responda mais rápido sabe o quanto um bom SSD faz diferença. Separamos três opções de SSDs NVMe com interface PCIe Gen4 que estão com boas…",
+   "u": "https://olhardigital.com.br/2026/10/24/reviews/quer-mais-velocidade-no-pc-confira-uma-selecao-de-ssds-nvme-em-promocao-na-amazon-4/",
+   "i": "https://m.media-amazon.com/images/I/316eR402YoL._SL500_.jpg"
+  },
+  {
+   "s": "bdf",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Investimento de 16 Metros Quadrados: Airbnb, studios e a cidade que não cabe no bolso",
+   "x": "Por João Pedro Noronha Ritter Os lançamentos de apartamentos compactos ou microapartamentos (studios, 1/4, loft ou kitnet) vêm ganhando protagonismo no mercado imobiliário brasileiro, e em Salvador não poderia ser diferente. No…",
+   "u": "https://www.brasildefato.com.br/colunista/observatorio-das-metropoles-salvador/2026/10/24/investimento-de-16-metros-quadrados-airbnb-studios-e-a-cidade-que-nao-cabe-no-bolso/",
+   "i": ""
+  },
+  {
+   "s": "uol",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Tenente da reserva aponta arma após tirar bandeira do PT de mulheres no RS",
+   "x": "Veja a matéria completa em UOL Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQ0U1SzVzN1FHc0VZb2JxM1VrTU85cXlkMERYNlFuSGg2NElYZEhXMDhBcTFSV0VMSzFldlA3RENsNDdoaDZzaWxXLW9mdFN0b2FtdmZwX24yenJLNkhNVTl0U21zR3k2LTdtSUJ6NGJldUJ2enhDZktmdFhVSWVHVGVtcnVRNWhldEg3Ymloa2VxQzFKNTV2TGNRUXJTUFk?oc=5",
+   "i": ""
+  },
+  {
+   "s": "carta",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "PGR pede ao STF para derrubar exigência de autorização prévia para transporte de indígenas no 2º turno",
+   "x": "O presidente do TSE, Kassio Nunes Marques, defendeu que a autorização depende de uma decisão da Justiça Eleitoral",
+   "u": "https://www.cartacapital.com.br/justica/pgr-pede-ao-stf-para-derrubar-exigencia-de-autorizacao-previa-para-transporte-de-indigenas-no-2o-turno/",
+   "i": "https://www.cartacapital.com.br/wp-content/uploads/2022/11/Capa_Terras-indigenas-respondem-por-um-terco-das-urnas-em-que-Lula-teve-100-dos-votos.jpeg"
+  },
+  {
+   "s": "carta",
+   "c": "Esportes",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Jogando fora de casa, Tottenham supera Chelsea e vence clássico pelo Campeonato Inglês",
+   "x": "Fora de casa, Tottenham vence clássico de Londres contra Chelsea e se afasta da zona de rebaixamento pelo Campeonato Inglês",
+   "u": "https://www.cartacapital.com.br/esporte/jogando-fora-de-casa-tottenham-supera-chelsea-e-vence-classico-pelo-campeonato-ingles/",
+   "i": "https://www.cartacapital.com.br/wp-content/uploads/2026/10/chelsea-fc-v-tottenham-hotspur-premier-league-2026-27-1024x683.jpg"
+  },
+  {
+   "s": "uol",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Procuradoria pede fim de ação do PT sobre abertura de sigilos de Lula e Flávio Bolsonaro",
+   "x": "Veja a matéria completa em UOL Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdVY2WHBsLXdyTm9ldnJ3bDJFbFRXbWJQQ0tsZXdEckxCb05Rd3BhdEo4Z1cyT0RQVDBQbm9pTVduMDc4Ul9DSlhWWXRRVHRFVXc2aW9wcGg5S1hoenljVjJCbVdMLXhCNHNzSDNjanJYSVBYRF9TRmlkekR5b0xZelVNYVRpM0hISk5MdmR5QWR0R2RiNFdnSnpiMTNtNnh2eU9janp3WWc1bU9CVzlrYUxpeWI?oc=5",
+   "i": ""
+  },
+  {
+   "s": "carta",
+   "c": "Mundo",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Gabigol fala em jogar por gigante sul-americano: “Muito diferente do Brasil”",
+   "x": "Atacante comentou a possibilidade de defender clube da Argentina, revelou que já conversou sobre o assunto e elogiou a torcida argentina",
+   "u": "https://www.cartacapital.com.br/esporte/gabigol-fala-em-jogar-por-gigante-sul-americano-muito-diferente-do-brasil/",
+   "i": "https://www.cartacapital.com.br/wp-content/uploads/2026/10/Design-sem-nome-72-1024x576.jpg"
+  },
+  {
+   "s": "olhar",
+   "c": "Tecnologia",
+   "d": "2026-10-24",
+   "r": 3,
+   "t": "Precisando de um mouse gamer de respeito? Veja estas opções sem fio em promoção",
+   "x": "Se você ainda joga com um mouse comum ou quer dar um upgrade no seu setup, este é o momento certo. Reunimos três opções de mouses gamer sem fio que combinam leveza, precisão e conectividade — características essenciais para quem…",
+   "u": "https://olhardigital.com.br/2026/10/24/reviews/precisando-de-um-mouse-gamer-de-respeito-veja-estas-opcoes-sem-fio-em-promocao/",
+   "i": "https://m.media-amazon.com/images/I/31zy93Vq31L._SL500_.jpg"
+  },
+  {
+   "s": "gefla",
+   "c": "Esportes",
+   "d": "2026-10-24",
+   "r": 5,
+   "t": "Vasco abre venda de ingressos para jogo contra o Flamengo no Nilton Santos e indica público 90/10",
+   "x": "Voz do Setorista: Sergio Santana detalha como foi a aprovação da venda da SAF do Vasco O Vasco anunciou que as vendas para o confronto contra o Flamengo, na próxima quinta-feira, em partida da 33ª rodada do Campeonato Brasileiro…",
+   "u": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/24/vasco-abre-venda-de-ingressos-contra-no-flamengo-no-nilton-santos-e-indica-publico-9010-no-classico.ghtml",
+   "i": "https://s2-ge.glbimg.com/2RFZPfof_tNX6bUIGGMHp8i4sXM=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2025/2/v/6YXE2JRPCM8sgpEm2pnw/g0mcwwnwaaa6ipx.jpeg"
+  },
+  {
+   "s": "bdf",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Em Copacabana, Lula cita caso Ana Clara e diz que mulheres vão decidir eleição",
+   "x": "O presidente Luiz Inácio Lula da Silva (PT) começou este sábado (24), último dia de campanha das eleições de 2026, em um ato que reuniu centenas de milhares de pessoas na praia de Copacabana. Acompanhado por Eduardo Paes (PSD)…",
+   "u": "https://www.brasildefato.com.br/2026/10/24/em-copacabana-lula-cita-caso-ana-clara-e-diz-que-mulheres-vao-decidir-eleicao/",
+   "i": ""
+  },
+  {
+   "s": "espn",
+   "c": "Esportes",
+   "d": "2026-10-24",
+   "r": 5,
+   "t": "Flamengo x Atlético-MG: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo do Brasileirão",
+   "x": "Veja a matéria completa em ESPN Flamengo.",
+   "u": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPazdacEV6eko3azNtTFpPWVdSREp6aElFSEw3WTl6czNielo5SDNmX0QzUVZvNjBjbU9CMU1MMnRPVEIxN2gxWUo0OHF4a0RycW81Y3Y2S1huU0Jlc1RzMVA5b3plMkhtZm94d2M2N1RULU1wdV9saTB6dWcxMTFtdS04dFVUclBIc2FwLVp2cGtnZDVtV2Y2ZXEzbGVsOXJUeTVsSUhYVnRycldRSExhZVl0RlFzSHhXX292TWE2aDZsbDBGUEZndU1jTVBPWUpBVGlQWjNmZlJRNjJuazJIOWZXNE5ZZHV0TkxDdVBsZWR1WVpNU2NEZQ?oc=5",
+   "i": ""
+  },
+  {
+   "s": "olhar",
+   "c": "Tecnologia",
+   "d": "2026-10-24",
+   "r": 3,
+   "t": "Canva Craft: conheça a IA que planeja o layout antes de gerar a imagem",
+   "x": "Gerador exclusivo do Canva cria imagens com arquitetura inédita focada em design O post Canva Craft: conheça a IA que planeja o layout antes de gerar a imagem apareceu primeiro em Olhar Digital .",
+   "u": "https://olhardigital.com.br/2026/10/24/internet-e-redes-sociais/canva-craft-conheca-a-ia-que-planeja-o-layout-antes-de-gerar-a-imagem/",
+   "i": "https://img.odcdn.com.br/wp-content/uploads/2026/10/canva-craft-2-1024x576.jpg"
+  },
+  {
+   "s": "canaltech",
+   "c": "Tecnologia",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "10 jogos parecidos com Zelda para quem não tem um Nintendo Switch",
+   "x": "O anúncio de The Legend of Zelda: Ocarina of Time Remake esquentou a comunidade do clássico do Nintendo 64. O jogo promete disputar o mês de novembro com nada menos que GTA 6 e deve reprisar esse mesmo embate no The Game Awards (…",
+   "u": "https://canaltech.com.br/games/jogos-parecidos-com-zelda-para-quem-nao-tem-nintendo-switch/",
+   "i": "https://tl.ctcdn.com.br/HHimGLGuWIDFBY0EVZDw2vC8tLw=/0x0/filters:format(webp):quality(85)/288c9f04-22e4-454c-93c0-2692a69504b6.jpg"
+  },
+  {
+   "s": "bbc",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 5,
+   "t": "Flávio gasta 6 vezes o valor de Lula em anúncios na última semana de campanha",
+   "x": "Levantamento da BBC News Brasil mostra aceleração do investimento do candidato do PL; peças exploram segurança, benefícios sociais e críticas ao adversário.",
+   "u": "https://www.bbc.com/portuguese/articles/cq5yn91y2wwlo?at_medium=RSS&at_campaign=rss",
+   "i": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/695e/live/a930f6c0-cfd8-11f1-b951-f904363c9c32.jpg"
+  },
+  {
+   "s": "uol",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Janones exibe número de Lula por engano durante live",
+   "x": "Veja a matéria completa em UOL Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWHdIRXBvcVp1YXJoekF2elZOQXlOc3ZxcnMwMThublduanhTZXI0eVZLR0dhR1ZEU1J5MVBVYmlLemJHN0M0MmE4d3JvRlhYd1d2eXR6c29FNHJWU0pBenFuRy1LbjNYUElXdXBJNndoS3VTcHZjSy16bFU5UFFXNEhPYTlXeUVFdUN6bkRZd25iRkU0WXFLMnpTNDhvSlZmTWwzdjlTLVc?oc=5",
+   "i": ""
+  },
+  {
+   "s": "uoleco",
+   "c": "Economia",
+   "d": "2026-10-24",
+   "r": 5,
+   "t": "Lula a Janones: 'Trump, Xi Jinping e Putin têm inveja do nosso exército'",
+   "x": "Veja a matéria completa em UOL Economia.",
+   "u": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWmR0TFZzci1HSEZxcjNSclQ2anljbkF4WkkxQklMQkZWUGRzUGUxcTFyaUd2a0dwOTQxVlBEVkVTbTNKMzMyMzZFTTVtUHlRVE1LVWRMYlZvTFZMR0YySTJzS1JmZExMQmxYWEFzbG5SeXZzdHAxMUllSlRBbU1sT1h1UkdzbTltaUJaTmdPUV9ma2EySkVBTWFwQ0dYX3RyNDVjRXY0bWR6S2xueHhxUmpCaHhKVk5UNkE?oc=5",
+   "i": ""
+  },
+  {
+   "s": "carta",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "Os detalhes da última pesquisa Quaest sobre Lula x Flávio Bolsonaro no 2º turno",
+   "x": "O levantamento se baseia em 3.702 entrevistas presenciais, realizadas entre sexta e sábado",
+   "u": "https://www.cartacapital.com.br/politica/os-detalhes-da-ultima-pesquisa-quaest-sobre-lula-x-flavio-bolsonaro-no-2o-turno/",
+   "i": "https://www.cartacapital.com.br/wp-content/uploads/2026/10/Lula-PT-e-Flavio-Bolsonaro-PL-candidatos-a-presidencia-da-Republica-Foto-1-Ricardo-StuckertCampanha-Foto-2-Charles-VieiraCampanha1.png"
   },
   {
    "s": "uol",
@@ -978,10 +1762,50 @@
    "i": ""
   },
   {
-   "s": "uol",
+   "s": "canaltech",
+   "c": "Tecnologia",
+   "d": "2026-10-24",
+   "r": 4,
+   "t": "7 sites e serviços famosos que rodam em PHP e você não sabia",
+   "x": "Duas falhas críticas no PHP colocaram milhões de sites em alerta nesta semana. As vulnerabilidades, divulgadas na quarta-feira (21), permitem que hackers executem códigos maliciosos em servidores sob determinadas condições e já…",
+   "u": "https://canaltech.com.br/internet-e-redes-sociais/sites-servicos-famosos-em-php-que-voce-nao-sabia/",
+   "i": "https://tl.ctcdn.com.br/VQs9TJgd4PGyqkSwDfklsBbMRhk=/0x0/filters:format(webp):quality(85)/f14d4c5a-481f-4393-819c-b4bb90063eb6.jpg"
+  },
+  {
+   "s": "carta",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 3,
+   "t": "STF torna réu o blogueiro Oswaldo Eustáquio por envolvimento no 8 de Janeiro",
+   "x": "O bolsonarista incentivou bloqueio de estradas, ataques contra o STF e intervenção das Forças Armadas",
+   "u": "https://www.cartacapital.com.br/justica/stf-torna-reu-o-blogueiro-oswaldo-eustaquio-por-envolvimento-no-8-de-janeiro/",
+   "i": "https://www.cartacapital.com.br/wp-content/uploads/2025/02/16086607035fe236df8fb2c_1608660703_3x2_lg.jpg"
+  },
+  {
+   "s": "carta",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 3,
+   "t": "Propaganda eleitoral acaba às 22h deste sábado",
+   "x": "A partir deste horário ficam proibidos o uso de alto-falantes, a distribuição de material gráfico e promoção de caminhadas e carreatas, entre outros atos",
+   "u": "https://www.cartacapital.com.br/politica/propaganda-eleitoral-acaba-as-22h-deste-sabado/",
+   "i": "https://www.cartacapital.com.br/wp-content/uploads/2026/10/0d4a5000.webp"
+  },
+  {
+   "s": "bdf",
    "c": "Brasil",
    "d": "2026-10-24",
    "r": 4,
+   "t": "Entre notícias e resistências: a luta do Tururu pelo direito à comunicação",
+   "x": "Por André Fidelis* Historicamente a comunidade do Tururu é estereotipada na grande mídia como um local estritamente violento. Há registros, por exemplo, da década de 70, do Diário de Pernambuco (jornal de grande circulação local)…",
+   "u": "https://www.brasildefato.com.br/colunista/cese/2026/10/24/entre-noticias-e-resistencias-a-luta-do-tururu-pelo-direito-a-comunicacao/",
+   "i": ""
+  },
+  {
+   "s": "uol",
+   "c": "Brasil",
+   "d": "2026-10-24",
+   "r": 3,
    "t": "Pesquisa para presidente 2026 segundo turno: veja resultado da CNT/MDA hoje",
    "x": "Veja a matéria completa em UOL Notícias.",
    "u": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUURRckZSd0JhdUxJci1mdXdKd0MxUnRHWXVMSXNlaHpZeFF2OUlDdEJLZ2YycGVJeW51TTE3bmRZaXlfX0g4Ym9hcVJlbk1TZWRsY0dBSnUwYVVvX2tqei1OUU5NN25RN3M2Q0FRVjRTUzdJWTl2YnZnWk9tQnVDdGhleHN5TmVQT29ZUjh1UnZDYmt0dU5SZ3NyVzU5eTN0Wm53ZGRNS0VzY0M1cHBqVVF2SHRiYmdDUXVvSzd3b3JoTV9V?oc=5",
@@ -991,100 +1815,20 @@
    "s": "canaltech",
    "c": "Tecnologia",
    "d": "2026-10-24",
-   "r": 5,
+   "r": 4,
    "t": "Secador ou chapinha: qual gasta mais energia e pesa na conta de luz?",
    "x": "Secadores de cabelo e chapinhas fazem parte da rotina de muitas pessoas, mas o impacto desses aparelhos na conta de luz pode ser bem diferente. Embora os dois utilizem calor para modelar os fios, a potência elétrica necessária…",
    "u": "https://canaltech.com.br/eletro/secador-ou-chapinha-qual-gasta-mais-energia-e-pesa-na-conta-de-luz/",
    "i": "https://tl.ctcdn.com.br/CYL_CeozgDwO7e1mJ4ziERxBkjI=/0x0/filters:format(webp):quality(85)/c02e8cdf-1dca-477c-938e-6a8966041ad4.png"
   },
   {
-   "s": "b247",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "João Campos rebate Nikolas: gratidão do Nordeste a Lula não é motivo de chacota",
-   "x": "Presidente nacional do PSB reagiu a vídeo de Nikolas Ferreira e destacou a trajetória do presidente e as ações do governo federal no Nordeste",
-   "u": "https://www.brasil247.com/nordeste/joao-campos-rebate-nikolas-gratidao-do-nordeste-a-lula-nao-e-motivo-de-chacota/",
-   "i": "https://www.brasil247.com/wp-content/uploads/2026/09/55550339098_c381cfd723_o-1.jpg"
-  },
-  {
-   "s": "espnb",
-   "c": "Esportes",
-   "d": "2026-10-24",
-   "r": 5,
-   "t": "Arouca x Nacional (1 de nov, 2026) Ao vivo",
-   "x": "Veja a matéria completa em ESPN Brasil.",
-   "u": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNa2tqSjBJazJVQzRyZGkwSmtYYmR3MXE5RVdFNEFCMVM5b3B3RUViWHFGSy1sd0pESFpOc3hrVUpwX0lfbjYxOXhsWnVQQ2FjOGhyOS1MazIzUlNuaWxqYngtNDhraFVxUmp4ZDdLNVNMRHFMT2tPbG50N2RBSHdKRUpR?oc=5",
-   "i": ""
-  },
-  {
-   "s": "b247",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Em BH, Flávio Bolsonaro se abraça a deputada citada na investigação da Farra do INSS",
-   "x": "Chiara Biondini é mencionada em relatório da Polícia Federal por receber R$ 60 mil da Conafer, entidade investigada por descontos indevidos em aposentadorias e pensões",
-   "u": "https://www.brasil247.com/sudeste/em-bh-flavio-bolsonaro-se-abraca-a-deputada-citada-na-investigacao-da-farra-do-inss/",
-   "i": "https://www.brasil247.com/wp-content/uploads/2026/10/flavio-chiara.jpg"
-  },
-  {
-   "s": "terrafut",
-   "c": "Esportes",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Mirassol x São Paulo: onde assistir ao vivo, horário, estatísticas e escalações pelo Brasileirão",
-   "x": "Veja a matéria completa em Terra Futebol.",
-   "u": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNNm1lNDBfQ3dmeDRqRGpQUk05dXNORzA4SU9kWFVnMFh0RmpfdmszaFgwdUtycEtvd253aG8zNURJNFJicmVzLXcySEduMnRYelExaWZhVXg2UGUzN3V2SnBFd3Q5WHR0cWp2cUFySzRzYnVBSFJWRHhWRVA5dnhfWHVIU19pN0t4UjFOaTJfZnBHZDZGeGJ3T21nS3NXZWREU2hsdkVPdExaRFVDcElJUmJZX0V0NE91VGxqbENwdjFNU1lOSldRVUtJWnlrTkt2bGhlLUR5S1lOOEpnNlExRTBZSllFMi0zMG5SWXktZ2tSQk9CR3kzQmFValVQblZZeTlGajdMdVZxUVNsVGc?oc=5",
-   "i": ""
-  },
-  {
-   "s": "espnb",
-   "c": "Esportes",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Arsenal 2-0 Everton (24 de out, 2026) Estatísticas de jogadores",
-   "x": "Veja a matéria completa em ESPN Brasil.",
-   "u": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1wVHFKYVJycjBCTk5SaFVjcmlEV3M0YTViY3Rfbjh1al9KXzdfZkk2eFNoZnBDQ1Y2X1ZlS2lHYU9wOWI2V2p2UUlnbm1PazBGYnNOQWdKMFFzXy1GUS04Z0tiem1NTUxmZzRUY0JHQlJHNnNmb3JTam9ra0VUdw?oc=5",
-   "i": ""
-  },
-  {
-   "s": "olhar",
-   "c": "Tecnologia",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Hora de colocar um smartwatch no pulso: veja opções em promoção na Amazon",
-   "x": "Se você está pensando em dar um upgrade no seu relógio ou presentear alguém especial, a Amazon reúne algumas boas opções de smartwatches em oferta agora mesmo. Selecionamos três modelos com boa relação custo-benefício para…",
-   "u": "https://olhardigital.com.br/2026/10/24/reviews/hora-de-colocar-um-smartwatch-no-pulso-veja-opcoes-em-promocao-na-amazon-15/",
-   "i": "https://m.media-amazon.com/images/I/41NXd7sA45L._SL500_.jpg"
-  },
-  {
    "s": "uol",
    "c": "Brasil",
    "d": "2026-10-24",
-   "r": 4,
+   "r": 3,
    "t": "Pesquisa CNT/MDA hoje (24) para presidente: veja números do segundo turno",
    "x": "Veja a matéria completa em UOL Notícias.",
    "u": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQclFDR1RoSTFwRFVCQ3cxQ1pUX2hLc3pCMUoxeTZXRE9BRGRBMmh6RmhEdVdUVUpSR2NVaHNNb19nd0ZZZFZ1SXpvdUpkYUpDd01GOHF6SHJUbnNLSmoyZGdkeXQ4NFB2c3pXeE1uOXltWjg4eHB1aEl0RGtsSHd5d1FqY0lTbHRYT0JmbFJROVl6V1lQRmw1NGwyellwRjZWc0lMSjdyb1dYQUo0LUMxTG9YcTJtMXBia2lEV01nSQ?oc=5",
-   "i": ""
-  },
-  {
-   "s": "terrafut",
-   "c": "Esportes",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Avaí x Botafogo-SP: horário, escalações e onde assistir ao vivo",
-   "x": "Veja a matéria completa em Terra Futebol.",
-   "u": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOTUdLX1VFLXl0NVJ6ejFXTHRGaWpURU1tMEcwcG5TaHNkUzVyajZMTmlwNjJwdm10Vm1aeWhtV3czQ2lMNDBBS1dybjQtdmsyc1ROZVpCZmYyNDJ0N2xuclhFSFZVbURwcDZtZnlXQmFOWFhKNUJKNG9OWlctcmxPZG1nYWk2WlBZQWFDVnlMaUhXN0VsR3NEa0hBODRmSUx5RGp5S3p0Rkx5MHNqaWthbmpMd1M5NkxGWVYyMy0taHBGWUlqd0JhMC1xM3NsNGZSbUFEMmJqRTdfdVl5NGlXSmx3Zw?oc=5",
-   "i": ""
-  },
-  {
-   "s": "uole",
-   "c": "Esportes",
-   "d": "2026-10-24",
-   "r": 5,
-   "t": "Após recuo por Massis, situação do São Paulo fecha chapa para eleição",
-   "x": "Veja a matéria completa em UOL Esporte.",
-   "u": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNUG9vNzczTnhVaHp6NUo5b1RZNEt1Y21mTlNwMUh6emdEczEyMGxhMWZsSmdjSmxfdGpGRUNiN3I4dUVaUmQ1V0R6REFVVzFQTUdFUDV2cXFtcGZqY2RHbmtEd05oaXBGTFZUUWdiNGR6MjQ0THM5akdMei1Tb3JKMUVFcmZESUc1U2NMV3dWTlE0R0Y0TTV0Qm5jZXRnTElULUtHWmVpY1d2LVVscnp4dENTaHJuNExtMC1XeWZyWnM2TFFTY0RYRDg5SkFvRDhBeU9PczZrNXFPU3M?oc=5",
    "i": ""
   },
   {
@@ -1101,309 +1845,69 @@
    "s": "bdf",
    "c": "Brasil",
    "d": "2026-10-24",
-   "r": 5,
+   "r": 4,
    "t": "Prospera MEI: entenda o que muda para os pequenos negócios",
    "x": "No último dia 13 de outubro, o Governo Federal apresentou um pacote de medidas voltado aos Microempreendedores Individuais (MEIs). Dentre as mudanças estão o perdão de dívidas tributárias com a União, o aumento gradual do limite…",
    "u": "https://www.brasildefato.com.br/2026/10/24/prospera-mei-entenda-o-que-muda-para-os-pequenos-negocios/",
    "i": ""
   },
   {
-   "s": "uol",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Pesquisa Lula e Flávio no segundo turno hoje (24): veja levantamento CNT/MDA",
-   "x": "Veja a matéria completa em UOL Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNHhkdC0tMVFNcmdXalotZEZtOERUaGl3RWtackthUU1nUDhsTkdWTWVpVTJvbXZoNzEzY0stQTEyYWpHX3NVcFdrR0hSQktydjNtaDN4UEtCaGNQXzBWWmVrWV9VajBmdU9LZ0pYdkRaclJmUlc2TldmMDFleU1iRWZodEVCQUg2bzB3TVZkUHFYeHl2cThPc0otVXp2UExzQ092blVBeUUyZnJhdGU3OTBmVDRkYUZ5S082S2x3WUJFc3c?oc=5",
-   "i": ""
-  },
-  {
-   "s": "uole",
-   "c": "Esportes",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Julio Gomes: Quem formaria uma superseleção com jogadores de Barcelona e Real?",
-   "x": "Veja a matéria completa em UOL Esporte.",
-   "u": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQN0dWTjZBc2xhMHpLNFgyMjAyYmZBcWh5M09xejR3Z1ZNMFRZRV9ROWlfM3NpSEo0dU5Sck13OEhzZ0drb0pQZDlCQmtZSGR1d0xwYW5GZ2U3TTVMQmNlMHRxa1MweXJGOHZoVmRCdFdiN3BmZmh3akllZDNPa1hJbVl6VXo2TFFsTlZ2MkRQLXUyNkVQbVRfQXhTckgwY2tjaGFfZ05SX1NNUlZaRjc4enJxNVNXNnVrWTIteVJZVkpjVndhbHhzdGZ3?oc=5",
-   "i": ""
-  },
-  {
    "s": "canaltech",
    "c": "Tecnologia",
    "d": "2026-10-24",
-   "r": 5,
+   "r": 4,
    "t": "App grátis libera YouTube na central multimídia do carro; veja como usar",
    "x": "O AA Browser é um navegador de código aberto para Android Auto. A principal vantagem é a opção para reproduzir vídeos do YouTube e de outros serviços de streaming na central multimídia do carro estacionado. A ferramenta opera de…",
    "u": "https://canaltech.com.br/apps/como-usar-app-gratis-libera-youtube-na-central-multimidia-do-carro/",
    "i": "https://tl.ctcdn.com.br/D2207cOrxKBNab0V-OC10QxT0Yc=/0x0/filters:format(webp):quality(85)/66723f8b-3285-4891-ba90-e741697af3bd.png"
   },
   {
-   "s": "terra",
-   "c": "Mundo",
-   "d": "2026-10-24",
-   "r": 5,
-   "t": "Irã intensifica esforços para atacar cidadãos dos EUA, alerta memorando de inteligência",
-   "x": "Veja a matéria completa em Terra Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQaEc0OFlqSDNHNl9QcTd2bF9PbnlPYlRrd0M5UllDYnA3YkZhTzlMUFgtcVMtTVpVbkE2VnNqMmo0NkZuQ1N6Q1NPbjRSQlloLVhmaXlxRTE3eUY0Nmc0OUdkXzljV1FCYnJzYTJ5RjltR2pYZHE4SGEtM0pFcDVPNl9EeVo3dVhwdkd0TFpQSFVJSm9yWnhuVldqakRrY0JSTS1tYURmcUhpMmgxMXE1WnZSMl9vZVpJTGZwUnI3ck5sNGJ5YlNFbEdjVkdhcFptU0FCOU1jb3hxY1JncmU5VGg4ejNrZGlXUGcxLVRIYUV4Qk5qSHZYWTUwUXVSRnVsUFE?oc=5",
-   "i": ""
-  },
-  {
-   "s": "uole",
-   "c": "Esportes",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Brasil bate Noruega com golaço de Carol e avança em 1º na Copa Sub-17",
-   "x": "Veja a matéria completa em UOL Esporte.",
-   "u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcFRsa3g1bGRNeFIzLTlkYlo4RHRGay1kLVRRVThYazV2bzRKV21aVVRmVy1lNkRLVWFpUUFVczFCR2stVm1jMGRlSEVMX3NLanBfMVVtZlJuOVNEV3VDaTRNZjY5cXkyVy1CRlhSTnBscXlWblJEa0h4MWd3Y1JWZl9HOEl3ZEdiQi12TTJ2QmZCUS0zREdhd0FZZXFOaVNfeXJDaDg3NkFvNEFfV0VWOXdfbGY1aHd2UVBIQg?oc=5",
-   "i": ""
-  },
-  {
-   "s": "olhar",
-   "c": "Tecnologia",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Japão usará inteligência artificial para simular ciberataques após falhas globais no PHP",
-   "x": "Falhas na linguagem de programação PHP força a suspensão temporária de sistemas de alerta de emergência no Japão. O post Japão usará inteligência artificial para simular ciberataques após falhas globais no PHP apareceu primeiro…",
-   "u": "https://olhardigital.com.br/2026/10/24/pro/japao-usara-inteligencia-artificial-para-simular-ciberataques-apos-falhas-globais-no-php/",
-   "i": ""
-  },
-  {
-   "s": "olhar",
-   "c": "Tecnologia",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Hora de renovar o celular: confira uma seleção de smartphones Xiaomi em promoção na Amazon",
-   "x": "Se você está de olho em um smartphone com bom desempenho e custo-benefício, a Xiaomi tem opções que valem a atenção. Reunimos três modelos da marca disponíveis agora na Amazon para quem quer trocar de aparelho sem abrir mão de…",
-   "u": "https://olhardigital.com.br/2026/10/24/reviews/hora-de-renovar-o-celular-confira-uma-selecao-de-smartphones-xiaomi-em-promocao-na-amazon/",
-   "i": "https://m.media-amazon.com/images/I/415mBguZF6L._SL500_.jpg"
-  },
-  {
-   "s": "terrafut",
-   "c": "Esportes",
-   "d": "2026-10-24",
-   "r": 3,
-   "t": "Diretor do Bayern prevê semanas sem Kompany após desmaio",
-   "x": "Veja a matéria completa em Terra Futebol.",
-   "u": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOMmlFbTQ0eHM5MU1Pd2FPM0ZhZUdGWE5HV1ZJa1c3M01VTXNMdnhQZzZHMVA0Z09Lcm0zYk9telktdmdoN0JYSG9iR3BaM2RidnVXODFqUFIwbTNBZ2VUeXhPb1pHeWZMN0xQMmJmUk83a29rSm10Qk1qQzQtUk5kUjVsTTlwR0ZjMDljVmNBT20xUEtHMng0bDd2YWdqSi1hREJSMmZCVXhhSjU3eGJFR2ZUak8zbFZzYmJWNEhBRnpSTVBEcGVVVWRuS1QxWEJyNkpNT0xmTEVlME1iM0hPRDVqRTN5WmpTQ24tZ1NxclkxSl9KdFZGdmZrZWpadFR2TnZLelFKZjBtRFN0YjdCYmRR?oc=5",
-   "i": ""
-  },
-  {
-   "s": "b247",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Em ato no Rio, Lula acusa Flávio Bolsonaro de desprezar a verdade e alerta para riscos à democracia",
-   "x": "Em caminhada com multidão em Copacabana, presidente critica postura do senador no caso da morte de Ana Clara e prevê vitória no segundo turno",
-   "u": "https://www.brasil247.com/sudeste/em-ato-no-rio-lula-acusa-flavio-de-desprezar-a-verdade-e-alerta-para-riscos-a-democracia/",
-   "i": "https://www.brasil247.com/wp-content/uploads/2026/10/Novo-Projeto-2026-10-24T134739.376.jpg"
-  },
-  {
-   "s": "b247",
-   "c": "Mundo",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Museu da Grande Muralha da China reabre em Beijing após reforma",
-   "x": "Veja a matéria completa em Brasil 247.",
-   "u": "https://www.brasil247.com/xinhua/museu-da-grande-muralha-da-china-reabre-em-beijing-apos-reforma/",
-   "i": "https://www.brasil247.com/wp-content/uploads/2026/10/202610246f3d43c7e2e845c9b177c2877b5583d4_20261024e61c10b81d5c4a9a8f5d48c7657c5d00.jpg"
-  },
-  {
-   "s": "b247",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Representantes de mais de 30 países participam da Conferência de Cooperação Industrial da Visita das Empresas Multinacionais a Tianjin 2026",
-   "x": "Veja a matéria completa em Brasil 247.",
-   "u": "https://www.brasil247.com/xinhua/representantes-de-mais-de-30-paises-participam-da-conferencia-de-cooperacao-industrial-da-visita-das-empresas-multinacionais-a-tianjin-2026/",
-   "i": "https://www.brasil247.com/wp-content/uploads/2026/10/20261024de8513066fcf4f22a06c2bb45b54e212_2026102456a3f78e539e4e7796c3290b1d6a420d.jpg"
-  },
-  {
-   "s": "b247",
-   "c": "Mundo",
-   "d": "2026-10-24",
-   "r": 3,
-   "t": "Patrimônio da Longa Marcha ao longo do Rio Chishui impulsiona turismo na Província de Guizhou, sudoeste da China",
-   "x": "Veja a matéria completa em Brasil 247.",
-   "u": "https://www.brasil247.com/xinhua/patrimonio-da-longa-marcha-ao-longo-do-rio-chishui-impulsiona-turismo-na-provincia-de-guizhou-sudoeste-da-china/",
-   "i": "https://www.brasil247.com/wp-content/uploads/2026/10/20261024129bd8077f4d496bbd92cb79e71ca82a_202610249d0b8050dcb142838c2ce5332dd9b2cf.jpg"
-  },
-  {
-   "s": "b247",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 3,
-   "t": "Xi envia mensagem ao Fórum de Governança Global 2026 (Xiongan)",
-   "x": "Beijing, 23 out (Xinhua) -- O presidente chinês Xi Jinping enviou uma mensagem ao Fórum de Governança Global 2026 (Xiongan) nesta sexta-feira. O mundo está passando por uma transformação acelerada nunca vista em um século,…",
-   "u": "https://www.brasil247.com/xinhua/xi-envia-mensagem-ao-forum-de-governanca-global-2026-xiongan-2/",
-   "i": ""
-  },
-  {
    "s": "bdf",
    "c": "Brasil",
    "d": "2026-10-24",
-   "r": 5,
+   "r": 4,
    "t": "Mãe de Ana Clara chama Flávio Bolsonaro de “monstro” durante debate da Globo",
    "x": "“Ele é um monstro, igual ao monstro que matou a minha filha.” A declaração é de Cristiane Gomes da Silva, mãe de Ana Clara, menina de 5 anos morta por tiros de fuzil em Niterói (RJ). Ela reagiu após Flávio Bolsonaro (PL)…",
    "u": "https://www.brasildefato.com.br/2026/10/24/mae-de-ana-clara-chama-flavio-bolsonaro-de-monstro-durante-debate-da-globo/",
    "i": ""
   },
   {
-   "s": "espnb",
-   "c": "Esportes",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "CD Pamplona x Eibar (28 de out, 2026) Ao vivo",
-   "x": "Veja a matéria completa em ESPN Brasil.",
-   "u": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB6WXdhcUI3TnlYR2UtbzdYUDRFYUl1RXFKc01XWUZHUE82OGg1WEdvZFpENWU2SjlUbHE4QndHTDNCY3BwNmVld0ZYbFU1aTFEUE9vbzJqTDh1TUpUcWxudTd4TGM0dEQ0cXhjaXJOWFU5ZlRSY0s0?oc=5",
-   "i": ""
-  },
-  {
-   "s": "espnb",
-   "c": "Esportes",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Luton 2-1 Leicester (24 de out, 2026) Placar Final",
-   "x": "Veja a matéria completa em ESPN Brasil.",
-   "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1QS0xCb3dBb2M2eUFkb3FWYXFuN1dNOFJJaWM4MnhrY1J6OU41aWJfR3ZVcG5Zd0lzV2dsNGNvakE3UXI5TE9pU3dVazh2OUpUYmtCWGZaUXBoWHMxeDF0MENGRWFNV1BjZkE?oc=5",
-   "i": ""
-  },
-  {
-   "s": "olhar",
-   "c": "Tecnologia",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Motorola em destaque: veja uma seleção de smartphones 5G com câmera de 50MP em promoção",
-   "x": "A Motorola segue firme como uma das marcas mais procuradas no segmento de smartphones no Brasil, e não é à toa: a linha Moto G reúne aparelhos com boas câmeras, conectividade 5G e autonomia de bateria a preços acessíveis…",
-   "u": "https://olhardigital.com.br/2026/10/24/reviews/motorola-em-destaque-veja-uma-selecao-de-smartphones-5g-com-camera-de-50mp-em-promocao/",
-   "i": "https://m.media-amazon.com/images/I/41o7vjpasKL._SL500_.jpg"
-  },
-  {
-   "s": "uol",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Josias de Souza: Flávio faz dois gols contra, mas evita goleada de Lula na Globo",
-   "x": "Veja a matéria completa em UOL Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRVNqRjZwdXFaZ3prY3N3blB5VFpfNEU3ZnNJa1pUWDJUbHlZNVlRVi1jRGN5Nlhic0c4NVJEY2pVbXJSR005NTFDMGJLeUZCMDkzZmNvVWo4ei0yUnc3VWJ5bjlXNlRqNUtyREx2TXJldUNpdzBGc1F3d2pQaVBUTWJxNjJIYzcxcHVSY3pEck11UVVfZ09ZVjJrZ2QyUV9CSVpsWTlTLWtCX0F6Rk44RldGWUJYMDNlbTdRbEQ4bVk1TkJNcFlvSg?oc=5",
-   "i": ""
-  },
-  {
-   "s": "terrafut",
-   "c": "Esportes",
-   "d": "2026-10-24",
-   "r": 3,
-   "t": "Sporting x Viseu: Onde assistir, escalações e arbitragem",
-   "x": "Veja a matéria completa em Terra Futebol.",
-   "u": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQZ1ZrVWx3enl6YVhkcHNIeHFuQXVkN2hVeThsemRzcU13X0d3Xzc4RkJ6c0hPeVp4d19zNUJoWGszMXd3QTZ6Rko3M0R2cko2cHhDeW5BWkNSNXdXLVRqX05FWHVMNnFmZmxiLU4wQ2RTS2wzMzB3QjdwMVBucjQ1dkFPbkRGbEI0bEVDR1U1dVVnNzJlMU5TTnVBTVdZTVI0OVo2QW5OdFdfd1N6N1NhX3ZwYWlXRmd5ckNURkRpVHFrY29DMFc2QzZhODRVQkxQSlA4WUdMVmY1QkJNU1V2T2hXWUJmbjBoTVU2Tg?oc=5",
-   "i": ""
-  },
-  {
    "s": "canaltech",
    "c": "Tecnologia",
    "d": "2026-10-24",
-   "r": 4,
+   "r": 3,
    "t": "Robô aspirador Xiaomi S40: quanto vale pagar na Black Friday?",
    "x": "Manter o chão limpo sem precisar varrer e passar pano todos os dias é um dos principais objetivos de quem busca um robô aspirador para chamar de seu. Xiaomi Vacuum S40 surge como uma opção interessante neste cenário e, com a…",
    "u": "https://canaltech.com.br/eletro/robo-aspirador-xiaomi-s40-quanto-vale-pagar-na-black-friday/",
    "i": "https://tl.ctcdn.com.br/F1PzgWRMwLjNHXcd-bSZdWmmRrA=/0x0/filters:format(webp):quality(85)/8abfea56-04b4-4b6f-a777-5e42de808781.jpeg"
   },
   {
-   "s": "uole",
-   "c": "Esportes",
+   "s": "galileu",
+   "c": "Ciência",
    "d": "2026-10-24",
-   "r": 4,
-   "t": "Onde vai passar Chapecoense x Fluminense pelo Brasileirão? Como assistir ao vivo",
-   "x": "Veja a matéria completa em UOL Esporte.",
-   "u": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxONlVzV2U1VFZSeW52Q3Y5a3VsRUstUy1TNldSbGRiTU1vUWF1RkYwVGs5ZTY1Vm5mYlM2OU9TT2p1dWQ5NXhrZ29uTlJQdGRjYWh4X0s0SVp0RGNvSVhaY1FKZTdBVzhTbFctMGhQaE9WdUlTZjk3WHlxaENMMFhNRHplSWhwcHVvc2VnUkVxMmhKRWl4UFdiWlhtbU4xY3RqdEs5ZnkxZWd5eXdjWXZaNUx6X24td1V2d1pNX2g1el83cHFlV0lrek5LVDlvcFh5bElJdUh4QmRjeFdkY0tr?oc=5",
-   "i": ""
-  },
-  {
-   "s": "espnb",
-   "c": "Esportes",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Chelsea x Tottenham (24 de out, 2026) Estatísticas dos times",
-   "x": "Veja a matéria completa em ESPN Brasil.",
-   "u": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVzMxXzkxWmRuVmFtRlFXcThzcl9DemhtbnFDSkUzMGhPRUhxR2tld2dndlNqNEt2S0UtM0thT1JSSFRpZjZyeXI5UEt5RkNkSXByLVlocXk1Sm9LSG9OQUZYTWUwak1YZGY3cFZTa0loS3gxeWZ3NURTQTExVVItamFPSTdIenJuMnc?oc=5",
-   "i": ""
-  },
-  {
-   "s": "uol",
-   "c": "Mundo",
-   "d": "2026-10-24",
-   "r": 3,
-   "t": "Lula no Rio: 'É escolher quem beija a bandeira do Brasil ou a dos EUA'",
-   "x": "Veja a matéria completa em UOL Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1OVlBtOVIySk9JeHNnWjMzTnZ3TFFXN0VuTmNfVHBfQnNka0F0MmE4SEFiaE10ZGR4azRBTzJ3UVlLMmdhdkpZRllBejktN0FpSWZid3JDel9mdk9UeTNacGRHMC1GU1d5Z0hfcnQ3ZW1jR0pUUkVSZjNleWE?oc=5",
-   "i": ""
-  },
-  {
-   "s": "olhar",
-   "c": "Tecnologia",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Hora de economizar: uma seleção de iPhones Apple em promoção na Amazon",
-   "x": "Se você está de olho em um novo iPhone, este é um bom momento para agir. Reunimos três opções de iPhones Apple disponíveis na Amazon com boas condições — entre modelos recentes e versões que já se consolidaram como referência no…",
-   "u": "https://olhardigital.com.br/2026/10/24/reviews/hora-de-economizar-uma-selecao-de-iphones-apple-em-promocao-na-amazon-5/",
-   "i": "https://m.media-amazon.com/images/I/318Rhf2amVL._SL500_.jpg"
-  },
-  {
-   "s": "uol",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 3,
-   "t": "Leonardo Sakamoto: Diante da mãe, Flávio fez do debate o segundo enterro de Ana Clara",
-   "x": "Veja a matéria completa em UOL Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMUlBbFNqM3dJRUJsQmlpYnJKMDZVTS1CYmJYdFRrZUotQTlYMUdLTXcxdm1kSEVaZURrVkZPQWJjcjJTZ0Nwb3dJcTlZWnp5b3FRZFRSMmxmSFNmdkJyS3NVZHZjSFc2WXhSaU5kLWlWWW13ZmVHUWZmcUZteEVBLXBfN2RBLTk3ZXU2VzNIMjJVbXVjc0lpam9iUlphbmpna3BwZVRNX01rMzlydEIycl9QZnJqaG5veFFKa2VsRGJLY21fV3pOMl9MMHhDcDExZk5YdGowRUlmUQ?oc=5",
-   "i": ""
-  },
-  {
-   "s": "uole",
-   "c": "Esportes",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Com gol de Gabriel Magalhães, Arsenal vence o Everton e encosta na liderança da Premier League",
-   "x": "Veja a matéria completa em UOL Esporte.",
-   "u": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOMl9BeVZ4aGdpR1lfNGUteldnNGdoSXB0SV96Z213NFpWMlhsajMyQjloTWxWOVhHeHgwbVE4YUExSHBibHdFUnktWVI3NkF0bENNbm91MXRYR3pxd2dBWl9WNDFqZV9LdDZnOWxMdFZBVUtFZjFST1RYM0R1NW56NEpvSzQ2emhteXY5SDJSa1lWUGlwYzl5X19ldzJHZWZBaExJVFFlYW9QM2lTSnBrZC1wbW9TWURfV0ZBaEVPNE54cFBfQTNDcG1odGREeDNQR3BHVFpMOUtHZWVyY3htUkQ0S3lQQkFJWjZkWTFWemtvdm1FazYtUWJBMTA?oc=5",
-   "i": ""
-  },
-  {
-   "s": "uole",
-   "c": "Esportes",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "João Pedro desfalca Chelsea contra Tottenham por lesão no joelho",
-   "x": "Veja a matéria completa em UOL Esporte.",
-   "u": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMl9RWVAzSHVaNTRwT004YWtvR3hYTXNLWGtKdm1sMmNWQTl5cVItT3gtaWVIWm9URElDNVZWZ2ZIeFFxQ0otZ3Q1aTk3ZWg2ZmRGZF9tV2FmNkRqOGY2clNjUDhtZFBwY0M2eEhrTjhRWnVGVzYzYjFiREZEUjRpeTdieU1IU3R0XzhMNU1TSGcyUS1PaFdfSkM2eWVjb082YllJRjlwVVg5bkIwcU85TmZ4b3IteVFNcmpXa3o2TjNRckNlaGdMazV6ZW9KZU1ZbHh2RUxR?oc=5",
+   "r": 5,
+   "t": "Monstro do Lago Ness tem 15 avistamentos em 2026, mais que o dobro do ano passado",
+   "x": "Veja a matéria completa em Galileu.",
+   "u": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQRzI4ak85a2laak52c1ZOcFZ1eHk5bjhYR2VOdzY3ZW00SlNWNEM3NHBXaTJwc1VYcWlNS3daend0bHhEUlEzU2gwWnlfd0lQSVhCeGZ0emljRGtRWDlIUll4UWtiZ09VdzB6UXBJNTFIYjE0U3F3N0Z0WUdla3RJRWl4b0RpMDVFTkJPWVpxRXVuMEYzU1BDb1UxcGxyTTBVWmRqdjdxYm1CLVJ3bTZjczdhaWhPaVBmTEdUeGgwcFRzOFdZa2owYWNkYlA2cnFBbXR5WlpGN21nQlM1WnVKYnZNTGw2TUFEclhRSXNR0gH8AUFVX3lxTE4tVjBac3M2cXo0eF9jajNGWld1Y2h6M0NIUE1OQ2Nyb1NIcmxXN29ZTVltZ0ZCdnZkZ19rSlY3MXEycDFZLWdMSlFBSTZhdmpqNjBrZFZpNXRGc1Q1Z2ZtMXFBVkVvWFlnTEtlRUxqblNzWkM5enlqN3YwQmJDU0hjYm1DejFVY1dzamN5Z3phWVE4QzNqWHVvSUUtTXpXR2w5Skx1Mm81c3RIR3BoQVU3eDRTUE9DQmJzSlNpb2VGQk5HTERfRWtMZjhwLVlwUE16bUd3WUdfbTdsVzkzVnp0LV9uWTZGbm03VkpMTTVaZFBtT2RDcEl6YnJuSw?oc=5",
    "i": ""
   },
   {
    "s": "canaltech",
    "c": "Tecnologia",
    "d": "2026-10-24",
-   "r": 4,
+   "r": 3,
    "t": "5 carros por até R$ 40 mil com manutenção baratinha",
    "x": "Comprar um carro usado por até R$ 40 mil não significa necessariamente ficar limitado aos modelos populares com motor 1.0. Com pesquisa, é possível encontrar hatches e sedans mais potentes , com espaço interno generoso e…",
    "u": "https://canaltech.com.br/carros/5-carros-por-ate-r-40-mil-com-manutencao-baratinha/",
    "i": "https://tl.ctcdn.com.br/sQGd-eS1QwQsiEfvRrf55f1oZTQ=/0x0/filters:format(webp):quality(85)/75dfe9c7-d7cc-44cf-bc88-43323fdbf7fc.jpg"
   },
   {
-   "s": "espnb",
-   "c": "Esportes",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Napoli x Roma (24 de out, 2026) Ao vivo",
-   "x": "Veja a matéria completa em ESPN Brasil.",
-   "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9FR3JsSHlKdFZNdGlveWcwM1VuNmh6MzBtOEdzemVTclR5Z2o0cDBfb19xQ0lMMC0wdjVSM2k5TGZrVThCR3V5SHF0NGRMNTRRb3dKbEdXM1BmU2IyNFNGSnpjX3p1aGpNVHc?oc=5",
-   "i": ""
-  },
-  {
    "s": "icl",
    "c": "Brasil",
    "d": "2026-10-24",
-   "r": 5,
-   "t": "Lula encerra campanha com caminhada na Avenida Paulista e ato em Copacabana",
-   "x": "O presidente Luiz Inácio Lula da Silva (PT), candidato à reeleição, fará uma caminhada na Avenida Paulista, em São Paulo, neste sábado (24), para marcar o encerramento de sua campanha eleitoral. O ato está previsto para começar…",
+   "r": 4,
+   "t": "Pela manhã, Lula participou de ato no Rio que levou multidão à orla de Copacabana",
+   "x": "O presidente Luiz Inácio Lula da Silva (PT), candidato à reeleição, participou de caminhada na orla da Praia de Copacabana, no Rio de Janeiro, na manhã deste sábado. A concentração dos apoiadores ocorreu por volta das 9h, no…",
    "u": "https://iclnoticias.com.br/lula-encerra-campanha-paulista-copacabana/",
    "i": ""
   },
@@ -1411,120 +1915,40 @@
    "s": "bdf",
    "c": "Brasil",
    "d": "2026-10-24",
-   "r": 4,
+   "r": 3,
    "t": "Neidinha Suruí reflete sobre eleições: ‘Que país quero deixar para os meus netos?’",
    "x": "A indigenista Neidinha Suruí lidera desde 1992 a Associação de Defesa Etnoambiental Kanindé e, neste ano, tentou uma vaga no Câmara dos Deputados pelo PSB de Rondônia. Não conseguiu, mas avalia o pleito como um marcador de luta…",
    "u": "https://www.brasildefato.com.br/2026/10/24/neidinha-surui-reflete-sobre-eleicoes-que-pais-quero-deixar-para-os-meus-netos/",
    "i": ""
   },
   {
-   "s": "espnb",
-   "c": "Esportes",
-   "d": "2026-10-24",
-   "r": 3,
-   "t": "Napoli x Roma (24 de out, 2026) Estatísticas dos times",
-   "x": "Veja a matéria completa em ESPN Brasil.",
-   "u": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcHZ2SzBNVm5NTmVYTmR5NmFabHAyNmo0cUw5NmRLSlJOOWlrQnNfTzRka0ptLTFWQVcyeHJTalBzTkp1UXQ1S3ZGMGZXMTdqNlR5ejJSV25LVVVoV2tDUEhFc1J4LXo1ZUpUcFF5MzRncTdUOE91ei0wVGpNbmtWeTdMMV9xaEh5ekE?oc=5",
-   "i": ""
-  },
-  {
    "s": "bbc",
    "c": "Mundo",
    "d": "2026-10-24",
-   "r": 5,
+   "r": 4,
    "t": "Por que duelo entre Lula e Flávio é crucial para a América Latina — e para Trump",
    "x": "Especialistas dizem que a eleição pode trazer consequências para toda a geopolítica, a segurança e o meio ambiente na região.",
    "u": "https://www.bbc.com/portuguese/articles/cm62yvnkdwk7o?at_medium=RSS&at_campaign=rss",
    "i": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/9bb2/live/43c807c0-ced3-11f1-8507-45cb00a1c41c.jpg"
   },
   {
-   "s": "olhar",
-   "c": "Tecnologia",
-   "d": "2026-10-24",
-   "r": 3,
-   "t": "Galaxy A07, A17 e mais: selecionamos os melhores Smartphones Samsung em promoção agora",
-   "x": "Se você está de olho em um smartphone Samsung com bom custo-benefício, este é o momento certo. Reunimos uma seleção de ofertas da linha Galaxy disponíveis na Amazon para você comparar e escolher o modelo que melhor se encaixa no…",
-   "u": "https://olhardigital.com.br/2026/10/24/reviews/galaxy-a07-a17-e-mais-selecionamos-os-melhores-smartphones-samsung-em-promocao-agora-4/",
-   "i": "https://m.media-amazon.com/images/I/41Ymow9O1FL._SL500_.jpg"
-  },
-  {
    "s": "bdf",
    "c": "Brasil",
    "d": "2026-10-24",
-   "r": 4,
+   "r": 3,
    "t": "Votar no segundo turno vale como prova de vida do INSS; entenda",
    "x": "Aposentados, pensionistas e beneficiários do Benefício de Prestação Continuada (BPC) que comparecerem às urnas neste domingo (25), segundo turno das eleições, poderão ter a prova de vida atualizada automaticamente pelo Instituto…",
    "u": "https://www.brasildefato.com.br/2026/10/24/votar-no-segundo-turno-vale-como-prova-de-vida-do-inss-entenda/",
    "i": ""
   },
   {
-   "s": "espnb",
-   "c": "Esportes",
-   "d": "2026-10-24",
-   "r": 3,
-   "t": "Estrela x Casa Pia (24 de out, 2026) Estatísticas dos times",
-   "x": "Veja a matéria completa em ESPN Brasil.",
-   "u": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSnBvdEdzMFQyZTFRTGJZRXhYT2FhdEUtMTdvNDlrSTFTODU3QmRBY2Y4eExaSjIxWlpQeVQ2SDI2R3QzOVlMaVhxUEFXM0o2WFhRYWE2NkJZTW9CZDZmVGstc3NBSEZSWFNjRGFlbEs0aUVNdzdBb3JQNXQ5VUhuM3I0WDBncTJUNlE?oc=5",
-   "i": ""
-  },
-  {
-   "s": "uole",
-   "c": "Esportes",
-   "d": "2026-10-24",
-   "r": 3,
-   "t": "Uruguai divulga pré-lista com trios de Flamengo e Palmeiras; veja",
-   "x": "Veja a matéria completa em UOL Esporte.",
-   "u": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQbWVmVi1GdXpfdHItZ0p6RVpUY2dYR2JvRmJTb2FXTFZBb1Q3QjRMQUMtOFFWR1R0aWRuS1NCYUt6RGMyUzE3MFNyRUYyS0dOcVNiMG56U1hvMDJXTTBMTkRyb1BURXFGYm5ySVpCT2FiUlBIMjZkNnczYWd5R1FsMlBxVlF0Uml6Rjk3U1JTeUI3d2hDM2hsbFdzWXRIVTlUS3h0ZTRZSHBSOVJSTmhRaXNLTWhkeE5fc1dnMFJDeGNyWFJ3NExnNmk1WXVYR2RhRkx2VE5fWkFVQXlpYkRJ?oc=5",
-   "i": ""
-  },
-  {
-   "s": "uole",
-   "c": "Esportes",
-   "d": "2026-10-24",
-   "r": 3,
-   "t": "Gabriel Magalhães assusta ao bater joelho, se recupera e marca pelo Arsenal",
-   "x": "Veja a matéria completa em UOL Esporte.",
-   "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQ1BnTlpZVk1PX1U0R1g4aU5KQTZEbzZEQ2RDcmpBVGd1RExrYTI5VEZTcGJwMlNvd20tb0hkZ215LVhVTGJRVmVrUEhveXpScmZ5dnNPMEdhOXZYb2x5dnBrcUNUZ3JSS3VVbzJKdjk2WU52U2x0TDlXcVVWMEhSc2hiMkxKX051bC1qVkdoaERHclNIYUxNYTA3ektNUWo1aHc?oc=5",
-   "i": ""
-  },
-  {
    "s": "icl",
    "c": "Brasil",
    "d": "2026-10-24",
-   "r": 5,
+   "r": 4,
    "t": "Lançamento do CNN Money teve Vorcaro e Tarcísio como convidados de honra",
    "x": "Por Maria Clara Alcântara Imagens obtidas pelo ICL Notícias mostram o governador de São Paulo, Tarcísio de Freitas (Republicanos), cumprimentando Daniel Vorcaro, dono do Banco Master, durante o lançamento da CNN Money, em 4 de…",
    "u": "https://iclnoticias.com.br/lancamento-cnn-money-vorcaro-tarcisio/",
-   "i": ""
-  },
-  {
-   "s": "olhar",
-   "c": "Tecnologia",
-   "d": "2026-10-24",
-   "r": 3,
-   "t": "Transforme sua TV com os melhores dispositivos de streaming em oferta agora",
-   "x": "Se a sua televisão ainda não tem acesso a plataformas de streaming, ou se você quer melhorar a experiência com um dispositivo mais moderno, chegou a hora certa. Reunimos três ótimas opções de streaming sticks em promoção na…",
-   "u": "https://olhardigital.com.br/2026/10/24/reviews/transforme-sua-tv-com-os-melhores-dispositivos-de-streaming-em-oferta-agora-11/",
-   "i": "https://m.media-amazon.com/images/I/41DegJcrP3L._SL500_.jpg"
-  },
-  {
-   "s": "bdf",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Checagem aponta falsidades e distorções de Flávio sobre Bolsa Família, segurança e patrimônio de Lula",
-   "x": "Diversas declarações de Flávio Bolsonaro (PL) sobre o Bolsa Família, o patrimônio do presidente Luiz Inácio Lula da Silva (PT) e políticas de segurança foram contestadas por verificações realizadas durante o debate da TV Globo…",
-   "u": "https://www.brasildefato.com.br/2026/10/24/checagem-aponta-falsidades-e-distorcoes-de-flavio-sobre-bolsa-familia-seguranca-e-patrimonio-de-lula/",
-   "i": ""
-  },
-  {
-   "s": "terra",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 5,
-   "t": "CNT/MDA: Flávio tem 50,7% dos votos válidos e Lula, 49,3%; mulheres são maioria entre indecisos",
-   "x": "Veja a matéria completa em Terra Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQNk9SWWN0VmxQOF9PSUl6WjdZcVNUYVE4UXIyeVd6Zmk4WUtsYUdhZi1Cdy03ajN0ZWktVDZXeWNJV2FKemtpVzQ2ZVhpV3ZJTC1IMENudFhGQkZwdHlsU1JfYlFVZTEyRjFNY0liaXNsdWh6ZHNoTTFqTnZWdnQtbVNPQVUwRzUtd1kwZU9oZFhXSkhfSGEzSHE4UnFvX3FRQWJLeFBJV3ZyVVdGWGpod29zNWMtcHhSUnR0bEdvdl8tM2h5LTZHVXNmZ2hmOU9wWWdQZm1lYURSdENIY2VCUkVyck9MQW1oNG5kM0RfZkR0SktFWF82aUpySkRqck1tV3p2VGo5U1huUHg0Tkw2Rg?oc=5",
    "i": ""
   },
   {
@@ -1541,20 +1965,10 @@
    "s": "icl",
    "c": "Brasil",
    "d": "2026-10-24",
-   "r": 5,
+   "r": 3,
    "t": "Justiça proíbe Grupo Zona Sul de enviar mensagens políticas a funcionários no RJ",
    "x": "Por João Pedro Lima – Tempo Real RJ A Justiça do Trabalho proibiu o Grupo Zona Sul de enviar comunicados de cunho político aos funcionários que indiquem, direta ou indiretamente, as preferências eleitorais da empresa ou de seus…",
    "u": "https://iclnoticias.com.br/justica-proibe-zona-sul-politica-funcionarios/",
-   "i": ""
-  },
-  {
-   "s": "carta",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 5,
-   "t": "MP Eleitoral defende extinção de processo sobre sigilos de Lula e Flávio",
-   "x": "Veja a matéria completa em CartaCapital.",
-   "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbnNwVWI5VWk4MWVxT090MjVoR3RKSGFaOHM2N1hXa01qLTR1MEQyai1Rcl9qb3h5QVBSeHJxVTUwdHpmYmw5dlJISWVtQmhrU0NMa1hnS3huYml4MDA1dF9GWXd4dTFzd0Z5NFNOUjdjdHZFTXVGdlZ1TnV5a0dNcTJqUEVUaVJfcTZMSFN2dlp3X1IwdGNtbzFGQmZDclI3elBZaFBzbkJVaFRQQ055cGhwYw?oc=5",
    "i": ""
   },
   {
@@ -1568,16 +1982,6 @@
    "i": "https://outraspalavras.nyc3.cdn.digitaloceanspaces.com/media/2026/10/lula-janones-live.jpg"
   },
   {
-   "s": "terra",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 5,
-   "t": "Transmissão da Globo flagra Andréia Sadi cumprimentendo comitiva de Flávio; web critica 'entusiasmo' da jornalista",
-   "x": "Veja a matéria completa em Terra Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQVm1iM3ppQS1oU21TVHUwaHl0TjdJRnlHXzZQTWR3MmR5Q1VkWEdacWw5TlRadGx3dVluTWpPNmJuQ1lTUzJldE5jQ1Rkc3RmeDZwaW9UQ0p0TlA2UTBkdVhtZ3R6SlFGZFNrNHdSVTJQdWFuNmQxZzFkZ1lZM21VQlZmdGJDd2J0SWVRelFON1pMZGgyaFF0VmRWaVFiajExQm0yZFkwNGVPU1N1NDVneS1wMVpuUW9fbWk5ckdEc2VyeUYtUVhJQ1hQeTdUQ24xV0xzc2lNUEcweWpsazFKTGU3RWtWbkxBa3h2d2xsNTAyZHhwdG91M08wWmtfRXpMX1ZWc3QwY3o2U1ZtT3ZKdXg2akxXVjRMbE9TUkhBTjVWa1pEQnRZ?oc=5",
-   "i": ""
-  },
-  {
    "s": "super",
    "c": "Ciência",
    "d": "2026-10-24",
@@ -1588,16 +1992,6 @@
    "i": "https://super.abril.com.br/wp-content/uploads/2026/10/SI_cobra-foge-dando-mortal_site.jpg"
   },
   {
-   "s": "carta",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 5,
-   "t": "Fim do rastreamento de munições defendido por Flávio Bolsonaro alimenta o crime, alertam policiais",
-   "x": "Veja a matéria completa em CartaCapital.",
-   "u": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSXpJVnZXQVRiNzJpcTE4WTJQUWdZVm5fb25LYW1LLVhJNjNjMUVOeVQ1TkNsVFJFTnNKc2R4Y3JZbVJsRU9IbERGQVROQjVUblh3TGNjamNETV83VW1WNzlabXY0WTl5U2pYT1hPMGF5WndOMFpXLXVKcXd6Wm5NLVNzV3dqc05yb3pDTGRwV3Vyc0JlYTE0a0NsTlRseEF1RWQ5eDRaQkJDcS1jYVZQMGFNQi1OMFJST0x5aEFRMlN2R3Zudk9sZDZjTkNvU2xZcXdvWEJn?oc=5",
-   "i": ""
-  },
-  {
    "s": "galileu",
    "c": "Ciência",
    "d": "2026-10-24",
@@ -1606,16 +2000,6 @@
    "x": "Veja a matéria completa em Galileu.",
    "u": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOdzJkZUlVOFlOdkktY0I0dEkzUkY0Q3BtWnE2Q1RyRWRhMGFnMnE0ZjdWaFFBMHlNeGxjQUtmX0hrQl9TQ2piZTBJaTF0aGFVYzN0MzRSREtwcEFQcGs3OXpMTHMxM0MyWWhpdDlHS3VVN21ydnh3SGd0SHlUSDBnMGZnMzF1cnVNd0s4RHJCc3VncTJscGdrWk00dktKMUxCWGNEYThLUDRibnQyMjJCeHVadUhmSHFoTDl6azNDaFVtYkR2dXhHUEhGM2J6cWhBVzZiMTBVcGtCQl96LU5fUUVn0gHwAUFVX3lxTE1NWDM5bTl0NDVickc0anNfYVAwV2kwcnBDM1A5T29MWkh3VWd4ejVscjRyamxCNVBHRjVkOVhjNVhja2g5TVdBYjQ5MGYtOFp6V2NaMTNyVFo0SUhKcEpwS0pMOFhrN0tPNWUxd3lnQk44QjExb2VOd3plUkFpWU1tZG11cnFwNkVKVTJINWtRMWloakF6VG4wYUZfYWhtMEd3al9kQ0RPZ1ZaM0hram1SVnlBd1VUUDFZSlZzekFEYWZwM1RXZVFzRkxGOS02Mkh4WGNkUUtmc3BuSURNMWV6QzNGRDdxaWlGbW01T2o2LQ?oc=5",
    "i": ""
-  },
-  {
-   "s": "canaltech",
-   "c": "Tecnologia",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Galaxy A36 vs A16 5G: qual celular barato da Samsung vai durar mais?",
-   "x": "Comprar um celular barato pensando em usá-lo por vários anos exige olhar além do preço e da ficha técnica. Entre o Galaxy A36 e o Galaxy A16 , os dois modelos da Samsung prometem suporte prolongado de software, mas isso não…",
-   "u": "https://canaltech.com.br/smartphone/galaxy-a36-vs-a16-5g-qual-celular-barato-da-samsung-vai-durar-mais/",
-   "i": "https://tl.ctcdn.com.br/NHrmhkzqfXmCaQ7NKG9Y__Qysrg=/0x0/filters:format(webp):quality(85)/b244af09-25f5-40e0-9724-2f91b1d63fee.jpeg"
   },
   {
    "s": "uoleco",
@@ -1641,20 +2025,10 @@
    "s": "icl",
    "c": "Brasil",
    "d": "2026-10-24",
-   "r": 4,
+   "r": 3,
    "t": "Flávio Bolsonaro tenta interferir na linha editorial do ICL e pede censura ao TSE",
    "x": "Por Cleber Lourenço A campanha de Flávio Bolsonaro (PL-RJ) apresentou ao Tribunal Superior Eleitoral (TSE) uma ação que tenta submeter a linha editorial do ICL Notícias e de outros dois veículos de comunicação a critérios de…",
    "u": "https://iclnoticias.com.br/flavio-bolsonaro-tenta-censurar-icl/",
-   "i": ""
-  },
-  {
-   "s": "icl",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Funcionários da Meta denunciam favorecimento à família Bolsonaro na eleição brasileira",
-   "x": "Funcionários da Meta, empresa responsável pelo Facebook, Instagram e WhatsApp, manifestaram preocupação com o que classificam como favorecimento “óbvio” e “enviesado” a integrantes da família Bolsonaro nas eleições brasileiras de…",
-   "u": "https://iclnoticias.com.br/funcionarios-meta-denunciam-bolsonaro-eleicao/",
    "i": ""
   },
   {
@@ -1678,26 +2052,6 @@
    "i": ""
   },
   {
-   "s": "bdf",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Live de Janones ultrapassa 800 mil espectadores simultâneos e tem participação de Lula",
-   "x": "A transmissão ao vivo comandada pelo deputado federal André Janones (Rede-MG) em apoio à reeleição do presidente Luiz Inácio Lula da Silva (PT) segue no ar neste sábado (24), com centenas de milhares de espectadores simultâneos…",
-   "u": "https://www.brasildefato.com.br/2026/10/24/live-de-janones-ultrapassa-800-mil-espectadores-simultaneos-e-tem-participacao-de-lula/",
-   "i": ""
-  },
-  {
-   "s": "icl",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Militares de escola são afastados após alunos encontrarem câmera no banheiro",
-   "x": "Por Catarina Scortecci (Folhapress) – Dois policiais militares da reserva que atuavam no Colégio Cívico-Militar Érico Veríssimo, em Cambé, no norte do Paraná, foram afastados de forma cautelar nesta quinta-feira (22) pela Seed…",
-   "u": "https://iclnoticias.com.br/militares-parana-afastados-camera-banheiro/",
-   "i": ""
-  },
-  {
    "s": "op",
    "c": "Tecnologia",
    "d": "2026-10-24",
@@ -1705,46 +2059,6 @@
    "t": "IA e a eficiência de desaprender a pensar",
    "x": "Organizações e empresas submetem-se cada vez mais ao colonialismo intelectual. Estudos mostram os riscos de confiança excessiva na tecnologia e dependência das big techs. O desafio: utilizá-las sem abdicar da autonomia e da…",
    "u": "https://outraspalavras.net/tecnologiaemdisputa/ia-e-a-eficiencia-de-desaprender-a-pensar/",
-   "i": ""
-  },
-  {
-   "s": "terra",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Urnas eletrônicas são enviadas aos locais de votação em SP",
-   "x": "Veja a matéria completa em Terra Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSExndzVCLVRicFI3RVF5YW9maW5sakV6VWhlelF4b0Y4YVVXWnpYV2RlN1dJdF91M1RqT25TVTFjdXJGYkh5eHFVb2t0WFpvRjlpUU9FazNpcmY5clA2R0VoR0tSWG1WeU55RFJVbDZFUG56THFLNWZCYnlnaW96NE9RbmxjZnBINl9JdXZ0ajdTNTFBYlNZZnpWOG1NWGV2eC10emxTck5yaElFWmctLUo3bUFrQkJ6bi13bWV4R01nMVVNME1meUNFT2VhX3FxQWowZzhPN0syczBvYnJXbUk2dDdIeS1raFE?oc=5",
-   "i": ""
-  },
-  {
-   "s": "terra",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Rei da Jordânia ordena resposta com \"mão de ferro\" a ataque mortal à igreja",
-   "x": "Veja a matéria completa em Terra Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQLWI3YWNMRUdZdUh6S3BXRGN3R3VFVDhkbVczcXotOGRHT011d1czVGM3NGZQYXpoSzEzcHNsSXpnUDVNaU9ObzRxdTZ1LUhmLVJ5UmlrbmdmRENsbWgyMld5MlFqWEoteE1HcllWSFN2SDBqVU5BVmh4UldxTlpxUlljN2dhSXEyVHdVd0hKT0F0X2RKS1FPLWt0OUc5QXNuVUp3dDRTejI3bGxqQ0hMMHFVOHJZOHFvN1RXZUFWZVJvSW5adFR3MW5mVFpSMWNqRVZWRS12VVowTkUyRXU2Q2pRSDlkS0dUN0twU0dfbk8?oc=5",
-   "i": ""
-  },
-  {
-   "s": "canaltech",
-   "c": "Tecnologia",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Como saber se alguém espiona o seu celular? Veja 5 dicas",
-   "x": "Os aplicativos espiões podem monitorar a localização, as mensagens e outras atividades do celular sem o consentimento do proprietário. Conhecidos como stalkerware, esses programas operam de forma discreta, mas podem deixar…",
-   "u": "https://canaltech.com.br/apps/dicas-como-saber-se-alguem-espiona-o-seu-celular/",
-   "i": "https://tl.ctcdn.com.br/9F6WG4q8OFonjHfNW6zswVgr3wI=/0x0/filters:format(webp):quality(85)/85916d30-72da-4229-b27a-43a76bfdc9d1.jpg"
-  },
-  {
-   "s": "carta",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 5,
-   "t": "CNT/MDA mostra Flávio Bolsonaro com 50,7% e Lula com 49,3% na véspera do 2º turno",
-   "x": "Veja a matéria completa em CartaCapital.",
-   "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVk53b0VKYkg5aUtTTl91alFPMjdiSXhCcG1GOVNPSXdyOUJvMi00NTBpWVpQckpmcERzQ29tNGFuSHloVW8yaG5UV0V1cEZkaFB2MWZVVWR5Y2RuRm9BbWUweDFneDA2SGlqWjFfb0lyQ3o2R3FCM211Tjh6SlRjZlI3SF9HbmNLU1JkdHo4SWxCVmZ6aENmalE5M2o5SFpJR2NMRklSLXhUejhuQVZxRmpMMjFtNmdJZEQ0?oc=5",
    "i": ""
   },
   {
@@ -1758,26 +2072,6 @@
    "i": "https://outraspalavras.nyc3.cdn.digitaloceanspaces.com/media/2026/10/1023589-capa_03062016-dsc_7868_1-1-1500x994.jpg"
   },
   {
-   "s": "terra",
-   "c": "Ciência",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Mistério das 'Espadas Ulfberht' ainda desafia arqueólogos mil anos depois",
-   "x": "Veja a matéria completa em Terra Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNNkJtakRnSi10cmstM0U5WVVjSllLMjB1SWtkck1Talh1QmJDOFNvcU9ISDNwYXJUZXdiUFJ1TDcwTlA3VlF2MTA1TFR4X0VNZ1h1dUcwUE9xSEpQY2Z0MDIwV1hLZ2pvSXVYdHlBbmtGMW1DSktNMmUzSGpBb2dxYXV6eHQzUVd0MzJkUG5pSU9FMGlSMWQzYWtxbnBQSzRqcm1rOE91a0xkdkxHcHQ3aEhUSVBYX1o3UlAwSFZVNTJMSTd0eUVMQ1FLYVRSUmZTeWUtMnRsZGR4b0t3TjV1OE1ReThGZw?oc=5",
-   "i": ""
-  },
-  {
-   "s": "terra",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "PM que salvou menina presa em fios será promovido em Alagoas: \"Pensei nos meus filhos\"",
-   "x": "Veja a matéria completa em Terra Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOaG5tR3NiLV9jNnhTc0puR011ZW1yaDlraGZfc000OEJZQ19GMzM5Rk9nY0xTbGRVSk9FNVdQWDhwTjhKNjNGYkF5ZThpUFZqT2V1c2hqR1Fmd1ZVVU44SUVKdkNHd0NmMVJPb0hHOWJ5eksyNGhFLWw5d0tKbVd5QXVDTlVkT016T0ZtdnFES1FvcjQ0WXpGVFEwdm93NmlZN0Z3M3NaSnl5YzlmX2xncFJhcU9EeG5SOEpJTDNadDZLQmhUMDZqcF9NelpVYWRDd05pMHVwUkNFUTZkT2NTdXh6dnBxNzU5N05KcG5oNGFQVmdEVEE?oc=5",
-   "i": ""
-  },
-  {
    "s": "rt",
    "c": "Mundo",
    "d": "2026-10-24",
@@ -1785,16 +2079,6 @@
    "t": "- Reuters",
    "x": "Veja a matéria completa em Reuters.",
    "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1pRFNVS0RYVXVwMWREYk9JdzJkeU53RW9GQjRWdHpFRWQ1RDgwLUNkeHNlNjNfUTM0VjU3ZTJDUGVMV3g0YjhxcDVqeURCdlBF?oc=5",
-   "i": ""
-  },
-  {
-   "s": "icl",
-   "c": "Tecnologia",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Seus amigos te entregam à IA",
-   "x": "Você pode nunca ter instalado um agente de inteligência artificial e recusar todo pedido de acesso ao seu e-mail ou outros aplicativos. Nada disso impede que um sistema saiba quem você é, com quem conversa e o que fala em…",
-   "u": "https://iclnoticias.com.br/seus-amigos-te-entregam-a-ia/",
    "i": ""
   },
   {
@@ -1808,44 +2092,14 @@
    "i": "https://outraspalavras.nyc3.cdn.digitaloceanspaces.com/media/2026/10/5_sao-paulo.jpg"
   },
   {
-   "s": "bdf",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Como foi o acidente de trabalho em que Lula perdeu o dedo; Flávio Bolsonaro zombou da amputação",
-   "x": "Durante o debate presidencial da TV Globo nesta sexta feira (24), o presidente Luiz Inácio Lula da Silva (PT) relembrou o episódio em que perdeu o dedo enquanto trabalhava. O fato foi relembrado após o candidato Flávio Bolsonaro…",
-   "u": "https://www.brasildefato.com.br/2026/10/24/como-foi-o-acidente-de-trabalho-em-que-lula-perdeu-o-dedo-flavio-bolsonaro-zombou-da-amputacao/",
-   "i": ""
-  },
-  {
    "s": "bbc",
    "c": "Brasil",
    "d": "2026-10-24",
-   "r": 5,
+   "r": 4,
    "t": "Asssista aos melhores momentos do último confronto antes da eleição",
    "x": "Confronto na Globo teve discussões sobre propostas, mas também trocas de acusações e momentos de tensão.",
    "u": "https://www.bbc.com/portuguese/articles/cvx28exwg57no?at_medium=RSS&at_campaign=rss",
    "i": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/18aa/live/dab7af50-cfb4-11f1-93e1-3b657b665bcf.jpg"
-  },
-  {
-   "s": "icl",
-   "c": "Tecnologia",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Exclusivo: Vorcaro diz que fez ‘parceria boa’ com Marçal enquanto ele disputava prefeitura de SP",
-   "x": "Por Juliana Dal Piva e Igor Mello Mensagens do celular de Daniel Vorcaro, dono do Banco Master, apreendidas pela Polícia Federal (PF) e obtidas pelo Núcleo Investigativo do ICL Notícias mostram que o coach Pablo Marçal –um dos…",
-   "u": "https://iclnoticias.com.br/vorcaro-diz-que-fez-parceria-boa-com-marcal-enquanto-ele-disputava-a-prefeitura-de-sp/",
-   "i": ""
-  },
-  {
-   "s": "canaltech",
-   "c": "Tecnologia",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "O que significam as letras e números dos processadores de celular?",
-   "x": "Snapdragon 8 Elite Gen 5, Dimensity 9500, Exynos 2600 e Apple A20 Pro são alguns exemplos de chipsets usados em celulares. Apesar de parecerem códigos aleatórios, as letras e os números presentes nesses nomes podem revelar a…",
-   "u": "https://canaltech.com.br/smartphone/o-que-significam-as-letras-e-numeros-dos-processadores-de-celular/",
-   "i": "https://tl.ctcdn.com.br/ZbXmt0Zq5BB9HyQybfWrkntUF3M=/0x0/filters:format(webp):quality(85)/730ab06d-5bd0-495d-accb-c16758743c35.jpeg"
   },
   {
    "s": "gefla",
@@ -1858,26 +2112,6 @@
    "i": "https://s2-ge.glbimg.com/r3DIq8D41I1e9cTgmIStNHX3rMc=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/N/C/Im1gfgTxmMjtlLzngB1Q/agif26102223540775.jpg"
   },
   {
-   "s": "terra",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Artista brasileiro expõe na Fundação de Paulo Coelho e Christina Oiticica na Suíça",
-   "x": "Veja a matéria completa em Terra Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQODJ0OEx5YzJnN2FPMnp6Yjk2NHR4OWFWS3ZGWExjU3RFSE1fd1pqSDRYVFpKbEdOTG9kaXNrXzJGZDJDVXNEM19oYXNqUGU2Nk05NndXRFNHdVEtVTBXaUN4UXZkb05RMEkwMGVBYVpGblIwem91czJmUkpTSXRVZ3o2T0ptSmpoRXBwUERGSktzR0Q4cFRhd20tUnBtN25CVGFST2tVSllKYVFwUG9WMzNpVlh0TzQ5eGRiWTlMd3B3U0Y3YnNvbkQyZWdnei1NYUo0bm9xZzJjLWt0d1Zjeks0SEZEX2x6M2lrS3pFSWdlYm40UnNDUk1UTVBUZDhNWnpySlhB?oc=5",
-   "i": ""
-  },
-  {
-   "s": "terra",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 3,
-   "t": "Trabalho no domingo de eleição: Justiça garante direito de voto a funcionários de supermercados",
-   "x": "Veja a matéria completa em Terra Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNM2tCVGUyZTFBbWYzeDZmYmdiZHpHNkhyWUlsQURUbEctQUx6TlUyaGxXQWRpc1Jya0tMa2o4WTAtSk45ak1mNVdzdXR0QlBuWTNaWThMc2VUdnBPUG4wNnhXdmpUNFpOYm9FVlFNMzUwWjJHc09tQnRxUTd0Zzc0ampIUXB1UGI2RDNhT3ZHbWpvZ0tGLUxKY0RUUXlSNC1kUWN3Y2V6VVpYQzFtUXYzYk9seWpmWmstMUNSdnhiVzF6cTBKR3ZQaEtVVXd6TFpyZjQydlFKVDJXNEh0SlkyUm9JZ24xSjVodldLdjVhMk51dDhGUkdEcTJvTmwxTUluSTlQNkppNS1WOGdXUGQ5NV9KdXlxUGlm?oc=5",
-   "i": ""
-  },
-  {
    "s": "eo",
    "c": "Brasil",
    "d": "2026-10-24",
@@ -1886,46 +2120,6 @@
    "x": "No primeiro turno, a campanha de Lula permaneceu predominantemente fria, apoiada na trajetória do presidente e na apresentação das realizações[.....] O post Disputar o futuro apareceu primeiro em Esquerda Online .",
    "u": "https://esquerdaonline.com.br/2026/10/24/disputar-o-futuro/?utm_source=rss&utm_medium=rss&utm_campaign=disputar-o-futuro",
    "i": ""
-  },
-  {
-   "s": "bdf",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 3,
-   "t": "Lula estará presente em ato da avenida Paulista neste sábado (24)",
-   "x": "O presidente Luiz Inácio Lula da Silva (PT), candidato à reeleição, participa neste sábado (24) de caminhadas em Copacabana, no Rio de Janeiro, e na avenida Paulista, em São Paulo. Os eventos encerram sua agenda de rua antes do…",
-   "u": "https://www.brasildefato.com.br/2026/10/24/lula-estara-presente-nos-atos-de-copacabana-e-da-avenida-paulista-neste-sabado-24/",
-   "i": ""
-  },
-  {
-   "s": "bdf",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 3,
-   "t": "Não é uma escolha difícil: há um único projeto comprometido com a educação",
-   "x": "A educação é um direito social assegurado na Constituição Federal. Como direito, deve-se assegurar sua viabilidade por meio do acesso, da permanência, de condições de qualidade e do respeito à diferença e à diversidade em todas…",
-   "u": "https://www.brasildefato.com.br/2026/10/24/nao-e-uma-escolha-dificil-ha-um-unico-projeto-comprometido-com-e-educacao/",
-   "i": ""
-  },
-  {
-   "s": "terra",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 3,
-   "t": "Andréia Sadi brinca sobre bastidor após debate na Globo",
-   "x": "Veja a matéria completa em Terra Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQZURqSzNRT3dQYnloOWduSTJzMTJnTjR0VnNDd205enpveFI0NEc5dlRXQkJFWWhWVGlaWXJtTFpBTkhzaFNwVkNHZ2hwdGtwYXRaQ0ROa0dERlNsZk9UTDF6c001NXZGNTR1bjVXelhxLXVUM0puRjRKcHhkRk95YkdvZm5XRkdJNGFLZXpBRlJHQTc1ek55SjlpVnNHNllmSnNOWjRGT05iTGx4ZDZJNGIyYzBJV0pXNUZBZHZzSC1PSUVRRzZjbzRTM0g3NTRDTGlMbDZuYnNMZ1NhV3hqVTlEQ21TUQ?oc=5",
-   "i": ""
-  },
-  {
-   "s": "canaltech",
-   "c": "Tecnologia",
-   "d": "2026-10-24",
-   "r": 3,
-   "t": "Que horas vai passar o último episódio de Bleach?",
-   "x": "Após 22 anos de exibição (e um longo hiato), Bleach finalmente chegará ao fim . O anime, produzido atualmente pela Pierrot Films — de Chainsaw Man: O Filme - Arco da Reze — mostrará a conclusão da batalha entre os ceifadores de…",
-   "u": "https://canaltech.com.br/entretenimento/que-horas-vai-passar-o-ultimo-episodio-de-bleach/",
-   "i": "https://tl.ctcdn.com.br/C-C4cO_W37KFPFpjoaKjlHWDSU8=/0x0/filters:format(webp):quality(85)/6eb3d50a-0f3f-46b9-93ef-9180b0f20acb.jpg"
   },
   {
    "s": "bbc",
@@ -1951,7 +2145,7 @@
    "s": "uoleco",
    "c": "Economia",
    "d": "2026-10-24",
-   "r": 5,
+   "r": 4,
    "t": "Giga+ confirma que manteve conversas com Sky sobre fusão, mas sem decisão ou acordos",
    "x": "Veja a matéria completa em UOL Economia.",
    "u": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNSmJIcmRWWXNFNmMwcDhjWlkxNFIzRlA3cHBIR2lHYURmZFU3MDNpaVFRZVRlSkotODRLMktxVnQyQy11VmViOVNpa3B1Y3loNl82ZUxORFk2TG9HU0tkRmUyazZURXR4QmtIMjN0Q3VQemZfN3ZPR0pCbE12VElZaFdqWHA4RlRmQ2NGZUwwU3NLUDBPM3QxNGhSOVpwZVNEcUx2bzlCNlVObEZUM1BUaEFTX2NnU0RibFdHZ3RZcXRPZFVWWTN1VldUVDZfbmFaRWdyT3FpN1d3cWZDQlhKRDhJRDVtNVIyVEtz?oc=5",
@@ -1971,7 +2165,7 @@
    "s": "galileu",
    "c": "Ciência",
    "d": "2026-10-24",
-   "r": 5,
+   "r": 4,
    "t": "Crianças ajudam arqueólogos a desvendar mistério de prédio desaparecido há quase 200 anos",
    "x": "Veja a matéria completa em Galileu.",
    "u": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPcFkzX3EyVHBrSXViNHM0WEJBR210ZDFGZkZRUW1tUTc2cmQ2MVBpcUFYSFlTOUF2YkxsZEVXbjZ3NzFmUTdHd0d2Ym9vdHU2ZHp2amJYS1FpTmFsZDhTdVFPamZEdXJYYl9tN2tmRTRkWVJ5Yko5X3o1MDd3Vkt2U3BkZnVkNk1xRVY1M0w1YjFlSXY2RWVBRWd0emY2a0dabVRtWUN6YjBlX1lYajNoX2hyZXhjdW96X3VsYmpZZzhUT2lSTEt3NUJtYThVYkFadGNrSTNrbmdHMXR3RlJSNDJhTk1EN2ZoOUxaWXBoS1JtMkNjZXNF0gGGAkFVX3lxTFBJZTFFS09IVzFFRHI5NXdzdDZlVGFuT1lBRC1mS1RqX2RYT01pM3NsbWFWNEtxUFl3QXBFLVNGbGVSSnZOZngyVXYzVkJ3TThNNS0xRUJ4NENxSW1uQnI2N1dUSjNSQ0gxcHZ6NHJ4ak8zNFFiQ2M1cjJtTUloMmJVMUlHVUxXd1RYVUNCZnVPdFhFTG1PXzZ6SXNKR3Z2UmV0N2lUMXd6ZnBLZ2R1R3RuY1VpUDFCY2RQWFdNbWtlWi04V0plcS1RQlcybTZvb09GTk45b29GOF9peWZFQzZtU3JYdXo2X1l5d2xFRmJYek9pUVl0NUNwQ0VqZEdteDNmTEFscnc?oc=5",
@@ -1988,16 +2182,6 @@
    "i": ""
   },
   {
-   "s": "canaltech",
-   "c": "Tecnologia",
-   "d": "2026-10-24",
-   "r": 3,
-   "t": "Qual iPhone NÃO comprar na Black Friday 2026?",
-   "x": "A Black Friday pode ser uma boa oportunidade para comprar um iPhone mais barato, mas nem todo desconto representa um bom negócio. Em alguns casos, pagar um pouco menos por um modelo antigo significa abrir mão de melhorias…",
-   "u": "https://canaltech.com.br/smartphone/qual-iphone-nao-comprar-na-black-friday-2026/",
-   "i": "https://tl.ctcdn.com.br/qWzbDNp5_yVbiDTpzwgvpyMq9xw=/0x0/filters:format(webp):quality(85)/cac5d9a2-bfab-4d9f-9ec2-68696be609de.jpg"
-  },
-  {
    "s": "uoleco",
    "c": "Economia",
    "d": "2026-10-24",
@@ -2005,16 +2189,6 @@
    "t": "Azul fecha financiamento de até R$ 2 bilhões para pagar querosene",
    "x": "Veja a matéria completa em UOL Economia.",
    "u": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPb3FCYWhVZVdoR0JsUlZfN2U3ZTJ5Nm84WU5EMDZiUVhLMWtxRWphVHVvbkV3YjJHYTVXTjRQV2VXeGtRQlFSbFZrR29vY1BhVktmdm1rM1UzcE1zZ2lmcVJxMFNybHExRmpwTzlraC1OaFh2NVAzbzl3OHFSNnBkM2NJdDhaMjVYTDVzcFRyVUJoRFQxdjVRSG1xMlFsSlpfeFVnVjlDYmV3VHVadWREaG1fQnVhaGVoSWhLX0JEMkdvZGVVdVBF?oc=5",
-   "i": ""
-  },
-  {
-   "s": "carta",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Jornalista da 'Globo' corrige Flávio Bolsonaro sobre desmatamento com Lula: 'Recorde de baixa'",
-   "x": "Veja a matéria completa em CartaCapital.",
-   "u": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWmFCajNuc0l6OFFzSlZyUk5CeXJGcFBxcS1ERDh1aTJ4N0ZMb0R0QWZPMnE4NmYwcjlGM01VanVfU3VRV094OTZFLUVIaW1veXBQNDE4N1lJUEozYVpHc1ByQ2pwT2I5aVcwTlF2aW9ZcU81c2dXckdidTFNdG42d0NEYzVRcUtHa0NrRnBiV092c1lKeGtLbDJ1elFLNjNKVi1Rb005aDR6MmRrdUI5N0JpVXhiX2s4cUtmQTJPbmphQmhVV2ZtZFdkTQ?oc=5",
    "i": ""
   },
   {
@@ -2032,6 +2206,16 @@
    "c": "Economia",
    "d": "2026-10-24",
    "r": 4,
+   "t": "Mercado vê contradições de Flávio na economia, mas dá benefício da dúvida",
+   "x": "Veja a matéria completa em UOL Economia.",
+   "u": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0xS2hMcHZ4WXhkWUxtRnJzTHZvRE14Qi1vRTFQUG9DRUhlUXJmdTBwVEJ2Z3BMYVFpeXBIS2l5ZjdGMVBUSjFvTllCRms4QkFjdkJZSDhDNTVjdEd0Q1cxTDhCYzR6aXRSOG5HSi1Ia0g1cUM4R1hqX1pmRm9SVHM?oc=5",
+   "i": ""
+  },
+  {
+   "s": "uoleco",
+   "c": "Economia",
+   "d": "2026-10-24",
+   "r": 3,
    "t": "Todos a Bordo: Sequestro de um avião na ditadura terminou com a execução de marinheiro",
    "x": "Veja a matéria completa em UOL Economia.",
    "u": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNcS1lcERraFdQNjJGN21HNjcyRWs0NnQzYU8yNWNNX3JlMEVfeHVJTTZwblFTcWhELXNMMXFhemdQNm41X1hhMTRSa01zcm9nZGdQZ2RYM01UREFGcEk1SFV3SG5kc0FlZUhJSTJkSzdzUU1GSHV1bmM5WC15a1ZCMVoxUmNtY01lMWtlMDVBSV9KSU1xN1ZtNER1T0NtNjE3Y1VoX3dHeHZWaEFTbVBaa3lwT3Z2eWRfaTdqc2hfeEhmS1JoMWl5Sk1wQnVCb0M2?oc=5",
@@ -2041,30 +2225,10 @@
    "s": "uoleco",
    "c": "Economia",
    "d": "2026-10-24",
-   "r": 4,
+   "r": 3,
    "t": "Paulo Camargo: Ganhar a eleição é uma coisa. Liderar o país é outra",
    "x": "Veja a matéria completa em UOL Economia.",
    "u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOU3pUeG9CSXZPME9ZQ3YzTTM1TDhNNVpMOThUSm9NSzFjbVFfRUc5cXZJYVJEdGtsV0pZdDRXcGpCYWRlWldDdE1YUlhCTUNSVXZLcTBHM0QyR2ZJY05kTzRheUFua2l2WVVZb01sNXVjQVBEWmIwVGlyT1hsemtxd1BuaVdxeHV1TEpEanN4c1ZyR28yVDJjV1M3ZnRJcWxrYnI5N2ZDZGdUbkZTZjlzbS13NzNjbzA?oc=5",
-   "i": ""
-  },
-  {
-   "s": "uoleco",
-   "c": "Economia",
-   "d": "2026-10-24",
-   "r": 3,
-   "t": "Mercado vê contradições de Flávio na economia, mas dá benefício da dúvida",
-   "x": "Veja a matéria completa em UOL Economia.",
-   "u": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0xS2hMcHZ4WXhkWUxtRnJzTHZvRE14Qi1vRTFQUG9DRUhlUXJmdTBwVEJ2Z3BMYVFpeXBIS2l5ZjdGMVBUSjFvTllCRms4QkFjdkJZSDhDNTVjdEd0Q1cxTDhCYzR6aXRSOG5HSi1Ia0g1cUM4R1hqX1pmRm9SVHM?oc=5",
-   "i": ""
-  },
-  {
-   "s": "icl",
-   "c": "Ciência",
-   "d": "2026-10-24",
-   "r": 3,
-   "t": "Pesquisadores repatriados declaram apoio a Lula e criticam plano de Flávio para a ciência",
-   "x": "Por Iago Filgueiras Coletivo que reúne cientistas repatriados durante o governo do presidente Lula (PT) publicou manifesto sobre as eleições presidenciais no Brasil. O Mais Ciência tem cerca de 600 pesquisadores que, em sua…",
-   "u": "https://iclnoticias.com.br/pesquisadores-declaram-apoio-a-lula/",
    "i": ""
   },
   {
@@ -2078,26 +2242,6 @@
    "i": ""
   },
   {
-   "s": "carta",
-   "c": "Esportes",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Confederação Asiática de Futebol",
-   "x": "Veja a matéria completa em CartaCapital.",
-   "u": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPYWNCMm1PajVHQkxsemh1T1NFWmp6RjhMbEdRaXUwUElWUEZZcmVSUHdDNWxkVlJicDNwQ09MeUFCUjdLS21Wd1hIUzBQd2RTWXh2N3M3QW1IeXp5TUZuWGQtaGpmaEFOTEtjX20yeFViZHhHcmZlejNIbl8tVTF4TVJHYXBEMHktVW5fQ0tfS00xS29BN2ZqWHVoaS1iQUtZUndOTktZOUl0ZGhXM1ZILVlwSkZfT1JSbDluQ08zaTBKMUhkak9vNU41Vkh5QnI3SzVOZl85TGpOMDN0V3VrWkZOWjVVZVJHdUZfYmVZNUpkMEdoOVpYRnZMdjRNUkNZSlQyV3dYNEx1aFVPWjFr?oc=5",
-   "i": ""
-  },
-  {
-   "s": "carta",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Concacaf",
-   "x": "Veja a matéria completa em CartaCapital.",
-   "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTUItOUdsN3JEejhiVlc5T01wbUozS0xRMjRPWm5WQm5WSkxlNTdMbk10ejNoc21Ncjh3U2VXbDlzSXc1YWVtYVVXaE90UDRxN1lKMmk4NzVTbjhJdDVqenJPaERheFFHV1N2RThOYzV1ZUxGY0p6RVAwN0JRRkRHLUJOMWFBRUxDWVRXNzRxZm5vVV9INUZvWFNPZVFpcnl2WnJ4TWxJZC1Mb3p2V3pNYzQ2cw?oc=5",
-   "i": ""
-  },
-  {
    "s": "planeta",
    "c": "Ciência",
    "d": "2026-10-24",
@@ -2105,16 +2249,6 @@
    "t": "Colonizar Marte vai, literalmente, partir o nosso coração",
    "x": "Veja a matéria completa em Terra Planeta.",
    "u": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPenZLZFhSUG9rVkltZy1UQmlfNVlGak9ncmZmQllnSjRKNVFHOUc1UTJzN01uN2wxMGtNVjQ3WWN3ZU9vLWtIZVdTTE1pOGJLRE5VdTViNl9rWTRqNmJjNDNSbE9TRW5RZnY0ZnNwLVY3U0hfVGlHWDNuNVAxTWluYi0tbE8tNTdrcWhwc2RMdmR5eEtqVzhhdWRTVUVvN2U1TGh1d0xnZjJ4bkxrMUtib3I0VkVFTThIeFE4TTRZaGtlNHhEY0t0ZGpING8xb3M?oc=5",
-   "i": ""
-  },
-  {
-   "s": "carta",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Joice Hasselmann: ‘Flávio é o pior dos Bolsonaro’",
-   "x": "Veja a matéria completa em CartaCapital.",
-   "u": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNX05tTndRRWxGdl9zNUk2RzFJRVhHV0RreUNjNGJtTEFFZ1FSLVRHRVNOakpQSlRsYU5LVzlZQUJCZVVwSnppY2tkQjE4c25MMF9WeFhFcEJYX0NTSEdpRS1hME04LWtZZFdVSzUxYVF2c2RvOEYtY1BwM0l2US0wdUYwLVdiMjBiV1FZVkpvcmVkdXdsT3FfZA?oc=5",
    "i": ""
   },
   {
@@ -2138,16 +2272,6 @@
    "i": ""
   },
   {
-   "s": "icl",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 3,
-   "t": "Diante da mãe de Ana Clara, em debate, Flávio volta a defender PM acusado de assassinar menina",
-   "x": "Por Brasil de Fato O senador Flávio Bolsonaro (PL) voltou a defender, no debate da TV Globo desta sexta-feira (23), o policial militar acusado de matar a menina Ana Clara, de 5 anos, com tiros de fuzil em 2021. A defesa foi feita…",
-   "u": "https://iclnoticias.com.br/diante-da-mae-de-ana-clara-em-debate-flavio-volta-a-defender-pm-acusado-de-assassinar-menina/",
-   "i": ""
-  },
-  {
    "s": "super",
    "c": "Ciência",
    "d": "2026-10-24",
@@ -2161,7 +2285,7 @@
    "s": "bbc",
    "c": "Brasil",
    "d": "2026-10-24",
-   "r": 4,
+   "r": 3,
    "t": "Em quais estados haverá eleição para governador no 2º turno e quais são os candidatos?",
    "x": "Veja quem são os candidatos quantos votos eles obtiveram no primeiro turno.",
    "u": "https://www.bbc.com/portuguese/articles/cmrryjz1dy48o?at_medium=RSS&at_campaign=rss",
@@ -2171,7 +2295,7 @@
    "s": "bbc",
    "c": "Brasil",
    "d": "2026-10-24",
-   "r": 4,
+   "r": 3,
    "t": "Os anúncios no Facebook que espalham desinformação em eleição na Sérvia",
    "x": "Reportagem da BBC identificou dezenas de páginas na rede social da Meta que publicaram anúncios pagos contendo acusações sem comprovação contra opositores políticos. Eleição parlamentar ocorre neste domingo (25/10).",
    "u": "https://www.bbc.com/portuguese/articles/cmdx3w23930po?at_medium=RSS&at_campaign=rss",
@@ -2201,7 +2325,7 @@
    "s": "super",
    "c": "Ciência",
    "d": "2026-10-24",
-   "r": 5,
+   "r": 4,
    "t": "Inquisição: a história dos tribunais da Igreja Católica que perseguiram hereges",
    "x": "Entenda a Inquisição, a instituição da Igreja Católica que perseguiu e puniu hereges, judeus e protestantes na Europa e Brasil com tortura e fogueira.",
    "u": "https://super.abril.com.br/mundo-estranho/inquisicao-a-historia-da-perseguicao-da-igreja-catolica-e-seus-metodos-brutais/",
@@ -2218,20 +2342,10 @@
    "i": ""
   },
   {
-   "s": "uoleco",
-   "c": "Economia",
-   "d": "2026-10-24",
-   "r": 3,
-   "t": "Mega-Sena: quanto R$ 230 milhões rendem todo mês na poupança e no Tesouro",
-   "x": "Veja a matéria completa em UOL Economia.",
-   "u": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcWRBS3I3VlVBWDVpZUhkbkl4QmhzOGF2SjdkakVDd09DdG5qbEJEeGRTNDFpalVLU2xxNnFCaEJLcDVkbUFlRjBBaFFSRzYwYm83aC1CSzl0bE9KdERwZ0xZTTFrS2JQT0lwN2xVS0tTdmNVMVlPOVJ4OGRiVUlOZnBTVFYzVVItdFhEbnBpNWEwYy1SWDJCSkhyemFTWWprYjYzcXZRbVR4V2ZPVTFlV2d0YXZsWVM0TExWSWc0TlJuOFVaZ1hZU1NmdUFCRkVVcFE?oc=5",
-   "i": ""
-  },
-  {
    "s": "espn",
    "c": "Esportes",
    "d": "2026-10-24",
-   "r": 5,
+   "r": 4,
    "t": "Palmeiras x Barcelona: onde assistir ao vivo e horário do jogo da Messi Cup",
    "x": "Veja a matéria completa em ESPN Flamengo.",
    "u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOV1hSaGJVN1B4Wl9GS2hpV1h2T3JkZmp2dUxDd1lQdEh6X2VlZ0lyV0NKV3JYZkJwcUpPZ1VlRGpaN2toaUl4d0VTemN6V21kQnJrMGQzMUxWenItaHg3dmFoRm9YN2RNZmU0cGRtWVg2MW52UzRCYlpnVkFyWXBsN01hd2w5eHZ1ZjE0aGNtZEREYnFZWjlSQXhKRUxiTEpNaENuZW9iek9EcUtwaU9taHR0V2pkYkdCRGtrWUpR?oc=5",
@@ -2241,7 +2355,7 @@
    "s": "espn",
    "c": "Esportes",
    "d": "2026-10-24",
-   "r": 5,
+   "r": 4,
    "t": "Quem são as joias do Palmeiras que vão disputar a Messi Cup que tem Flamengo e gigantes europeus",
    "x": "Veja a matéria completa em ESPN Flamengo.",
    "u": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQODNTZEVRSjBNUmRXTnNleWhSTDdSSnhTNmNDZVFoV1pvOXc1U2dqc2c1cGRaR05fMU54WlZVT0Q5ejZ5MkxHR3B4NnVFU3V3MXF1QW1zN084Rkh1azlvX1R5YkVmVmxhZUdWY1B1OHhsZk1KT1M5Rmg3OURtdHZZcmdHNDBaZndlNlFualQzNzJuclNkSldISVBVdEdOa2d4ZzB2eG9oUkVVdHFBMHhfdVY1TTZRWjBGaTY4aVoxQnRzeVhGTGt1YnFmT3lQbG85anZvT0JlTzNMdldSRUNWWTcxSQ?oc=5",
@@ -2252,7 +2366,7 @@
    "c": "Esportes",
    "d": "2026-10-24",
    "r": 4,
-   "t": "Tem até filho de ídolo: quem são as joias do Flamengo que vão disputar a Messi Cup contra gigantes europeus",
+   "t": "Quem são as joias do Flamengo que vão disputar a Messi Cup contra gigantes europeus",
    "x": "Veja a matéria completa em ESPN Flamengo.",
    "u": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZTlDYmhwLXJzakdvYWxUWWZfSnFaME1yVC1GcmRQNC1oMkg5U2E2eXJndjduV1BsYjVTd1lVMWtOR2h1ZEt3blJOQVVJZTJYQ0dWYW5RU3lyVXJVOTVmbTlIRW9hUkpISlJVaF9xTndWaDFodmZad1pxWndCWEIzVGJFTUs2eWRENU1DRm9Ob1ZOMU5rRV81aWswWmZnZzlBd1kwVTJYR0Rvcm9XUVFkZHdZQ2d0VE0xNEJtQUhSRmNYaGVSUEhOU0VoN1B0RE1JYWc?oc=5",
    "i": ""
@@ -2261,7 +2375,7 @@
    "s": "galileu",
    "c": "Ciência",
    "d": "2026-10-24",
-   "r": 5,
+   "r": 4,
    "t": "Ciência | Galileu",
    "x": "Veja a matéria completa em Galileu.",
    "u": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mWVgydVpKUlhSdGstX0dyNWQxOVU5TG5UYmdweDBGWVk4MVVJU1RDOXlmMExBdl9na0hKaHNxSTNEMXpkRFF6Z1U4eFhFRHdXS2kxckM5Nlh0TW01LVdBQUxDc3I5NzYtZl9DX2k4OA?oc=5",
@@ -2381,7 +2495,7 @@
    "s": "espn",
    "c": "Esportes",
    "d": "2026-10-24",
-   "r": 4,
+   "r": 3,
    "t": "Anderson Alexander Dávila Mora",
    "x": "Veja a matéria completa em ESPN Flamengo.",
    "u": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcm5udlJ2X0NzRUZpb3pEVjBiRUNhLTFEWEFhUV9KWUtYUERjZS03cUhpNFM5Z1pBMy1qX2lhZWk2dWUtTlk2RzV0RDhsLU51N3FjTHR4Z3ZNUjVTczE4ZktoMEprMzJJVzlCVzB6WURrRnoycEd2V3Vfbl81VGNFTVdBX1pqV3E1WF9R?oc=5",
@@ -2391,30 +2505,10 @@
    "s": "espn",
    "c": "Esportes",
    "d": "2026-10-24",
-   "r": 4,
+   "r": 3,
    "t": "César Alejandro Luque Barrios",
    "x": "Veja a matéria completa em ESPN Flamengo.",
    "u": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMDVHd0hEVmJKdU84cU85cG5TdUh3bVowcUVVeHRLazVaZTk2OXFnMnJhZGVNSXFPZ0U5VGQzaEJEdVNjQ0piT09SSnFpR0dRWHlpbXZzd0pVV1IxcXBUcHRtb2ZPaEtRdkl6QjU5QzVqY2hROFVZNzJ6S092c085S3hPLXlSdGRjNWc?oc=5",
-   "i": ""
-  },
-  {
-   "s": "espn",
-   "c": "Esportes",
-   "d": "2026-10-24",
-   "r": 3,
-   "t": "Eric Daniel Noriega Zambrano",
-   "x": "Veja a matéria completa em ESPN Flamengo.",
-   "u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQM2lNbDNseUZ5Q20yQXRrZVFJaVVkLV8xamhmVXRfYkJlYmVuczBtdHl5QTlPaEJON2UydHh4cVNFd3VVYlotSUNrNExwWEgxeGl6bkNTUXhXaWY3NkIwWlZKMUpkV05XTVcxblNnSTh3TFozSEtUaHZCdEYtZGt2TVJoZDdNMDlw?oc=5",
-   "i": ""
-  },
-  {
-   "s": "carta",
-   "c": "Brasil",
-   "d": "2026-10-24",
-   "r": 4,
-   "t": "Lula pressiona Flávio Bolsonaro sobre ‘tesouraço’ e diz que rival é miliciano",
-   "x": "Veja a matéria completa em CartaCapital.",
-   "u": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVGFRWkFRb2ZheXpHSXd5Znh0cTJMX0xXNkYwV1U3VC1pUmZuRXZuOUNPbEdmSkMzdnlLWEFHYkUtZWhIQWhiQkZyNXRTMURUc2tUWXR4V192U2JUVm5memdiQmV3QVNwWlVkY0lkYURqNXduZWdlZWRWcWE4TW9iQ0xHWDVtZ1BtcGV0WnNGOTFFVFNqZVdseTR3MlU2Nkw4WVBpWHpIbWZFWmplN3B6bmE1ZmFfRi1T?oc=5",
    "i": ""
   },
   {
@@ -2428,40 +2522,10 @@
    "i": "https://s2-ge.glbimg.com/v8p4hnEVl7edsySYMgUvmkLbZg0=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/6/a/Q4AOUZRmeEb8VjHqiLWg/gettyimages-2301555458.jpg"
   },
   {
-   "s": "carta",
-   "c": "Brasil",
-   "d": "2026-10-23",
-   "r": 3,
-   "t": "Flávio Bolsonaro promete criar a Casa da Mulher Brasileira, que já existe",
-   "x": "Veja a matéria completa em CartaCapital.",
-   "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSmRDekxhZExoT2xIWWJrSzJtRWZSdmJ0ek10aW5wOHhXRUhscTJLSVhBYzJodmYwa1Z3dFhnNEUtNENGbzRTY1hHN3phWHUyOS10R2taRFZTSU5TRHU2X2g0THZLVHRfdmRuVy1ZZ21JT25XNGdrX2V2azdfSmhUZmFwdTV6RUtNWnpGVHdNaS03a0ZJMk1lUE1KZU1YOXF2LUFhbjhLcW53V3pGc3BHR3QxNWI?oc=5",
-   "i": ""
-  },
-  {
-   "s": "carta",
-   "c": "Brasil",
-   "d": "2026-10-23",
-   "r": 3,
-   "t": "Flávio Bolsonaro diz confiar em inocência de PM acusado de matar Ana Clara com tiro de fuzil",
-   "x": "Veja a matéria completa em CartaCapital.",
-   "u": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMmUxTHp2OEpLVV9rUjFOb0I0M0RhejQ3T0d2SzZyUktBcEdHUHVxN0ZvY3NFNF8xUVliMTZzdGtnSWtfWjczbmRUb0N6ZWRiYjZITm4tVklaNlB0Rjc5WnI4RTh1bWJWSDZObWJUNWl6Q0lRM2V2VGl2VVRWeVBqQURpOTBkMHZqTzF6OXlnbHp1RFlwaG50NXZMTW85cDZ3YWFlVFJOVDNMZUlpR3dBbVZkNEFudEl4c1VhRklVZnVSZDVHREp0YzBOOXR4Uzg?oc=5",
-   "i": ""
-  },
-  {
-   "s": "espn",
-   "c": "Esportes",
-   "d": "2026-10-23",
-   "r": 3,
-   "t": "Flamengo pode jogar a final da Libertadores por escalação irregular de Rojo?",
-   "x": "Veja a matéria completa em ESPN Flamengo.",
-   "u": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPRUVhS1ZPSWN4a2xOM2VMYnNETUNVYWp0WnV5UUllQl8xRUVmMVJOWmRwaUJHMWFZNVhHWC13LVJieW1DRk40M1BHSG55ZXVVSE93cEw5eU1wT2pQbXI1VXFaSjFjRk1aWnBLa3d1QkFHdjE4SkE0SjV3M3VVQzdjdXAxbmFyMERsUTdOMFZSVkhxNG5kN3lXT00yYVhrajMzb1I0cTl2NGZuRWlKeHlpbGtmSmFWUk9qQjgxRkJvM2RnS0VaczZsdVl4QThGTmlFRkc5czk4X1FoTDFGOHphdjVKZkUyTlJfTkkyUGFsYVpFY2QzYkd3SW1ONnZjNkQ1aUV1WA?oc=5",
-   "i": ""
-  },
-  {
    "s": "gefla",
    "c": "Esportes",
    "d": "2026-10-23",
-   "r": 5,
+   "r": 4,
    "t": "Flamengo atropela Paisas (COL) na estreia da Liga Sul-Americana de basquete",
    "x": "O Flamengo começou sua campanha na Liga Sul-Americana de Basquete 2026 com uma vitória expressiva. Na noite desta sexta-feira (23), no Maracanãzinho, no Rio de Janeiro, a equipe carioca superou o Paisas, da Colômbia, por 84 a 53…",
    "u": "https://ge.globo.com/basquete/noticia/2026/10/23/flamengo-atropela-paisas-col-na-estreia-da-liga-sul-americana-de-basquete.ghtml",
@@ -2498,16 +2562,6 @@
    "i": ""
   },
   {
-   "s": "bbc",
-   "c": "Brasil",
-   "d": "2026-10-23",
-   "r": 3,
-   "t": "A batalha política no berço do MST no Rio Grande do Sul",
-   "x": "Além de ter sido governado por anos pelo PT, o Estado foi onde o Movimento dos Trabalhadores Rurais Sem Terra (MST) organizou sua primeira grande mobilização; confira o que explica essa guinada política.",
-   "u": "https://www.bbc.com/portuguese/articles/cwnv02eg0807o?at_medium=RSS&at_campaign=rss",
-   "i": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/16fe/live/1a81cd90-cf25-11f1-b8f0-99ad639f25e6.jpg"
-  },
-  {
    "s": "gefla",
    "c": "Esportes",
    "d": "2026-10-23",
@@ -2516,16 +2570,6 @@
    "x": "Fred Gomes vê eliminação justa do Flamengo na Libertadores e cita erros de Jardim Fred Gomes vê eliminação justa do Flamengo na Libertadores e cita erros de Jardim Eliminado nos pênaltis da semifinal da Libertadores, o Flamengo…",
    "u": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/23/flamengo-recorre-da-escalacao-de-rojo-do-estudiantes-e-tenta-mudar-classificacao-na-libertadores-entenda.ghtml",
    "i": "https://s2-ge.glbimg.com/XRSKbUYb9-5CE0hvPGDrZg7KFP8=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/d/C/K7pfAMTPKpwpSzzrOyBw/d330cbbc465eb00d5bd3eadc7cc655aed92c946a.jpg"
-  },
-  {
-   "s": "bbc",
-   "c": "Brasil",
-   "d": "2026-10-23",
-   "r": 3,
-   "t": "O número que pode definir vitória de Lula ou de Flávio Bolsonaro no 2º turno",
-   "x": "Para cientista político, abstenção e brancos e nulos têm pouca margem; Nordeste, Sudeste e conversão de eleitores adversários serão os números a observar na apuração do segundo turno das eleições presidenciais.",
-   "u": "https://www.bbc.com/portuguese/articles/c8wy9k5640xdo?at_medium=RSS&at_campaign=rss",
-   "i": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/aa36/live/5baac3a0-cf05-11f1-a701-fddedf244c16.jpg"
   },
   {
    "s": "gefla",
@@ -2621,9 +2665,9 @@
    "s": "gefla",
    "c": "Esportes",
    "d": "2026-10-23",
-   "r": 4,
+   "r": 3,
    "t": "Pedro fecha mata-mata da Libertadores sem gol pela quinta vez em sete anos no Flamengo",
-   "x": "Eric Faria critica: \"Leonardo Jardim foi mal na semi, Flamengo foi muito incompetente\" O Flamengo se despede da Libertadores sem conseguir marcar gols contra o Estudiantes e com apenas três chutes na direção ao alvo, nenhum deles…",
+   "x": "Eric Faria critica: \"Leonardo Jardim foi mal na semi, Flamengo foi muito incompetente\" O Flamengo se despede da Libertadores sem conseguir marcar gols contra o Estudiantes e com apenas três chutes na direção certa, nenhum deles…",
    "u": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/23/pedro-fecha-mata-mata-da-libertadores-sem-gol-pela-quinta-vez-em-sete-anos-no-flamengo.ghtml",
    "i": "https://s2-ge.glbimg.com/piYFvgx9yD9sFYw2WP-UIuzcmq0=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/t/F/XZ1vlCRRGUyQ84fM6Kmw/agif26102222582926.jpg"
   },
@@ -2661,7 +2705,7 @@
    "s": "galileu",
    "c": "Ciência",
    "d": "2026-10-23",
-   "r": 4,
+   "r": 3,
    "t": "Sensor de R$ 50 criado na Inglaterra mede glicemia sem necessidade de agulhas",
    "x": "Veja a matéria completa em Galileu.",
    "u": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNOWNoSENzZV9hNmFnNi1KWjFYeHlQcDFUTDRiZjR0dm5ZOTREbjUtOEhOa244NG9IVnIxemh3V3gwM1UyNnNkeVhuazJHN05OQzJRNGljSEZ2NXlZMEtQbHlmRFNTdVdXckVudkFrSlJJUmw2WU4yRV93c3V0UVJLLWFrOElHcUwzNmp6M2h3UTZkSXhoM1BadDFzekU4eEplMEpwOWlkaFV0NmpXUGNXdDBQRk9SWnZSZU5nUkJEVGxGaHpsb19hMC1QdUhkbU1HcDJrb3ZkSVpTUdIB6AFBVV95cUxNd2VRVEJJeXlwMzVYblBYY2pSMFBFN015RDlKelVGTlA5VUJZd20xZDZQNTZSNV9xbTZtMkNzYXV0RUtXeGR1d3BqdW1tbzNNbjBHckJXeldnaHRzTDBLUEdBTmFCNUNvdklSVTBja0NRMmxGcVVvOWhYZTV0VDlxTEtCY24yQnFZUUdXeGdGTkJBSXlFeTZ1YkJac1dhcG1ndnpxUjdvTzZFbTBpTUZIZ2tlckJkdGFUT2dHd2RPODhGeXgzaTRlR3FtM3pmZWJ6R0JYVU96ckQtbUhNazh2U2stV2VPMnp3?oc=5",
@@ -2716,16 +2760,6 @@
    "x": "Penta cancelado! Flamengo cai para o Estudiantes na Liberta O Consórcio Fla-Flu, que administra o Maracanã, informou, nesta sexta-feira, que, uma vistoria feira no estádio, depois de Flamengo x Estudiantes, pelo jogo de volta da…",
    "u": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/23/consorcio-fla-flu-faz-vistoria-apos-flamengo-x-estudiantes-e-comunica-que-67-cadeiras-foram-danificadas.ghtml",
    "i": "https://s2-ge.glbimg.com/5LwMGPsstRLgAXX-X-NpEgO2WlI=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/a/9/yczaweSkyoIWU36jfUUQ/whatsapp-image-2026-10-22-at-21.38.35.jpeg"
-  },
-  {
-   "s": "gefla",
-   "c": "Esportes",
-   "d": "2026-10-23",
-   "r": 3,
-   "t": "Copa do Brasil Feminina: veja os confrontos das semifinais",
-   "x": "Bahia volta a vencer o São Paulo e se classifica na Copa do Brasil Feminina A Confederação Brasileira de Futebol (CBF) sorteou, nesta sexta-feira, os confrontos das semifinais da Copa do Brasil Feminina 2026. Os jogos de ida…",
-   "u": "https://ge.globo.com/ba/futebol/futebol-feminino/copa-do-brasil-feminina/noticia/2026/10/23/copa-do-brasil-feminina-veja-os-confrontos-das-semifinais.ghtml",
-   "i": "https://s2-ge.glbimg.com/CSu-xhIE6YVh90_jFaAKTlyedgQ=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2025/J/c/jg9ggVSeKbw1MWkSLw5g/54936557304-08e8b38990-h.jpg"
   },
   {
    "s": "planeta",
@@ -2821,7 +2855,7 @@
    "s": "galileu",
    "c": "Ciência",
    "d": "2026-10-23",
-   "r": 4,
+   "r": 3,
    "t": "Estudo inédito revela aparência dos denisovanos a partir de fóssil de quase 200 mil anos",
    "x": "Veja a matéria completa em Galileu.",
    "u": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQaHMtakZodjlBZWVNYm54b1BWUEpKTFo2MFUwc0VaU1FFREh2Z0dkcnZKR1JsYjFlQkJsYjlvdEpLMGx3b2dpbFVwQjNxeEFnX1hidTAyeWRuWkd1bTdVV2p6bm5NNlV4ZWhDbzdMTWxhNExsODVjX1U5M1ltbzR0UUpVc2VrNTRSbjBHTDhjbXRjcWFyY0UzVFE5UjBrdUV1T0NOWWdEUUgyQ3Fick1XOUxHdmp3SGVIN0FfSzZEWVpoRkRTQ1pBM1pTam8ydVBFX2lZdDVvMmVBSFN3V3kxUHg1UnBpd9IB9AFBVV95cUxPZWZMQTN0RF9DUll6Yi1xTVBPRTFNQ252WjVLMmxWS2xJek5YQlM2dlFHTFdwRGN3akVURVBsU2o2emViYnFXOFprVHM4RERNYWxPampnQnR3TGgySUFxemhqZmhZVU5ONlNXZ2Y0Q1VUUjRLdldPYkFuVkg4aDhRUDhBd0FlaTk3SW9fbEI5bjVRSS1xT3JmU3g0V1puemRiNmNNZEY4ZXZ4enNSbkViWlJtOGcycy1hb05Udlg2SlQxeXpYUHdWQkhLc3dmNXpPVG1YQUdyN1ZqMXpOakhoMUFua1R1Q29URVRqZlhkcHl5ODJr?oc=5",
@@ -2835,16 +2869,6 @@
    "t": "Claude Mythos 5 tentou espalhar vírus e criou perfis falsos para enganar desenvolvedores em teste, diz Anthropic",
    "x": "Veja a matéria completa em g1 Tecnologia.",
    "u": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOczBsam9jNTlyZVRBZXRLOGxmMG14RHMtZGhLa3VpTmFKVzZHTVNFMXcxTE1MQkFkaTZFdEd4ZUg1aG00b1A0TTZ0NDVzTl9HSDYwaF90U2xuTzAzT0JPMmd0UnRtcUEyWU5GTjdoTEZEX0hZTWlNckZIQk40RmRjRHZhOVItSmdmQnVFZXNzZmo1N19JRll2UFpoTDViWDhKN2ljSXpQdVkzR3lrdXhneWNHZmdyak5kTGVWa04zYm9ZT2lCSV9NYTFoWlZuNWFWYVcwazA1Sk0wc0dSWGJrbmd2NF94cGtTMWfSAfgBQVVfeXFMTUV3N1pXM2cwNHhaV2VxaVpqbjJuWmswUWczbHZCRlBUUE5XWDBfc2MyaWZNak1EUkZCZENBZ19ycGtELUx1OEN6X191bWtzYlVMNG5xWmhDUE5QdVRmU0J2MzV4WERlaEg0eHJGWnc2TmkwM0FlUHRvSk44WWx0X1NhNEFOekNud3U5NE15Y1VSaGktQUpwVkFjZjRwVW9TdEFDX0kwR05OQ295Uko1RXJrUUxLYk9NVHdrbll3SjYxNGNITlJhYmZMLWpnTEJHTGNTOUNwclB1bWZRRHpRN1h3QW5GZDV2VnZkV0NkR1RjUGhMYzJobGo?oc=5",
-   "i": ""
-  },
-  {
-   "s": "galileu",
-   "c": "Ciência",
-   "d": "2026-10-23",
-   "r": 3,
-   "t": "Perdeu a chuva de meteoros Oriônidas? Astrofísica explica como observar as próximas em 2026",
-   "x": "Veja a matéria completa em Galileu.",
-   "u": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNcjN2eUo1X2JiaVUyQ3A4ZnJSTU5YR1NsSmRvWWhGLXVTTXdjZXhaSEJmWjdoZFJyRmkySUp0ZHhLT085YVRxNjFpLTBmbGlSc3lhUzNUQkM4TlpGUzNwS1dmaTNqbF9CT2dmUWVSempjNk0wS1c1al9yX2VQMWhnaldVWDI0NzJETlJLVGZEM3F4STlHdURWWjQyejlyWTV3Rl90cVEyR19YTzRnZjYxU3UwRG82cTV2R0RzcnNDc04zNGFmcUdzdGU5RmlGYnNUNnZkZ0pYOFVnNzDSAeoBQVVfeXFMUDNhQ0U5QXduY2dKU0hUcm55Vl9BTzhrVUxxeFgxX1ZqMlIwVEJhSGlsOEZUcW52Z1VIRGZpNnM5UFNEWTJLalNEVjNzQnF0VkY5eVdTSms1Yks0WnR5cElBRnRFWjVrc0R4R25FLUZrMVRiM09lTkk1LXk4a3RSc2dvdktfU3pENVhaeUFVc0gtT0R4YzFmX1ZMZ0dDZXFlS29oYzlGaXhrdVYzVnNuSWZoQktjc2pVZ3NHSnQ2RERrd2hkRFRMMDN1cFVVbkZwWFh0THZLdGl6RXpTVU1EOXNPeHVoQ1lsR3d3?oc=5",
    "i": ""
   },
   {
@@ -2865,16 +2889,6 @@
    "t": "Mapas e resultados ao vivo do 2º turno da eleição presidencial do Brasil",
    "x": "Veja a matéria completa em Reuters.",
    "u": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYWY5TjZwbmV4Rm8xaS0zdEtBcVRpb0F3OWw5aXRFZk52S0xBV283QWVUZHA0UHNkVWl6eXNfQTBDTm1mTm5QMnFFTERqMl92Q25YYmwwSEwyUlB2RVFMa19CLVdUdjc3LWxJZ2h2aUx3azZaZnRrLVB0dHVPU0p3azlUbm01UQ?oc=5",
-   "i": ""
-  },
-  {
-   "s": "galileu",
-   "c": "Ciência",
-   "d": "2026-10-23",
-   "r": 3,
-   "t": "Americana visita Brasil e usa SUS para tomar vacina de febre amarela: 'economizei US$ 400'",
-   "x": "Veja a matéria completa em Galileu.",
-   "u": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOcnctY1Nud3BsMjRMRU1IOXRVZlRZVkE1aTFyb1RHVTEyRjk5SUNmYlFGaFZFbWs5MjZadFhJZ21fQlpUS2Z2azVfNDFNUlAyQjZTRldfaFFESk1kTTI4SkU2NFBiZzR0ZW9YZkdkcHdoZWJxQy03dGdQMGFVbVM0ajJsam0zUzZ4NGI0ZzZTQ2szcjVlWG55UXhoZHdRQjdCVmVOOEZWcVRFa0cyeTVFU29lc19QYUN5cUx2bWdqMGJHLV9hSHZiUEpJdmJXTnJJTzZkbmpaamI0eFBYWExQQkZXZnpDQdIB9AFBVV95cUxNQTFYVEdzbWRnME9QdlkxUG9DNG1XeVUyc2l1U1c5alRja3B6bHdyczBiMElqdU9hYjNSWjc5T0o4eXFoWEl5YWpqMUpMZDlZYXZZWG9aV2ZqdXdOM2JXUlNHQWVtWjNUZl9sN0MzdngzdWEyNlZYeWZyODhudWg1R1NhRk0wbkVHTWFHM0ROVUg3X05kU1V4cDItQ3ctUllkaHJJNXpSajlXdmRYS1NzaXdsQ2dHZ3R5akgxMTNCQWJBNFdEU0ZzNGlwRTYwT2tnVVhpSVNmLXRZNzNTaE1sNGZYZ2d0ak9YV2ZVaHgyNGl3WGdn?oc=5",
    "i": ""
   },
   {
@@ -2971,7 +2985,7 @@
    "s": "super",
    "c": "Ciência",
    "d": "2026-10-23",
-   "r": 4,
+   "r": 3,
    "t": "3 notícias sobre: Engenharia em Roma",
    "x": "Eles eram bons encanadores – e a rede de estradas era mais complexa do que supõe o ditado.",
    "u": "https://super.abril.com.br/historia/3-noticias-sobre-engenharia-em-roma/",
@@ -3038,20 +3052,10 @@
    "i": "https://www.intercept.com.br/wp-content/plugins/seox-image-magick/imagick_convert.php?width=150&height=150&format=webp&quality=91&imagick=uploads.intercept.com.br/2026/10/QzOr54Lx-Headerfeat-12-150x150.jpg"
   },
   {
-   "s": "super",
-   "c": "Ciência",
-   "d": "2026-10-23",
-   "r": 3,
-   "t": "“Ameba de fogo” consegue sobreviver e se reproduzir a 63 ºC, quebrando recordes",
-   "x": "Cientistas descobriram um novo ser vivo extremófilo vivendo nas fontes termais de um parque vulcânico.",
-   "u": "https://super.abril.com.br/ciencia/ameba-de-fogo-consegue-sobreviver-e-se-reproduzir-a-63-oc-quebrando-recordes/",
-   "i": "https://super.abril.com.br/wp-content/uploads/2026/10/SI_ameba-de-fogo_site02.jpg"
-  },
-  {
    "s": "crf",
    "c": "Esportes",
    "d": "2026-10-23",
-   "r": 5,
+   "r": 4,
    "t": "Flamengo luta até o fim, mas é eliminado pelo Estudiantes nos pênaltis na Libertadores",
    "x": "Veja a matéria completa em Flamengo (site oficial).",
    "u": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOajhFbFNuN204QlR3aTRmZ2V4V2dEQVp2OGZkbm9pdkZZUHFwT0M5SzhvLW5zOFVBMExTYS1DaThkU25URy1JOHAxT2pqdnVkdUNjb1o0LXBFQ0N0X0hCcmROZ2dfTkpXM1hPT3djQnBvT1ZvdzJrYVVQRkE4QWxLbjR4bkdaMjUzeHNwMHB1SE55bFhLdXc1OFVpSWthTHhMZ0hRT3Bid3ZYVnFPN1dTMlF4NkhMeEl3eVlpNmZSZXhja0FFTm1JOEtn?oc=5",
@@ -3135,16 +3139,6 @@
    "t": "Há riscos invisíveis na sua ecobag: entenda por que você deve lavá-la",
    "x": "Veja a matéria completa em Terra Planeta.",
    "u": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOOFh5VERUV0hZbk9qR1VzV2RDUnd1OW5DcUNVLVhTR19LcUkycEVBSTJOdDhKZDRRT1BUc3hhcEktb1ZNTHpyUlByeXJfNGJsX0cyN0g4VXdQWXF3WlRLbHhpZUJZMThNSG9oMUNBelJYMzE4MUY5aFc4cFJmbzFyYXlVLWxyTllNT2NaREU5bnBXYWZsdzZXN2VFajg4WFVEa3dIaXBpNVRMUUFBbDNISFZZY1kyOTkxN2owSGJ4cDJEUTE2aHdNUzk1S1pKbE4xczJOZV91dERnUmVYbmtETg?oc=5",
-   "i": ""
-  },
-  {
-   "s": "rt",
-   "c": "Mundo",
-   "d": "2026-10-22",
-   "r": 4,
-   "t": "Checagem de fatos: Folha de S.Paulo não publicou capa com \"extrato bancário\" de R$300 bi de Lula",
-   "x": "Veja a matéria completa em Reuters.",
-   "u": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZEhYZkZZTURnV3EtdllPY3RueTBQVzhJS2ZhbmZvNXpNenQzQU92S2szaDVaUTlxYzZCandGNjRCVklpbVJlTDVuN1NJOHdXMDJybGM0NDFDeEZSRjhuZHBuOFZqYU1IN0FvY3RhSnYyY2staVd5cVhkeFA3VEN5T0QzN0hac2FvVm9B?oc=5",
    "i": ""
   },
   {
