@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T15:26:49-03:00",
+ "updated": "2026-10-25T18:24:30-03:00",
  "sources": {
   "bbc": [
    "BBC News Brasil",
@@ -164,21 +164,21 @@
     },
     {
      "url": "https://g1.globo.com/rss/g1/mundo/",
-     "ok": true,
-     "n": 100,
-     "erro": ""
+     "ok": false,
+     "n": 0,
+     "erro": "not well-formed (invalid token): line 1, column 0"
     },
     {
      "url": "https://g1.globo.com/rss/g1/tecnologia/",
-     "ok": true,
-     "n": 100,
-     "erro": ""
+     "ok": false,
+     "n": 0,
+     "erro": "not well-formed (invalid token): line 1, column 0"
     },
     {
      "url": "https://g1.globo.com/rss/g1/ciencia-e-saude/",
-     "ok": true,
-     "n": 100,
-     "erro": ""
+     "ok": false,
+     "n": 0,
+     "erro": "not well-formed (invalid token): line 1, column 0"
     },
     {
      "url": "https://g1.globo.com/rss/g1/pop-arte/",
@@ -187,8 +187,8 @@
      "erro": "not well-formed (invalid token): line 1, column 0"
     }
    ],
-   "recebidas": 600,
-   "recentes": 442,
+   "recebidas": 300,
+   "recentes": 300,
    "mantidas": 10
   },
   "rt": {
@@ -254,17 +254,23 @@
      "url": "https://www.brasildefato.com.br/rss2.xml",
      "ok": false,
      "n": 0,
-     "erro": "HTTP Error 404: Not Found"
+     "erro": "syntax error: line 1, column 0"
     },
     {
      "url": "https://www.brasildefato.com.br/rss",
+     "ok": false,
+     "n": 0,
+     "erro": "The read operation timed out"
+    },
+    {
+     "url": "https://news.google.com/rss/search?hl=pt-BR&gl=BR&ceid=BR:pt-419&q=site%3Abrasildefato.com.br%20when%3A2d",
      "ok": true,
-     "n": 99,
+     "n": 100,
      "erro": ""
     }
    ],
-   "recebidas": 99,
-   "recentes": 99,
+   "recebidas": 100,
+   "recentes": 100,
    "mantidas": 10
   },
   "intercept": {
@@ -316,7 +322,7 @@
      "url": "https://rss.uol.com.br/feed/noticias.xml",
      "ok": false,
      "n": 0,
-     "erro": "not well-formed (invalid token): line 5, column 15"
+     "erro": "syntax error: line 1, column 0"
     },
     {
      "url": "https://news.google.com/rss/search?hl=pt-BR&gl=BR&ceid=BR:pt-419&q=site%3Anoticias.uol.com.br%20when%3A2d",
@@ -374,7 +380,7 @@
     }
    ],
    "recebidas": 100,
-   "recentes": 76,
+   "recentes": 77,
    "mantidas": 10
   },
   "crf": {
@@ -383,13 +389,13 @@
     {
      "url": "https://news.google.com/rss/search?hl=pt-BR&gl=BR&ceid=BR:pt-419&q=site%3Aflamengo.com.br/noticias/futebol%20when%3A2d",
      "ok": true,
-     "n": 2,
+     "n": 3,
      "erro": ""
     }
    ],
-   "recebidas": 2,
-   "recentes": 2,
-   "mantidas": 2
+   "recebidas": 3,
+   "recentes": 3,
+   "mantidas": 3
   },
   "espn": {
    "nome": "ESPN Flamengo",
@@ -431,12 +437,12 @@
     {
      "url": "https://news.google.com/rss/search?hl=pt-BR&gl=BR&ceid=BR:pt-419&q=site%3Aeconomia.uol.com.br%20when%3A2d",
      "ok": true,
-     "n": 51,
+     "n": 36,
      "erro": ""
     }
    ],
-   "recebidas": 51,
-   "recentes": 51,
+   "recebidas": 36,
+   "recentes": 36,
    "mantidas": 10
   },
   "terrafut": {
@@ -473,12 +479,12 @@
     {
      "url": "https://super.abril.com.br/feed/",
      "ok": true,
-     "n": 44,
+     "n": 45,
      "erro": ""
     }
    ],
-   "recebidas": 44,
-   "recentes": 44,
+   "recebidas": 45,
+   "recentes": 45,
    "mantidas": 10
   },
   "galileu": {
@@ -611,122 +617,96 @@
     {
      "url": "https://news.google.com/rss/search?hl=pt-BR&gl=BR&ceid=BR:pt-419&q=site%3Ag1.globo.com/tecnologia%20when%3A2d",
      "ok": true,
-     "n": 1,
+     "n": 0,
      "erro": ""
     }
    ],
-   "recebidas": 1,
-   "recentes": 1,
-   "mantidas": 1
+   "recebidas": 0,
+   "recentes": 0,
+   "mantidas": 0
   },
   "techtudo": {
    "nome": "TechTudo",
    "feeds": [
     {
      "url": "https://www.techtudo.com.br/rss/techtudo/",
-     "ok": false,
-     "n": 0,
-     "erro": "not well-formed (invalid token): line 1, column 0"
-    },
-    {
-     "url": "https://news.google.com/rss/search?hl=pt-BR&gl=BR&ceid=BR:pt-419&q=site%3Atechtudo.com.br%20when%3A2d",
      "ok": true,
-     "n": 45,
+     "n": 100,
      "erro": ""
     }
    ],
-   "recebidas": 45,
-   "recentes": 45,
+   "recebidas": 100,
+   "recentes": 100,
    "mantidas": 10
   }
  },
  "items": [
   {
-   "s": "b247",
+   "s": "icl",
    "c": "Brasil",
    "d": "2026-10-25",
    "r": 5,
-   "t": "PT pede ao TSE prorrogação da votação até as 19h em três cidades da Bahia",
-   "x": "Federação de Lula denuncia redução de mais de 50% da frota de ônibus em Salvador e aponta dificuldades para eleitores chegarem às urnas também em Feira de Santana e Lauro de Freitas",
-   "u": "https://www.brasil247.com/nordeste/pt-pede-ao-tse-prorrogacao-da-votacao-ate-as-19h-em-tres-cidades-da-bahia/",
-   "i": "https://www.brasil247.com/wp-content/uploads/2026/10/Novo-Projeto-2026-10-25T152520.893.jpg"
-  },
-  {
-   "s": "b247",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 5,
-   "t": "Boulos denuncia falta generalizada de ônibus na Zona Leste de São Paulo e pede prisão de Ricardo Nunes",
-   "x": "Deputado aponta problemas no transporte em bairros onde Lula tem vantagem eleitoral e cobra decisão urgente do TRE para liberar a frota",
-   "u": "https://www.brasil247.com/sudeste/boulos-denuncia-falta-generalizada-de-onibus-na-zona-leste-de-sao-paulo-e-pede-prisao-de-ricardo-nunes/",
-   "i": "https://www.brasil247.com/wp-content/uploads/2026/04/2026042216048_f47ab425582e6b7f0f209b4d1ebc821b353245488ae7833c882fd7b974c72788.jpg"
-  },
-  {
-   "s": "uol",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 5,
-   "t": "Johnny Hooker diz que teclas da urna em que vota foram coladas em SP",
-   "x": "Veja a matéria completa em UOL Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUnFHWlQxMTZNUmFEd2xuU3FQeFdobVlRT1lnS2JldVFnbUIzeG5HMllPcXBIX3dFR0dBcGd4ZXQxZlAtMllFN1RrYlduQTZZS2h6ZUdQZHlLRzhGdU1rVjlYTEQ4RFoyR1VSTS1iWGo1ZVE0c0ZzRTJVbzlnTDZ3VmJGenl1STFjT3VwU1NjenlwXy1WcHdlZWt2Y1NlaXhmV3E3dnl5WUZpbzNWc240MUZNNHVzRVVrUGd3?oc=5",
+   "t": "Pedro Rousseff sofre acidente de carro a caminho da apuração eleitoral em SP",
+   "x": "O deputado federal eleito Pedro Rousseff (PT-MG), sobrinho-neto da ex-presidente Dilma Rousseff, sofreu um acidente de carro na tarde deste domingo (25), enquanto viajava para São Paulo para acompanhar a apuração do segundo turno…",
+   "u": "https://iclnoticias.com.br/pedro-rousseff-sofre-acidente-de-carro-a/",
    "i": ""
   },
   {
-   "s": "g1",
-   "c": "Mundo",
+   "s": "b247",
+   "c": "Brasil",
    "d": "2026-10-25",
    "r": 5,
-   "t": "Votação em Portugal: adolescente brasileira é agredida em Lisboa",
-   "x": "Uma adolescente brasileira foi agredida com um soco neste domingo (25) em uma rua de Lisboa, em Portugal, segundo a Embaixada do Brasil no país. Um homem de camiseta amarela do Brasil fez a agressão, de acordo com registros da…",
-   "u": "https://g1.globo.com/mundo/noticia/2026/10/25/votacao-em-portugal-adolescente-brasileira-e-agredida-em-lisboa.ghtml",
-   "i": "https://s2-g1.glbimg.com/4ogkOvITajzt1gvIRDnaAqLgkCc=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/3/J/7JLPFUSxeTbb3utufqOg/portugal-.png"
+   "t": "Eduardo Bolsonaro inicia movimento de contestação do resultado das eleições após prorrogação da votação",
+   "x": "Ex-deputado critica decisão de Cristiano Zanin, enquanto aliados levantam suspeitas sobre o processo eleitoral; campanha de Flávio Bolsonaro também pediu ampliação do horário em três estados",
+   "u": "https://www.brasil247.com/brasil/eduardo-bolsonaro-inicia-movimento-de-contestacao-do-resultado-das-eleicoes-apos-prorrogacao-da-votacao/",
+   "i": "https://www.brasil247.com/wp-content/uploads/2025/08/20250821160820_07be75273f42dd61657a9dd35d702d0ba38997ccd8c68814e813dea191508a34-e1791578294734.jpg"
   },
   {
    "s": "b247",
    "c": "Brasil",
    "d": "2026-10-25",
    "r": 5,
-   "t": "Morre engenheiro que foi brutalmente espancado em ato de apoio a Lula em Santos",
-   "x": "Engenheiro ambiental Marcelo de Oliveira Rocha, de 30 anos, foi encontrado desacordado após participar de manifestação pela reeleição do presidente; família cobra justiça",
-   "u": "https://www.brasil247.com/sudeste/morre-engenheiro-brutalmente-espancado-em-ato-de-apoio-a-lula-em-santos/",
-   "i": "https://www.brasil247.com/wp-content/uploads/2026/10/Novo-Projeto-2026-10-25T152010.011.jpg"
+   "t": "Lucas Ribeiro aciona TRE-PB após denúncias sobre ônibus em João Pessoa",
+   "x": "Governador afirma ter procurado o prefeito Léo Bezerra e busca medidas para garantir o transporte de eleitores no segundo turno",
+   "u": "https://www.brasil247.com/nordeste/lucas-ribeiro-aciona-tre-pb-apos-denuncias-sobre-onibus-em-joao-pessoa/",
+   "i": "https://www.brasil247.com/wp-content/uploads/2026/04/20260409180432_b700bc6ed5ca11b55342f4f665e269191490d747831764ea5ece49cc397821a2-e1791493922836.jpg"
   },
   {
-   "s": "bbc",
-   "c": "Mundo",
+   "s": "b247",
+   "c": "Brasil",
    "d": "2026-10-25",
    "r": 5,
-   "t": "Voto no exterior: veja os resultados por país e a apuração de Lula x Flávio no 2º turno das eleições 2026",
-   "x": "Flávio Bolsonaro venceu Lula no Japão, nos Emirados Árabes Unidos e em Hong Kong, entre outros. Já o petista saiu na frente em países como China, Austrália e Nova Zelândia.",
-   "u": "https://www.bbc.com/portuguese/articles/cw5yn34exenno?at_medium=RSS&at_campaign=rss",
-   "i": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/ebbc/live/3797fef0-d082-11f1-93e1-3b657b665bcf.jpg"
+   "t": "Kassio Nunes Marques referenda decisão de Zanin que prorrogou horário de votação",
+   "x": "Presidente do TSE envia orientação aos TREs para manter seções abertas até as 19h em cumprimento ao STF",
+   "u": "https://www.brasil247.com/poder/kassio-nunes-marques-referenda-decisao-de-zanin-que-prorrogou-horario-de-votacao/",
+   "i": "https://www.brasil247.com/wp-content/uploads/2026/06/20260611190632_e0beff52dde0813f5779d9c6add57cc1f749fbfa02c4b2693393681f6df54da8.jpg"
   },
   {
    "s": "b247",
    "c": "Brasil",
    "d": "2026-10-25",
    "r": 4,
-   "t": "Aos 96 anos, José Sarney vota com adesivo de Lula no Maranhão",
-   "x": "Ex-presidente compareceu às urnas em São Luís, em cadeira de rodas, e celebrou a democracia após receber alta hospitalar em outubro",
-   "u": "https://www.brasil247.com/brasil/aos-96-anos-jose-sarney-vota-com-adesivo-de-lula-no-maranhao/",
-   "i": "https://www.brasil247.com/wp-content/uploads/2026/10/image-17-1.png"
+   "t": "Leonel Brizola Neto alerta sobre tentativa de golpe e diz que ‘Lula deveria pedir a prisão de Nunes Marques’",
+   "x": "Ex-deputado questiona atuação do presidente do TSE e levanta suspeita de omissão após decisão anunciada pelo ministro Cristiano Zanin, que decidiu estende votação até as 19h",
+   "u": "https://www.brasil247.com/sudeste/leonel-brizola-neto-alerta-sobre-tentativa-de-golpe-e-diz-que-lula-deveria-pedir-a-prisao-de-nunes-marques/",
+   "i": "https://www.brasil247.com/wp-content/uploads/2026/10/Retrato-de-conferencia-com-bandeira-brasileira.jpg"
   },
   {
-   "s": "icl",
+   "s": "b247",
    "c": "Brasil",
    "d": "2026-10-25",
-   "r": 5,
-   "t": "Rodoviário denuncia ordem para manter ônibus parados em Salvador durante votação",
-   "x": "Por Felipe Rabioglio Um motorista rodoviário de Salvador denunciou ao ICL Notícias que trabalhadores receberam ordens para manter ônibus parados nas garagens durante o segundo turno das eleições presidenciais, neste domingo (25)…",
-   "u": "https://iclnoticias.com.br/rodoviario-denuncia-ordem-para-manter-onibus/",
-   "i": ""
+   "r": 4,
+   "t": "Lula vence o segundo turno no Reino Unido e na Itália",
+   "x": "A exemplo do cenário britânico, o resultado na Itália confirmou a liderança do primeiro turno",
+   "u": "https://www.brasil247.com/mundo/lula-vence-o-segundo-turno-no-reino-unido-e-na-italia/",
+   "i": "https://www.brasil247.com/wp-content/uploads/2026/10/2026-10-25T133057Z_1_LYNXNPEM9O0CY_RTROPTP_4_BRAZIL-ELECTION.jpg"
   },
   {
    "s": "g1",
    "c": "Brasil",
    "d": "2026-10-25",
    "r": 5,
-   "t": "EM TEMPO REAL: acompanhe o dia de votação e a apuração dos votos no 2º turno no Espírito Santo",
+   "t": "EM TEMPO REAL: acompanhe a votação e a apuração dos votos no 2º turno no Espírito Santo",
    "x": "Veja a matéria completa em g1.",
    "u": "https://g1.globo.com/es/espirito-santo/eleicoes/2026/ao-vivo/cobertura-apuracao-votacao-2-turno-espirito-santo.ghtml",
    "i": "https://s2-g1.glbimg.com/rWotNIo5zuvGjN1ayvDvp7pkpIY=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/T/i/cHRV4YTSabNfBv26UZrw/esv2.jpg"
@@ -736,49 +716,29 @@
    "c": "Brasil",
    "d": "2026-10-25",
    "r": 5,
-   "t": "Eleições 2026: Acompanhe a cobertura do 2º turno em São Carlos, Araraquara e região",
+   "t": "Votação termina às 17h na maioria das seções do RN, apesar de prorrogação determinada pelo STF",
+   "x": "Portões do IFRN Natal Central fecharam às 17h Philipe Salvador/Inter TV Cabugi A maioria das seções no Rio Grande do Norte teve a votação encerrada às 17h, mesmo após a determinação do ministro Cristiano Zanin, do Supremo…",
+   "u": "https://g1.globo.com/rn/rio-grande-do-norte/eleicoes/2026/noticia/2026/10/25/votacao-termina-as-17h-na-maioria-das-secoes-do-rn-apesar-de-prorrogacao-determinada-pelo-stf.ghtml",
+   "i": "https://s2-g1.glbimg.com/MERV9DnR02k6lKN5vuIZLbvKljI=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/7/y/Tf9pDyT5ABRSZ9p8cLjg/ifrn-central.jpeg"
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 5,
+   "t": "Horário de votação é prorrogado até as 19h após pedido de extensão do prazo",
    "x": "Veja a matéria completa em g1.",
-   "u": "https://g1.globo.com/sp/sao-carlos-regiao/eleicoes/2026/ao-vivo/cobertura-apuracao-votacao-2-turno-em-sao-carlos-araraquara-e-regiao.ghtml",
-   "i": "https://s2-g1.glbimg.com/5TwzITfJLLolNziPrVRDgs-iJBM=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/m/d/MSQPYJRZCoPvaBb5vJTQ/whatsapp-image-2026-10-25-at-12.24.49.jpeg"
+   "u": "https://g1.globo.com/politica/eleicoes/2026/ao-vivo/apuracao-eleicoes-2026-resultados-segundo-turno.ghtml",
+   "i": "https://s2-g1.glbimg.com/Dou4oOuEGleQ9dEWygd5qsQIGes=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/J/D/U7JSE4Ry6mhgCgFJCvBg/design-sem-nome-17-.png"
   },
   {
-   "s": "uole",
-   "c": "Esportes",
-   "d": "2026-10-25",
-   "r": 5,
-   "t": "Transmissão ao vivo de Paris Saint-Germain x Lyon pelo Francês: veja onde assistir",
-   "x": "Veja a matéria completa em UOL Esporte.",
-   "u": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPak5GSVhmLUZoRkZId2lWbUdLX09FUnVNejFtV2RmeFZ4NEVYZjNPNGM3VEh6cGRhanBMWjlaZUdReW9aVVlGa1FHNm9kZlFJMFE3Tjc1S1doMnJkdmtpU2xPZmNZcW84R3BfUDd2bkNxSUFXVm0teFUyZGd3bHRmUE5aRFZtcjdQNjNmMnZUSHZQNFJmbFdQTGU0RVN0ME1TdWVheE94bnF0c0YxUzh5bFNLUXl6bE5aLTZneHhVMnJZeWNDRmV3Rm9aOHU0OVhKSmdZNUIyOWNSbmlwZnc?oc=5",
-   "i": ""
-  },
-  {
-   "s": "uole",
-   "c": "Esportes",
-   "d": "2026-10-25",
-   "r": 5,
-   "t": "Transmissão ao vivo de Udinese x Milan pelo Italiano: veja onde assistir",
-   "x": "Veja a matéria completa em UOL Esporte.",
-   "u": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQeXJOVzBUenJtd21XU0tiUndYcUFXQnpWQ05QYTZ6VlVja0NjTTYyX09sUW10bmJlamY5NGNOaWxzNnV0aDNIM0JmbEhENnpzajBKU2h5OEdBZUdTVEgwUVdNalhXVy1Vak9wRlQzSEhnV2dqUVRoZTdwRVhjQ3cwcVgzTWlxblh5TXE3RnA2dGdaSFNCaF9sN3hVUi1CSFFSVzF6MVNGUFVaSVNudWhZczlsNktRbGVoMnRqdjREZnRFTUFrVTNvdUR0QXJrZko3?oc=5",
-   "i": ""
-  },
-  {
-   "s": "carta",
+   "s": "uol",
    "c": "Brasil",
    "d": "2026-10-25",
    "r": 5,
-   "t": "PT pede prisão do secretário de mobilidade de São Paulo por falta de ônibus",
-   "x": "De acordo com a representação, cerca de 40% dos veículos permaneciam fora de circulação durante a votação",
-   "u": "https://www.cartacapital.com.br/politica/pt-pede-prisao-do-secretario-de-mobilidade-de-sao-paulo-por-falta-de-onibus/",
-   "i": "https://www.cartacapital.com.br/wp-content/uploads/2026/10/onibus-eletrico-sao-paulo.jpg"
-  },
-  {
-   "s": "terrafut",
-   "c": "Esportes",
-   "d": "2026-10-25",
-   "r": 5,
-   "t": "Barcelona e Real Madrid travam duelo bilionário fora de campo",
-   "x": "Veja a matéria completa em Terra Futebol.",
-   "u": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNaUdteGVJWW4xS2Joa0ZYbWdPSjF6R2s0bHJ0WHhwd255LUdsNndNNktUM1FmZ01EM0hseTlEWm9fQ2JjU1ppdWlVcHZ0ZTRuWS1RdEs0U2FWYmJiRmdSRTM3MjFya3pBZnZOdnlzbFQ4NjktYnN4UmdhZzlEbDczcFByeEJNNmsycmxOZWJsTlkyY0ZYbjVaM3lBbFRNenM2dEQwbVNLWTk5YUVWeG85ZHBLemdwUWpBRDZSRmhHZ2t1aG5fSWU3RVpPYlNpOUc0U1VVOUhVSjJzMHdoUjhORTJSVXBKMzQ1andtVXQ1dUFEREVHNFpWcWNUcDdIVzY0MjBLazY2ZlA2a3dUSURXNF9wRU5OaDFRY0tR?oc=5",
+   "t": "Flávio Bolsonaro pede prorrogação de votação em 5 estados",
+   "x": "Veja a matéria completa em UOL Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVnZNVThjcUlOYUtPSVVWN1FSeDc3NXRsQWpRRzdFYU1HQWZpNHUzV18zcll3czVuX1NBTjVsdWlJejY3OHdlM0FoaUhRVUk5TVZIc2JVY19KQV9scjJjeGh4clRJQXNWTmlVRFFUS3pMME5kR2tKS2NPN3BNTFdZUTh1eGF0ZVFjRVFkYVV6d0h5Nm10VUN4bVhncEJLdw?oc=5",
    "i": ""
   },
   {
@@ -786,27 +746,77 @@
    "c": "Brasil",
    "d": "2026-10-25",
    "r": 4,
-   "t": "Lula vence Flávio Bolsonaro na Espanha com 68,42% no 2º turno",
-   "x": "Presidente conquista ampla vantagem entre brasileiros na Espanha, Dinamarca, Suécia, Finlândia e Noruega no segundo turno das eleições de 2026",
-   "u": "https://www.brasil247.com/brasil/lula-vence-flavio-bolsonaro-na-espanha-com-6842-no-2o-turno/",
-   "i": "https://www.brasil247.com/wp-content/uploads/2026/04/2026041710040_83b9a4761158ff07996e92fdbd46b989f73381626e1767fcb81f0413ae51b36f.jpg"
+   "t": "Zanin adequa prorrogação e diz que votação continua nas urnas que não foram fechadas",
+   "x": "Ministro do STF limita extensão temporal às seções ainda em funcionamento e libera contagem normal das urnas já encerradas",
+   "u": "https://www.brasil247.com/brasil/zanin-adequa-prorrogacao-e-diz-que-votacao-continua-nas-urnas-que-nao-foram-fechadas/",
+   "i": "https://www.brasil247.com/wp-content/uploads/2026/03/2026020515028_5daf329a971e91bb9c5dd9be6cdf8122fdbd240fff8b74bef0b3ba0348ccb7a7.jpg"
   },
   {
-   "s": "b247",
+   "s": "terra",
    "c": "Brasil",
    "d": "2026-10-25",
-   "r": 4,
-   "t": "Eleitores denunciam que ônibus não param em pontos de João Pessoa no dia da eleição",
-   "x": "Passageiros relatam longas esperas, veículos lotados e dificuldades para chegar às urnas; Semob nega boicote e atribui atrasos a acidente de trânsito",
-   "u": "https://www.brasil247.com/nordeste/eleitores-denunciam-que-onibus-nao-param-em-pontos-de-joao-pessoa-no-dia-da-eleicao/",
-   "i": "https://www.brasil247.com/wp-content/uploads/2026/10/Novo-Projeto-2026-10-25T150923.166.jpg"
+   "r": 5,
+   "t": "Entenda imbróglio que levou STF a prorrogar votação até às 19h em todo Brasil",
+   "x": "Veja a matéria completa em Terra Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNLXNaaGtfdW84VUU0SUJRQ2h3cXFlX3MyVTF6LTlOaFZ3NWlFLXNZT0lyWWtPRUo1RTk3TFdLYVZFdWVTTVZraGsyX0VwV25ITmtNZ0FPNGl2QVh3TUJLVHhTOFJhQW8zdjNraHRPRDU4QjQtelpERTBRcXZIRTJUQ1BTaVhIb2M0RlNBREZzdUVyUVpWU29rX1llSlc2SF9fOUF2QVpxVjRCUjlpY29waGdlSE05cHpab1U2WFNYaHJGR1dNYV9aUGNTNThNNzZmMUllOTVWRWpZRnZ5SDJ1RURsaUdkYWhtUzlPZ3BOUnRTRzVpek8tcUY5TDF4SnEzTjlr?oc=5",
+   "i": ""
   },
   {
    "s": "g1",
    "c": "Brasil",
    "d": "2026-10-25",
    "r": 4,
-   "t": "Votação têm tecla de urna colada, prisão e eleitor flagrado filmando o voto",
+   "t": "Segundo turno das Eleições 2026 em Santa Catarina: votação, apuração e resultados",
+   "x": "Veja a matéria completa em g1.",
+   "u": "https://g1.globo.com/sc/santa-catarina/eleicoes/2026/ao-vivo/segundo-turno-das-eleicoes-2026-santa-catarina-votacao-apuracao-resultados.ghtml",
+   "i": "https://s2-g1.glbimg.com/w3kJV6BbwBA0vwNGJOPrc6IXmDw=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/g/W/T9BAiBRoA1znWoEDYViQ/sc.jpg"
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Eleitora é impedida de votar após sistema apontar voto já registrado no nome dela no litoral de SP",
+   "x": "Veja a matéria completa em g1.",
+   "u": "https://g1.globo.com/sp/santos-regiao/eleicoes/2026/noticia/2026/10/25/eleitora-e-impedida-de-votar-apos-sistema-apontar-voto-ja-registrado-no-nome-dela-no-litoral-de-sp.ghtml",
+   "i": "https://s2-g1.glbimg.com/8s17rTiBwhPPyPuEzRqXQ_eVJs0=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/n/j/Q9xwEXRiC47URABjonzw/neymar-2012-64-.jpg"
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Juiz de Fora encerra votação às 17h após TRE não receber aviso de prorrogação",
+   "x": "Locais de votação encerraram as atividades às 17h, em Juiz de Fora. Foto: Camila Saenz A votação para o segundo turno das Eleições 2026 foi encerrada às 17h deste domingo (25), em Juiz de Fora, segundo o Tribunal Regional…",
+   "u": "https://g1.globo.com/mg/zona-da-mata/noticia/2026/10/25/juiz-de-fora-encerra-votacao-as-17h-apos-tre-nao-receber-aviso-de-prorrogacao.ghtml",
+   "i": "https://s2-g1.glbimg.com/zklqD8X3e-sUkCWNiooGfxdxkdU=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/o/A/81hBStQHSNa27As17PJw/whatsapp-image-2026-10-25-at-17.59.03.jpeg"
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "'Seções encerradas não serão reabertas', diz presidente do TRE-PE, mesmo após prorrogação do horário de votação para 19h",
+   "x": "Presidente do TRE-PE, desembargador Erik Simões Reprodução/TV Globo As seções de votação que já tiverem sido encerradas não serão reabertas, mesmo após a prorrogação do horário da votação para as 19h, como determinado neste…",
+   "u": "https://g1.globo.com/pe/pernambuco/eleicoes/2026/noticia/2026/10/25/secoes-encerradas-nao-serao-reabertas-diz-presidente-do-tre-pe.ghtml",
+   "i": "https://s2-g1.glbimg.com/nr0I9-JiAI3FLIpVowGckIoUPQY=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/R/C/gLJLeoTS2LYf0PfUSE5A/captura-de-tela-2026-10-25-180134.png"
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Apuração dos votos: após prorrogar votação até 19h, Zanin esclarece que decisão afeta apenas locais com urnas ainda abertas",
+   "x": "Zanin, ministro do STF, prorroga votação em todo país até as 19h O ministro do Supremo Tribunal Federal (STF), Cristiano Zanin, esclareceu que a decisão de prorrogar a votação até 19h deve ser aplicada apenas nos locais em que as…",
+   "u": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/25/apuracao-dos-votos-apos-prorrogar-votacao-ate-19h-zanin-esclarece-que-decisao-afeta-apenas-locais-com-urnas-que-ainda-estavam-abertas.ghtml",
+   "i": ""
+  },
+  {
+   "s": "g1",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 3,
+   "t": "MATO GROSSO DO SUL NÃO TERÁ PRORROGAÇÃO DAS ELEIÇÕES APÓS DECISÃO DO STF",
    "x": "Veja a matéria completa em g1.",
    "u": "https://g1.globo.com/ms/mato-grosso-do-sul/eleicoes/2026/ao-vivo/ao-vivo-cobertura-apuracao-votacao-segundo-turno-mato-grosso-do-sul.ghtml",
    "i": "https://s2-g1.glbimg.com/Dou4oOuEGleQ9dEWygd5qsQIGes=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/J/D/U7JSE4Ry6mhgCgFJCvBg/design-sem-nome-17-.png"
@@ -815,350 +825,20 @@
    "s": "g1",
    "c": "Brasil",
    "d": "2026-10-25",
-   "r": 4,
-   "t": "Cidades do interior de SP registram movimento tranquilo nos locais de votação; acompanhe",
-   "x": "Veja a matéria completa em g1.",
-   "u": "https://g1.globo.com/sp/sorocaba-jundiai/eleicoes/2026/ao-vivo/cobertura-apuracao-votacao-2-turno-bauru-itapetininga-presidente-prudente-rio-preto-sorocaba.ghtml",
-   "i": "https://s2-g1.glbimg.com/NT1m2Aq4Q8hq0mpNATm-5-ZYBoo=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/J/2/nwRvijQh2hH7Tis04IHg/whatsapp-image-2026-10-25-at-12.26.08.jpeg"
-  },
-  {
-   "s": "g1",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Eleitores indígenas do Vale do Javari reclamam de falta de assistência durante votação, no AM",
-   "x": "Veja a matéria completa em g1.",
-   "u": "https://g1.globo.com/am/amazonas/eleicoes/2026/ao-vivo/cobertura-apuracao-votacao-2-turno-amazonas.ghtml",
-   "i": "https://s2-g1.glbimg.com/aMWfRQLTZZiDtFnIoE7Z7bXMh8g=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/M/D/ZDbho0SXu3XcvjQB82cQ/selo-home-eleicoes-2026.png"
-  },
-  {
-   "s": "g1",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Balanço parcial do TRE-MG indica votação dentro da normalidade no estado",
-   "x": "Veja a matéria completa em g1.",
-   "u": "https://g1.globo.com/mg/minas-gerais/ao-vivo/cobertura-apuracao-votacao-2-turno-mg.ghtml",
-   "i": "https://s2-g1.glbimg.com/QVk7Hw07EzQuDf9fXwx0njng_pQ=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/m/6/IM89vIS92r7qiBPEN6Hg/img-3971.jpg"
-  },
-  {
-   "s": "g1",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Eleitores de João Pessoa relatam atrasos e ônibus se recusando a parar no segundo turno",
-   "x": "Eleitores de João Pessoa denunciam atrasos e ônibus se recusando a parar Moradores de João Pessoa relataram atrasos nos ônibus e casos em que motoristas não pararam nos pontos de embarque durante o segundo turno, neste domingo…",
-   "u": "https://g1.globo.com/pb/paraiba/eleicoes/2026/noticia/2026/10/25/eleitores-de-joao-pessoa-relatam-problemas-onibus-no-segundo-turno.ghtml",
-   "i": "https://s2-g1.glbimg.com/CSTZacy7WbztjG3dbKIfXXcPL88=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/A/B/8ZhpprSNyW6BRA1H7lYg/onibus-thumb.jpg"
-  },
-  {
-   "s": "g1",
-   "c": "Brasil",
-   "d": "2026-10-25",
    "r": 3,
-   "t": "Eleitores da PB denunciam falta de ônibus intermunicipais para votar no 2º turno das Eleições 2026",
-   "x": "Eleitores denunciam falta de ônibus para votar em cidades da PB Ewerton Correia/TV Cabo Branco Eleitores denunciaram dificuldades para conseguir ônibus intermunicipais na rodoviária de João Pessoa na manhã deste domingo (25), dia…",
-   "u": "https://g1.globo.com/pb/paraiba/eleicoes/2026/noticia/2026/10/25/eleitores-da-pb-denunciam-falta-de-onibus-intermunicipais-para-votar-no-2o-turno-das-eleicoes-2026.ghtml",
-   "i": "https://s2-g1.glbimg.com/OgILZeUlFAL72oK9kqOUz61rzQQ=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/G/2/8HX8N1Rj2hZlAWTBDIvg/whatsapp-image-2026-10-25-at-14.22.27.jpeg"
-  },
-  {
-   "s": "g1",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 3,
-   "t": "AO VIVO: Votação no RN é tranquila nas primeiras horas",
-   "x": "Veja a matéria completa em g1.",
-   "u": "https://g1.globo.com/rn/rio-grande-do-norte/eleicoes/2026/ao-vivo/segundo-turno-das-eleicoes-2026-no-rio-grande-do-norte.ghtml",
-   "i": "https://s2-g1.glbimg.com/rNznQMDqxVc3ji8mBGUx3bdOJMg=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/5/k/KtFAoLRVKjIdqAXpb6dQ/urnaeletronica-tse.jpg"
-  },
-  {
-   "s": "terrafut",
-   "c": "Esportes",
-   "d": "2026-10-25",
-   "r": 5,
-   "t": "Bahia quebra o silêncio e manda recado após confusão entre Neymar e Rodrigo Nestor",
-   "x": "Veja a matéria completa em Terra Futebol.",
-   "u": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQQm5hVnI3TWNtLWNCekxkcGw1NXgyYU1BSEpUcVp5R3Q3ZDFsdVBLeWdPbjBJLW9QMmZPaU0tLWw4Zldvc0s1MGVEYlB3eUxGcGhJR3dWbFQwRUVodlJieXliRmh1SGZDaWd3blljVm5TY0M5V2ZwWWtoNWpKd0xpb0JKVXM5Y1M0TUpibzU5ZDAweDB3VFBIQjVoWnlUVjhXdVNzdEViWHZkQkRsRlJPZEhRQ0RRLXF4NDlmaFBPaXBCcURnMk8tQnFMWm5FUXhxNS1DNXRWcFBRX3RIbElFa0Rwc3VEYUVoMU85c2FfWGJYdlBJV090aTVKeUcyVjA?oc=5",
-   "i": ""
-  },
-  {
-   "s": "gefla",
-   "c": "Esportes",
-   "d": "2026-10-25",
-   "r": 5,
-   "t": "Mexicano Reyes faz golaço e marca pela primeira vez na base do Flamengo; veja vídeo",
-   "x": "Mexicano faz golaço e marca pela primeira vez na base do Flamengo; veja O mexicano Diego Reyes, de 19 anos, marcou o seu primeiro gol pela base do Flamengo no último sábado, na vitória por 3 a 0 sobre o Sampaio Corrêa em…",
-   "u": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/25/mexicano-reyes-faz-golaco-e-marca-pela-primeira-vez-na-base-do-flamengo-veja-video.ghtml",
-   "i": "https://s2-ge.glbimg.com/FSdpYzSTLJgHdGlGgxbQk6Mo2Uw=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/a/u/TA33KbR2y83zeiHLd50A/whatsapp-image-2026-10-25-at-14.56.49.jpeg"
-  },
-  {
-   "s": "b247",
-   "c": "Mundo",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Bolsonarista faz saudação nazista ao votar no Rio (vídeo)",
-   "x": "Mulher com boné de Donald Trump teria sido identificada pela polícia; testemunha judia cobra punição e questiona omissão de policial militar",
-   "u": "https://www.brasil247.com/brasil/bolsonarista-faz-saudacao-nazista-ao-votar-no-rio-video/",
-   "i": "https://www.brasil247.com/wp-content/uploads/2026/10/IMAGENS-PORTAL-ITATIAIA-110-1.png"
-  },
-  {
-   "s": "olhar",
-   "c": "Tecnologia",
-   "d": "2026-10-25",
-   "r": 5,
-   "t": "Como consultar o resultado das eleições 2026 por seção eleitoral",
-   "x": "Site e aplicativo do TSE permitem verificar os votos de cada seção, consultar o boletim de urna e baixar arquivos usados na auditoria da votação O post Como consultar o resultado das eleições 2026 por seção eleitoral apareceu…",
-   "u": "https://olhardigital.com.br/2026/10/25/pro/como-consultar-o-resultado-das-eleicoes-2026-por-secao-eleitoral/",
-   "i": "https://olhardigital.com.br/wp-content/uploads/2026/09/tse-1024x682.jpg"
-  },
-  {
-   "s": "canaltech",
-   "c": "Tecnologia",
-   "d": "2026-10-25",
-   "r": 5,
-   "t": "O que acontece quando envio uma foto minha para uma IA?",
-   "x": "Muitas trends nas redes sociais incentivam o usuário a enviar uma foto pessoal nos chatbots de IA , seja para gerar uma caricatura, transformar retratos em ilustrações ou gerar fotos profissionais. No entanto, você já se…",
-   "u": "https://canaltech.com.br/inteligencia-artificial/o-que-acontece-quando-envio-uma-foto-minha-para-uma-ia/",
-   "i": "https://tl.ctcdn.com.br/GuHlIeHlJF65Bn9SHhUgVZ5n7Pk=/0x0/filters:format(webp):quality(85)/1846c6a3-4788-41d5-9a18-a48a3f18c13d.jpeg"
-  },
-  {
-   "s": "carta",
-   "c": "Mundo",
-   "d": "2026-10-25",
-   "r": 5,
-   "t": "Lula derrota Flávio Bolsonaro na França com 84% dos votos no 2º turno",
-   "x": "Boletins no consulado já confirmam o resultado do pleito no país",
-   "u": "https://www.cartacapital.com.br/politica/lula-derrota-flavio-bolsonaro-na-franca-com-84-dos-votos-no-2o-turno/",
-   "i": "https://www.cartacapital.com.br/wp-content/uploads/2026/10/andre-janones-e-lula-foto-ricardo-stuckert-campanha.jpg"
+   "t": "Mesmo com prorrogação de votação, colégios eleitorais fecharam às 17h em Goiás",
+   "x": "Zanin, ministro do STF, prorroga votação em todo país até às 19h Após a prorrogação da votação em todo o Brasil para às 19h de domingo (25), alguns locais de votação foram fechados às 17h em Goiás. De acordo com o apurado pela TV…",
+   "u": "https://g1.globo.com/go/goias/eleicoes/2026/noticia/2026/10/25/mesmo-com-prorrogacao-de-votacao-colegios-eleitorais-fecharam-as-17h-em-goias.ghtml",
+   "i": "https://s2-g1.glbimg.com/nurdScQtgEQqih8Rc7YTc6mJoNQ=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/G/0/XacMf2Ra6YsOyv5Q5lGQ/foto-g1-5-.jpg"
   },
   {
    "s": "terra",
    "c": "Brasil",
    "d": "2026-10-25",
    "r": 5,
-   "t": "TSE vai analisar demanda sobre falta de ônibus em Salvador, mas Nunes Marques se esquiva de responder sobre prorrogação da votação",
+   "t": "Urnas fechadas não podem ser reabertas e impacto na apuração é incerto, diz advogado eleitoral",
    "x": "Veja a matéria completa em Terra Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQMzJEQk1waUlPQzlDZG5TSEJKYnJqbXRjaW11dHZuc1BHRlJiVmhTNl8tMWlLaG5ROWRmOENoVFVqczI3cVYtOGVJRzlhbDBkS0ViZmlKZktGSm9iVWgtMzhuNV93b29KUTRLUklrWE54SGtkLWlITUh0VUc4QkpXMGMxT2lKemVmSWt3V0Z0OGlnSWZYM0hKdUtZc1I3UFpFZmxUdXY4QS01aGtSWmJ2Y3phZzBpNjJWcGxxV1BZRkc0UG5yTTdKVFdRQktWTC1hQVV3QkZSdUF2Mm1lM1dTakRsaDI5Q0s5a1M0WmExU0ZrTzE2N0U5Q04wMy1mUkVZRHNvZDJGeFo5M0h5d3J3V0lmSmtQblFTRHFmbE5Oc244WG15c2VGUEpZb1YtbS1MRmE4UEdzWGpidGdxX0Rv?oc=5",
-   "i": ""
-  },
-  {
-   "s": "b247",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Lula já ganhou",
-   "x": "Tudo indica que Lula tem chance enorme de arrancar mais uma vitória das mãos daqueles que roubam este povo há mais de meio milênio e que terão naqueles jovens de ontem milhares de novos Lulas, que lhes darão combate até o fim",
-   "u": "https://www.brasil247.com/blog/lula-ja-ganhou/",
-   "i": "https://www.brasil247.com/wp-content/uploads/2026/10/55609111932_d178e8ef79_3k.jpg"
-  },
-  {
-   "s": "b247",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 3,
-   "t": "PT cobra Tarcísio por redução do transporte público no segundo turno das eleições",
-   "x": "Partido relata dificuldades em viagens intermunicipais e exige operação com 100% da capacidade para garantir o deslocamento dos eleitores",
-   "u": "https://www.brasil247.com/sudeste/pt-cobra-tarcisio-por-reducao-do-transporte-publico-no-segundo-turno-das-eleicoes/",
-   "i": "https://www.brasil247.com/wp-content/uploads/2026/09/0d9a2080-e1789399898251.jpg"
-  },
-  {
-   "s": "terra",
-   "c": "Mundo",
-   "d": "2026-10-25",
-   "r": 5,
-   "t": "Lula vence na França com 84% dos votos válidos, segundo dados extraoficiais",
-   "x": "Veja a matéria completa em Terra Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNZHoxOHZLZVM3VlNFMnJoY1VJQkk5c2Q4WHJTMHRLQlZkWDhiQ1g2am1XU2RGVF92NXFjaWExcGV0V3drdEtPSmdvTWVTMHg4VVNaS0YyTEl2LXcxa0w2RW9ZdUs4LWx0ZVQ3R3Y0a0swSXU0TGJVSk5ZY0xCS2ROR25GWk82OGlVSTZ3T0JjcGN3bi1IdHN5Z3lkT1JUZ3kyTUp0dFhHV25UTDB0eGxFV3VaN3lZLW5ia0tLWUg2c0IyZWhUdTBFcm5wUlZ0UTNmeXVmZmJ5NHRGV1d1Q2QwWGM0TW5tdzhMZ0VWSHJjYTJuZw?oc=5",
-   "i": ""
-  },
-  {
-   "s": "carta",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 5,
-   "t": "PT pede para estender horário de votação em Salvador e mais duas cidades da BA",
-   "x": "Coligação defende distribuir senhas 'a todos os eleitores presentes no local de votação, inclusive nas áreas externas e no acesso ao prédio'",
-   "u": "https://www.cartacapital.com.br/justica/pt-pede-para-estender-horario-de-votacao-em-salvador-e-mais-duas-cidades-da-ba/",
-   "i": "https://www.cartacapital.com.br/wp-content/uploads/2026/10/onibus.jpg"
-  },
-  {
-   "s": "terra",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 5,
-   "t": "Veja ônibus parados em Salvador; TRE determina prisão de secretário de Mobilidade",
-   "x": "Veja a matéria completa em Terra Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQYjV6b3F2bzAyZnZYUVQ2akp6bmtJWXRJZnJaQW01Uy1mT2IxVGJkMGNNX1lpeEpPazN6MTE3TklKN2NLNlIxNDRyN2loM0tFdW5XWGhOMnR1Q3NfdGRXYTZFSXUzMWpzaW91cEthNDVkaEwtSEhoWTdRekNqdDdhRzRGNGhqVzlqd1ZZNndIMnV1QmR2YmkxYl9KMlJaYU9RMVdSQTMtRTFmLXVQZDZmS1A2ZGFZbVoxS1dZSVdmaGhWNTVTTE94UHlkTERPT2JCZTdzZXpjekQzQW5NTEhBMXNiQlJkSk5ZUEYxZjhrV21rV3J3TGRIbUl3djV2N3lncGtnbFRmRQ?oc=5",
-   "i": ""
-  },
-  {
-   "s": "uol",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 5,
-   "t": "Tarcísio vota em SP e diz que ajudará Flávio a ser 'grande presidente'",
-   "x": "Veja a matéria completa em UOL Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYlVJOUtYOGVlVGlVc1hrMTNCN2hPOXJpdlZqSm5ha1U3c3RSMHdUSHZOb2RWTGI3Y0VGNHRnZFc4cW5UZGJUUW0yb1hOREIxQ0Itc1pzUDMwcnkySGdUMmdGTXVpWmE5ai1SN1pmeUJDbmdZbEFZSXhTeTdQNERKS0p3cXpxa1BBOWZlMnZsOGdzdXZoMTA5OUdLcU1IZ1ZwMGhiZmIzSHEwYjF4OXhYTEJNakk?oc=5",
-   "i": ""
-  },
-  {
-   "s": "b247",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 3,
-   "t": "Nunes Marques admite problemas no transporte de eleitores e diz que situação está sendo corrigida",
-   "x": "Presidente do TSE reconheceu dificuldades no segundo turno das eleições; Justiça determinou a circulação integral dos ônibus em São Paulo e Salvador",
-   "u": "https://www.brasil247.com/brasil/nunes-marques-admite-problemas-no-transporte-de-eleitores-e-diz-que-situacao-esta-sendo-corrigida/",
-   "i": "https://www.brasil247.com/wp-content/uploads/2026/09/55532693463_dc1a61994b_k-e1789680010371.jpg"
-  },
-  {
-   "s": "terra",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Comerciante descreve clima como ‘pacífico, mas hostil’ durante votação de Flávio Bolsonaro no Rio",
-   "x": "Veja a matéria completa em Terra Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNSE9wcXBpdmVEZVNCWWNtMGZIczU3UkJ3c1M1SHl2VWEwdlRsNjB3U0xlbl9KMXRtWFNkd3plZ0d6a1p3Q0dBTlhCaDZUOVZEMEx2RldncUlFd1loRmh0dWJjbTM4eFRsQjZWWWt5VEVYdmJHTFhEbTl2STc0ckU3NmY4d2lLNnE3NExsdGJvRlRCTllxTGxpa1RGLTd4UmkxT3o5Qk5aaTlrWlpOZ0dXNWpvVHdINTdFSkdmSEtqNlczRVhyUm5WZk1raWlBam9QaUZpQUR3NkJjLWRZaVd1SU5lcnQtSDBHeldTX3ZHbTJ0MEZPU3J2Q2x4dzJ5dm5KWEtyU01Bd0NhbEZzNDEzaXU1UXBTMGlGa0E?oc=5",
-   "i": ""
-  },
-  {
-   "s": "uol",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 5,
-   "t": "Apuração de votos no exterior: veja resultados parciais das Eleições no 2º turno",
-   "x": "Veja a matéria completa em UOL Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTzdJYnpmT0hoVXJDaHVONU8zZ1VESFZTbXQ5RVk0Q3FFVGJtQzVTNHBLUmkzY3VibTgtNC1CaWVkZkdyejgtdHlkdnlEOFB2X3VkTlFMcTFDbGRQSXA4bEd0TjJablVsU21FMGhOLVQ2eVpna180bEFtZGZaU1djYS05bml0RDlkTFlvVGc5eGVCaDhfVERxbTVmRDJkUWZrVFRHODhaMnVjWm9hNTZVaHlzRE9BdkpobzdXNmExQnAzaFQ3VE1MSk5ubw?oc=5",
-   "i": ""
-  },
-  {
-   "s": "terra",
-   "c": "Mundo",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Eduardo Bolsonaro é recebido com Hino Nacional em colégio eleitoral nos EUA",
-   "x": "Veja a matéria completa em Terra Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPQlZIaFN0UFlISVAzUmM4aUZaQ0NVQzZQU2NUdjdzMHY1ckJTZzlMUGJVdnpVaFNrUE5FcFBsWk8tOWhTSkp0SFk4dWR3blVfT1ZzMzZPYkdZV0xEOFk5ODFJWFRKbXptajdFNEJGWTczWW5xUTJPS0l1X0htdERTUTNRc1FyOEl3eW1ZREpLR3BadHNpWkZCQnhYTGg4Tk5IR2pZSnlkdWxTSE92NVpFY0ZoeGo5YnJpeUNFZGdJYUZJRUtRR2wwVTNFZUY2ZG5KR2RmSDNmamJqbVdsVXpvUEpMWjNqNkdwaVNmcWZ4ckgtUjFnOW00ODk1cUNkcmtU?oc=5",
-   "i": ""
-  },
-  {
-   "s": "uol",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Quem está ganhando as eleições no exterior? veja resultado parcial da votação",
-   "x": "Veja a matéria completa em UOL Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWUF6Wmx5YWd2akpiTml2bFhJVHNPbWJBTEFCSzBWa0ZKZGVvc0JyZlpRMmtURXVQWTdXOXNHeFJ1RHJMZ2tuTmJTcWZLc0dGVlhaUGdjUDY4SWRfektsY2RuVG1kYlRWZndHUkN5QmpWeVlTQ1llcGNqR20wSmc5NnBGankyajlQSkoyZFB2Y01VUUdZV3o3RHBVNVlnVXZySkRsUUpWWmRlY282eFRPMXM5MDlGTlpKSVZIY3JrMl9aTDJkYTY5Zg?oc=5",
-   "i": ""
-  },
-  {
-   "s": "uole",
-   "c": "Esportes",
-   "d": "2026-10-25",
-   "r": 5,
-   "t": "Em nota oficial, Bahia defende Rodrigo Nestor e repudia falas de Neymar",
-   "x": "Veja a matéria completa em UOL Esporte.",
-   "u": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPQlVwR3E0VXBGbmlTQzlvMjFpSXBKclVmSnpHdk81b000ZGZGQVVjN1ByOG41NmczSVgxakI5TU5XSTdFLW1rVDZSZ2tnX0FkTWZ6M2FzYklkVE1EYjBpQjJaQzVWcmRCVUJTRTVyYTE5OVVwUXdxSDdzRi1HM0V4NVJDdHRvWmJNREtGSUtrUGV3NEFRRmlIWU02TkstRHVsV045MzR6MTFpRTI0ZExfUFhTSldDTE0tTmlRMnZVRmFqTkJOVnBEZk5lNEVvNHYzajNoT0NnZDA?oc=5",
-   "i": ""
-  },
-  {
-   "s": "terra",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Escola do interior de São Paul tem baldes e teto pingando após temporal",
-   "x": "Veja a matéria completa em Terra Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOTlEzVk1LTzlSVnBmRkx5UURoVVpsVFNROUFjMzFsSVVod0pmeUtRUzRrdGZSTm1QWDBrLVVxSldqeWFsdy1kRTBSbWZhOEM5VUFkTXlia1VFbFlzOFAzc0hVZHVoQXNOaEJwT1hBTkJBYnJNSldGLUpteS1BdjRrUV9tUXluNG1QanFueHVCaUpVRGhKRUtWLW5HZjhRQzFvUlpWMkRJbnpXY2FoNkFhMjFGWHhxVW5ZVUo5R2dfZzVnVUV6RHlucWdNMnY3UUtZS0wwTnY5VkhxQXdUVDBxekF2by13NmNOTlluV2I1Qml4akhUWUo2a1pGOA?oc=5",
-   "i": ""
-  },
-  {
-   "s": "uole",
-   "c": "Esportes",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Bahia diz que Nestor sofreu agressões verbais em discussão com Neymar",
-   "x": "Veja a matéria completa em UOL Esporte.",
-   "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWm9hcW9jSmEzek9leTVDSl94NmF5bWtXTWplN0VOXzJWbVg4R2JjV1ZXeEZMb0xJempDVjdUUVlNX29wU0FuOWV1QkRWNG11S3VtUkxDSG9RX2NrNFNQSFhMUXdJMjRVUFFfN3ZpVDhQeTN0X2YzcS0yWHlRSk1zbDhlV25vaUdBRTNNM1lOeVZ5eDNpTHc?oc=5",
-   "i": ""
-  },
-  {
-   "s": "uole",
-   "c": "Esportes",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Por que Neymar foi expulso: entenda a regra de tapar a boca",
-   "x": "Veja a matéria completa em UOL Esporte.",
-   "u": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUnRXcGxLbzBJSTktdllIR3YzTm9lc05kd3NLTVZGaWU4N3BTUmpGbEdJZzE2RE1qTGhNMWNRdGZKeFNETk8xdjcyZjRmaXpXdGhmTWEySlNTMF8tbWhpMXluaDBXSm5EOS04R2VEWGdYZFhYak5fZHVEQlNtY3hsMkF5ZFB2R21YOHNXckhiV180RjlNdldScXp6dXh3V19SaTJ3Mk1BMW1DQzZsWFBtY0ZZY3ozSlhaUXZrQXVzbHR6Z2FrdHhsblRn?oc=5",
-   "i": ""
-  },
-  {
-   "s": "canaltech",
-   "c": "Tecnologia",
-   "d": "2026-10-25",
-   "r": 5,
-   "t": "Redmi Note 14 Pro: 7 erros comuns que destroem a bateria do celular",
-   "x": "O Redmi Note 14 Pro chegou ao mercado para integrar o segmento intermediário premium, e um dos seus destaques é a bateria de 5.110 mAh . Mas de nada adianta contar com um celular com essa especificação e cometer alguns erros que…",
-   "u": "https://canaltech.com.br/smartphone/redmi-note-14-pro-7-erros-comuns-que-destroem-a-bateria-do-celular/",
-   "i": "https://tl.ctcdn.com.br/iMPb-0lD5osH9PYThr0Hd0YS8yM=/0x0/filters:format(webp):quality(85)/b4c1253f-ebec-40f5-8062-6cdc830bea6d.png"
-  },
-  {
-   "s": "icl",
-   "c": "Mundo",
-   "d": "2026-10-25",
-   "r": 5,
-   "t": "Abstenção cai e Lula amplia margem de vitória pela Europa",
-   "x": "O presidente Luiz Inácio Lula da Silva ampliou sua vantagem sobre Flávio Bolsonaro em alguns dos principais centros de votação na Europa. Neste domingo, ele somou quase o dobro de votos do senador em Roma. O petista somou 3198…",
-   "u": "https://iclnoticias.com.br/lula-tem-quase-o-dobro-de-votos-de-flavio-em-roma-e-vence-em-genebra-e-finlandia/",
-   "i": ""
-  },
-  {
-   "s": "terra",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Alckmin revela coincidência sobre poder de juventude e mostra confiança: 'Democracia vai vencer'",
-   "x": "Veja a matéria completa em Terra Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQMjREdTNEdXFGX25fb3NGVDJNV1RtbS1BaUR1LXJlcHJWajlpTlpyQXo1c3h1eVFiOTVGZ3BpYkpHWG5nZ3I4d3V5UnJCWHMyODZ5OElYLU43enBmTkg3VWpuYnVpOWR0OFJpVlhTR195VkVkNkN4bmtxQUhjVW90LXk5U0tpVTJZLXpXWjBBOWRZaWNadWpxRnRURUZVRG5oclFSWlJ0VkVoTTZ3N1Q2c3ZCTFNLblQ5R284bzU2bDE0RTZZN0h3aFNQZ1NqN3B4eWpRQ3RvdHU2cXh3ajl6TGVWSlBORF9KdVVuSVp4Zll3bmRRWGg4R2hnOEhtbGZpb2JuWDJPb0hXN2lBT29KNTdlc1VVbU9h?oc=5",
-   "i": ""
-  },
-  {
-   "s": "icl",
-   "c": "Mundo",
-   "d": "2026-10-25",
-   "r": 5,
-   "t": "Abstenção desaba, e Lula amplia vitória na China e Austrália; distância de Flávio no Japão cai",
-   "x": "O presidente Luiz Inácio Lula da Silva venceu as eleições nas sessões eleitorais na Austrália, China e Nova Zelândia, ampliando a diferença que havia sido registrado no primeiro turno, quando também já havia superado Flávio…",
-   "u": "https://iclnoticias.com.br/abstencao-desaba-e-lula-amplia-vitoria-na-australia-e-nova-zelandia/",
-   "i": ""
-  },
-  {
-   "s": "terra",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Arthur Aguiar é alertado por fãs após cometer crime eleitoral: 'Não sabia'",
-   "x": "Veja a matéria completa em Terra Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOcnFLV2p6M2pUbW1RTUhtTkFmUW9hOHAyUWx4eDJqRTJ2d2tRVHdDTDRiSEpNLTJJVC1lREd1YTNsZG5aM3dpQXU4cDZkNmU3cUk5b3dEQy1BbTVMOXM2Z3FTM0Z1MGJMcDRkY2JQTVVQOTJMX0ZMTGZBTEdKN21MT0lMMUQtcEN4S3ZVdFRaX0ZCejJ1M3VxSm5XdG5NVGJuWF9tME5KMmluaG9uUG4ya01LRU1Xa2NtaEotaU1KS0NkSTFrMWFjMDZtZnhod24ySV9uU04zN0FXUzFqWHp2Z2djdXBpRDZhUThHZU1pTW5RQQ?oc=5",
-   "i": ""
-  },
-  {
-   "s": "terrafut",
-   "c": "Esportes",
-   "d": "2026-10-25",
-   "r": 5,
-   "t": "Evanilson marca golaço e Bournemouth goleia Manchester United em Old Trafford",
-   "x": "Veja a matéria completa em Terra Futebol.",
-   "u": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNZk9ObzVLN1hwWm1GZC14Uy1tVnY3eXlkNDMwVUUzRHUzWXhSbGdBTmE1eHFPNjZKX1dqamZMX043ZWJzSmI5eWFyendzcVJKMm5CRWdJSVEzRk5KMXZFZmh4UVp6YlN6MS1TZGItWGNwUURkTWZqOFJLelI4NUZZOEoybXIxdGVjRlNkLXVyY1ZJX093NDJnMm9scmJmYUVqYVZXT2FIdUJsUFhnMEdUMWtaNWttNWRsT3pTelQ2LW1NYUNkbHBKTnNGVlh0NWtWSjJpUTdPdjY0ajF3cy1hcmxIaUViMGVhMXRCOU1GcTRLMTBqVmI3VXU5dFBXWDNUYzVzQ2JaUmhXM1E?oc=5",
-   "i": ""
-  },
-  {
-   "s": "terrafut",
-   "c": "Esportes",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Real Madrid perde goleiro de última hora para clássico contra o Barcelona",
-   "x": "Veja a matéria completa em Terra Futebol.",
-   "u": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPV1B0alNDSmFFaGdMVkpCeTVpV0ZiUGZ0OWdROHROQTdLVGpMQVZFcG1YeHdEbzdqZHctQlBWSkxsSk5OWUtNQmJjd0stUng0NWQ0Sm4tUlZzLTg5V3kxQ0NENzRuZmdVM3FHckFJbE15MV9QMktIVEdMbjN6Nm9BLXYwZlBDUk1wU2pLRVZGTE5WRjBPb0o4WGRDb3hURFZZUDM3NElhc25LSWl0ZFFSNHg1YnRYZDl5blFORUo0YUZsUFBoN2MwbTJyVnN1YjJmUndlZERqVm9OQzJZdFlBcVVFMmlXOVRfclpvSXd2SmxEV0p4bWNIanFhRmFYNmxMd0VHRURn?oc=5",
+   "u": "https://news.google.com/rss/articles/CBMimAJBVV95cUxONlQwejZGd0VtcDBFZjNfVU43ejJwT2NwaEdIRno3UXdEb1JKTjVjNWdWbVYteDhSQ2pNTnJMMXNUZXZhNnEyR2JxUVpONmRaYTFrVGRDb1dCVmFEZEQwV3djZXowck9UMkU4c0pCRnEwTHBIaTAyOG1jYmZKYXlkV2tDNkJjcFNjbFlHUXpHM2lSVmlMWXYtcURINFJIVVlCN2YyV2RvUmlEUFBKZy1DVUFqaDlBcllHNlhuQ2tHN0Z4bncxcEpPMDRsREdBdWRsWFdTRFdZNWlfT1k4U1NiVlRHanZhdmZMNzdRaTM3ZW9UcVBoTmpOMHhSa1dNbVBkb1pTbG11dFBvT3EtUGZ5NkRPdzVCRlVy?oc=5",
    "i": ""
   },
   {
@@ -1166,159 +846,9 @@
    "c": "Esportes",
    "d": "2026-10-25",
    "r": 5,
-   "t": "PSV x Feyenoord (25 de out, 2026) Estatísticas dos times",
+   "t": "Preparador de goleiros do Bahia detona Neymar após discussão com Nestor: \"Mimado, prepotente e arrogante'",
    "x": "Veja a matéria completa em ESPN Brasil.",
-   "u": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdXZZWkJPandDcTVnbVVieEt2LUZPX3Vqa2NFVk9iQm1UWXFqMlN4Nndya0M1Wk1IVUNIcDVHdEhCSVU5a3hZd2tTYzgwVXlkLXRtdEcxTDA3TGN4eVptUHNXckZZQkFuOWZMeEtuaVAwS1REQkVndHhlQ2phYXc3TVFzNXFNWGgtbGc?oc=5",
-   "i": ""
-  },
-  {
-   "s": "uol",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Votação no exterior: veja resultado parcial do segundo turno das Eleições 2026",
-   "x": "Veja a matéria completa em UOL Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUncxc05NMXMtNW5tNFlQT0h2UUFwMkFWZ043VkJhOGlhWU9MbGxwMkY1RXpZWHNoTmFFSndPc0ZkTlpySk1NcWx6VFZPdUs4dkRvalgxMG5tNUFmUzVsTEdHNjlsNG5LenRPRlpFRXVaMXZwVXZ0WmRvOTRtUDZTQ1dPbUxuNlZqR0pBb0Fmd1p5c3B6RTJZVG5mQVZjWGlla0pQQ1RwdUxsM2hYS3pTelMwTXlHeGp5Sld5QWlBcS01R09UbVNfdlh3?oc=5",
-   "i": ""
-  },
-  {
-   "s": "bbc",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 5,
-   "t": "Brasil pode ser próximo em 'onda MAGA' e última chance de Lula 'gigante da esquerda': como a imprensa internacional vê a eleição",
-   "x": "A eleição brasileira — disputada entre o presidente Luiz Inácio Lula da Silva (PT) e Flávio Bolsonaro (PL) — é destaque neste domingo (25/10) nos principais jornais do mundo.",
-   "u": "https://www.bbc.com/portuguese/articles/cwdd8g54j7qqo?at_medium=RSS&at_campaign=rss",
-   "i": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/5184/live/91fb3950-d08e-11f1-92f6-357f3b0f345f.jpg"
-  },
-  {
-   "s": "icl",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Sob gritos de ‘Lula’, Flávio Bolsonaro (PL) vota em escola no RJ",
-   "x": "Por Yuri Eiras (Folhapress) – O candidato a presidente Flávio Bolsonaro (PL-RJ) chegou para votar às 8h15, em uma escola municipal em Vila Isabel, na zona norte do Rio de Janeiro. O senador chegou acompanhado da mulher, Fernanda…",
-   "u": "https://iclnoticias.com.br/sob-gritos-de-lula-flavio-bolsonaro-vota-rj/",
-   "i": ""
-  },
-  {
-   "s": "uol",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Eleitora faz saudação nazista para judeu após votar no Rio",
-   "x": "Veja a matéria completa em UOL Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQXVhdHlCekhKVThJOXo5b3FOckdLZFJRMEtVQ1RvQWNQRVc4TFFSWlpMM0lydDdRbTkySVFlTF9JWjVtbEtlRS1qY2hGaWI3RjFZQ004TVBpcGNRanFPdHZDaUkyZktmelVjc2lSY1Q4R2hrbkhPcVhIRjlKOTNwQlp1a0d5d0pmZHc?oc=5",
-   "i": ""
-  },
-  {
-   "s": "uol",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Lula e Flávio Bolsonaro, quem está na frente? Veja resultado parcial da apuração no exterior",
-   "x": "Veja a matéria completa em UOL Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQeGZwUV9PV095UG9PQ2FiMVVvNFJVZzBiWGlxWHhsQXpSMk9aNDdBdElETThoUURQNnJCQU9kaVlXSFR5Mi13YUV1S0UxV21MQjZJUzd0Q0s1S2lZVkxMMG1qRnBuRTlTUFMtZWtDaEVUVHU4eTA0YmxaMmhxd2xDdHBrTUd5Wkh6UEp4N1NSUWt4ZmkxWVRuQ2xYZENfRGw2R2x6LXJzUzNoandDV3dIYmJKNl8yOVNGQ2pFeVgwNDNhTU11emxYZG5IODU0eFpaUUM1WXhBM195blU?oc=5",
-   "i": ""
-  },
-  {
-   "s": "bdf",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 5,
-   "t": "TSE registra 900 urnas trocadas e PF soma 22 detidos até o meio-dia",
-   "x": "O Tribunal Superior Eleitoral (TSE) informou que 900 urnas eletrônicas foram substituídas em todo o país entre 8h e 12h deste domingo (25), durante a votação do segundo turno das Eleições 2026. O número de trocas equivale a 0,16%…",
-   "u": "https://www.brasildefato.com.br/2026/10/25/tse-registra-900-urnas-trocadas-e-pf-soma-22-detidos-ate-o-meio-dia/",
-   "i": ""
-  },
-  {
-   "s": "icl",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Campanha de Lula denuncia que apenas 60% da frota de ônibus circula em SP, diz jornal",
-   "x": "A campanha do presidente Luiz Inácio Lula da Silva (PT) acionou a Justiça Eleitoral neste domingo (25) para denunciar que apenas 60% da frota de ônibus de São Paulo estaria em circulação durante o segundo turno das eleições…",
-   "u": "https://iclnoticias.com.br/campanha-de-lula-denuncia-que-apenas-60-da-frota-de-onibus-circula-em-sp/",
-   "i": ""
-  },
-  {
-   "s": "uoleco",
-   "c": "Economia",
-   "d": "2026-10-25",
-   "r": 5,
-   "t": "TRE-BA determina prisão de secretário de Salvador sob acusação de restrição de transporte público",
-   "x": "Veja a matéria completa em UOL Economia.",
-   "u": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNdUU0QUMzdjQxRXRLbDhhV29NMnpibk1PNml0dUpGRDBjNU5fZTlzZ1ZtWlZEMGl0UEdNWExxYnlIVTZUWjBEdXZZUFF1a2NTTk5BVkl2MU1ZTUVvQWhwYmNmYTcxVVpiZ3NFUVdzUFlCcVp4N1pBMFJSZVlWWjNCZ3JqazdLQWVkc1k5NF9ucmlWVEFwTHE4WTJzelV1dHNnd3BjVGw3UnJBM3dLN0JBRS1IdC1nb1g2RGpVd0l3anV6aUVjbUFjSU9YZF96T2ZQNVJsRmQ3YXNPcXYyX3gzVTY3azVXY2F6aEd3VXF3?oc=5",
-   "i": ""
-  },
-  {
-   "s": "icl",
-   "c": "Cultura",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Diretor de Dark Horse cobrou pagamentos atrasados mesmo após aporte milionário de Vorcaro",
-   "x": "Por Alice Maciel O diretor do filme Dark Horse, Cyrus Nowrasteh, cobrou pagamentos pendentes pelo seu trabalho em julho de 2026, dez meses após o banqueiro Daniel Vorcaro enviar a última parcela para patrocinar o longa. O dono do…",
-   "u": "https://iclnoticias.com.br/diretor-cobrou-atrasados-apos-aporte-vorcaro/",
-   "i": ""
-  },
-  {
-   "s": "uol",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Quando Lula virou sobre Bolsonaro na apuração do 2º turno em 2022? Veja resultado",
-   "x": "Veja a matéria completa em UOL Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQ3VfUU40bll0N2ttRTBTdTFlRTBiem5xQkpSYmF3em5zc2hLWGQ4YTJlem9zV0NIQ1VHZTZIY0NMWGM4RXgzZ1JLRnlJcTRyaFZrdEZWb2Rxb2FCa1FObW13VlljQ1NpTl80WVNDLTY0d0RvU1o2YnlTcmk3N3NlbXZlbzFJZE1Tc1JaRDZBSThFZnJ1aDlxbmlmRmF0TGlWTW9peUdSRUR2U252SEUyY1RQaWQzVkpvX0RRVnZnWFlKQ1lyTmdLTTJEaG0?oc=5",
-   "i": ""
-  },
-  {
-   "s": "canaltech",
-   "c": "Tecnologia",
-   "d": "2026-10-25",
-   "r": 5,
-   "t": "Crise das memórias: por que até processadores ficam mais caros em 2026",
-   "x": "Se você acompanha o mercado de tecnologia, já sabe como está caro montar ou comprar um PC. Se antes o aumento dos preços ficava restrito a tudo o que leva chip de memória, como RAM, SSD e placa de vídeo, nos últimos meses o…",
-   "u": "https://canaltech.com.br/hardware/por-que-processadores-estao-mais-caros-2026/",
-   "i": "https://tl.ctcdn.com.br/t57p0SDN7ZcKjwMSVqa2XMK8rnE=/0x0/filters:format(webp):quality(85)/37541566-a73e-4733-a876-0af75e781c50.jpg"
-  },
-  {
-   "s": "bdf",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 5,
-   "t": "TRE-BA ordena prisão de secretário de Mobilidade de Salvador por falta de ônibus no 2º turno",
-   "x": "O Tribunal Regional Eleitoral da Bahia (TRE-BA) expediu uma ordem de prisão contra o secretário Municipal de Mobilidade de Salvador, Pablo Souza, por reter os ônibus que fazem o transporte na cidade durante o segundo turno das…",
-   "u": "https://www.brasildefato.com.br/2026/10/25/tre-ba-ordena-prisao-de-secretario-de-transportes-de-salvador-por-falta-de-onibus-no-2o-turno/",
-   "i": ""
-  },
-  {
-   "s": "terra",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 3,
-   "t": "Polícia portuguesa desmonta acampamento de protesto por moradia em Lisboa e prende 25 pessoas",
-   "x": "Veja a matéria completa em Terra Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOcDctMUotOVpjNW9aa3hmcGhBVkRhMTZpT0o5ZXFaQXhRejl1LUVEcnd2WThyU0phZ2lFVV8zREFVQ3hPOEpjVG03a1pZcnQyVkx3bnJfbFpmNmd6anNkMTUyNWJRWEJ2aHRVRy02M1pLSnhrWVFITVpjVWxzM1l4aExnYVMxRU1hRk9adVZGZU1hSk5XMkI5dWJ6OTZhOWN4eVNGNVMwaHVNLWhGZUNMVFNjLTJTUkJ3TV9rZGZJWWoxZ19zM05RaFlkcGhvQ3NlX21yRVpwemw1WWh3aHJMcHY2dlRRRGI1Ylctd3p5Z1BrV3kwMG5ZQ2VvS3FOREtwZXdqWEkxQXBKYzQ?oc=5",
-   "i": ""
-  },
-  {
-   "s": "icl",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Ministério da Igualdade Racial quer apurar racismo em ato bolsonarista",
-   "x": "Por Cristina Indio do Brasil – Agência Brasil O Ministério da Igualdade Racial encaminhou nesta manhã (25) ofícios ao Ministério da Justiça e Segurança Pública e à Procuradoria Regional Eleitoral no Estado do Rio de Janeiro para…",
-   "u": "https://iclnoticias.com.br/ministerio-da-igualdade-racial-quer-apurar/",
-   "i": ""
-  },
-  {
-   "s": "icl",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "TRE manda prender secretário de mobilidade de Salvador por falta de ônibus durante votação",
-   "x": "Por João Pedro Pitombo, Leonardo Vieceli e Caio Spechoto (Folhapress) – O TRE (Tribunal Regional Eleitoral) da Bahia mandou que a Polícia Federal prenda o secretário de Mobilidade de Salvador, Pablo Souza, após o PT pedir a…",
-   "u": "https://iclnoticias.com.br/tre-manda-prender-secretario-de-mobilidade-de/",
+   "u": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPXzkwSnExOGdRcS1reEJOT3NNcFRuem9kUUlVdS05OXczaW0xM25ndkFVRVNSdXJYY1phcDVIZFdyeTRDT05CU1dzdTFhSGUyaFhOQ2ozTmV2YnVqa0pyeXkxMDBOOEozNDhjTDdqUHBjTzAxc2tuQVRJNDdsUUs0ekxvMWtaV2FYcl9GS2tXczg0VURWWmZXNUJaUTk1YmdtS3c4YTJjc0QwOEh2QXUxTGFUTVJjZnQ0Uk52TThoa2RBUl9Kc0tGNWRSQ0lUQ0o1U0FnOWk0ZXpPNFA2Y2E0M1RxZ202RV80V3c?oc=5",
    "i": ""
   },
   {
@@ -1326,309 +856,129 @@
    "c": "Esportes",
    "d": "2026-10-25",
    "r": 5,
-   "t": "Marseille x Le Havre AC (25 de out, 2026) Ao vivo",
+   "t": "Com show de joia da base, Palmeiras derrota Barcelona e estreia com vitória na Messi Cup",
    "x": "Veja a matéria completa em ESPN Flamengo.",
-   "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE84Y25kdkpBUm01ZjVfbWRCNi14V0VFUkt0RUk5MFRxX2lWaC1kSGZLaEdGMFhaRG9Ec1JfanpuZ1QzclhfakN6Ny1BRV9jQk1qTXg3MjhNUWpXa3lsQ196ekh3RlByVUlFQkE?oc=5",
+   "u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdzN2TV8xTHRhbmFkY2w1NEZSVFZEdl9ZZTR3dzZHTFFzbmdpeGluTmxoVDg3Y20tY3RLaFkyaVFVUHJETFNTUFhEc1RPY1JremY4NTBlcWhfbTVsV0Z3Y1ZFREljd24wSVA1Q1E3Y3R4VkI3OUhBZmphb3FBTTExZHhmek5OUWtjeXZ2bVpFbEpQOXZKWG1QV3JjVzhhcUV5YzlseC0zS1dNOHJXY1p5WHJYUnc3UUp1TXdWVXRR?oc=5",
    "i": ""
   },
   {
-   "s": "carta",
-   "c": "Mundo",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Brasileiro em Portugal viaja 1.500 km só para votar no 2º turno",
-   "x": "Homem pegou voo da Ilha dos Açores até Lisboa. Portugal é o segundo maior colégio eleitoral de brasileiros no exterior, atrás somente dos EUA. País deu vitória a Lula no 1º turno",
-   "u": "https://www.cartacapital.com.br/politica/brasileiro-em-portugal-viaja-1-500-km-so-para-votar-no-2o-turno/",
-   "i": "https://www.cartacapital.com.br/wp-content/uploads/2026/10/Lula-PT-e-Flavio-Bolsonaro-PL-candidatos-a-presidencia-da-Republica-Foto-1_-Ricardo-Stuckert_Campanha-_-Foto-2_-Charles-Vieira_Campanha-7.png"
-  },
-  {
-   "s": "espnb",
-   "c": "Esportes",
+   "s": "super",
+   "c": "Ciência",
    "d": "2026-10-25",
    "r": 5,
-   "t": "Feyenoord x Fortuna (31 de out, 2026) Ao vivo",
-   "x": "Veja a matéria completa em ESPN Brasil.",
-   "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5iTWd2M2tELTFkUGdRUkFSZzhDTHpBSEg3ZVNXd1gyMjV2TWpYWVZTQm5LVXZ5b0JNNlR2TXBxS1I1Q3hoRk80Q0lKOWR2dEN0T0k3bmFYSW1hd19Ea3F2X0ZuOWF4MmZvbE5SeQ?oc=5",
-   "i": ""
-  },
-  {
-   "s": "uol",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 3,
-   "t": "Haddad vota em SP e destaca 'clima excelente' nas ruas",
-   "x": "Veja a matéria completa em UOL Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdDV5eUhpajhodlhCS25xUXJGekR1OGJqYTBjSUZOZExOaFBTclZMRHpnaDZuRFd2MmJfX3I5VU9sSDNDNHpINUJGbDFUQ25odWVEd21ZY2VoNmRkdmZQbU44STlWS25BeEkyZTZOeG1TZ2JkZlR0cjJsd1ZrZnpoRXFlQms5SWY3TTdUWl9PUWRXejJ1WXVZeUx0MUNKMndjXzU2ZFowWmZNczl1U2cxdmFVcjFGeWJ4?oc=5",
-   "i": ""
-  },
-  {
-   "s": "carta",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "María Corina Machado anuncia retorno à Venezuela",
-   "x": "Exilada no Panamá, Corina Machado ainda não revelou detalhes sobre como foi o retorno ao País",
-   "u": "https://www.cartacapital.com.br/mundo/maria-corina-machado-anuncia-retorno-a-venezuela/",
-   "i": "https://www.cartacapital.com.br/wp-content/uploads/2026/01/000_92VY2TD.jpg"
-  },
-  {
-   "s": "terra",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 3,
-   "t": "Papa Leão pede fim da violência no Iêmen",
-   "x": "Veja a matéria completa em Terra Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZ0lUOUk1Y1ZBYnd1eDFYRlVXcTBvOXM3dDBvQnZjWnpCUEFKX3MtNDFXMjd1d0lXVk5MMXc2TXFoMFJSYU55ZHlod0JDbnl5U1FCV2RPS0psNHVhakFwOVhSdlIyWXA4RVJtN201OWdDdzJGN1JiWThnSk9LS3dQcjhvci1yMmFISTNsWWdhdjUxU2JjMmZlU0cxMTdETDh1MDkwXzU4Vk1ZZXZpbFZQa3RIT0lhNDc2MFl6MDlvTjBkT2dU?oc=5",
-   "i": ""
-  },
-  {
-   "s": "carta",
-   "c": "Mundo",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Lula lidera na Palestina no 2º turno; Flávio Bolsonaro, em Israel",
-   "x": "Os brasileiros residentes no exterior votam exclusivamente para o cargo de presidente da República",
-   "u": "https://www.cartacapital.com.br/politica/lula-lidera-na-palestina-no-2o-turno-flavio-bolsonaro-em-israel/",
-   "i": "https://www.cartacapital.com.br/wp-content/uploads/2026/10/AFP__20261019__D3NT9RH__v1__MidRes__BrazilElectionRunoffDebate.jpg"
-  },
-  {
-   "s": "carta",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Maior mobilização do eleitorado brasileiro marca o 2º turno em Paris",
-   "x": "Mesários de sessões eleitorais confirmaram o fenômeno, apontando para uma maior afluência de participantes neste domingo",
-   "u": "https://www.cartacapital.com.br/politica/maior-mobilizacao-do-eleitorado-brasileiro-marca-o-2o-turno-em-paris/",
-   "i": "https://www.cartacapital.com.br/wp-content/uploads/2026/10/Lula-PT-e-Flavio-Bolsonaro-PL-candidatos-a-presidencia-da-Republica-Foto-1-Ricardo-StuckertCampanha-Foto-2-Charles-VieiraCampanha1.png"
-  },
-  {
-   "s": "carta",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Carlos Vinicius comenta interesse do Atlético-MG: “Última vez que toco no assunto”",
-   "x": "Artilheiro do Grêmio comentou a sondagem do Atlético-MG, negou ter assinado pré-contrato e reforçou o foco na reta final da temporada",
-   "u": "https://www.cartacapital.com.br/esporte/carlos-vinicius-comenta-interesse-do-atletico-mg-ultima-vez-que-toco-no-assunto/",
-   "i": "https://www.cartacapital.com.br/wp-content/uploads/2026/10/gremio-v-palmeiras-brasileirao-2025-1024x684.jpg"
-  },
-  {
-   "s": "uole",
-   "c": "Esportes",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Flamengo superou últimas quedas na Libertadores, mas falhou no Brasileirão",
-   "x": "Veja a matéria completa em UOL Esporte.",
-   "u": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNdmNSek4tbG5zZkcyYnlnRXNKbV9IV1V0ZHhKZXlkMWFqTzRqajlyNUlJWEhXNzJjSDNrRE5OdU5LU2lzY05EeVY2NE1aamZsd19Va1Y4S0xadEZZaDZQaG8zWldFLTY4OU9oU2VzaGREN0wyNlJleFZtSDRKS2JCa0Rob1J6VzVfSXduOXFEamc0eDZhNklMWjBKd2FYUV9ta0gxSFB0eW1jTVlKc1BrTmpMb1ExV3otZDFIbzFEQUlYRkdJYTQ5bnFDU3hhSXFTclZuWlRiVl9VWVVyaWc?oc=5",
-   "i": ""
-  },
-  {
-   "s": "bdf",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 5,
-   "t": "‘Soberania popular’: lideranças políticas votam e destacam fortalecimento da democracia",
-   "x": "Autoridades do Poder Judiciário e presidentes do Poder Legislativo compareceram às urnas na manhã deste domingo (25) para registrar seus votos no segundo turno das Eleições 2026. Em declarações à imprensa após a votação em…",
-   "u": "https://www.brasildefato.com.br/2026/10/25/soberania-popular-liderancas-politicas-votam-e-destacam-fortalecimento-da-democracia/",
-   "i": ""
-  },
-  {
-   "s": "uol",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 3,
-   "t": "TRE-BA manda prender secretário de Salvador por retenção de ônibus",
-   "x": "Veja a matéria completa em UOL Notícias.",
-   "u": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNU0M2bUFtNjZSakRRUjY3ZjdaMEs0VVR5cGxLc2lDOFpTckc5bnVUR0lHU0p2dTI2ZlEzb21iV2lkMG5PTEE2NzF6XzVwSXdhQ3EyS05US3hDR19LWkdqdFhVbkwyWWJyYUxZcE9QS0VfQVZJRkNjUUM0N2xtVWVEZ3l3ZVNqeHFNZy1QREkyUUM0alEtWTdlTDJGenpXMmIxaXJhTHljR3BiSHU5a1RmSl8zM043NW1NWFg1aGdINjMtTW9aenh3?oc=5",
-   "i": ""
+   "t": "Exercícios com o peso do corpo combatem fragilidade em idosos",
+   "x": "Treinamento com peso corporal realizado em UBS reduziu a fragilidade e melhorou a força e o desempenho funcional dos idosos, além de reduzir pressão arterial",
+   "u": "https://super.abril.com.br/saude/exercicios-com-o-peso-do-corpo-combatem-fragilidade-em-idosos/",
+   "i": "https://super.abril.com.br/wp-content/uploads/2026/10/SI_idoso-fazendo-exercicio_site.jpg"
   },
   {
    "s": "canaltech",
    "c": "Tecnologia",
    "d": "2026-10-25",
-   "r": 4,
-   "t": "Galaxy S24 na Black Friday: ainda vale a pena comprar em 2026?",
-   "x": "O Galaxy S24 ainda chama a atenção de quem procura um celular topo de linha da Samsung por um preço mais acessível. Lançado em 2024, o smartphone continua com especificações competitivas e tem vários anos de atualizações pela…",
-   "u": "https://canaltech.com.br/smartphone/galaxy-s24-na-black-friday-ainda-vale-a-pena-comprar-em-2026/",
-   "i": "https://tl.ctcdn.com.br/Q2wI-0xi3dtsbl5wHwZ5CquuNrI=/0x0/filters:format(webp):quality(85)/fa6d7875-3eec-48f7-b0fd-5ba0cc06b3a7.png"
+   "r": 5,
+   "t": "7 jogos removidos de lojas digitais que não podem mais ser jogados",
+   "x": "Uma das maiores reivindicações dos jogadores contra o fim da mídia física do PlayStation anunciado pela Sony é justamente a preservação. Jogos digitais estão sujeitos aos termos de serviço de plataformas digitais, que podem…",
+   "u": "https://canaltech.com.br/games/jogos-removidos-lojas-digitais-que-nao-podem-mais-ser-jogados/",
+   "i": "https://tl.ctcdn.com.br/W1nxS06NxuEBYptPDJkXoMc3L0k=/0x0/filters:format(webp):quality(85)/76507037-bdaf-4601-a9c8-05edb1c0edba.jpg"
   },
   {
-   "s": "espnb",
+   "s": "b247",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "PF abre inquérito para investigar falta de ônibus no segundo turno das eleições",
+   "x": "Polícia Federal vai apurar problemas no transporte coletivo que prejudicaram eleitores em diferentes regiões do país neste domingo (25)",
+   "u": "https://www.brasil247.com/brasil/pf-abre-inquerito-para-investigar-falta-de-onibus-no-segundo-turno-das-eleicoes/",
+   "i": "https://www.brasil247.com/wp-content/uploads/2026/07/20251210161236_2a976cf94c6e6875c0164678bcaa48ccbe4b50d42f4681ddf1794be120c64e09-2560x1440-1.jpg"
+  },
+  {
+   "s": "terrafut",
    "c": "Esportes",
    "d": "2026-10-25",
    "r": 5,
-   "t": "Sunderland x Leeds (25 de out, 2026) Estatísticas dos times",
-   "x": "Veja a matéria completa em ESPN Brasil.",
-   "u": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNUlctXzE2RDg3OXVwb2JjdkQ3Zi1zZllJUHB5RnRPSEhZbGZ0MzFkbFhYSTNyOEJFZFBzcTNUb0h1ZlRwTWVfY2RVTDlJZzNzajFMWjk4VkJDUjd5M2twVHJzdndtMXp1dmJJRUR0Z1E1Xy1kejladnE4Y0ZqenpHQVdwR2g5VjBmYXc?oc=5",
-   "i": ""
-  },
-  {
-   "s": "uole",
-   "c": "Esportes",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Jornal espanhol exalta Gabi Zanotti após 99º gol pelo Corinthians: 'Lenda'",
-   "x": "Veja a matéria completa em UOL Esporte.",
-   "u": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQcHZ2SFVCZXowbEVNUWVIdUV2UlhuUTViZk9qdWM4RG01TDBQN3FuYXJMNmRBZEV5TjlmS29DQzFIaDgtbmJVZ0dVMFZVN2dCNzZGSWhwQ0ZPOXhOelE3eTNSSE5HdGRiYWZUclQ3Z0RCdjJrZ3h5SUN4RlNDSHJRNTVpQjA4NjlMeGpvNXNTOGpxTVN3dWw1S0JWVlZqNllHODJsdDFPTG96dHhoUktrenVSWUFCYUpfZEc3alpOUWMtNXZvb1hjLTBjbDNETnl0OGVUZWoxOEw?oc=5",
-   "i": ""
-  },
-  {
-   "s": "terrafut",
-   "c": "Esportes",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Evanilson marca 4º gol nos últimos 5 jogos e vibra: \"Perfeição\"",
+   "t": "PSG x Lyon: onde assistir, escalações e arbitragem",
    "x": "Veja a matéria completa em Terra Futebol.",
-   "u": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPb2thRmEwNjlZVElXbmpnTXp2bzJBbWlwcnBwd3NwTmJFOXNhSEpaUUl1TENsOW9CTFBKOXdWVkhoRFRRWVlnZ3djckNBWkhDdTFGU1R1UnBqNm1jSlZITHM3ZVB1RUpQbHVsa0cxVjN2OXBoc1YxZGQtQU5xR1UyRXh3MzlrUjl6eldGaVhMNVlNTk15SHV1dTF1aW1MVFk1YWRyakpNdkdHV3BjU0w5Q29BRlNvSTBDenZ4bUhaNWk2eWRHM1VFaXlfQXhsT1BMbC00dml2NTZUUEF0QVpGSlRpa0RzWlNpZnhaenlFVlpMcVcxX3l4YldybW56Yi1wX3lhT1Y3bUpxUFBkekZJT29udGVRam1wYThZWDlDb0V0WU9aNG1YWQ?oc=5",
+   "u": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOSHdZbm1selYwZE91WmcwUnBSLVdiZEFkcWFHc3UwdkcwczhUOW5ZLVFFODBFOVd6bEtNYm15enN1X1RLUW5ZanItbm9UYWJEMVVnTU1JNFVtR0hMWm51cG1kR2JEZGNrRVh3VG1tUXVXR3luczNXcWV6b21OZkJ3UnFUaHkySE9TXy00b3dFMUNXcmJtd1JwZVBvNTlXQ29zYUJ4RlpLbk52MGZoZGtCRWRxd0V2UjFWYUt3UEN0bkZ1cGRMZTFFLXl4ZjVYV2lEampOVEJKMHJCUWZ3OGVRZ2lzZGRMZEZYT1FNZ1VpSGNEeTNGY2dJQ3dnS1MtUHlRbThaeGNUaF9IUQ?oc=5",
    "i": ""
+  },
+  {
+   "s": "b247",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "OEA acompanha denúncias de falta de ônibus durante eleições no Brasil",
+   "x": "Organização dos Estados Americanos reúne mais de 90 observadores de 23 países para acompanhar as eleições brasileiras",
+   "u": "https://www.brasil247.com/brasil/oea-acompanha-denuncias-de-falta-de-onibus-durante-eleicoes-no-brasil/",
+   "i": "https://www.brasil247.com/wp-content/uploads/2024/07/20240730110752_58186c471d2898cff53a8fa2ca3d22194f16323652e4c346a4de5c58faa50398.jpg"
+  },
+  {
+   "s": "b247",
+   "c": "Mundo",
+   "d": "2026-10-25",
+   "r": 3,
+   "t": "Polícia Civil do Rio investiga bolsonarista que fez saudação nazista ao votar",
+   "x": "Mulher vestia camisa da seleção brasileira e boné de Donald Trump; Federação Israelita repudiou o episódio ocorrido em Botafogo",
+   "u": "https://www.brasil247.com/sudeste/policia-civil-do-rio-investiga-bolsonarista-que-fez-saudacao-nazista-ao-votar/",
+   "i": "https://www.brasil247.com/wp-content/uploads/2026/10/IMAGENS-PORTAL-ITATIAIA-110-1.png"
   },
   {
    "s": "uole",
    "c": "Esportes",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Milly Lacombe: Se Lula vencer, só há uma pessoa com a qual deveria subir a rampa",
-   "x": "Veja a matéria completa em UOL Esporte.",
-   "u": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPU0JXcEw3U2gxd1d5bmJZMGlKNTdGQTMydlI2YXhJMm9UYzFQdzVOejhhczRpTmktVnlIT3VMemFjMWFtMHdGVDhhWDFoczM1RjBRY2I3X1MxTFlCLTYxNW53UmhkazlnT1hHWGZhSjNLRGVyVERBSjdDUWdBYlZhdlFxU2txdVFZM2swOXNNczNKSWpiU3VMUE1Nc1lvRXNITTV4dWR3ZmNUVmduVU9Xa2ZySnBmclhxblpNZW9tRzZsNENjTlJyZ1RjaEk?oc=5",
-   "i": ""
-  },
-  {
-   "s": "espnb",
-   "c": "Esportes",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "{awayShortName} x %{homeShortName} (1 de nov, 2026) - Vídeos",
-   "x": "Veja a matéria completa em ESPN Brasil.",
-   "u": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE51cm5vOHFDelUxN3JIUXlxZ0JZR3Vya2NJZkJJYzFKMktEWnd5WmRxai1TQmlGSmZMS016aTJSM3JYZk1BNURVR3V5cldicXY3WXVBOEtVaWNhOWJXS3B5ODRTRnhGZw?oc=5",
-   "i": ""
-  },
-  {
-   "s": "techtudo",
-   "c": "Tecnologia",
    "d": "2026-10-25",
    "r": 5,
-   "t": "Boca de urna e compra de votos: saiba denunciar crimes eleitorais online",
-   "x": "Veja a matéria completa em TechTudo.",
-   "u": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNczJPeHN0MTdUdm5oRE5BR1dNSkh4X2pkVVQzQ1hQUmVtY0FfckYwWWRYQ29ubkpRSUpkSmdsY1cyTWNNeU83MEd2U1VweV9lUGtTTVpFUjBpejhvM1JPVzRST0M3NGZreWFOMmxrb0tRMUZjWnU3RHJXRDJqVFU4MHYzbklvM1BoLV9sZUFNa2hzenVBTXozMkNUR1hrRUFhSUgwQTFPQm5iX2R3dFdid25HTlNGcktqTV9mUFFXQnFGcElBQUhFangtWXVtNDjSAd4BQVVfeXFMUExPd0ZGMUMxS1Y0ekNqUU1yMVh0VG1RZWxBMk8xa25CYkE1Q2pMbm5IR0hpb005NnFDdVpFTjhsVWI0bUJvM211Z1VuNE9sTG05VXctSVJfLWdiM0hiOVZBMDNzMHBCSlZWdXRQb0RSOGxYRlgwQnBUTjU1eGVqdHNIN3Y3aGRoei1kMjQ1TzNHQWw4TFVvVHRhWVZUQTVLU2dXYlM1Z3ByRmRYamlvVm1TVVFDV1hNdWhIUjZ3aGVMV1NVOHcwNlRQY0NEbjhNS0w2STZzelhVZ2IwdDNR?oc=5",
-   "i": ""
-  },
-  {
-   "s": "uole",
-   "c": "Esportes",
-   "d": "2026-10-25",
-   "r": 3,
-   "t": "Chamado de 'fujão', Makhachev rebate provocação de Prates: \"Não está no meu nível\"",
+   "t": "Corinthians precisa fazer 66,6% dos pontos para alcançar 'número mágico' e escapar da queda",
    "x": "Veja a matéria completa em UOL Esporte.",
-   "u": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNQ0hYaWRHeVEwZ01uU19ERnJTRzRHS2w5QUY3S3FTNnAyNmJhZVNsOWpaX2tzTW9lTkxTOE1BSG0zSWZ3SW1pbVI5NjN4Z0pmN0t6dGNRSThZN2oxcENxMHhHYUVxckxfOVhvTFh3a1BudzM0TDFwY3VOdVloSXNSNDltY2lOX1FpY0pyRGxybmM2WHJJSmZUemh6LTlsSkxyMzBtTlZMUUZFanRrbE5jZGRvUzA4bzJvenRtQkpaY2d4U2JNSUp2dHBGZUktWTk3T3F6MURRWHY4WmR6ekEycjVB?oc=5",
+   "u": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOQzRCZ1F6RDFqUFNWSURDNHpoMlp2MXRwTno1X292MG5TXzVCZmt3dEhDYnBLdDgtYmtlaDNZZE1GbWpkMU1tUFlVUFBHVGFwRlNFYk5aalJQN19yRDM3MDlseWRVemdDN29LOUp2VVFVNkpNbnVUWFU3U0xoUjhqdkpCbFFEWGpGRV9NbEl4cGFhZ2tiSUE2QjJhWTk1YWJHOW1pRkk1NkFPa3pZOUF4ZTBxcG1TN3Y1YUV2d3gtY20tQ3NTQmJrVFZ2WklMd1F4MlZQc3kwbkFQZGVWZTRycXdnTUlMWXVPZXRWS0tCcw?oc=5",
    "i": ""
   },
   {
-   "s": "espnb",
-   "c": "Esportes",
+   "s": "terra",
+   "c": "Brasil",
    "d": "2026-10-25",
-   "r": 4,
-   "t": "Ajax x AZ Alkmaar (31 de out, 2026) Ao vivo",
-   "x": "Veja a matéria completa em ESPN Brasil.",
-   "u": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBLUmh0dm5OVjh1cTUxODNpQUg4eGVHV1N3cEJWTm5uUGhBLW5pQUo0NzJTREROYjE5R0k4bS1XYTRSMC1mdWpaZG03cDY0SmRaUHNFaXY3OVB1bjRqS0oybVpWRG1vSDBiOUw2OUdkbnMzODJSdGRR?oc=5",
+   "r": 5,
+   "t": "Apuração das Eleições 2026: veja como acompanhar a contagem dos votos em tempo real",
+   "x": "Veja a matéria completa em Terra Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQTi01UXJyRHRITUpLUndHblc0eXZiTXg4VFM5OTdRSHFPcGREM3N6ZFZPS0VnVVc1THRRaFo1d1hwRy1mcmJBckt4bDc3Um4xVmZwTUxZV2x4YjkydjZDaFVzejAtMEM4WTZOakc2NkpfVklwR1MtUTNWLTlDanVKQW5nYkg0SGRJQ0E3LW03bGZGcEdUNWtJVnlYeG9Dd1pja2RVZ3FQZzUtdThxa3B1NTRGbTB6cUFaVGtTLV91NVBxU2oxMXMxN2h3MUtYWFdYeDNOTjRzbnd1aXNpVFRfVGJBempDQS1hNnV6UlhlVlRZLXlhTWNiWmNiTGhwWFBwUHR5dWtxVWI?oc=5",
    "i": ""
   },
   {
-   "s": "espnb",
-   "c": "Esportes",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Com show de Rayan e Evanilson, Bournemouth atropela United na Premier League",
-   "x": "Veja a matéria completa em ESPN Brasil.",
-   "u": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOcHM0YkhFdmxXcjk0RXljTzJtYVhnWFNJcUoxNEVoYUZ6Y2pmUkpKR2EzU19uTkRMSmU4Z1Y4ZTJpaXRnbjA5djJpMjh6eDlpVGwwUW5JcW50OUc5Q0tWbGNMYTN2bFBtWDBqeGhhVXNUTHBCeUxNa1RIeldaeGNwN2xGVmNnRU9SZjRaUmdIWEZKRVM4UEtHZXdHdC1XejNOVk00TXZtMEZtSFU2RDMtbWVha0VYeXFVWGNvRVZDVFpKTURTd2dTc1BuRjJaMXU3OFA4?oc=5",
-   "i": ""
-  },
-  {
-   "s": "terrafut",
-   "c": "Esportes",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Liverpool faz o dever de casa e vence a sensação do Inglês",
-   "x": "Veja a matéria completa em Terra Futebol.",
-   "u": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNVF9iZmNRUnZjeE1GcjNIXzB0Mmp1bW9xYldTcXVkMFFKdFBXNDk3a21YeHhZbHB2cmVxYi13aHFJMkdpc04wQjcxMXRERkJmRm15Z1JGQjVLcnRIcHAtWGg0TWZEaThuTGFtSGViWkdEblEtNmZsTlJtTTMtZGFzYk44SFZsbm1CVzN3a2RyWHFLYjFnRUNKSGtPakhaNHV5WXJxTWhEUWQybjczUWRILWJJeENSZWhsZEpQa29udks4WmNRc3Fub1FWR19DSHpEREY1aUtEeVdTXzZwM2JnUmZPT2NjM2ZKWmhXOE9mSUR2dmk1ZnVoeWMtV3hYVFJOY0Z2aVVLdXVRQQ?oc=5",
-   "i": ""
-  },
-  {
-   "s": "terrafut",
-   "c": "Esportes",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Francês: Monaco se recupera e busca empate diante do Lille",
-   "x": "Veja a matéria completa em Terra Futebol.",
-   "u": "https://news.google.com/rss/articles/CBMikwJBVV95cUxONXdkODlBUzl4d2RUUjdDcmRGVkNNdVdKNGNRMkZPNUYzYXVuT21Ja2EzZVV6dEYyZG9jYldPSC1kc3QwWlZUb1VoSGRUM3YwMW1TNDYyOEdLbU10bGtvcXFWaWpVMWVJX05UWmNHR3QyOUNCS0s2SUVUcnRCX1Y4VWlvaXAzRkVzZHdvTG1Ed3NyODM3cmFONnNFQm0wUkg2VVJpLTdoUWFCQ3dTLVRCVUFxUnU2aWhXaHFvci1odGVuUkI3UDN1SGN1aDZvZUlZRjgwZUx3Q1o2QlI1ZHBid2xGaVhxaWZMazltTjlmVWdEVEJyUWZrRnlGYmtmUmg3R2pfemJaaEt5MjJwLVN2TmFPMA?oc=5",
-   "i": ""
-  },
-  {
-   "s": "uole",
-   "c": "Esportes",
-   "d": "2026-10-25",
-   "r": 3,
-   "t": "Rayan e Evanilson marcam em vitória do Bournemouth sobre o Manchester United",
-   "x": "Veja a matéria completa em UOL Esporte.",
-   "u": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQYXJBeVJmaDFYTDg5Z01pQXBTaWhneUN4ODZzUUZWVGRmUGJWRlJXdjlfaHlXcks4RjdUWnlpVE9pZm5GQlI3S0FhU1M2TTR3c0phc1FfZ2tPS01iRjk5bDQxelEwLS13OGNpRWVRekFzSFVIcjJsRzV5SWQ2Zm5DZHhtdkY4aHBCcEc3S3RQX3ZBT25jVEVVM2tIMGFfRDMtakJRX2pVd0hFMzl0N1lobGRJUEhWS0dfTUEtZ3R5cWg3Nlluc05TeWs4cHByRTQxMDQyc1diQkEyREtJWm5BRg?oc=5",
-   "i": ""
-  },
-  {
-   "s": "carta",
+   "s": "b247",
    "c": "Brasil",
    "d": "2026-10-25",
    "r": 3,
-   "t": "Macarrão ao molho branco com filé de frango grelhado: aprenda essa receita para o almoço de domingo",
-   "x": "Nada como um prato de massa cremosa para transformar o almoço de domingo em um momento especial. Esta receita reúne o talharim envolto em um molho branco aveludado e aquele toque irresistível do filé de frango grelhado fatiado…",
-   "u": "https://www.cartacapital.com.br/receitas/macarrao-ao-molho-branco-com-file-de-frango-grelhado-aprenda-essa-receita-para-o-almoco-de-domingo/",
-   "i": ""
+   "t": "TSE suspende divulgação de resultados com 0,25% das urnas apuradas após decisão de Zanin",
+   "x": "Ministro do STF prorrogou a votação até as 19h em todo o país após campanha de Lula denunciar dificuldades no transporte de eleitores em três cidades da Bahia",
+   "u": "https://www.brasil247.com/brasil/tse-suspende-divulgacao-de-resultados-com-025-das-urnas-apuradas-apos-decisao-de-zanin/",
+   "i": "https://www.brasil247.com/wp-content/uploads/2025/12/20251216151236_ce5ee4d6143258022a1f5a14331595475ed45a33ca5ce9f35f2566da6e20cd26.jpg"
   },
   {
-   "s": "icl",
+   "s": "uol",
    "c": "Brasil",
    "d": "2026-10-25",
-   "r": 3,
-   "t": "Kassio estima anúncio oficial do resultado da eleição entre 20h30 e 21h",
-   "x": "Por Luísa Martins (Folhapress) – O presidente do TSE (Tribunal Superior Eleitoral), Kassio Nunes Marques, prevê que o vencedor das eleições presidenciais seja anunciado oficialmente entre as 20h30 e as 21h deste domingo (25)…",
-   "u": "https://iclnoticias.com.br/kassio-estima-anuncio-oficial-do-resultado-da/",
+   "r": 5,
+   "t": "Thais Bilenky: Falta de ônibus em Salvador é mais grave que bloqueios da PRF, diz governo",
+   "x": "Veja a matéria completa em UOL Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPbGdUYXpRbjUxWHZSOEM3MXp5NWVvZm4xT2NGVERESlgwTWdlcTVyZXhBTDQtdHQxaWpvRWk1RmRTclVkTEhGeUlXLWdtZFhWaFlhRzJyTFQzY0lnVWhLMUZJZzFWeHk2U3BiMGR4dWgtUE45UkNnVkhaZnNHTlBVSHpXSmJFQ0pCREpSWDNsSUVRNVNkcDdFM3BZNDlUOXVkSGJHSjFRbjRhTFF6ZjNrMW84RHlsdmxDV2xLTnQ2cEdtRHRiNnhiRzFOMTdpblhhT1BDSw?oc=5",
    "i": ""
   },
   {
-   "s": "terrafut",
+   "s": "espn",
    "c": "Esportes",
    "d": "2026-10-25",
-   "r": 4,
-   "t": "Rayan e Evanilson marcam para o Bournemouth e afundam o United",
-   "x": "Veja a matéria completa em Terra Futebol.",
-   "u": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNUGFMTS1uc0NqOXFvVkJhOTdpNzREUUdYMkplSnZfWHlsQ3VkS215QlBhdWZPQ01Nb3lCMzc5ZW1fSl8xNXRLOWJoc2kyZGNnZE9uTHZOQVhhbno5Tm9zc05peHdHOWdEZlkwMGhYLXNsX2JZYWdaOE1XQjk2eDJJRzhsWmdMeC1xZlNya2NKSVo5SEZGQVlNNjVVYnVQX1B2TzJOUXpCajItQndtamFJSjNvcnVmTW5DdzJHbVJ2MWdORVZHLVFDUzdwdnpGNGZVUzluTzlCZ0xJYUpxWmpCcENTWUwxMC1KcmRDSDdpV2VLVjFMbFRwY2loUjk3bXdicU53ajFDOFZxYmpXcjRBb1pWUDZfXzRxeVE?oc=5",
-   "i": ""
-  },
-  {
-   "s": "carta",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 3,
-   "t": "Chuva altera local de votação em Itapevi, no interior paulista",
-   "x": "Escola ficou inacessível por causa de alagamentos na região",
-   "u": "https://www.cartacapital.com.br/politica/chuva-altera-local-de-votacao-em-itapevi-no-interior-paulista/",
-   "i": "https://www.cartacapital.com.br/wp-content/uploads/2026/10/altera-votacao-itapevi.jpg"
-  },
-  {
-   "s": "icl",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 3,
-   "t": "SIGA A APURAÇÃO AQUI",
-   "x": "A apuração do segundo turno das eleições começa a partir das 17h deste domingo (25), no horário de Brasília, depois o encerramento da votação em todo o Brasil. Siga aqui a marcha da eleição 2026.",
-   "u": "https://iclnoticias.com.br/veja-a-apuracao-no-icl/",
+   "r": 5,
+   "t": "A primeira do Flamengo! Lauender cruza para Jean, que cabeceia por cima do gol; VEJA",
+   "x": "Veja a matéria completa em ESPN Flamengo.",
+   "u": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBnNUY0cE9oY0tpb1RXTzVIVGUxZTRRVWY1N0F1SEQ5amhzbmN0clJKUXlCRVN3ZHhtRVI2VDRDVl8xUDN1Zm40d3pvUjZvNVRiQzN1VF9ReEV1RlVDM1E?oc=5",
    "i": ""
   },
   {
    "s": "bdf",
    "c": "Brasil",
    "d": "2026-10-25",
-   "r": 4,
-   "t": "Chuvas cancelam voos e alteram locais de votação em SP, mas situação é considerada normal",
-   "x": "Fortes temporais que atingiram o estado de São Paulo na noite de sábado (24) e na madrugada deste domingo (25) provocaram o alagamento de vias públicas, alteraram emergencialmente locais de votação em três municípios paulistas e…",
-   "u": "https://www.brasildefato.com.br/2026/10/25/chuvas-cancelam-voos-e-alteram-locais-de-votacao-em-sp-mas-situacao-e-considerada-normal/",
+   "r": 5,
+   "t": "TSE pausa divulgação de resultados com 0,25% das urnas apuradas após Zanin estender votação até as 19h",
+   "x": "Veja a matéria completa em Brasil de Fato.",
+   "u": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQYjNEOHZmMDhuTzBqN2RvVVJ1SFpLaTR5cjVjY1UzbmxncXI4ZVRiUnpvanEwVjNPRHRYNlIyZzVnWGJpOXFYVG9mbzN1RWc1TFlJRWFVeEwxWVBHbHIxSnRRbnpYV1JlRFltSU04V2ViX3hnbXl1RXRncUQ2Y042NENvdzhvOWRvR3VyLXRoSjdrUXJDY2JVQV8zdUQ0dkoyVldOQ0wzZ2V4S3ZKaDNpamM5Zzdyb0xLVDgwLTZYc1dSOFNzQmx1OHdiWVpfbWQ4RndnMEQ1VEt4Y3At?oc=5",
    "i": ""
   },
   {
@@ -1642,43 +992,133 @@
    "i": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/c72f/live/e5409bc0-bff7-11f1-a64c-550be9e3c66b.jpg"
   },
   {
-   "s": "terrafut",
-   "c": "Esportes",
+   "s": "olhar",
+   "c": "Tecnologia",
    "d": "2026-10-25",
-   "r": 3,
-   "t": "Freiburg x Bayern de Munique pela Bundesliga: onde assistir ao vivo, horário e escalação",
-   "x": "Veja a matéria completa em Terra Futebol.",
-   "u": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOdDdDRGVTbmV0OE9TdkF5czY4RWkxMGQzMmdQQVlnUnpvWEJQSEYxenN1Ymg2cHc2VnNsanQtOFRZVUVJUXlsYXN4SENxYkJyZUhWTU9pV3piTHFjRnphOExuNXdiT05vZnBnVUUtV3FiSm5WRzA5NkphQ0ZNYUxHcDNSTEhoZ3hHVGV1R0FpeHlkRHJUdHFnY2lLYUNhaFdad0NRT3o4bVNOMWRRNkplRW1YS1RRUUNPRzZ0cTRkd2pnRm11eDFpdWVqZTJZVVIwOU5yLVFiRS1Lc1BRY2FveVA4c29rcW9jQ3lDVklWWWVoVE1QVkFqNWNqV016NDlrdmFYOFQyZnd5QmdUTGxvdjFHY2dHSWpMUllEcnNyb0phV0lKNnZfNzFuY1JXRlcyMEs0XzZxSHZPUQ?oc=5",
-   "i": ""
+   "r": 5,
+   "t": "Nvidia assume risco bilionário para sustentar boom da IA; mercado acende alerta",
+   "x": "Fabricante de chips acumula garantias e compromissos financeiros de centenas de bilhões de dólares, enquanto empresas parceiras enfrentam quedas nas ações e custos de crédito elevados O post Nvidia assume risco bilionário para…",
+   "u": "https://olhardigital.com.br/2026/10/25/pro/nvidia-assume-risco-bilionario-para-sustentar-boom-da-ia-mercado-acende-alerta/",
+   "i": "https://olhardigital.com.br/wp-content/uploads/2026/02/jensen_huang-1024x576.jpg"
+  },
+  {
+   "s": "olhar",
+   "c": "Tecnologia",
+   "d": "2026-10-25",
+   "r": 5,
+   "t": "Hora de economizar: uma seleção de iPhones Apple em promoção na Amazon",
+   "x": "Se você está de olho em um iPhone novo, este é o momento certo para agir. Reunimos três ótimas opções de iPhones Apple disponíveis agora na Amazon, com modelos para diferentes perfis e necessidades. Confira as ofertas e escolha o…",
+   "u": "https://olhardigital.com.br/2026/10/25/reviews/hora-de-economizar-uma-selecao-de-iphones-apple-em-promocao-na-amazon-6/",
+   "i": "https://m.media-amazon.com/images/I/318Rhf2amVL._SL500_.jpg"
   },
   {
    "s": "terrafut",
    "c": "Esportes",
    "d": "2026-10-25",
-   "r": 3,
-   "t": "Leila critica Flamengo por polêmica com a final da Libertadores: 'Calcem a sandália da humildade'",
+   "r": 5,
+   "t": "Vasco agradece ao Atlético-MG por oferecer a Arena MRV para jogo contra o Boca Juniors",
    "x": "Veja a matéria completa em Terra Futebol.",
-   "u": "https://news.google.com/rss/articles/CBMijwJBVV95cUxONnVPelhkbTRJeWxEdHJWZ0JhOGhDZDRsYUlFTzl0OGRGSFdVZzJtVld5ekRkVmRaOWxZZ1VOQ1lHYzNKSERCLVNuUnZPUTRIcVVic2JuaGtyb3R0SVF3NWtGT2hjdzd4OVJzZjJfQlNLLUVFckoxQXhJTDdMX2NEZ0RvNEFpaXpuZldLdmdjbXN0Yk5UaDFoQnhNV2ZQZ0FGU21YZTdKZE5xUDdDbDc1eUtOZnlUMGo3M1c1THBpc3BZS1pmbW1YVHhUaENqaWpsM2VrNTdTZ0pWck9XZUpoWGE0WmJ1ZWxHbWVSTnd6UzhUWFdnUENtU1Q0Nm1pN2hLVXRxbEZvU1U5ak9OTTBZ?oc=5",
+   "u": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNOUZOU0RkUEwyV0hNanhaTEpFVUNpUzR3MHlsbGNrbU5NUDNQNmF2VXBuVEpjQW1OY0FBNXh1MF9pQnVIUWQ1V0xZLTJlRGNydWN0RFVZdUd4bnl6UlprOGNRSkZWQ01tRV9uWTZSMnpqZmhrOGR0NTlGSWNmYzhZQTZQaTU1NjBxUC1oZG5qVHAzVjlDUnN1QUNrNHJKcFYwY0ZKZDE4cWgyNXJuMHUyWTNlWV9NSFc0QldnekFaR0ViUnBkellFOTlGaDRtNld5dmdMVW9vNEw2QmF1RkF6WWt0ajItX2U0SWFBb2xyeVBOTndEdjF1VERMT09INFBJMUZLQQ?oc=5",
+   "i": ""
+  },
+  {
+   "s": "uol",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 5,
+   "t": "Leonardo Sakamoto: Falta de ônibus em Salvador e São Paulo reaviva medo do golpismo de 2022",
+   "x": "Veja a matéria completa em UOL Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQMGJnQlFFRUw2ZUhwRUhFWWotR0VVSWtVYzFXRzIzQlItcC1Ma0tSZEVQa0FsZnRWS1JjX3JreGk0VkRyQlZ6Uk9ITXFheWhpMWFOR3VhQnJ4cU52YzRkSGdrVHZhQWRnWFE4dlAwRzVSdWY1NkFDODNMMTQ4Um9LT2VhTmc5aGU5STBUS2REZHZXYjZZMXZFYktpTE5fbmlNb2tmMTc3OVJrbnA5eTBBWkN2d2hwWVZFQ0FvRzdiaW1CdVF3cWFvZ2NmaTBjVng4THZVbTJrOTE?oc=5",
    "i": ""
   },
   {
    "s": "bdf",
    "c": "Brasil",
    "d": "2026-10-25",
-   "r": 4,
-   "t": "PT recebe denúncias de falta de ônibus em São Paulo e Salvador e cobra apuração de TREs",
-   "x": "A campanha do presidente e candidato à reeleição, Luiz Inácio Lula da Silva (PT), acionou o Tribunal Regional Eleitoral de São Paulo (TRE-SP) neste domingo (25), dia do segundo turno das eleições presidenciais, solicitando…",
-   "u": "https://www.brasildefato.com.br/2026/10/25/pt-recebe-denuncias-de-falta-de-onibus-em-sao-paulo-e-salvador-e-cobra-apuracao/",
+   "r": 5,
+   "t": "Urna é trocada em Gravataí, e vídeo mostra barraca com panfletos perto da avenida Goethe, em Porto Alegre",
+   "x": "Veja a matéria completa em Brasil de Fato.",
+   "u": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOT0lackhBUHY4Qll2TGhGM2NpYlNsR3VUVUJldXBCQ1JsM3o3LTVKbDFhektDRlY0a2hsOXpqMGdPcUJLR20xRWg0Ukp0NVMwbGhWNUxRLWJXLUxSWU5oMFRzU1J0RDRJazNfZ3ZrMURyXzlLZHVWb3pkeFhWWC03cmUxTTMtSDNLMEhhZkhzWFpYR1VNQmNRdEpQSTA5T25nbUZuQVNiUklPNWstNGxQVl9hUWFFLUtaQlhnQXNmMDMwYm84RFhVUFhZQXVGWG43TjlDNXU3RnozRng0bWh3Sw?oc=5",
    "i": ""
   },
   {
-   "s": "bdf",
+   "s": "techtudo",
+   "c": "Tecnologia",
+   "d": "2026-10-25",
+   "r": 5,
+   "t": "Eleições são prorrogadas até às 19h; saiba acompanhar apuração pelo celular",
+   "x": "O horário de votação das eleições deste domingo (25) foi prorrogado até s 19h em todo país, conforme decisão do ministro Cristiano Zanin do Supremo Tribunal Federal (STF). A medida foi motivada após relatos de problemas no…",
+   "u": "https://www.techtudo.com.br/noticias/2026/10/eleicoes-sao-porrogadas-ate-as-19h-saiba-acompanhar-apuracao-pelo-celular-edapps.ghtml",
+   "i": "https://s2-techtudo.glbimg.com/Y8y9djHjUArJmSaHet43OLN1wwk=/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2026/g/s/oJjBSYR0aQl7daegm8lA/whatsapp-image-2026-10-07-at-09.51.05.jpeg"
+  },
+  {
+   "s": "uol",
    "c": "Brasil",
    "d": "2026-10-25",
    "r": 4,
-   "t": "RS registra nove ocorrências até as 10h; homem é preso armado em local de votação em Caxias",
-   "x": "Balanço parcial da SSP-RS soma 18 registros desde sábado, incluindo ocorrências classificadas como crimes eleitorais; em meio à circulação de acusações de fraude sem provas, entenda o que fiscais e mesários podem fazer Fonte",
-   "u": "https://www.brasildefato.com.br/2026/10/25/rs-registra-nove-ocorrencias-ate-as-10h-homem-e-preso-armado-em-local-de-votacao-em-caxias/",
+   "t": "Como estava apuração para presidente às 20h30 em 2022? Veja resultado e apuração",
+   "x": "Veja a matéria completa em UOL Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOc29XVjdjVVgyM1dTQ2ZETGRqdkRITmVUc3RKOFlRdnJkRVZNY1REOW5ibl9GMDFIUUlpY2lUTjdkbVFMaml4Ql9BcVBERElLSXppWmlaYVJWSUx3em8tSlJNVGdza3VqUGFUSS1OdU5mQm5wTnJFUVdseUpodWU4c2kxN2tNYkxqMWl3SS1vam8zY0p2UXZUcEltUzZFYUNzaTZsMzkyemdXNTMzTms0eGJoMXBhN2J5a2MzZTJjY1kxaXQzaWpfQmd5bnBIUQ?oc=5",
+   "i": ""
+  },
+  {
+   "s": "terra",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "TSE paralisa totalização de votos após decisão de Cristiano Zanin em prorrogar votação até 19h",
+   "x": "Veja a matéria completa em Terra Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOLVpBeEhQcGxScUFZT094eVdURUNyUTRlY1pLckZaeEtTcWFRQl9TSXJtMmdTaFVoMTdsX0R4Q3ZIT1FTanZ3R2xsN01Zbi1qLTlFZlFTeHhiN0ZsVFAyVF9HX2VOa1VfVzBodXRTUVJOaWNPb1JHRGpPOUdINkFVTUpLVDEySWJManVtUFNoM3VLSjZVdExUNHQ4clViVkZnOUVTU2hQOHpGamNmb1VIQ0RXaXk0UW9WVnc3Z3pZeU9HYnNKTkx2TThDNUJxdzU3aF9lU3ZuM2w1d01VZjFqTEhqRS16WTFYczk4UkhuT1BJaHZ1SlBOa0JxTUdHMWhqOWh6Y2lPMGRMUTNQUTNjMw?oc=5",
+   "i": ""
+  },
+  {
+   "s": "terra",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "STF prorroga horário de votação em todo Brasil até as 19h",
+   "x": "Veja a matéria completa em Terra Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPVXdGeHZwQ3Y5V2VkT3JVYU5MRmxOV3J5UlVzSlZZbVI4djdMYXhxVTBDWXhOZjdTNDgzVTBrNVZ1Q0RVRm8zVGhTOFZBaFlJVDFvZk56bnFad1JPc3FVRTltWm9MMEt2NW1uZm4zWEF4UmY5NVlDR0RSRUcxNE9nQVZJeG9fZDVvaUZpRjZGQ1Qzay1LeGpfVmh4R3lPRjA0VTJZWldhN2JlN29rRHd0VVZJeVRoblVFTElRSWFxTzZFbGRxVTRndnpzZy1SX2NPME85cHRTWnpBeTl3?oc=5",
+   "i": ""
+  },
+  {
+   "s": "terra",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "SP, RJ, BA e outros estados têm denúncias de falhas nos transportes para votar; STF autoriza prorrogação",
+   "x": "Veja a matéria completa em Terra Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOUUtFbGdWUzdyTTgzbHJuWGQtdzMtVmpZdzV0Wl9TRFczWXdtWDhwRjd2WlI2bjJxU1luSHlxbjhtYVJBYUtOZmhYNXBrbVBkOWEwaWw2alJUVzBUVEF4YU1qaUVENW40aWVCeXlxR3NUcTlOTk5BUEk1UzFWbnBpLURfdTdpLURCQ0RoRVo4cVZqYkktSktFNEx5VVhDaVJ3QlFWa2d1VVpNekMyZjh0SXdMUjAzNVZWUDJsbUtZXzVyRGFQbHFKVlNCMzN2R3J0SVNtUDFSaWpfTDBYYXhYbmZOS1B2V2dteW5iN0d1Y1B0Smsyc2NnQWhud25LWTNFS1E1TjF3MmszRkxHMzFGVkwwcGFnd1k?oc=5",
+   "i": ""
+  },
+  {
+   "s": "terra",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Acompanhe a evolução da apuração do segundo turno para presidente com gráfico do 'Estadão'",
+   "x": "Veja a matéria completa em Terra Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPQkRQNFFoOTdycFpjWmdsUzg4U25BRDBvVXpDd0tSMVZVaHFNMFZ2cFhIVWlMRWFzQXBERi16SVpfMFJIM2F6d0dfQVNwbVM3MDZRMDNWN2JOeFRBTkJQOHRscnlQXzJsWEZsRWg0bjQyUXhpaW9ONGIzZllDU3p6d3VJSGEzcDNTZElSX1BkRkh0VTN6YVR2VzFIRFdIbU9nYmtsLXgyc1ZLdDhGVUZaa1EzazlwTEtvNDFzUFpIWlVqT1BHWVZ6OURYVGY3U3htRkdxQ3pRN3UyWmgzQTJFeHRWb1E1TEozVjlCVWM5SkNaU3VaUFlaZDFCOUVxYmN2cFhPUjN3TzVpZldZQnZHUThR?oc=5",
+   "i": ""
+  },
+  {
+   "s": "uol",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "TRE-BA manda prender secretário de Salvador por retenção de ônibus; ele está em Paris",
+   "x": "Veja a matéria completa em UOL Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNU0M2bUFtNjZSakRRUjY3ZjdaMEs0VVR5cGxLc2lDOFpTckc5bnVUR0lHU0p2dTI2ZlEzb21iV2lkMG5PTEE2NzF6XzVwSXdhQ3EyS05US3hDR19LWkdqdFhVbkwyWWJyYUxZcE9QS0VfQVZJRkNjUUM0N2xtVWVEZ3l3ZVNqeHFNZy1QREkyUUM0alEtWTdlTDJGenpXMmIxaXJhTHljR3BiSHU5a1RmSl8zM043NW1NWFg1aGdINjMtTW9aenh3?oc=5",
+   "i": ""
+  },
+  {
+   "s": "terrafut",
+   "c": "Esportes",
+   "d": "2026-10-25",
+   "r": 5,
+   "t": "Juventude x Náutico: onde assistir, escalações e arbitragem",
+   "x": "Veja a matéria completa em Terra Futebol.",
+   "u": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPLVFoaXJFdnNTTGFFZks0SXVaT1ZEOWZSN1FFN2pyVjBVM1pSMW5rMll1SWFiX24xM2FDTVNWZ3RYeE1Xby1qUTJLVlMyd0FnRktTNVVIR3VzMTNIS2ZQYnJiWXFHWkI0U25pUGw4SzZKc19aVkdnM19oc0hFT204TG5nZzhteFktZ0JYbUVhUC1kbThkbHRFZUZPWC0wYkctUjRMekZsbUk1SHlXMHhaU1M1eW1YclJ6bjQ5MUJlbXlsN0xETlZGaDU4UTZXSlU1T0YyU0dYTzZCdVdmTlBUODhYZzRTYUR4RmtxcFV4TDEtYTM1V3J3?oc=5",
    "i": ""
   },
   {
@@ -1686,6 +1126,946 @@
    "c": "Esportes",
    "d": "2026-10-25",
    "r": 5,
+   "t": "Barcelona x Real Madrid: onde assistir ao vivo e escalações do jogo da LALIGA",
+   "x": "Veja a matéria completa em ESPN Flamengo.",
+   "u": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQ09JVWx1dklQX2lJREdHNllXUDE5OWpsb2tORWVSSV8wZGdvcEdJVUtIYTZqUXYzRG0tOFEzWUZsQjlSemF4bTZJaWw4cl9abG96a3NIdnU3eW1fRXpDWEhKOTVKaXlMQWl1UTdBWTVUekdYaEpDNFhGb2NRdk5TV1ZrSXBQRzdGaGRmV0E3WjllVlNNaUttNlRmWlEwdHVLQzZMNk1DOWlfOVIzMUxlVlN5WDdjODRKU2h1YVlRUWhpUkk3?oc=5",
+   "i": ""
+  },
+  {
+   "s": "espnb",
+   "c": "Esportes",
+   "d": "2026-10-25",
+   "r": 5,
+   "t": "Barcelona x Real Madrid AO VIVO: placar, lances e onde assistir ao jogo de LALIGA",
+   "x": "Veja a matéria completa em ESPN Brasil.",
+   "u": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYlVQNGtnOFRqRGJya0RMeHRhOUxIY2dkbjlMX2JkazVKSHpSdTFTYUN0QWlERlhPaloyRkcxLXJ1WTlucjVoWGMxM281VERvbV9CbWJRZlV6MVVDbk9BM21XWEQ1aER5MldyNW1VRjh3REdBMEZ4NEpOWXJoVVc5MHg2c3VlTUtvZ1VZOVJnd19MOXdod3E0U1NRSFNpM3lnM3ZfdUhsYVdISGtkdFNRSW9hUmxvTmJaTkpFZ2ZOS2Q5S21UV3RrdA?oc=5",
+   "i": ""
+  },
+  {
+   "s": "icl",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 5,
+   "t": "Lula diz que pedirá prisão de prefeitos que prejudicaram eleitores com falta de ônibus",
+   "x": "O presidente Luiz Inácio Lula da Silva (PT), candidato à reeleição, afirmou neste domingo (25) que pedirá a prisão de prefeitos que, segundo ele, dificultaram o acesso de eleitores às urnas ao reduzir a circulação de ônibus…",
+   "u": "https://iclnoticias.com.br/lula-prisao-prefeitos-crime-falta-onibus/",
+   "i": ""
+  },
+  {
+   "s": "uol",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "TSE: PT pede ampliação do horário de votação em Salvador por faltar ônibus",
+   "x": "Veja a matéria completa em UOL Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNa3NLNkdVUFFDelZpT19QT1NkOVIxbWhFNEU5WUFQOFItd0xQOERYSW90SVdLRTdlNTJtUk1IQkFKcU9UV0RwMU56UlNrbVpsT3NLTzVsYVAxeTR0ZmZKLTBlNjRWM1A0TF9aazJtYXl3alB3cHRpQldON2cxLTlCbVZNcGdTQ0g1bEkxRjBSaHRsNjFCQ1BZZGF6UGdlZlBON1RDSGRiOU1sNWJReHZvN2xqbTJQWGxCcTN0SzBsZ21fOHlt?oc=5",
+   "i": ""
+  },
+  {
+   "s": "uol",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Eleitora faz saudação nazista para judeu após votar no Rio",
+   "x": "Veja a matéria completa em UOL Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQXVhdHlCekhKVThJOXo5b3FOckdLZFJRMEtVQ1RvQWNQRVc4TFFSWlpMM0lydDdRbTkySVFlTF9JWjVtbEtlRS1qY2hGaWI3RjFZQ004TVBpcGNRanFPdHZDaUkyZktmelVjc2lSY1Q4R2hrbkhPcVhIRjlKOTNwQlp1a0d5d0pmZHc?oc=5",
+   "i": ""
+  },
+  {
+   "s": "terra",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Prefeito de Salvador defende secretário alvo de ordem de prisão e diz que houve 'politização' da redução da frota",
+   "x": "Veja a matéria completa em Terra Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNbVZpeEg3THUxOXlNMmVtcExJSVdKN2RZamJOMFRaUkd5cUd2R0t6bHBlRkxSeGFkRUFpOUp3MWlWT1FiUDhXem1zaFJLVkdyYktOYkJQaHR4VF9jemZFN2pfNDJ1ak1oV2tCdFZqbHVjcVhid0xOWExaQkh1U29yNWhHYzV3bFlyTHRJYk1hVlV5aHEzWDBRMmctVnpMUWNLQWZ2dUMybjREVjRsRGlJdEVTTVRkSER6T09LNHh2Z1JDNlo5U0NSTFRlQXNkQV84M3NaQTJuTzVaWmw1eUc5aWVsMFNEQ0tmek4zX0k1RnVSYi1Pd3NqQ2pmdnRwOGRBaFFoUUdXQjZ0b29jd2FKWU80QW93R0ZXOC0ya0pVNVhuaTZSa1VJ?oc=5",
+   "i": ""
+  },
+  {
+   "s": "olhar",
+   "c": "Tecnologia",
+   "d": "2026-10-25",
+   "r": 5,
+   "t": "Galaxy A07 ou A17? Veja uma seleção de Smartphones Samsung em promoção na Amazon",
+   "x": "Se você está de olho em um novo smartphone Samsung, este é um bom momento para conferir o que está disponível na Amazon. Reunimos três ofertas da linha Galaxy que valem a atenção — desde opções mais acessíveis até um modelo…",
+   "u": "https://olhardigital.com.br/2026/10/25/reviews/galaxy-a07-ou-a17-veja-uma-selecao-de-smartphones-samsung-em-promocao-na-amazon-40/",
+   "i": "https://m.media-amazon.com/images/I/41Ymow9O1FL._SL500_.jpg"
+  },
+  {
+   "s": "uol",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Daniela Lima: Zanin prorroga até 19h votação no país por problemas em transporte público",
+   "x": "Veja a matéria completa em UOL Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONjl6YlU1VS1yYU5GVEtTSWhxS0lUNkRPeXJ0am9Ic0RtdmU1ZFpwbWF4S09vbWJyeTZLclVzYlZBbFdaY3RMUXg1RW93czRQcFBLMkQtU1pvSUdaYkg1dG80VEhhTk14VDNxRVY0UUtJdTZTMWRUTDE4MUQzeng2QUFiZ19CRlZnd0hQakJtaGtCOHZiRHpQRGZxYXIwcXoyajU0N0FlX0R0QzdWNFJxVjYwci00TDRaZnR0ZmNKZEZ2aHJGZWR4Uk9LdDM4UQ?oc=5",
+   "i": ""
+  },
+  {
+   "s": "terra",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 3,
+   "t": "STF estende votação em todo o país até as 19h deste domingo",
+   "x": "Veja a matéria completa em Terra Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPT3h1VWZqbUNEbFB6akNBMWJFNmtCZGFvZGhNZGtidWxrNl9xWmxHdm53bEYtdnVmVGRTaEN6SW00d3VSU29uQU5ZX2szWFA1SlREYzdDTEpaRzFLZjFFcTNDcTF5Wk9TV29OdFp3WGRxLVA1V3YyYUNCTXJFZWdiRE9wZDJMZmJ5alhsZjBwSU1zRXR3RlJIM2pjdnc5SWdxVFFXakZ0RHVJSTBucXZMQkcwTl9wUG9FTVdvbjR6TzBtNXQ2SEh1ek04UDBpb2kzSno1OWdTbXJqYXJENEZiQ19FejlFOEwtWEE?oc=5",
+   "i": ""
+  },
+  {
+   "s": "bdf",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 5,
+   "t": "Zanin prorroga votação até as 19h em todo o país",
+   "x": "Veja a matéria completa em Brasil de Fato.",
+   "u": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRTRLSXVMREVmUFoxc2ZQWXRUZU9vaXJOTlFBNF8ycW9DQkxkR04tQkVNSnFWVDE0bERnLWd0SHZ5MnlSMWtDakxNcE1ZeUdrWVBrOUduRlJIU3R5VVZJNHhkU1hwMHRKcWZReU9LRnp2SXN4UXBOeThmUzJsX3lVSVMyVHFYS2R2Yy1hUHBnX3A4Nk45Rm9v?oc=5",
+   "i": ""
+  },
+  {
+   "s": "icl",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 5,
+   "t": "Após denúncias de falta de transporte, STF prorroga votação até as 19h",
+   "x": "Por Igor Mello O ministro Cristiano Zanin, do Supremo Tribunal Federal (STF), deu uma decisão liminar determinando a ampliação do tempo de votação até as 19 horas. A decisão atende pedido da campanha do presidente Lula (PT), que…",
+   "u": "https://iclnoticias.com.br/apos-denuncias-de-falta-de-transporte-stf-prorroga-votacao-ate-as-19h/",
+   "i": ""
+  },
+  {
+   "s": "bbc",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 5,
+   "t": "Mapa das Eleições 2026: veja o resultado para presidente e governador no 2º turno",
+   "x": "Neste interativo, você pode consultar os resultados da eleição para presidente e governador por Estado e município.",
+   "u": "https://www.bbc.com/portuguese/articles/c61m430mdek2o?at_medium=RSS&at_campaign=rss",
+   "i": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/aedf/live/f950f710-cec8-11f1-b441-2b33b063138f.jpg"
+  },
+  {
+   "s": "espnb",
+   "c": "Esportes",
+   "d": "2026-10-25",
+   "r": 5,
+   "t": "Broncos x Cardinals (25 de out, 2026) Ao vivo",
+   "x": "Veja a matéria completa em ESPN Brasil.",
+   "u": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4tX1VGdkE3NkxxNkVhZDJsM2dJR0ZZbkFCRk9SZFNVWlc4VURPdUYxbmhjX2MxS2VHekhGYjA1VVpPMzVnNzVwNGZpc3U4alhMRjh1QXRKMEVvYWNxNVVwRQ?oc=5",
+   "i": ""
+  },
+  {
+   "s": "uole",
+   "c": "Esportes",
+   "d": "2026-10-25",
+   "r": 5,
+   "t": "Juca Kfouri: Vergonha na eleição brasileira e Lula nunca reclamou de resultado eleitoral",
+   "x": "Veja a matéria completa em UOL Esporte.",
+   "u": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZnlWLUtxdnFVNTZXb3BrYlpsUHBkWTJVZGhoamxfTFFQUklQTzVYQlFEbGRHUGxSbEVlS2gtV2Vya3NQYllnSlUzbEc5NEw0cUR0am9IeTFuUzJlWUhpVld3eHpqdDgwQlZObGh1WU9XdXFCUl9iQzk3MHBfN1Y2dngzckhhZW85MGUwd2VPUVpBT2t3bzVycUhGa1g3RlVpZWtFVUZFWDdfUWdJOWxMYlhYV3QwWVlGYmw3bWNOZE9pUmc1NXJuSW9LMWFsRFFXQUdKTklPR1YzSFZpLUtKMTdqbw?oc=5",
+   "i": ""
+  },
+  {
+   "s": "crf",
+   "c": "Esportes",
+   "d": "2026-10-25",
+   "r": 5,
+   "t": "Agenda do futebol profissional (26/10/2026 a 01/11/2026)",
+   "x": "Veja a matéria completa em Flamengo (site oficial).",
+   "u": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbVhhMEZJdmJDM3FpaGFrNHlob29PLWxobVdlZEJoT0JQTnhfN21OX185SHhUUGRoMzZ4TEhjaGp2ekIxeE1LZ0JMOU1YNWhMUE1aVzYtVktCUVNSU3B0Sk1Ieno4RE9DSXdYZjBpclBYaDBTbHN5WjFZZ3h3RWdycnZZV2pwRXZDeFE0XzRVUWE5WWpIdDJUSVNrREVKaENf?oc=5",
+   "i": ""
+  },
+  {
+   "s": "carta",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 5,
+   "t": "Zanin determina que horário de votação seja estendido até às 19 horas em todo o País",
+   "x": "A determinação acontece em meio a denúncias de queda na circulação de ônibus em cidades da Bahia, Sergipe e São Paulo",
+   "u": "https://www.cartacapital.com.br/politica/zanin-determina-que-horario-de-votacao-seja-estendido-ate-as-19-horas-em-todo-o-pais/",
+   "i": "https://www.cartacapital.com.br/wp-content/uploads/2026/03/Foto-Gustavo-MorenoSTFZANIN.jpg"
+  },
+  {
+   "s": "icl",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Falta de ônibus atinge 10% do eleitorado; Lula venceu por 1,1 milhão no 1º turno",
+   "x": "Por Igor Mello As cidades com denúncias de supressão de transporte público impedindo a chegada do eleitor às urnas concentram quase 10% do eleitorado brasileiro, mostra cruzamento de dados feito pelo ICL Notícias. Nos 27…",
+   "u": "https://iclnoticias.com.br/falta-de-onibus-atinge-10-do-eleitorado-lula-venceu-por-11-milhao-no-1o-turno/",
+   "i": ""
+  },
+  {
+   "s": "uol",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 3,
+   "t": "Sobrinho de Dilma sofre acidente de carro a caminho de apuração do 2º turno",
+   "x": "Veja a matéria completa em UOL Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQOUVObXROempBVnBWZUFWbXpKWWdBdEtPSU9TdlprZzMyLUJRVWhWSDFRLV9sbnpxQlZ6c296bjdmVmVUNURrWjE2ZGZoVmVNb3kzY1BZZXFtZnRpODNwQjhvTGU2UnVEMUEzNjdXY2hmRm51eGZhT25HMWdmd3FaSkdJOTJNMXUxWmlyd0lSbloyblFDdnpsU1lneEFwX1RDUGRQNXowT2pPdU45SXJiZXVqdTBROG5BNWhWUWcxalVLT3d6SHc?oc=5",
+   "i": ""
+  },
+  {
+   "s": "espnb",
+   "c": "Esportes",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Barcelona x Real Madrid (25 de out, 2026) Estatísticas dos times",
+   "x": "Veja a matéria completa em ESPN Brasil.",
+   "u": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1HcWcwSEx2N1NuZEV3SE5ac1ZjVUdBTy1mU1dfd0tXa015U1RzMFI5YzRRem10aXBReTByOWpWX0RSVk9yTjdmcDFDQWhOc2NhVEw0bDZ1bkNmUFJ5bWx2NnNmTWEwZ1RwNXJkcHRnZ3ZFbnFGRzlsNGpnMA?oc=5",
+   "i": ""
+  },
+  {
+   "s": "espnb",
+   "c": "Esportes",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Barcelona x Real Madrid (25 de out, 2026) Estatísticas de jogadores",
+   "x": "Veja a matéria completa em ESPN Brasil.",
+   "u": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBfYXVZQkdzUDJ4NWtIMlhDTnNpUFo0UDh2cmZmbWMyZzZkWXJEVVBydFM4UGFwR0dMSzlyYUY3Q3VXS1pzYkU1YTNxdm9qMmU0LTBtdlNUMzE0bmt0eWtiWUMwR1FWb3YxRllZdFBSMzNhWXRsSndmc3VyVU5tUQ?oc=5",
+   "i": ""
+  },
+  {
+   "s": "terra",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 3,
+   "t": "STF atende pedido do PT e prorroga eleição em todo País até 19h",
+   "x": "Veja a matéria completa em Terra Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOTWEzMU5xcF9FV05PSm9BcFBxNm00bFdFNG9ieU9DdDNOTlVxRWh1Wko0WTlyZFY5eTRSeXVHei10V3lYNHhYTFVLaTY5cGowb1BkTjFDUGh0QjBVcnJjd2ZFTTh1YTlBQXl6UDRQbUtlb2k2OEc2cFQydUpNT0kwN2Q1RkViX2pSTldVWUxacjQyMmpwcjd4OFpCdnJNb2NNaURKaEhoMEwtQzR6dm0zMmFwY1l0eGZJV2pMeW9YdkZiUFU1LXlOUmVUQjRBa3NQczJWQXI5b1lycHAyNkh4dnNZMVhrS00?oc=5",
+   "i": ""
+  },
+  {
+   "s": "bdf",
+   "c": "Mundo",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Lula vence na maior parte da Europa e amplia vantagem no exterior",
+   "x": "Veja a matéria completa em Brasil de Fato.",
+   "u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUGhqLXdmcnVEMGNMMjJScGlaMGxUajFFNWR5WnQ2aUhxdlZDVDNST2VHQnh1dlA0R20xV0k3ZGlJSWtZeU9WR1IyMm9NR3A0b3MtWGxkTllYNEJNZUh1eE85VUd4U0ZNTkhCZ0J0ZHh4WHVLNklPcHV1eDN6U0VpMmt5cF9ZU0duandTRWc0OER2S3RqdUNIZ3U5SkJvUFhOckxvUzlvT3FJZE9zUkE?oc=5",
+   "i": ""
+  },
+  {
+   "s": "carta",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 5,
+   "t": "Lula derrota Flávio Bolsonaro em Portugal com 59,42% dos votos no 2º turno",
+   "x": "Boletins no consulado já confirmam o resultado do pleito no país",
+   "u": "https://www.cartacapital.com.br/politica/lula-derrota-flavio-bolsonaro-em-portugal-com-5942-dos-votos-no-2o-turno/",
+   "i": "https://www.cartacapital.com.br/wp-content/uploads/2026/09/lula-em-ato-em-belem-foto-ricardo-stuckert-campanha.jpg"
+  },
+  {
+   "s": "uole",
+   "c": "Esportes",
+   "d": "2026-10-25",
+   "r": 5,
+   "t": "Jogadores do Bahia exaltam Neymar, expulso em polêmica com Nestor: 'Sonho'",
+   "x": "Veja a matéria completa em UOL Esporte.",
+   "u": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdHFCQWNXaXE3LWVwSVhFWTg5VFRSQ1RUVVlYZl85NWZWd0ZULWVOTnVlamVKWGQ2X3A3Qld2b29nRmRtSGNEbm1oVks5Z0I0d1VtVmJlb1RzMG1OeGVRN1Q3ZktHMU16ZWpnR252emVHZVA5andFbVFNSnYtUFhkaGNjYlJyRGR0cVBPOWh1enQwOVN4TU9ucFhFWWNPamNqVnh2ckF4eWZRcllUVkNsX1kwQ2ZnS3did0JmMC15QWpmSnlkR29xdFVfaHlDM1BHbXpRRk1VTHk?oc=5",
+   "i": ""
+  },
+  {
+   "s": "uol",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 3,
+   "t": "María Corina Machado volta à Venezuela após meses de tentativas frustradas",
+   "x": "Veja a matéria completa em UOL Notícias.",
+   "u": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOSm9OV0pwa0RtMUxhVEs4WklmeWFub0kxMWZCTU1jN0d0NUZGcjlKS2swOUFHOEJzZ3RFREVuMTBleFdYbW00NEZNcVpDMV8xMTk2aHY5LS1sY3o5QjJHUlRJZy1GV0p4aVpCM0gtU3dSS2ktVHRNR0puZVZwX3czeERjdEhfTzlhdWxCaWdwX1BHRHFkY2diNE9pbV9sVGp3QXJ5cW91UGJwWG8wMmw0LTBmb2JqRWVzMlA1bjl3RFgtVVhBUjlfZGttUzlNNDJKbkVkR2lfb3BhRUo4YVE?oc=5",
+   "i": ""
+  },
+  {
+   "s": "icl",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Escândalo internacional: OEA acompanha falta de ônibus para eleitores brasileiros",
+   "x": "Por Jamil Chade e Gabriel Gomes A missão de observadores da Organização dos Estados Americanos (OEA) confirmou ao ICL Notícias que está acompanhando com atenção as denúncias de falta de ônibus e dificuldades de transporte para os…",
+   "u": "https://iclnoticias.com.br/escandalo-internacional-oea-acompanha-denuncias/",
+   "i": ""
+  },
+  {
+   "s": "canaltech",
+   "c": "Tecnologia",
+   "d": "2026-10-25",
+   "r": 5,
+   "t": "O que a aba anônima do navegador realmente esconde de você",
+   "x": "A aba anônima não impede que sites e anunciantes coletem dados sobre o equipamento usado pelo usuário. Apesar de não revelar o nome ou endereço, o navegador usa uma impressão digital baseada nas características técnicas do…",
+   "u": "https://canaltech.com.br/apps/o-que-a-aba-anonima-do-navegador-realmente-esconde-de-voce/",
+   "i": "https://tl.ctcdn.com.br/THz2aasli3wf_P7tp4CIt4TNPMg=/0x0/filters:format(webp):quality(85)/97d52b5b-c5ca-4cbb-b25f-4d10beebc5d1.jpg"
+  },
+  {
+   "s": "olhar",
+   "c": "Tecnologia",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Transforme qualquer TV com esses dispositivos de streaming em oferta na Amazon",
+   "x": "Assistir conteúdo por streaming ficou cada vez mais fácil — e mais barato — com os dispositivos certos. Reunimos três opções em promoção na Amazon para quem quer transformar a TV em uma central de entretenimento sem complicação…",
+   "u": "https://olhardigital.com.br/2026/10/25/reviews/transforme-qualquer-tv-com-esses-dispositivos-de-streaming-em-oferta-na-amazon/",
+   "i": "https://m.media-amazon.com/images/I/41DegJcrP3L._SL500_.jpg"
+  },
+  {
+   "s": "carta",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 5,
+   "t": "Lula e Flávio Bolsonaro pedem ao TSE prorrogação da votação até às 19h",
+   "x": "Campanha petista quer estender a medida a todas as regiões com problemas no transporte público; PL cita chuvas, alagamentos e mudanças em locais de votação",
+   "u": "https://www.cartacapital.com.br/politica/lula-e-flavio-bolsonaro-pedem-ao-tse-prorrogacao-da-votacao-ate-as-19h/",
+   "i": "https://www.cartacapital.com.br/wp-content/uploads/2026/10/lula-e-flavio-bolsonaro-Foto-por-DOUGLAS-SHINEIDR-AFP-Foto-por-MIGUEL-SCHINCARIOL-AFP.jpg"
+  },
+  {
+   "s": "bbc",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 5,
+   "t": "O que se sabe sobre as denúncias sobre falta de ônibus pelo Brasil?",
+   "x": "O presidente e candidato à reeleição Luiz Inácio Lula da Silva (PT) pediu ao Tribunal Superior Eleitoral (TSE) a prorrogação do horário de votação nas cidades que registraram irregularidades.",
+   "u": "https://www.bbc.com/portuguese/articles/cm93z1wyl706o?at_medium=RSS&at_campaign=rss",
+   "i": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/6853/live/1fcae2c0-d0a4-11f1-a701-fddedf244c16.jpg"
+  },
+  {
+   "s": "carta",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Lula vence no Reino Unido com 63,3% dos votos no 2º turno",
+   "x": "De acordo com os boletins de urna consolidados, Flávio Bolsonaro (PL) alcançou 6.349 votos, representando 36,66% da preferência brasileira em solo britânico",
+   "u": "https://www.cartacapital.com.br/cartaexpressa/lula-vence-no-reino-unido-com-633-dos-votos-no-2o-turno/",
+   "i": "https://www.cartacapital.com.br/wp-content/uploads/2026/10/AFP__20261018__D3NT9PY__v1__MidRes__BrazilElectionRunoffDebate.jpg"
+  },
+  {
+   "s": "bdf",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Deputada Sâmia Bomfim pede prisão de Ricardo Nunes por descumprir ordem de colocar 100% dos ônibus de SP nas ruas na eleição",
+   "x": "Veja a matéria completa em Brasil de Fato.",
+   "u": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOaW1GY1dTU3VtQ0ZGc1VlYzNWTVlRUmFvYUt6eHNzNUx2Z3A0Zkt3bFZiY3JIa09DRzZwSEZwcHVkTThXNHBNNTdDWXlPLUNYU0FvY0JBTmVtLUx4cTI2M3VfWkZrajB1S1lFQUNTeHBJUDFKNElFdEx4Yzd2bGZEVTFndVlhblZxOWNtMDNHdTlnS2t6Q201MzdBRmtXVHVreTYyYXI2Unc3Y3o3R21UcWE2QUVJRHBZN2VSMnJLODhYcXlYOFg0R093LXQtV2tfRlFsdmtBM09XYnlMM2piVUFjdFpqTnNKMkZyRkFvZGVMS0JONTE0N0pPOA?oc=5",
+   "i": ""
+  },
+  {
+   "s": "carta",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Nunes Marques dá 30 minutos para prefeituras da Bahia explicarem falta de ônibus",
+   "x": "Mais cedo, o TRE-BA decretou a prisão do secretário de Mobilidade Urbana de Salvador, Pablo Souza, após denúncias sobre queda na circulação de ônibus",
+   "u": "https://www.cartacapital.com.br/politica/nunes-marques-da-30-minutos-para-prefeituras-da-bahia-explicarem-falta-de-onibus/",
+   "i": "https://www.cartacapital.com.br/wp-content/uploads/2026/06/KASSIO.jpg"
+  },
+  {
+   "s": "icl",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Nunes alegou evitar ‘gastos desnecessários’ para reduzir ônibus no dia da eleição",
+   "x": "A Prefeitura de São Paulo, comandada por Ricardo Nunes (MDB), justificou a decisão de não colocar toda a frota de ônibus em circulação durante o segundo turno das eleições presidenciais com o argumento de evitar “gastos…",
+   "u": "https://iclnoticias.com.br/nunes-alegou-evitar-gastos-desnecessarios-para/",
+   "i": ""
+  },
+  {
+   "s": "carta",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Acompanhe a apuração dos votos do 2º turno para presidente",
+   "x": "CartaCapital exibe neste domingo uma edição especial do programa Direto da Redação com a cobertura da apuração do segundo turno das eleições",
+   "u": "https://www.cartacapital.com.br/politica/acompanhe-a-apuracao-dos-votos-do-2o-turno-para-presidente/",
+   "i": "https://www.cartacapital.com.br/wp-content/uploads/2026/10/AFP__20261019__D3NT9RH__v1__MidRes__BrazilElectionRunoffDebate.jpg"
+  },
+  {
+   "s": "olhar",
+   "c": "Tecnologia",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Hora de renovar a sala: TVs QLED com tecnologia de ponta em promoção na Amazon",
+   "x": "Se você está de olho em uma TV nova com imagem de qualidade superior, chegou a hora certa. Reunimos uma seleção de televisores QLED em oferta na Amazon, com modelos que vão de 32 a 50 polegadas e recursos que fazem diferença no…",
+   "u": "https://olhardigital.com.br/2026/10/25/reviews/hora-de-renovar-a-sala-tvs-qled-com-tecnologia-de-ponta-em-promocao-na-amazon/",
+   "i": "https://m.media-amazon.com/images/I/418Y-M7w6FL._SL500_.jpg"
+  },
+  {
+   "s": "carta",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Deputado federal eleito Pedro Rousseff sofre acidente de carro",
+   "x": "Caso aconteceu na Rodovia Fernão Dias, que liga as regiões metropolitanas de São Paulo e Belo Horizonte",
+   "u": "https://www.cartacapital.com.br/politica/deputado-federal-eleito-pedro-rousseff-sofre-acidente-de-carro/",
+   "i": "https://www.cartacapital.com.br/wp-content/uploads/2026/10/pedro_acidente.jpg"
+  },
+  {
+   "s": "bdf",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Coligação de Lula pede ao TSE extensão do horário de votação em cidades de 10 estados",
+   "x": "Veja a matéria completa em Brasil de Fato.",
+   "u": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdG00dmRNaGNoVXBSelZSbnpuWUx0YnJoMXZTOGxldHpsM3B6SlYwUlczd25VTVZDdnpfdEZLNzRLVVg5SWEyZUNZQnlXYUlueTFoY1NlYmh4dm9sTzhlX3pPeGF2N1M3cXZ0ckpEb1hKRlBMY1VFTGNzcWQxNVVxZ19jU0xvWmF4ZENfLTRmcFlUNlRGMDU4NVhqMlpwUG5VdVJCWmJZYnVndzE3NlRtVmV2SzY0cjg0bjROdThYTWpyVmc3d3k3ZA?oc=5",
+   "i": ""
+  },
+  {
+   "s": "bdf",
+   "c": "Mundo",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Lula vence eleições na Palestina; Flávio Bolsonaro, em Israel",
+   "x": "Veja a matéria completa em Brasil de Fato.",
+   "u": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdU1OTVk2TV9FUEtFeWtxcFhlYTNEYTEteHBNZTFsX3NsUlVQcEJ3TkJ5M3dTLUZtQW4zeXZZNjVEUV94Mjg4V3E5b01CM0x3Rm1sM3daMzlzcnNWRFNGSExzb1dNb1k3OU5NRkRIUVdXQk4wTHpHdXVPQlE3QUtBRWFHUnV6VnF2b0UwYzQ1MzhKTlpSSW5mdA?oc=5",
+   "i": ""
+  },
+  {
+   "s": "gefla",
+   "c": "Esportes",
+   "d": "2026-10-25",
+   "r": 5,
+   "t": "Escalação do Flamengo: Jardim pode fazer mudanças nas laterais e no ataque contra o Atlético-MG",
+   "x": "Flamengo x Atlético-MG: informações e palpite para o jogo O Flamengo encerrou na manhã deste domingo, no Ninho do Urubu, a preparação para enfrentar o Atlético-MG nesta segunda-feira, às 20h (de Brasília) no Maracanã, pela 32ª…",
+   "u": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/25/escalacao-do-flamengo-jardim-pode-fazer-mudancas-nas-laterais-e-no-ataque-contra-o-atletico-mg.ghtml",
+   "i": "https://s2-ge.glbimg.com/DfmowUVMC1i5FqnVFGSc8cSF99c=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/a/5/aGVoCrRpOg4afZD6sRbg/55158523478-9f132c6946-k.jpg"
+  },
+  {
+   "s": "canaltech",
+   "c": "Tecnologia",
+   "d": "2026-10-25",
+   "r": 5,
+   "t": "Carregador de celular com vários plugues são mais lentos? Nós testamos",
+   "x": "Carregadores com várias portas USB prometem facilitar a vida de quem precisa recarregar mais de um dispositivo ao mesmo tempo. Mas será que conectar vários celulares ao mesmo carregador faz com que todos demorem mais para…",
+   "u": "https://canaltech.com.br/smartphone/carregador-de-celular-com-varios-plugues-sao-mais-lentos-nos-testamos/",
+   "i": "https://tl.ctcdn.com.br/1I0eHLDUOlr00WQ4pnC9h3Y5GVk=/0x0/filters:format(webp):quality(85)/efea803e-958e-494a-b167-37529305cd4c.png"
+  },
+  {
+   "s": "olhar",
+   "c": "Tecnologia",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Duas falhas críticas no PHP quase provocaram crise global na internet",
+   "x": "Vulnerabilidades permitiam invadir servidores remotamente sem senha; correções levaram sites e serviços a sair do ar preventivamente O post Duas falhas críticas no PHP quase provocaram crise global na internet apareceu primeiro…",
+   "u": "https://olhardigital.com.br/2026/10/25/seguranca/duas-falhas-criticas-no-php-quase-provocaram-crise-global-na-internet/",
+   "i": "https://olhardigital.com.br/wp-content/uploads/2026/10/seguranca-cibernetica-1024x585.jpg"
+  },
+  {
+   "s": "terrafut",
+   "c": "Esportes",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Fernando Diniz embolsa quantia milionária com rescisões em Corinthians, Vasco e Cruzeiro",
+   "x": "Veja a matéria completa em Terra Futebol.",
+   "u": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNX3pRQlpacXFDR00yUzg2X0lzNC1VMm5ZcEp5SmRNUXpfVlNEczlGdXZwNzBUMXVJblFKQkhTYzhLTTJaaXk5LXlKcWVoRkVtUFlrRVRWdW1MbnIzQktTRDl5MElOX2gySFRfVk5FOExVbGlRaWNSc3FGMGdpTWFuQk52dnZwdlRSNHpUSmszTUdfTEpRTVZfalZPUkkzbEgxY0YtVmp0YlNMdzVSaU1Fd1lIbnBTNkl3T3NxLVdsMTFIMEZyZWF5THJVdVdEOGx0TkxnSVRtakZKb1AzQTdWMndxQmV2VTlMeXl1SktvUHdhcXlDUy1XaEN3dmdKTUY0NnN0WlVR?oc=5",
+   "i": ""
+  },
+  {
+   "s": "terrafut",
+   "c": "Esportes",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Matheus Martinelli seria convocado por Carlo Ancelotti",
+   "x": "Veja a matéria completa em Terra Futebol.",
+   "u": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQRlZtLUZrbnNBWkZBb19rV2YyTnV0ZWtJOVlhNWh3Q2hvUUVfOXRvMDZ4U3RQM25aS0tIdDc3NTF3QTh0clZKcWpYdWJEUHY3QnJFTGc4XzI5UjREdE81SEtoc1ZUblZKdE1xOEs1dG16eGZzQVJjQ29UY0FnNnNYeDRpMTk1N0dxZjNobFcyeVd5Y0dhUFNCMVFlNl9vUzVzazRVUXZOUmZCdlV3TGlpNXRKZWtXUkZIZjRwRF9HVkNRb0RuSHJvX2J6R0J0OFVWdGxDLVhGTF9Kdw?oc=5",
+   "i": ""
+  },
+  {
+   "s": "olhar",
+   "c": "Tecnologia",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Quer renovar a sala? Veja Smart TVs 4K em promoção na Amazon",
+   "x": "Se você está pensando em trocar aquela televisão antiga por uma com imagem nítida e recursos modernos, este é o momento certo. Reunimos três opções de Smart TVs 4K disponíveis na Amazon com boas condições, passando por modelos de…",
+   "u": "https://olhardigital.com.br/2026/10/25/reviews/quer-renovar-a-sala-veja-smart-tvs-4k-em-promocao-na-amazon/",
+   "i": "https://m.media-amazon.com/images/I/41aiU8w9YiL._SL500_.jpg"
+  },
+  {
+   "s": "icl",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Lula denuncia ‘banditismo’ na falta de ônibus e pede prorrogação da votação: ‘Não desistam de votar’",
+   "x": "Por Gabriel Gomes O presidente Luiz Inácio Lula da Silva (PT), candidato à reeleição, denunciou neste domingo (25) a redução das frotas de ônibus em diversas cidades brasileiras durante o segundo turno das eleições presidenciais…",
+   "u": "https://iclnoticias.com.br/lula-denuncia-banditismo-na-falta-de-onibus/",
+   "i": "https://iclnoticias.com.br/app/uploads/2026/10/55606784090_fe55884543_c.webp"
+  },
+  {
+   "s": "bbc",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Votos do Nordeste demoram mais para chegar ao TSE? Tudo para acompanhar a apuração",
+   "x": "Infraestrutura desigual das regiões faz com que dados do eleitorado do Sul e do Sudeste sejam contabilizados primeiro no TSE; próximo presidente deve ser conhecido, no domingo, até 20h30.",
+   "u": "https://www.bbc.com/portuguese/articles/cmvg9v4v8kwgo?at_medium=RSS&at_campaign=rss",
+   "i": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/3a71/live/4dcf5360-d075-11f1-afcb-6b9b9432d8fc.jpg"
+  },
+  {
+   "s": "terrafut",
+   "c": "Esportes",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Bayern de Munique supera Freiburg, fora, e retoma a liderança do Alemão",
+   "x": "Veja a matéria completa em Terra Futebol.",
+   "u": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOdzdZSlA0NmhpWVlNUnVpSUtGZmd2OHJFSTJ3YWZFdG52SUFOeWk4bmI2U1BQWHVlNDh5aU83Rm4xa1lEM1k5cXF1LXlCOFV1Qkp5aXdVS0NZTG5pZnFTcUhBcDBwczdmRXlfNWVmY1g1bkJ0U0dMV1lCR1Bkd1c3cTZzOWdtOFVNd1BUellMTjhBUm12YV9Ea0ltakR5ZlpNRlR4ZWo3cVhpMGtZMHFabnFVWGcwXy1ZQ21Pd3JjcEVxUTl5ZWpLTkNTdDRQcWlLSkNtc0drZlJXMFllRjVXV1JpMDRrMkZqQmJHbGhYOFdWVGlJWnZJbnJLcHVJSmp6SXlmMk9MOE1QbG1idC1HakZkQVB5TjJxa0NwbXktSmhUMGgz?oc=5",
+   "i": ""
+  },
+  {
+   "s": "espn",
+   "c": "Esportes",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Monaco de Filipe Luís tropeça contra time de filho de Ancelotti na Ligue 1",
+   "x": "Veja a matéria completa em ESPN Flamengo.",
+   "u": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNcUV6Nk9DbnZrdHdod243MGdkVENDZjdvaXpIMW5BSWZDUEdfb2R6eWVkejFPYXd0U2pHc01uemI2Y3dtNmFCVm91b3N2V2R2dXJNQjRoR2pkWGFiNXRJMGxyVy1WakhhOEZpTk55RGIwbFY5THdfbTI1cXR4bGFkNHBFNVFMcVZMLVN3c3NINzNzc2F0UF9YclE5cDFrcEstamVFc3lPbWJKNVFDTTl3aXZUbFpaVlkxaVlnSGh2R01JUFhmNVkyT1ZKUFMzUFVnU3VFS1Q3cnNCa2ZBc0ZmLUFha1cwUktjT3gyOWZ2d0duX1lab3JIamRIU2M1bGFPV0E?oc=5",
+   "i": ""
+  },
+  {
+   "s": "bdf",
+   "c": "Economia",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Economista rebate críticas de Flávio Bolsonaro sobre dívida pública: ‘Conotações morais não se aplicam na economia’",
+   "x": "Veja a matéria completa em Brasil de Fato.",
+   "u": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPd3BvVElFazU0Xy1MZTZsajkxd01GQ2lsSHFuQzhfb3M0RlllQ25tVTNmaldBZkE5Q0IzNGduR2FsbWtobm9ObnJxRHZlWFNWcjFLY0MwUEVCQVBRdFhYM215eFh3WHZvbnRsdVdzMk95NFQxbHBFSi1SeGw3UFhGSUJfZ05KTjVqekNTUGF4SmpDQXF5bEFkZnZPREpFeEtmOWVZUl9xbmhRdVBPSDdrWm5GS3l4Sm4wdHF0Z0NtQl9XY3FadFMwb0UzWW9hSVEtcVg4MVdPWXgzNzJ1S3FJZHl4NXNIWHIwdHB0aw?oc=5",
+   "i": ""
+  },
+  {
+   "s": "icl",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Fã-clube de Daniela Mercury organiza caronas solidárias após faltar ônibus em Salvador",
+   "x": "Por Anna Virginia Balloussier (Folhapress) – Artistas do axé e também seus fã-clubes estão organizando caronas solidárias para ajudar eleitores a chegar aos locais de votação neste domingo (25), diante da circulação de ônibus…",
+   "u": "https://iclnoticias.com.br/fa-clube-daniela-mercury-caronas-solidarias/",
+   "i": ""
+  },
+  {
+   "s": "bdf",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 3,
+   "t": "Após denúncias de falta de ônibus, Nunes Marques não descarta estender horário de votação",
+   "x": "Veja a matéria completa em Brasil de Fato.",
+   "u": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSE9TSlZWV0VaNjE1M3p2Q3YzYl9IRDgza0U5QzBYeE1ZUXAzeS1FWkhpa2ZlQUNnZUlNZUwyTUV0ZXdrSUFFS1VmOS1yQTRpR0FIOHJqRUpRRmN2X0dBdnBtQkl1bGRHUFk4TkRwRVllUWlQQ1BFQ1NpZXFodWVseEFsQTNNZ3RRdHFTVFRKcjlVTnJsbnVHYnBKSFljaHpERDV3X2ljWXg5bGtKSlRIWndBUDE5cGVVU1JQQVlwa0xXV0pVYkEtT1ZlVTc?oc=5",
+   "i": ""
+  },
+  {
+   "s": "espnb",
+   "c": "Esportes",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Xerez x Cádiz (28 de out, 2026) Ao vivo",
+   "x": "Veja a matéria completa em ESPN Brasil.",
+   "u": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9IcV9tbFZ6N2N6dTlfbmdDY2dfak43ZW1DRzlNbmtZaW5SX1AteVRVSTVERDVRamFpRU5BVXVwRXVnM25aT0JTTjJPNXk3OXBIbkgtNURweWRLZTBFTVhTRkR2SzJBTzhoNjAzaVQyeVA2NG1jT19fZA?oc=5",
+   "i": ""
+  },
+  {
+   "s": "terrafut",
+   "c": "Esportes",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Barcelona x Real Madrid por La Liga: onde assistir ao vivo, horário e escalação",
+   "x": "Veja a matéria completa em Terra Futebol.",
+   "u": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOSnhpUFpDWUhKQzRyNGVfMkVfZjJVQk1fQ0ZoX3lPSlhGTnRDTWFoNFVEdlJIQTA1TVZJUDdMUUIwVlJvUDVPRG5mNXNNUURsa2FqUVg3MExEODh2YzE3UGdidHhVOHgwNFBSV3dsd01YYTNza3AwYXlfTHJDR093WVp1MWxjUlUtV3BHMUthbGNwUy1XbUwwRno3bl8wbVlPSUE5dWdyVkhyMjRDUzRPbDFHSjlkbmlOenBHLW0tbGtNTHpUcEpPQTdtTHRJUUpRQUtZR3JULUNPbmxiejhyOS1FWlRHb0Uyb3k4UlQ1MzR3dUtROGlhbQ?oc=5",
+   "i": ""
+  },
+  {
+   "s": "icl",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 3,
+   "t": "Procon identificou 544 ônibus parados em garagens em Salvador",
+   "x": "O Procon da Bahia identificou 544 ônibus do transporte público parados em garagens de Salvador neste domingo (25), durante o segundo turno das eleições presidenciais. Segundo o órgão, os veículos estavam aptos a circular, mas…",
+   "u": "https://iclnoticias.com.br/procon-aumenta-para-544-o-numero-de-onibus/",
+   "i": ""
+  },
+  {
+   "s": "bdf",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 3,
+   "t": "Que horas começa a apuração do segundo turno? Veja horário e quando sai o resultado",
+   "x": "Veja a matéria completa em Brasil de Fato.",
+   "u": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdVFrV2d3TmJyYnNYeURNVFpxdUhEdDNxdmNpZ0pBVk1UOVZWNkJoazdvdGRiSG5yeUpwdnNzQkpmUFp6bzJ1c2VBb1lGV2FMVnhsSk91YVBVVGx4TG1pWk9kaFZhT3BteXZHQkxMQm5maGJHRHFhYU9tb016SDY4RDNNamxNM1cyOEpfXzRFdVp1UnB6VFBmOGlQYS1nUzZ4TWIyWlZCQVpBRDBTVjNLNVlVbF9tbGNwUnA4YVA5RzloTjlo?oc=5",
+   "i": ""
+  },
+  {
+   "s": "canaltech",
+   "c": "Tecnologia",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Toyota joga preços de Corolla e Yaris Cross no chão; veja condições",
+   "x": "A Toyota decidiu fazer uma verdadeira \"loucura\" para recuperar parte do espaço perdido diante dos rivais chineses . A estratégia escolhida foi a de jogar no chão os preços do Corolla e do Yaris Cross até o fim do mês de outubro…",
+   "u": "https://canaltech.com.br/carros/toyota-joga-precos-de-corolla-e-yaris-cross-no-chao-veja-condicoes/",
+   "i": "https://tl.ctcdn.com.br/mE2HAO0EygS1wWYYDfx2mB0muhw=/0x0/filters:format(webp):quality(85)/044dd864-69ae-4451-a77c-aec818876063.jpeg"
+  },
+  {
+   "s": "carta",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Faltou ônibus em Salvador no 2º turno, oito dias após Câmara dar título a Flávio Bolsonaro",
+   "x": "Com a frota retida no dia da votação, eleitores ficam a pé e o TRE mandou prender o secretário que está em Paris",
+   "u": "https://www.cartacapital.com.br/politica/faltou-onibus-em-salvador-no-2o-turno-oito-dias-apos-camara-dar-titulo-a-flavio-bolsonaro/",
+   "i": "https://www.cartacapital.com.br/wp-content/uploads/2026/10/salvador_onibus_eleicoes.jpg"
+  },
+  {
+   "s": "terrafut",
+   "c": "Esportes",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Brasileirão envelhece e dá pouco espaço aos jovens, aponta ranking do CIES",
+   "x": "Veja a matéria completa em Terra Futebol.",
+   "u": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQcVV4VzBualZDNndxdEFZT3FNMXNfM001YUlqQ19Vay1wcXFabVJMV2RXUDcxd2dicmRuUnBMNE1DSkFQc0ZKOWl0Mm10bHA4Y0E0TUk0Q2hVYnpJd1ZITmo3eEpCbkU0Y0NmaXlzUzZOdEgyZDAtVGQ3QU9CRDVrS19mbXlsMHhQb05rWlctT253cWgwR08zdzJBcVZ5RUpoX05jdHhxclY0czhFd0RqbjAwRlFNRnNYX1RZSmpVbUNLbGN4RklEZDI0MldBUy1FMGdRS3oyaXdDczlGYlBWNGF6ZDRZa280MDFWNnk1Ul9HT1U?oc=5",
+   "i": ""
+  },
+  {
+   "s": "super",
+   "c": "Ciência",
+   "d": "2026-10-25",
+   "r": 5,
+   "t": "Subir de 60 a 70 degraus por dia pode ajudar a proteger o coração",
+   "x": "Estudo associa o hábito de usar escadas a risco 39% menor de morte cardiovascular e reforça que pequenas doses de atividade física também contam",
+   "u": "https://super.abril.com.br/saude/subir-de-60-a-70-degraus-por-dia-pode-ajudar-a-proteger-o-coracao/",
+   "i": "https://super.abril.com.br/wp-content/uploads/2026/10/SI_subindo-escadas_site.jpg"
+  },
+  {
+   "s": "uole",
+   "c": "Esportes",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Sem Kompany, Bayern vence o Friburgo fora de casa e segue na liderança",
+   "x": "Veja a matéria completa em UOL Esporte.",
+   "u": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVy05Q2JKU1RWaGR0ZmlQVE01ZkZXTUhfY0Njc19ibWZWUnJocGZXWmdLcjVVUWFQWUFBbFVOaDdCekZSM0tseXZVdWR5ZW1TUGc3dWgwVS1MdUJ1MU50aFNyYzBsRHRHNm9PQ1Q0czRYUmhnR0M5MjZjcUtwcmQtMnFUdndWRFozbDBlVjNrVnBtU0cxb1FSOEQ5M0lseDFScFZsblJETnZhUjNnVk5kYnh6ZkN2N0xXeTBMM19SSmFaSjVvXzNMelVHZ2J3Zw?oc=5",
+   "i": ""
+  },
+  {
+   "s": "icl",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 3,
+   "t": "EXCLUSIVO: No Rio, Flávio usa helicóptero apreendido com R$ 7 mi do ‘Faraó dos Bitcoins’",
+   "x": "Por Juliana Dal Piva e Flávio VM Costa O candidato do PL à presidência, Flávio Bolsonaro, utilizou neste sábado, 24, um helicóptero no qual a Polícia Federal já apreendeu R$ 7 milhões de Glaidson Acácio dos Santos, o “Faraó dos…",
+   "u": "https://iclnoticias.com.br/flavio-bolsonaro-helicoptero-7mi-farao-bitcoins/",
+   "i": "https://iclnoticias.com.br/app/uploads/2026/10/Captura-de-Tela-2026-10-25-as-08.10.02.webp"
+  },
+  {
+   "s": "carta",
+   "c": "Mundo",
+   "d": "2026-10-25",
+   "r": 3,
+   "t": "Eleitora faz saudação nazista após votar no Rio e questiona homem judeu: ‘Pior ainda’",
+   "x": "Mulher usava boné vermelho com slogan de Donald Trump e camiseta verde e amarela com a frase ‘Meu Partido É o Brasil’",
+   "u": "https://www.cartacapital.com.br/politica/eleitora-faz-saudacao-nazista-apos-votar-no-rio-e-questiona-homem-judeu-pior-ainda/",
+   "i": "https://www.cartacapital.com.br/wp-content/uploads/2026/10/nazista-rio-de-janeiro.png"
+  },
+  {
+   "s": "carta",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 3,
+   "t": "Lula reage a ‘sacanagem’ e cobra TSE por mais tempo de votação após denúncia de falta de ônibus",
+   "x": "'Não vamos permitir que haja roubalheira, banditismo e prefeito bandido', afirmou o presidente",
+   "u": "https://www.cartacapital.com.br/politica/lula-reage-a-sacanagem-e-cobra-tse-por-mais-tempo-de-votacao-apos-denuncia-de-falta-de-onibus/",
+   "i": "https://www.cartacapital.com.br/wp-content/uploads/2026/09/lula-em-entrevista-no-palacio-da-alvorada-foto-reproducao-youtube.png"
+  },
+  {
+   "s": "espn",
+   "c": "Esportes",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Jornal detona United após atropelo do Bournemouth, dá duas notas 3 e crítica brasileiros",
+   "x": "Veja a matéria completa em ESPN Flamengo.",
+   "u": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVW1zT2Npd0FJSl9OOUkwdzJMUWgwTWc1ZkFOZk1yWFcxYlptMWR4SXJnTHg4QjV5VGwxX1ZmNWM2ZHo5SDRSMy1nWUVDNk1TWXg2MllWeVlUNUVvNFZCaFkxUU5HemRIdEpHOGFJTk5UTUtTLU81YXIwdmdSUWdvZzZfOXV0djRoOWlLQ0pUaWtTQ0FZbGR6cFZ0U1dhX1FPS1pvOFdZc0I2UnNvWElnQ3ljdGFoWGxhaF91Yk8yR0tQM3BZYUY1OXgtN3JvaTkzVEpEdTNDZjZ6dw?oc=5",
+   "i": ""
+  },
+  {
+   "s": "bbc",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Quem está à frente nas pesquisas para presidente no 2º turno das Eleições 2026? Veja Lula x Flávio Bolsonaro no agregador da BBC",
+   "x": "Acompanhe as intenções de voto para Lula e Flávio Bolsonaro no segundo turno das eleições de 2026, de acordo com o Agregador de Pesquisas da BBC News Brasil.",
+   "u": "https://www.bbc.com/portuguese/articles/cvrly555knx9o?at_medium=RSS&at_campaign=rss",
+   "i": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/e0f9/live/a48cfac0-cc62-11f1-a64c-550be9e3c66b.png"
+  },
+  {
+   "s": "uole",
+   "c": "Esportes",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Liverpool vence Brighton e quebra sequência de derrotas em casa",
+   "x": "Veja a matéria completa em UOL Esporte.",
+   "u": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQb2UwTU5vbmNjN2Y0SHQ0ZlZUT092c1dFc0hoZnFMd3Jkc0tweHFMNDFLLVZ1dkFaeXdDNk5xTENyNFUtbXVZd295Z1dvckR2eHZjNi00VVhpdk9tU0tGVWNJYTBvMWw2NnlOSTlCNkNXX0hlZThyQTI0YnpVM21wOUUwd3BlTmNucTNGZDdLbF81MHotZDU1N0I2QTBxUkdGdTFIQTFwckZYUHlFUjdURVFGSk1HUlNKbnBoZWpEWWZfSG01NTluTEQzMkE?oc=5",
+   "i": ""
+  },
+  {
+   "s": "terrafut",
+   "c": "Esportes",
+   "d": "2026-10-25",
+   "r": 3,
+   "t": "PSG x Lyon pela Ligue 1: onde assistir ao vivo, horário e escalação",
+   "x": "Veja a matéria completa em Terra Futebol.",
+   "u": "https://news.google.com/rss/articles/CBMioAJBVV95cUxOWG5CaGxsTGNDV1RIQURZNXlOTFdfWnVMU0hMc1ctUmVROVNncno5akVkWndSSXNGZlZRYmtrak02R0cxQVZya0lKSTBNcHRyZjR6d1dHZHk0MUdoOWwxQy0yNGRvSV9XYjlPUDNJUldrZF9WS2VqS1BTY1dSc0ZtRTZ1T2dvSHRMLV9kN3R1WnVvQVQtVE9qTU9ZZWt1X2Q4Y2JobUJxdzlyemxiMmM2TWZDQ3g0NkF1ZHFrbUxWWWFSQVZFaGlmUC00cWtxWnBWWUJHVjJiY1dvWDE0UVFEYVliNTN5YVN2Y0FGb2EzNzVwbmZWVThvR1J6TEZMQm5tSlM0T3FPRmhkWUxwR2VqaW1lT1FPaFZuNlAzcjhpZnA?oc=5",
+   "i": ""
+  },
+  {
+   "s": "uole",
+   "c": "Esportes",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Liverpool conquista vitória em casa; Manchester United sofre nova derrota",
+   "x": "Veja a matéria completa em UOL Esporte.",
+   "u": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQZmttajVZWlEzY1NtRGpDSWdRVndMcmFQbTkxZmR6QnhRNWpYQk5JS1Niclp5RnloRk1leTBWX21jQ3BmbE9YQklTbmlqbXlmaGVXcVRDVnhULW5GX0s4WUU5c0ctTEpjOUtaZ2d5c2pHMGMtLXVRU0tiUktnVG5MLVAtNUN4VzBVc3l5RzFIeklnVEdHZDh4R2dwQU4wNjJMYVdENkJ6OW9TdkZqc0VfdzljcERheVRUTzdhNTN2emRPOHlpVWlzVmZVRUxzTTlHRUVNWlZMV0tSZXM?oc=5",
+   "i": ""
+  },
+  {
+   "s": "uole",
+   "c": "Esportes",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Transmissão ao vivo de Barcelona x Real Madrid pelo Espanhol: veja onde assistir",
+   "x": "Veja a matéria completa em UOL Esporte.",
+   "u": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZjRBREJPTHJGb0g3QmFYX2ZPeGs4UzVIZlhCRThkUnVCSzVKOGw3N1Fsc2NSaGhkSEtqa2JsWm5RUXR6bWtKdGlSdFdSMGNibTV6OVo3aTNUR2dsOWI1OGtfUS1GNUFIYW52c1k4NUVBWUFEY2hDamJjQ3VrUXk5eXBSUW1fV2lBd2hoMDhrTVh1RndVeTVLcGJrRFNHX2g2TFFuLWRtb3JpOUVXMVY5YnZiZC1GalF0d09NT01nTnBGVFFreFFtQUJSN2Z0YWYtWkxLSnJZb2RNV2lfUWdJ?oc=5",
+   "i": ""
+  },
+  {
+   "s": "canaltech",
+   "c": "Tecnologia",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Black Friday dos EUA entrega no Brasil? Veja como comprar e quanto custa",
+   "x": "Encontrar um celular, fone de ouvido ou airfryer por um preço aparentemente muito menor nos Estados Unidos pode despertar a vontade de aproveitar a Black Friday americana. Mas será que dá para comprar em uma loja online dos EUA e…",
+   "u": "https://canaltech.com.br/produtos/black-friday-dos-eua-entrega-no-brasil-veja-como-comprar-e-quanto-custa/",
+   "i": "https://tl.ctcdn.com.br/4t7sSkyRE5aVW6c0IyZ7bXOGBG8=/0x0/filters:format(webp):quality(85)/523a2922-7be1-4869-96e5-a10fafc917e7.jpg"
+  },
+  {
+   "s": "bbc",
+   "c": "Mundo",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Voto no exterior: veja os resultados por país e a apuração de Lula x Flávio no 2º turno das eleições 2026",
+   "x": "Flávio Bolsonaro venceu Lula no Japão, nos Emirados Árabes Unidos e em Hong Kong, entre outros. Já o petista saiu na frente em países como China, Austrália e Nova Zelândia.",
+   "u": "https://www.bbc.com/portuguese/articles/cw5yn34exenno?at_medium=RSS&at_campaign=rss",
+   "i": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/ebbc/live/3797fef0-d082-11f1-93e1-3b657b665bcf.jpg"
+  },
+  {
+   "s": "uole",
+   "c": "Esportes",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Transmissão ao vivo de Udinese x Milan pelo Italiano: veja onde assistir",
+   "x": "Veja a matéria completa em UOL Esporte.",
+   "u": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQeXJOVzBUenJtd21XU0tiUndYcUFXQnpWQ05QYTZ6VlVja0NjTTYyX09sUW10bmJlamY5NGNOaWxzNnV0aDNIM0JmbEhENnpzajBKU2h5OEdBZUdTVEgwUVdNalhXVy1Vak9wRlQzSEhnV2dqUVRoZTdwRVhjQ3cwcVgzTWlxblh5TXE3RnA2dGdaSFNCaF9sN3hVUi1CSFFSVzF6MVNGUFVaSVNudWhZczlsNktRbGVoMnRqdjREZnRFTUFrVTNvdUR0QXJrZko3?oc=5",
+   "i": ""
+  },
+  {
+   "s": "uole",
+   "c": "Esportes",
+   "d": "2026-10-25",
+   "r": 3,
+   "t": "Transmissão ao vivo de Paris Saint-Germain x Lyon pelo Francês: veja onde assistir",
+   "x": "Veja a matéria completa em UOL Esporte.",
+   "u": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPak5GSVhmLUZoRkZId2lWbUdLX09FUnVNejFtV2RmeFZ4NEVYZjNPNGM3VEh6cGRhanBMWjlaZUdReW9aVVlGa1FHNm9kZlFJMFE3Tjc1S1doMnJkdmtpU2xPZmNZcW84R3BfUDd2bkNxSUFXVm0teFUyZGd3bHRmUE5aRFZtcjdQNjNmMnZUSHZQNFJmbFdQTGU0RVN0ME1TdWVheE94bnF0c0YxUzh5bFNLUXl6bE5aLTZneHhVMnJZeWNDRmV3Rm9aOHU0OVhKSmdZNUIyOWNSbmlwZnc?oc=5",
+   "i": ""
+  },
+  {
+   "s": "olhar",
+   "c": "Tecnologia",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Anthropic prepara IPO bilionário enquanto empresas de IA adiam estreia na bolsa",
+   "x": "Instabilidade do mercado, juros elevados e dúvidas sobre os gastos com IA estão levando outras companhias a rever planos de abertura de capital O post Anthropic prepara IPO bilionário enquanto empresas de IA adiam estreia na…",
+   "u": "https://olhardigital.com.br/2026/10/25/pro/anthropic-prepara-ipo-bilionario-enquanto-empresas-de-ia-adiam-estreia-na-bolsa/",
+   "i": "https://olhardigital.com.br/wp-content/uploads/2026/10/anthropic-1-1024x682.jpg"
+  },
+  {
+   "s": "terrafut",
+   "c": "Esportes",
+   "d": "2026-10-25",
+   "r": 3,
+   "t": "Barcelona e Real Madrid travam duelo bilionário fora de campo",
+   "x": "Veja a matéria completa em Terra Futebol.",
+   "u": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNaUdteGVJWW4xS2Joa0ZYbWdPSjF6R2s0bHJ0WHhwd255LUdsNndNNktUM1FmZ01EM0hseTlEWm9fQ2JjU1ppdWlVcHZ0ZTRuWS1RdEs0U2FWYmJiRmdSRTM3MjFya3pBZnZOdnlzbFQ4NjktYnN4UmdhZzlEbDczcFByeEJNNmsycmxOZWJsTlkyY0ZYbjVaM3lBbFRNenM2dEQwbVNLWTk5YUVWeG85ZHBLemdwUWpBRDZSRmhHZ2t1aG5fSWU3RVpPYlNpOUc0U1VVOUhVSjJzMHdoUjhORTJSVXBKMzQ1andtVXQ1dUFEREVHNFpWcWNUcDdIVzY0MjBLazY2ZlA2a3dUSURXNF9wRU5OaDFRY0tR?oc=5",
+   "i": ""
+  },
+  {
+   "s": "gefla",
+   "c": "Esportes",
+   "d": "2026-10-25",
+   "r": 5,
+   "t": "Mexicano Reyes faz golaço e marca pela primeira vez na base do Flamengo; veja vídeo",
+   "x": "Mexicano faz golaço e marca pela primeira vez na base do Flamengo; veja O mexicano Diego Reyes, de 19 anos, marcou o seu primeiro gol pela base do Flamengo no último sábado, na vitória por 3 a 0 sobre o Sampaio Corrêa em…",
+   "u": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/25/mexicano-reyes-faz-golaco-e-marca-pela-primeira-vez-na-base-do-flamengo-veja-video.ghtml",
+   "i": "https://s2-ge.glbimg.com/FSdpYzSTLJgHdGlGgxbQk6Mo2Uw=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/a/u/TA33KbR2y83zeiHLd50A/whatsapp-image-2026-10-25-at-14.56.49.jpeg"
+  },
+  {
+   "s": "olhar",
+   "c": "Tecnologia",
+   "d": "2026-10-25",
+   "r": 3,
+   "t": "Como consultar o resultado das eleições 2026 por seção eleitoral",
+   "x": "Site e aplicativo do TSE permitem verificar os votos de cada seção, consultar o boletim de urna e baixar arquivos usados na auditoria da votação O post Como consultar o resultado das eleições 2026 por seção eleitoral apareceu…",
+   "u": "https://olhardigital.com.br/2026/10/25/pro/como-consultar-o-resultado-das-eleicoes-2026-por-secao-eleitoral/",
+   "i": "https://olhardigital.com.br/wp-content/uploads/2026/09/tse-1024x682.jpg"
+  },
+  {
+   "s": "canaltech",
+   "c": "Tecnologia",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "O que acontece quando envio uma foto minha para uma IA?",
+   "x": "Muitas trends nas redes sociais incentivam o usuário a enviar uma foto pessoal nos chatbots de IA , seja para gerar uma caricatura, transformar retratos em ilustrações ou gerar fotos profissionais. No entanto, você já se…",
+   "u": "https://canaltech.com.br/inteligencia-artificial/o-que-acontece-quando-envio-uma-foto-minha-para-uma-ia/",
+   "i": "https://tl.ctcdn.com.br/GuHlIeHlJF65Bn9SHhUgVZ5n7Pk=/0x0/filters:format(webp):quality(85)/1846c6a3-4788-41d5-9a18-a48a3f18c13d.jpeg"
+  },
+  {
+   "s": "uole",
+   "c": "Esportes",
+   "d": "2026-10-25",
+   "r": 3,
+   "t": "Corinthians no Z4: quantos pontos o Timão precisa para evitar rebaixamento",
+   "x": "Veja a matéria completa em UOL Esporte.",
+   "u": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPenNfVm5DN05RUHJRcGEydmxZRVJCdDkzclRWbGhoNHZQamVZZjhnRF9iNE8xR09GQ0xEV1k3aG5aN3JtbkNTTVIxSTFTVk5EVlBDSWQzcFB4ZWkxZWF2ZFhkTGZHS0ltbzM0TjlEOEIzUkcybGppNEVXWlVzcVgxN0hHeEcwYm1mb3hDVDQ4QTNhS0pMMlVZYzJjT3dGWERMSjBEdGJxR0Y3ZTFhbUxxdnFzaDV0UDRoWXc1MDh0N2FhckF4SVNpVlhpYnE3akJVcHl6WXNWNnRJVllfaktmQVNB?oc=5",
+   "i": ""
+  },
+  {
+   "s": "espn",
+   "c": "Esportes",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Bahia lamenta 'agressões verbais' de Neymar a Nestor em jogo contra o Santos: 'Nossa torcida merece respeito'",
+   "x": "Veja a matéria completa em ESPN Flamengo.",
+   "u": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQQ3otdnMzdWhLMlBLRzV2azh2UW9RcWFVT2ZUM2NTZlJVOHZZa1lPNjAzSnpva2pmXzBQRUt6WHhGcTJlMWp4dFY1cGswMjRDVkVQZ2lZSV9ZMlZDZDYyYm5LSHJGeEZwRXJDejNuN1ItQnZ0VmlwY3JDQ2Q5djBJb1FwTlZpR1JPMGZUTzRpMDJMdWQwMzVHTVEzWG1LeWluV2c1M3ZzbFhwOGNFV2hOSnZucVB6TDBGRW5MclJ0ZjNtdjJXLVJoaWp6SHNNYWpCVGMxYXFaSzV1SVFDLXZYOUxLbFJnNzhKd0xkajJTdUQ?oc=5",
+   "i": ""
+  },
+  {
+   "s": "canaltech",
+   "c": "Tecnologia",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Redmi Note 14 Pro: 7 erros comuns que destroem a bateria do celular",
+   "x": "O Redmi Note 14 Pro chegou ao mercado para integrar o segmento intermediário premium, e um dos seus destaques é a bateria de 5.110 mAh . Mas de nada adianta contar com um celular com essa especificação e cometer alguns erros que…",
+   "u": "https://canaltech.com.br/smartphone/redmi-note-14-pro-7-erros-comuns-que-destroem-a-bateria-do-celular/",
+   "i": "https://tl.ctcdn.com.br/iMPb-0lD5osH9PYThr0Hd0YS8yM=/0x0/filters:format(webp):quality(85)/b4c1253f-ebec-40f5-8062-6cdc830bea6d.png"
+  },
+  {
+   "s": "uoleco",
+   "c": "Economia",
+   "d": "2026-10-25",
+   "r": 5,
+   "t": "Audi defende plano de investimento de US$4 bi nos EUA anunciado por Trump",
+   "x": "Veja a matéria completa em UOL Economia.",
+   "u": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNcmNibTVfa0NCdENsUDhMSHUtQWlKRG51RUJXY25TVXExaWlRWmF4cExwckxxaE5KeWlYU2s0V0JaYXpVUlFVRXU4RTlodXlSSmJxa0o1VWVrLWRiUWxPU1M5bnJRMUFLb19Ma0tRaFVqYk1HRU0zdlQ5bklXM3BCUlZFMEYtOGdnaW5abjU2cGZCRGgxSkdJLTNIYzVXUEhUSFIxZkRxbHRqS3V2NWRCWENZanV1ZFNpUjc5bGYtdHVqOU5DZkdTVjBWZWNKSGppS3c?oc=5",
+   "i": ""
+  },
+  {
+   "s": "espnb",
+   "c": "Esportes",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "PSV x Feyenoord (25 de out, 2026) Estatísticas dos times",
+   "x": "Veja a matéria completa em ESPN Brasil.",
+   "u": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdXZZWkJPandDcTVnbVVieEt2LUZPX3Vqa2NFVk9iQm1UWXFqMlN4Nndya0M1Wk1IVUNIcDVHdEhCSVU5a3hZd2tTYzgwVXlkLXRtdEcxTDA3TGN4eVptUHNXckZZQkFuOWZMeEtuaVAwS1REQkVndHhlQ2phYXc3TVFzNXFNWGgtbGc?oc=5",
+   "i": ""
+  },
+  {
+   "s": "bbc",
+   "c": "Brasil",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Brasil pode ser próximo em 'onda MAGA' e última chance de Lula 'gigante da esquerda': como a imprensa internacional vê a eleição",
+   "x": "A eleição brasileira — disputada entre o presidente Luiz Inácio Lula da Silva (PT) e Flávio Bolsonaro (PL) — é destaque neste domingo (25/10) nos principais jornais do mundo.",
+   "u": "https://www.bbc.com/portuguese/articles/cwdd8g54j7qqo?at_medium=RSS&at_campaign=rss",
+   "i": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/5184/live/91fb3950-d08e-11f1-92f6-357f3b0f345f.jpg"
+  },
+  {
+   "s": "uoleco",
+   "c": "Economia",
+   "d": "2026-10-25",
+   "r": 5,
+   "t": "TRE-BA determina prisão de secretário de Salvador sob acusação de restrição de transporte público",
+   "x": "Veja a matéria completa em UOL Economia.",
+   "u": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPb1ZEV3hqS2xlUS13UjBnNXNjOVc4Z1lFWmM1bENBZWNZN3pwN1dTaDlIQXFiWlFWeUNCaFlyZjNYX0NrQUNvM3E3VG51Q2hDWUJiREd1OWtMeFVvcE4tN0JhMVVPaWFwYkYzV1dfOU1ONnZNaUtpXzlMM2Y0WEpSUkxRRXUyQTI0VmxhdktiMVdnTHJsSjQtaVlxMjBxWjJCbjhIdEpjWldQd2tZVHhienZOeFdkOUNoYzBLRjNKWHU5LU9mdXNGenNPbjNVWHNZSno3YjNVSzJTbGhiRDdNbjJtLUxGdUpBSGp1WkJnVlFJd28?oc=5",
+   "i": ""
+  },
+  {
+   "s": "canaltech",
+   "c": "Tecnologia",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Crise das memórias: por que até processadores ficam mais caros em 2026",
+   "x": "Se você acompanha o mercado de tecnologia, já sabe como está caro montar ou comprar um PC. Se antes o aumento dos preços ficava restrito a tudo o que leva chip de memória, como RAM, SSD e placa de vídeo, nos últimos meses o…",
+   "u": "https://canaltech.com.br/hardware/por-que-processadores-estao-mais-caros-2026/",
+   "i": "https://tl.ctcdn.com.br/t57p0SDN7ZcKjwMSVqa2XMK8rnE=/0x0/filters:format(webp):quality(85)/37541566-a73e-4733-a876-0af75e781c50.jpg"
+  },
+  {
+   "s": "espnb",
+   "c": "Esportes",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Com show de Rayan e Evanilson, Bournemouth atropela United na Premier League",
+   "x": "Veja a matéria completa em ESPN Brasil.",
+   "u": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOcHM0YkhFdmxXcjk0RXljTzJtYVhnWFNJcUoxNEVoYUZ6Y2pmUkpKR2EzU19uTkRMSmU4Z1Y4ZTJpaXRnbjA5djJpMjh6eDlpVGwwUW5JcW50OUc5Q0tWbGNMYTN2bFBtWDBqeGhhVXNUTHBCeUxNa1RIeldaeGNwN2xGVmNnRU9SZjRaUmdIWEZKRVM4UEtHZXdHdC1XejNOVk00TXZtMEZtSFU2RDMtbWVha0VYeXFVWGNvRVZDVFpKTURTd2dTc1BuRjJaMXU3OFA4?oc=5",
+   "i": ""
+  },
+  {
+   "s": "espnb",
+   "c": "Esportes",
+   "d": "2026-10-25",
+   "r": 3,
+   "t": "Liverpool resolve no primeiro tempo, segura melhor ataque da Premier League e vence o Brighton",
+   "x": "Veja a matéria completa em ESPN Brasil.",
+   "u": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNcUFwVjFCcHkwV3QxeVZkT1ZXcFoycEI5dzlYbkU0Qm5TelVyR0ZkZzRiYUFhZzFoN3hEN09JanE5ak40dmR5cWppcHhSY3c3QXVzX3ZZd3BEQkktaUVmZWVHdEo4aGdNRGlYcGlWczAwYW1PMjRQWlAtQnFqX1ZrbFpFSkpQcExGTWhvbk1XUVpmTXZpaVlVdEJQcUVTMHhVMW91ZElVamstblRMN05pLW9icVUwcFdBNXR3MFE2R2o4SUFSd2dvY1c2b1hfdkt2emNCX1AwblVJWV9HakY3bEtVUDg5MkRqd3FMTQ?oc=5",
+   "i": ""
+  },
+  {
+   "s": "espn",
+   "c": "Esportes",
+   "d": "2026-10-25",
+   "r": 4,
+   "t": "Marseille x Le Havre AC (25 de out, 2026) Ao vivo",
+   "x": "Veja a matéria completa em ESPN Flamengo.",
+   "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE84Y25kdkpBUm01ZjVfbWRCNi14V0VFUkt0RUk5MFRxX2lWaC1kSGZLaEdGMFhaRG9Ec1JfanpuZ1QzclhfakN6Ny1BRV9jQk1qTXg3MjhNUWpXa3lsQ196ekh3RlByVUlFQkE?oc=5",
+   "i": ""
+  },
+  {
+   "s": "espnb",
+   "c": "Esportes",
+   "d": "2026-10-25",
+   "r": 3,
+   "t": "Marseille x Toulouse (1 de nov, 2026) Tempo real",
+   "x": "Veja a matéria completa em ESPN Brasil.",
+   "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5KYmhsbl9DQjhoYzlReGlZTlhwM3BvaV9sWHlNZXlwOVhYZEF4b3JCMFJWenpiQ1dHdnQ5MVFLZWczX0xNQzJlUDl2Nk5tQ0VhMDRSckpraVNJN29RSmRsX2lBTXVRUnVHLWotSw?oc=5",
+   "i": ""
+  },
+  {
+   "s": "canaltech",
+   "c": "Tecnologia",
+   "d": "2026-10-25",
+   "r": 3,
+   "t": "Galaxy S24 na Black Friday: ainda vale a pena comprar em 2026?",
+   "x": "O Galaxy S24 ainda chama a atenção de quem procura um celular topo de linha da Samsung por um preço mais acessível. Lançado em 2024, o smartphone continua com especificações competitivas e tem vários anos de atualizações pela…",
+   "u": "https://canaltech.com.br/smartphone/galaxy-s24-na-black-friday-ainda-vale-a-pena-comprar-em-2026/",
+   "i": "https://tl.ctcdn.com.br/Q2wI-0xi3dtsbl5wHwZ5CquuNrI=/0x0/filters:format(webp):quality(85)/fa6d7875-3eec-48f7-b0fd-5ba0cc06b3a7.png"
+  },
+  {
+   "s": "galileu",
+   "c": "Ciência",
+   "d": "2026-10-25",
+   "r": 5,
+   "t": "Veterano da Segunda Guerra Mundial com 107 anos atribui longevidade a uma comida surpreendente",
+   "x": "Veja a matéria completa em Galileu.",
+   "u": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNUzJBT2drTGFTRVNfLWNKNlQwMGFWb1U1RUk5NkJRcFI2NTY3LW91bFduLXl4eEplbHF4TEVFTWp4NlphWDFEQ2tzcFhQSnFZOHBqVzNHbFpPbDVncGQzZ0hpTWtSS1RrX0kwbkt1VFFja1p6TFVhMktuV1YwaXU4VGZWQmpPdmQtbWtldGJhZnhLckd6M2JIdVlCemsza0FfUmdvSnIwbF9BQ3BUOW5nUjdhenFycWM2dXhybk81bFpsMGl1bTdnRHFsQmpDQ0Y0NHpwLU5YdHdZQVVBMFBiMDE0eFNDTHpFQVJF0gH6AUFVX3lxTE1pcDN3X0lPR2RfS0NSRldBeHQ0ZnkzVUZxTEd2WWJWaVJXdFBPc0lJOFEtNDlQb2RLUU1uNHU3cWJCSWpubmJRbmZuVXVhemEtMUxiOTlDY3JVbTFZdHJPbUtOUllvZ1R0cUZyOG1Ba3B2SGNVUWF5NmRJMTJfb1pDeDF0cEhnb21hcXdJaXdLUTNVZlNYV1BtbVQ2eElVSWNjMWgyLWs2Q25RNGN3WnFmZDZJNl95YjZZamtxS3diN2hIVVZXa2k3bzdhNmlyUXAwWm0tSTlXVVRnN2xTUUpmQ0ZsdjZ3anowOWtsUERPcVdhOXNUMmZhRVE?oc=5",
+   "i": ""
+  },
+  {
+   "s": "techtudo",
+   "c": "Tecnologia",
+   "d": "2026-10-25",
+   "r": 5,
+   "t": "Boca de urna e compra de votos: saiba denunciar crimes eleitorais online",
+   "x": "Realizar boca de urna, compra de votos, coação de eleitores e transporte irregular estão entre as práticas que podem comprometer a liberdade individual de escolha do voto nas Eleições 2026. Eleitores que presenciarem…",
+   "u": "https://www.techtudo.com.br/noticias/2026/10/boca-de-urna-e-compra-de-votos-saiba-denunciar-crimes-eleitorais-online-edsoftwares.ghtml",
+   "i": "https://s2-techtudo.glbimg.com/66NHdSlkLjfuG6kgLcNH3iiJSNo=/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2026/B/l/AIcX9ERiCkWJ69KAcLqQ/whatsapp-image-2026-10-25-at-13.07.26.jpeg"
+  },
+  {
+   "s": "espn",
+   "c": "Esportes",
+   "d": "2026-10-25",
+   "r": 4,
    "t": "Flávia Saraiva conquista a medalha de bronze na trave no Mundial de Ginástica Artística pela 1ª vez na carreira",
    "x": "Veja a matéria completa em ESPN Flamengo.",
    "u": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZ1hTY2xXdHl5VjJpa3ZhNnNES3IydGZFdDBrQ1liN2NXTU9hVG5yZ05JSmR0WC1FRDVJN2FSaHZLdHFhbFA4b1lIa0xyU09JSXFOV254ZDlJcmU4S2ZZTndRdFZpWFcySlozcGpYYjQ3MTM5UnlMNVB6QUVKUV9RMXdGYVpQZUh3Njc2SDhjWFhYN0dLMGZJNVh2bVAyb3dEelo1YXlHSDNORFhsR29sT08xTzZkbFdOelRnaWRQSlVtMktpeG5jc2lNekFjQ1VBZjE1R0puU181dTVFcHdGWEJwM1g?oc=5",
@@ -1705,7 +2085,7 @@
    "s": "bbc",
    "c": "Brasil",
    "d": "2026-10-25",
-   "r": 4,
+   "r": 3,
    "t": "Flávio Bolsonaro: o herdeiro de Jair tenta levar o clã de volta ao Planalto",
    "x": "Senador estreia na disputa presidencial e tenta impor derrota a Lula quatro anos depois de seu pai não ter sido reeleito.",
    "u": "https://www.bbc.com/portuguese/articles/cq7838ydk87jo?at_medium=RSS&at_campaign=rss",
@@ -1715,7 +2095,7 @@
    "s": "olhar",
    "c": "Tecnologia",
    "d": "2026-10-25",
-   "r": 5,
+   "r": 3,
    "t": "Militares dos EUA dão à SpaceX, de Elon Musk, acesso a dados sigilosos de rastreamento espacial",
    "x": "Pela primeira vez, uma empresa privada vai receber acesso à versão mais detalhada do sistema da Casa Branca que registra objetos em órbita O post Militares dos EUA dão à SpaceX, de Elon Musk, acesso a dados sigilosos de…",
    "u": "https://olhardigital.com.br/2026/10/25/ciencia-e-espaco/militares-dos-eua-dao-a-spacex-de-elon-musk-acesso-a-dados-sigilosos-de-rastreamento-espacial/",
@@ -1727,35 +2107,15 @@
    "d": "2026-10-25",
    "r": 5,
    "t": "CapCut ganha integração com ChatGPT e edição de vídeos por IA",
-   "x": "Veja a matéria completa em TechTudo.",
-   "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcW10Zzhic0lyRFM2ZU5JaEo2b1pxNU0xOGhRVk5wMzhtaWpuc0FnN1hZUnVBQ2tGNGt5aVVrTnNmaW9meVJLbUJCT2YxbVV0LTVLeHM0elV4ZTQ2V1RCY25NSmh6NXQ4NEx5SF84UkNBVEdCMXZPaXBJMXJXQ3NYazBkX0IzYmItQ3NnYkRFSm9yZHNYbEgxQlNVYlN0ZlJIQVNoNkZYcDBXX2dsZDNCTnN1R25RMFEteHRF0gHKAUFVX3lxTE5vbEpKVThUamhrY3ZGNTRhUlRSR3Zhdl90UXVWY3laMHo0c1pFbDgwOVF1bXZ5WmVsRnBTSnhGaml0NFp0dFQ2SHdzM2tUWnllUTBuZFhOSl9nZExmS0RnR0R2b0xrckVTU1cyaEhmNEV6c0ZCWnl1UDB3M0FLaXdINGg2NE9oRERtX18zUkV5TFV0VWcwclZReVV6N0VOMDIxaExnQzFHclpSU3VrZmVwbjFZN3pXZmxIYlhWTU5GREQ3VUFFWk1tM3c?oc=5",
-   "i": ""
-  },
-  {
-   "s": "bbc",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Como a vitória da direita radical na Colômbia provocou mudanças na campanha de Lula no 2º turno",
-   "x": "Reação ao resltado do primeiro turno foi semelhante ao que ocorreu na Colômbia, onde o direitista Abelardo de la Espriella conquistou a Presidência por uma estreita margem.",
-   "u": "https://www.bbc.com/portuguese/articles/c617kxp8l79jo?at_medium=RSS&at_campaign=rss",
-   "i": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/34e1/live/a4615210-cf2f-11f1-b92a-0b11bc79ea84.jpg"
-  },
-  {
-   "s": "bdf",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Porto Alegre tem novos voos cancelados no dia da eleição após protestos no aeroporto",
-   "x": "Novos voos foram cancelados neste domingo (25), dia do segundo turno das eleições presidenciais, no Aeroporto Salgado Filho, em Porto Alegre, após protestos de passageiros por cencelamento de voo para Salvador, no sábado (24)…",
-   "u": "https://www.brasildefato.com.br/2026/10/25/porto-alegre-tem-novos-voos-cancelados-no-dia-da-eleicao-apos-protestos-no-aeroporto/",
-   "i": ""
+   "x": "O CapCut recebeu uma série de recursos de inteligência artificial que permitem editar vídeos, modificar elementos e até mesmo criar imagens e trechos de vídeo. A plataforma também anunciou uma integração com o ChatGPT, que vai…",
+   "u": "https://www.techtudo.com.br/noticias/2026/10/capcut-ganha-integracao-com-chatgpt-e-edicao-de-videos-por-ia-edapps.ghtml",
+   "i": "https://s2-techtudo.glbimg.com/kzJOuac3l7NXS4DwBjESRvKkUgM=/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2026/N/r/5TAAbqRE2Z1OcSkgAFPw/marca-dagua-tamanho-foto-iphone.jpg"
   },
   {
    "s": "canaltech",
    "c": "Tecnologia",
    "d": "2026-10-25",
-   "r": 4,
+   "r": 3,
    "t": "Fiat quer ressuscitar SUV icônico para encarar chineses",
    "x": "A Fiat pode recuperar um nome conhecido no Brasil para reforçar sua presença no segmento de SUVs. Um modelo que saiu de linha há quase uma década voltou a chamar atenção após projeções digitais mostrarem como seria sua…",
    "u": "https://canaltech.com.br/carros/fiat-quer-ressuscitar-suv-iconico-para-encarar-chineses/",
@@ -1782,124 +2142,14 @@
    "i": ""
   },
   {
-   "s": "canaltech",
-   "c": "Tecnologia",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Fone com ANC pode prejudicar sua audição? Especialista responde",
-   "x": "Os fones de ouvido com cancelamento de ruído ajudam a reduzir os sons externos e tornam músicas, podcasts e chamadas mais fáceis de ouvir em ambientes barulhentos. Mas será que esse tipo de fone também oferece riscos à audição ?…",
-   "u": "https://canaltech.com.br/fone-de-ouvido/fone-com-anc-pode-prejudicar-sua-audicao-especialista-responde/",
-   "i": "https://tl.ctcdn.com.br/AvuxkHmCmETCRYcw8JfxTTkPL9U=/0x0/filters:format(webp):quality(85)/c29da009-bde6-415d-aab5-1f265fa32050.jpg"
-  },
-  {
-   "s": "bdf",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "No Rio, Flávio usa helicóptero apreendido com R$ 7 milhões do ‘Faraó dos Bitcoins’",
-   "x": "O candidato do PL à presidência, Flávio Bolsonaro, utilizou neste sábado (24), um helicóptero no qual a Polícia Federal já apreendeu R$ 7 milhões de Glaidson Acácio dos Santos, o “Faraó dos Bitcoins”. A aeronave foi usada por…",
-   "u": "https://www.brasildefato.com.br/2026/10/25/no-rio-flavio-usa-helicoptero-apreendido-com-r-7-milhoes-do-farao-dos-bitcoins/",
-   "i": ""
-  },
-  {
    "s": "bbc",
    "c": "Brasil",
    "d": "2026-10-25",
-   "r": 4,
+   "r": 3,
    "t": "Como justificar seu voto no segundo turno e o que acontece se você não votar",
    "x": "Confira essa e outras informações úteis para o segundo turno da eleição, que vai ocorrer nesse domingo (25/10).",
    "u": "https://www.bbc.com/portuguese/articles/c9e8lz52dg70o?at_medium=RSS&at_campaign=rss",
    "i": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/10f7/live/77b79c10-ce85-11f1-bc2e-018d645d8d21.png"
-  },
-  {
-   "s": "bdf",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 3,
-   "t": "Eleições: indígenas e quilombolas têm transporte garantido",
-   "x": "O governo federal adotou medidas para garantir o transporte de indígenas, quilombolas, ribeirinhos, extrativistas e famílias assentadas aos locais de votação neste domingo (25), dia do segundo turno das eleições presidenciais. Os…",
-   "u": "https://www.brasildefato.com.br/2026/10/25/eleicoes-indigenas-e-quilombolas-tem-transporte-garantido/",
-   "i": ""
-  },
-  {
-   "s": "olhar",
-   "c": "Tecnologia",
-   "d": "2026-10-25",
-   "r": 5,
-   "t": "Unitree apresenta robô humanoide “guarda-costas” que executa movimentos de kung fu; veja",
-   "x": "Batizado de \"Kung Fu Legend: Guardian\", o robô reage a diversas situações de risco, como enfrentar um invasor armado com uma faca O post Unitree apresenta robô humanoide “guarda-costas” que executa movimentos de kung fu; veja…",
-   "u": "https://olhardigital.com.br/2026/10/25/pro/unitree-apresenta-robo-humanoide-guarda-costas-que-executa-movimentos-de-kung-fu-veja/",
-   "i": ""
-  },
-  {
-   "s": "canaltech",
-   "c": "Tecnologia",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Como tirar a barra do Google da tela inicial na One UI 9",
-   "x": "A atualização da One UI 9, da Samsung, coloca uma barra de pesquisa do Google ou do Samsung Finder fixa na tela inicial do celular. É uma das principais mudanças visuais da interface, mas existe um caminho rápido para remover o…",
-   "u": "https://canaltech.com.br/apps/como-tirar-a-barra-do-google-da-tela-inicial-na-one-ui-9/",
-   "i": "https://tl.ctcdn.com.br/AV7mdajt0g85OFFZ8_STJnx0Ous=/0x0/filters:format(webp):quality(85)/f4605066-3d31-4467-a458-25fc38af03e7.png"
-  },
-  {
-   "s": "espnb",
-   "c": "Esportes",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Liverpool x London City (25 de out, 2026) Ao vivo",
-   "x": "Veja a matéria completa em ESPN Brasil.",
-   "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBzY0gzRng4VmtKRndVcHR0cnR2QjFpRkFlVFkzYjFWWUw3UUM0emZ4Q2FLVFo1MHRkQWVkZmtuMXBpSkNGS3k1YTljc0ZlUnNpMGl1UXZjZzJUU25NYzJEckg0RFY4cjhxN3c?oc=5",
-   "i": ""
-  },
-  {
-   "s": "espnb",
-   "c": "Esportes",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Floyd Mayweather abre as portas para revanche com Conor McGregor: 'Não é meu amigo'",
-   "x": "Veja a matéria completa em ESPN Brasil.",
-   "u": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPbU44ZmtzVEpSN0RPSUpWMFU1b2lzTlVIQ0tFSGdIbVd0QlFQYzZqanJxdHBLRkVpbk5ENVpUeUw3U3pXSk5ieDI0SExHSElMWFpaUTJWLVQwYlZnZ0tzWERvWEpreVBydktZd3lqcWxDb3kyMmdMZjBwSV9kRkVZSWUxSDFqaEFzX0V2LUV2c3B4eGVrSHdTeV9Od19yODNndmNQTmF1V0VKbV9vV2JZTTBzQmx4aEtlbENfUXpleHFQTWFwVkJ6aW0xR0NZZjg?oc=5",
-   "i": ""
-  },
-  {
-   "s": "bdf",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 3,
-   "t": "Cidades no Paraná têm atos pela reeleição de Lula, às vésperas do segundo turno",
-   "x": "Paranaenses se mobilizaram nas ruas em cerca de 30 cidades no estado, na reta final da campanha de reeleição do presidente Luiz Inácio Lula da Silva (PT). As ações reuniram milhares de apoiadores, apesar das chuvas fortes – a…",
-   "u": "https://www.brasildefato.com.br/2026/10/25/cidades-no-parana-tem-atos-pela-reeleicao-de-lula-as-vesperas-do-segundo-turno/",
-   "i": ""
-  },
-  {
-   "s": "canaltech",
-   "c": "Tecnologia",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "GTA 6 pode quebrar o recorde de Clair Obscur: Expedition 33 no The Game Awards?",
-   "x": "Em 2025, Clair Obscur: Expedition 33 quebrou todos os recordes de indicações no The Game Awards . O jogo da Sandfall Interactive teve 12 chances de levar o troféu para casa, das quais ele conquistou nove estatuetas — inclusive a…",
-   "u": "https://canaltech.com.br/games/gta-6-pode-quebrar-o-recorde-de-clair-obscur-expedition-33-no-the-game-awards/",
-   "i": "https://tl.ctcdn.com.br/ot8DF0eboRDTEBDlGoxdsmcgSpc=/0x0/filters:format(webp):quality(85)/b1b442e9-bc22-49d4-87f0-7cbc07a59bcf.png"
-  },
-  {
-   "s": "espnb",
-   "c": "Esportes",
-   "d": "2026-10-25",
-   "r": 3,
-   "t": "'Estreia dos sonhos se desfez' e 'final maluco': como imprensa holandesa tratou primeiro jogo de Seedorf no comando do Corinthians",
-   "x": "Veja a matéria completa em ESPN Brasil.",
-   "u": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOWVZzOHBEalBxdFpERHdDMGQ3Mkh6NVp4UlFiS3g0ZnhWdDYyUXNqWW1xTXFidWU4UTFaeFZITzNXa09VaXJ0OFEydVQyNUhwTXJnbE9CWlpuTkVWdzFBeWxuTlJINkczNTdHZzd2U3Y4TmE5d09teTMxS0g1ODg0Mm5lSzcxdmNkSks5ejFWbWY0UXVxVzB3Z0g3ZWc4cjN2MEhRNGU5dmx2OThQbEttU0I5YmQ5Mmp3MHYxdk9LX2ZhT3JGQmI3V0NDR0Q4MFo0c04zbXZNcHJMUFNMcVl5Ry1ZTkZJcUZrc213?oc=5",
-   "i": ""
-  },
-  {
-   "s": "olhar",
-   "c": "Tecnologia",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "NASA quer levar supercomputador com IA para testar navegação autônoma na Lua",
-   "x": "O Spaceborne Computer-4 deverá analisar imagens da Lua, processar mapas e evitar crateras sem depender de GPS O post NASA quer levar supercomputador com IA para testar navegação autônoma na Lua apareceu primeiro em Olhar Digital .",
-   "u": "https://olhardigital.com.br/2026/10/25/ciencia-e-espaco/nasa-quer-levar-supercomputador-com-ia-para-testar-navegacao-autonoma-na-lua/",
-   "i": ""
   },
   {
    "s": "diolinux",
@@ -1912,16 +2162,6 @@
    "i": "https://diolinux.com.br/wp-content/uploads/2026/10/acrobat_jopdf_editar_texto.avif"
   },
   {
-   "s": "canaltech",
-   "c": "Tecnologia",
-   "d": "2026-10-25",
-   "r": 3,
-   "t": "10 momentos mais importantes de Bleach",
-   "x": "Com o encerramento do anime de Bleach em breve, é difícil não carregar uma certa nostalgia pela obra. Afinal de contas, já se passaram mais de 20 anos desde a exibição do primeiro episódio e, de lá para cá, foram muitos combates…",
-   "u": "https://canaltech.com.br/entretenimento/bleach-momentos-mais-importantes/",
-   "i": "https://tl.ctcdn.com.br/M1wD27OYon8MhHbtcka5IP2vYDc=/0x0/filters:format(webp):quality(85)/07704f5c-9e9e-4bde-8da2-3d250b00f9d2.jpg"
-  },
-  {
    "s": "planeta",
    "c": "Ciência",
    "d": "2026-10-25",
@@ -1932,24 +2172,14 @@
    "i": ""
   },
   {
-   "s": "olhar",
-   "c": "Tecnologia",
+   "s": "galileu",
+   "c": "Ciência",
    "d": "2026-10-25",
-   "r": 4,
-   "t": "Da BGS ao Parque Olímpico: como o CBLOL virou a principal liga de League of Legends do Brasil",
-   "x": "Do campeonato de 2012 na BGS ao recorde de quase 460 mil espectadores e à final no Parque Olímpico, veja como o CBLOL virou a principal liga de LoL do Brasil O post Da BGS ao Parque Olímpico: como o CBLOL virou a principal liga…",
-   "u": "https://olhardigital.com.br/2026/10/25/games-e-consoles/cblol-da-bgs-ao-parque-olimpico-a-principal-liga-de-lol/",
-   "i": "https://img.odcdn.com.br/wp-content/uploads/2026/10/2-FONTE-Globo-Esporte.jpg"
-  },
-  {
-   "s": "canaltech",
-   "c": "Tecnologia",
-   "d": "2026-10-25",
-   "r": 3,
-   "t": "Por que a Marvel tenta matar os X-Men da Fox pela 3ª vez?",
-   "x": "Em 2006, X-Men: O Confronto Final fechava a trilogia dos mutantes com “chave de ouro”. O surgimento da Fênix Negra (interpretada por Famke Janssen) e a cura para o Gene X movimentaram os Filhos do Átomo para uma batalha como…",
-   "u": "https://canaltech.com.br/entretenimento/por-que-a-marvel-tenta-matar-os-x-men-da-fox-pela-3-vez/",
-   "i": "https://tl.ctcdn.com.br/rOpqB3ukJ7uRGMml04BHn9QrbsI=/0x0/filters:format(webp):quality(85)/fab86f4b-d91f-4506-bea2-b6a9b6dec864.jpg"
+   "r": 5,
+   "t": "Chave para prever El Niño com até 1 ano de antecedência é identificada",
+   "x": "Veja a matéria completa em Galileu.",
+   "u": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOZVZKa3FsV1JUYkZ1MkJqZzhpYXQ4a19DZlQ0bnY0X0xBNVBPdmIxVTVzRWttQ2FXUXY1NEtBeDlYdXdwSWZ1ckhaaE1xd1hXMk1EcXBpSnI2Rk0xVE55eXBKSnJ4X040MTlLNl95cEtwbWNvellhcmp2aWlOc1BDa1ZiaWRQbmJXSVg3TE02RjEtTHVxcUI2RklEZXlScnM3XzY1SVpsUVJnd1plU19NZ3B4ZktNeGxueHJmMWxBc1pEZ0ktU1d0Y0VqMHp0dFd6bGt0MDNnYkFWTWUzc2pPMtIB7wFBVV95cUxOVnNBcEZhNjNRaVZRWXd0dG1MUWpkQUh4bExwMkNkbE5JRzVWd1hJa2ZsOWtsWWpqN1NSVy01QmlQWThWTFdqWURZMmY0QVdfeDNSMVhCQXlsc2ZzSlM3bmlWSGNTLXdHaTQySU43U3Q5SXhRYVN2cVdrNjBOWjJvZlcwbnY0cVIwdHEtaXBDd0xXV0JpOEoxb19xQjFPY2tTRWxFWnJQbDhON042RTdZV25WVmYxc1dJS253UUUzdEZPYzBuWWJLSm42VGt2M2tMMU9QenR0LXlGZ0wzb3NXTVpvMjNjNUZESHBVaFNabw?oc=5",
+   "i": ""
   },
   {
    "s": "uoleco",
@@ -1962,43 +2192,13 @@
    "i": ""
   },
   {
-   "s": "bbc",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Guia das Eleições 2026: ônibus e metrô de graça para votar e tudo o que você precisa saber no 2º turno",
-   "x": "Nos dias de votação, o poder público é obrigado a oferecer transporte coletivo gratuito nas zonas urbanas. O serviço deve circular com a mesma frequência de um dia útil.",
-   "u": "https://www.bbc.com/portuguese/articles/c8ly033zpr1wo?at_medium=RSS&at_campaign=rss",
-   "i": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/43e3/live/bde26a50-b768-11f1-bc1f-3f186ca4140c.png"
-  },
-  {
-   "s": "espnb",
+   "s": "espn",
    "c": "Esportes",
    "d": "2026-10-25",
    "r": 3,
    "t": "'Destaque negativo', 'polêmica atrás de polêmica' e mais: imprensa internacional detona Neymar após expulsão contra o Bahia",
-   "x": "Veja a matéria completa em ESPN Brasil.",
+   "x": "Veja a matéria completa em ESPN Flamengo.",
    "u": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNM0s3enozZVc5Z3g4dTdGWEUyRGF1ek15aGpGYkZ1Nk54TFlfSEMxcU9fWHFOczNjMGExNVZDRWVQT1JmM0JOd0N4dUREczJzN3h3ajRVcWhNYzUtOTZhcm10dDUzaUhOMnNoM3ZleHVOSlBZZnE1bF9SeEVsMS0xWlQxU1NqcmNKN0RpTTl1c3dNY3l0REdfbzAyY0J2cjFvejM5YW4wRXFXRFhTNEUtbllXYkV5cHpLUUlmcU9MNXpqVUJqSWs0NHlVc3Y0Vno2a3lxT2FTSGIySkwyRlJ5ZDhpcV9NdTlLai0wSExLRk54eVFj?oc=5",
-   "i": ""
-  },
-  {
-   "s": "bbc",
-   "c": "Brasil",
-   "d": "2026-10-25",
-   "r": 3,
-   "t": "Votos do Nordeste demoram mais para chegar ao TSE? Tudo para acompanhar a apuração",
-   "x": "Infraestrutura desigual das regiões faz com que dados do eleitorado do Sul e do Sudeste sejam contabilizados primeiro no TSE; próximo presidente deve ser conhecido, no domingo, até 20h30.",
-   "u": "https://www.bbc.com/portuguese/articles/cmvg9v4v8kwgo?at_medium=RSS&at_campaign=rss",
-   "i": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/3a71/live/4dcf5360-d075-11f1-afcb-6b9b9432d8fc.jpg"
-  },
-  {
-   "s": "uoleco",
-   "c": "Economia",
-   "d": "2026-10-25",
-   "r": 5,
-   "t": "Jéssica Sant'Ana: Lula e Flávio chegam à eleição com promessas que pressionam contas públicas",
-   "x": "Veja a matéria completa em UOL Economia.",
-   "u": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZFBmel8wWDlEd3VoWFBVVHdKQXJ1YWQ2Y0tPR3duUXIzTXVTZnpBOUhKUmRPbkNGelpXb0FmY3JOVXZVVzFBS3FNT2hFX3JfSHdvMEJBcVpIOG9oWk9ZOHhOaDBIX1lnYTlzbXNOSHEyZ2tERmk1VGhGTUl4MlByQU45MFhvLVZTYk50dXczSnBXUzF1QlROcFJYVnNjaFhxYWNaeWoyTDlQSVRlRjZwSndjdldpa0ppcXIteEJmWjE3Z01fWkN0MFNKQkZzYWw0cDVjQk01WUNaTWs?oc=5",
    "i": ""
   },
   {
@@ -2016,30 +2216,30 @@
    "c": "Economia",
    "d": "2026-10-25",
    "r": 4,
+   "t": "Jéssica Sant'Ana: Lula e Flávio chegam à eleição com promessas que pressionam contas públicas",
+   "x": "Veja a matéria completa em UOL Economia.",
+   "u": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZFBmel8wWDlEd3VoWFBVVHdKQXJ1YWQ2Y0tPR3duUXIzTXVTZnpBOUhKUmRPbkNGelpXb0FmY3JOVXZVVzFBS3FNT2hFX3JfSHdvMEJBcVpIOG9oWk9ZOHhOaDBIX1lnYTlzbXNOSHEyZ2tERmk1VGhGTUl4MlByQU45MFhvLVZTYk50dXczSnBXUzF1QlROcFJYVnNjaFhxYWNaeWoyTDlQSVRlRjZwSndjdldpa0ppcXIteEJmWjE3Z01fWkN0MFNKQkZzYWw0cDVjQk01WUNaTWs?oc=5",
+   "i": ""
+  },
+  {
+   "s": "uoleco",
+   "c": "Economia",
+   "d": "2026-10-25",
+   "r": 4,
    "t": "TJ-SP, USP, MGS, bombeiros e mais órgãos: concursos ofertam 42,1 mil vagas",
    "x": "Veja a matéria completa em UOL Economia.",
    "u": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORWh2X2c0eUhJT3lteC1GVEVHeER1cEN0dXJYS1Y5bUQ3RDc1aHo1Ukgzc3I3eGMybHJQd0lIbDVRTG1zTjBpdE5pNXJoei1ubkFGWnBBZzFKSzV3RUFXSWdWTG02d3lVUkJPNWRNRTFwRmlKX1dDd19VX1FQQkljVHhzSERuZlVja3ZDOXU0LXdDTmtSWTM4U182cWxRaUVG?oc=5",
    "i": ""
   },
   {
-   "s": "olhar",
-   "c": "Tecnologia",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Moonshot limita capacidades de seu modelo de IA mais avançado para evitar ataques hackers",
-   "x": "A startup chinesa Moonshot AI anunciou neste fim de semana que reduziu as capacidades ciberofensivas de seu mais novo modelo de inteligência artificial O post Moonshot limita capacidades de seu modelo de IA mais avançado para…",
-   "u": "https://olhardigital.com.br/2026/10/25/inteligencia-artificial/moonshot-limita-capacidades-de-seu-modelo-de-ia-mais-avancado-para-evitar-ataques-hackers/",
-   "i": ""
-  },
-  {
-   "s": "bbc",
-   "c": "Brasil",
+   "s": "espn",
+   "c": "Esportes",
    "d": "2026-10-25",
    "r": 3,
-   "t": "Quem está à frente nas pesquisas para presidente no 2º turno das Eleições 2026? Veja Lula x Flávio Bolsonaro no agregador da BBC",
-   "x": "Acompanhe as intenções de voto para Lula e Flávio Bolsonaro no segundo turno das eleições de 2026, de acordo com o Agregador de Pesquisas da BBC News Brasil.",
-   "u": "https://www.bbc.com/portuguese/articles/cvrly555knx9o?at_medium=RSS&at_campaign=rss",
-   "i": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/e0f9/live/a48cfac0-cc62-11f1-a64c-550be9e3c66b.png"
+   "t": "Real Madrid perde titular de última hora para clássico contra o Barcelona",
+   "x": "Veja a matéria completa em ESPN Flamengo.",
+   "u": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTWZhZzItd1BhaEZlQkwyd1JoN0d6R0M4WlFqS0t0TWZvS0ZEbWw4OUZtVGVsR3BuT3phRTdaeUZsc3JTVzdvWmVZdTVWYnBBS0lhU0xsNjlpUWFoQkx4RXNGRkNBV1NhSzFDS1l5eU1JZlN1Ykx1UWpkM0xkT25yQVU1Q245MFlHbndjX2loSTNwSUxxUWJLSHJwbXE1LVZuc21wT21rZ3RVVkpfUFM4UlpFMjE2MVdDY2Jjd0NOVy03eUsxcVNCazdTVGtKc1BPektwbg?oc=5",
+   "i": ""
   },
   {
    "s": "planeta",
@@ -2062,44 +2262,14 @@
    "i": ""
   },
   {
-   "s": "espn",
-   "c": "Esportes",
-   "d": "2026-10-25",
-   "r": 5,
-   "t": "Como Messi Cup é afirmação de jovens para 'cabeças das bases' de Flamengo e Palmeiras: 'Todo mundo quer ver'",
-   "x": "Veja a matéria completa em ESPN Flamengo.",
-   "u": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPc3hKdFZoSTF6QnJ4Q2lUMnh6cEVMdWxoVW5EZEhGUG1uSWgzMzN5TF9DcXc5OHV1SURLRzI2QkJzZ3JDRXlJQ0F1NTZaX2dFZnpIVzljSmQ2UVNzNFFoMUxfMVY3WEkwdDdzS1NzZ1RMSUtTT3ZwemIzVnRYOXhLMEE3dUNNTGVjYzJ5UmZMaGJWSE90NGU4bnM0a1F4WlM5UU00MDU1NllrUkJGN3ZhUl9kX2ZVc05YSlREUlY3VFlHT3NQYkRyNFZfUXNTU3FGSWpqb2h2dU1pUUlmRTZpWHJJSFBvWWN4bTA5dQ?oc=5",
-   "i": ""
-  },
-  {
-   "s": "olhar",
-   "c": "Tecnologia",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Lua hoje: confira a fase da Lua deste domingo 25/10/2026",
-   "x": "Em qual fase a Lua está hoje, 25 de outubro de 2026? Confira e veja o calendário completo do mês O post Lua hoje: confira a fase da Lua deste domingo 25/10/2026 apareceu primeiro em Olhar Digital .",
-   "u": "https://olhardigital.com.br/2026/10/25/ciencia-e-espaco/lua-hoje-confira-a-fase-da-lua-deste-domingo-25-10-2026/",
-   "i": "https://olhardigital.com.br/wp-content/uploads/2022/07/fases-da-Lua-1024x186.png"
-  },
-  {
-   "s": "olhar",
-   "c": "Tecnologia",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Jogos de hoje (25/10/26): onde assistir futebol ao vivo e horários das partidas",
-   "x": "Quer saber quem joga hoje? Confira horários e onde assistir ao vivo aos jogos de hoje (25/10/26) do futebol do Brasil e do mundo na TV e no streaming O post Jogos de hoje (25/10/26): onde assistir futebol ao vivo e horários das…",
-   "u": "https://olhardigital.com.br/2026/10/25/internet-e-redes-sociais/jogos-de-hoje-25-10-26-onde-assistir-futebol-ao-vivo-e-horarios-das-partidas/",
-   "i": ""
-  },
-  {
    "s": "techtudo",
    "c": "Tecnologia",
    "d": "2026-10-25",
-   "r": 5,
+   "r": 4,
    "t": "Eleições 2026 2º turno: como acompanhar a apuração dos votos pelo celular",
-   "x": "Veja a matéria completa em TechTudo.",
-   "u": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPQ1YzOHhxNTdGWmY4TUFyT0NZV190U0pwcXB0OHJBeWctZ25tOVp3OU51WmU2M3ppTHZ1dElQUmZmX2JwSnNaU2xnU2ltUWVMRmlndUlLQmZtb2dhWGg1Yy1uWWJRSlpjTE9rV2laSEFMU2MxSGYtb3ZlRXRNMW9tU2k2dXIxeXR0ZlpkQ3U4b0ZrWlI1Tm1ycXN1VXhhOW9CeTV2cks2eHdrZXcwUnRKYnFqZVdCdXZwNGlGR1lxcXNkdFNIV3dfODhZbzNmTktIeU9kVURKWlNIT0NjR0R5WktzTDTSAeQBQVVfeXFMT0NWMzh4cTU3RlpmOE1Bck9DWVdfdFNKcHFwdDhyQXlnLWdubTladzlOdVplNjN6aUx2dXRJUFJmZl9icEpzWlNsZ1NpbVFlTEZpZ3VJS0JmbW9nYVhoNWMtblliUUpaY0xPa1dpWkhBTFNjMUhmLW92ZUV0TTFvbVNpNnVyMXl0dGZaZEN1OG9Ga1pSNU5tcnFzdVV4YTlvQnk1dnJLNnh3a2V3MFJ0SmJxamVXQnV2cDRpRkdZcXFzZHRTSFd3Xzg4WW8zZk5LSHlPZFVESlpTSE9DY0dEeVpLc0w0?oc=5",
-   "i": ""
+   "x": "O segundo turno das Eleições 2026 acontece hoje (25). A votação termina às 19h, no horário de Brasília, e, a partir desse momento, o Tribunal Superior Eleitoral (TSE) começa a divulgar os resultados da votação. Para quem quiser…",
+   "u": "https://www.techtudo.com.br/dicas-e-tutoriais/2026/10/eleicoes-2026-2o-turno-como-acompanhar-a-apuracao-dos-votos-pelo-celular-edapps.ghtml",
+   "i": "https://s2-techtudo.glbimg.com/Y8y9djHjUArJmSaHet43OLN1wwk=/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2026/g/s/oJjBSYR0aQl7daegm8lA/whatsapp-image-2026-10-07-at-09.51.05.jpeg"
   },
   {
    "s": "techtudo",
@@ -2107,9 +2277,9 @@
    "d": "2026-10-25",
    "r": 4,
    "t": "Eleições 2026: onde acompanhar a apuração dos votos pela Internet",
-   "x": "Veja a matéria completa em TechTudo.",
-   "u": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObVdxWE52djlONTVHRUc4QTlJbGx2c2NaUkJMV0NYLUtPb2dCSWdfVTNnd05qRWxGeERnZnZxV0xVcDVESFhZb1dxd3VCRERMaHJORTEwZTNXNTZ0Z1l0bzBuQmVGZVRySzRQMDVjN0Jnc2VlLWhzVWU3NW1fTV9tQ0NNMENaa1JqRlJSQzRoT2lJVFlOQjB0ZWV6WV9rVklCT09DamNhU1kyTmtxRk82QU1xQklaYVBDbWZRM0pBVHhrTElfblVxZWtXUE5LRkXSAc8BQVVfeXFMTm1XcVhOdnY5TjU1R0VHOEE5SWxsdnNjWlJCTFdDWC1LT29nQklnX1UzZ3dOakVsRnhEZ2Z2cVdMVXA1REhYWW9XcXd1QkRETGhyTkUxMGUzVzU2dGdZdG8wbkJlRmVUcks0UDA1YzdCZ3NlZS1oc1VlNzVtX01fbUNDTTBDWmtSakZSUkM0aE9pSVRZTkIwdGVlellfa1ZJQk9PQ2pjYVNZMk5rcUZPNkFNcUJJWmFQQ21mUTNKQVR4a0xJX25VcWVrV1BOS0ZF?oc=5",
-   "i": ""
+   "x": "É possível acompanhar a apuração dos votos no segundo turno das Eleições 2026 em tempo real pela internet, por meio das ferramentas gratuitas disponibilizadas pela Justiça Eleitoral Brasileira, eliminando a necessidade de ficar…",
+   "u": "https://www.techtudo.com.br/guia/2026/10/eleicoes-2026-onde-acompanhar-a-apuracao-dos-votos-pela-internet-edsoftwares.ghtml",
+   "i": "https://s2-techtudo.glbimg.com/Q240khLA5wAqegXmJwY6zW_cY60=/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2026/Y/L/hdBAiTTP6QJxsAEcitBg/image-1140-a2b766f3838d3336ee78a4c1799b74bb.jpeg"
   },
   {
    "s": "uoleco",
@@ -2126,40 +2296,10 @@
    "c": "Tecnologia",
    "d": "2026-10-25",
    "r": 4,
-   "t": "Tudo sobre sanduicheira Cadence SAN400",
-   "x": "Veja a matéria completa em TechTudo.",
-   "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5jU2MxNWpGTHZmbFA4ZEE4NGVFckRHWXJoaEwtbVJsUEl6VWRfb210X2toRXlFS0ZfVnd6QWM4aWYxMi1jT05EMmpQYzUxYzNQUWdEc2RXaTM5LVRrdEpRYkVHXzI?oc=5",
-   "i": ""
-  },
-  {
-   "s": "techtudo",
-   "c": "Tecnologia",
-   "d": "2026-10-25",
-   "r": 4,
    "t": "Eleições 2026: como usar o e-Título para justificar ausência no 2º turno",
-   "x": "Veja a matéria completa em TechTudo.",
-   "u": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPcXlzd3M4MklMczYzbVlXaGlsN2Q5aHotdG9zZzhvSUc5dGNZSkZoak9EMXJobmw5akxSbVNBQ0hVeEdpM2dfWTRoVjU5aXloaTJTcnlGdnpfYVFjc1U2dnpJcEx2M1dTcldfVzBRUDFGOHJSLW5aSWZMclN6VGMzcXZTZGxObW1jUEs0bEZQcy04dndQOEJJQ3F0MjN5eEl5RDNOSDNyVUFyT0NPczViV0RLX0xzNnZsTDJxYllMSTVpd3RBX0dORkh6UkZWY3JxV2hpS9IB4wFBVV95cUxOQXdVNUdSOVA0S0hsM0tjQTZNdTdxTnFjOVN3SGxYZVRiLW9pNEJFTm82b2VtYnlnUHBVWjZfaFZIY3B6TWNRXzFRcmZGbWw3VDFlQl9seTBMZENkd3MxcmVwelNaSWJwZVR5UmNaUkdUQUdHQ3JOb2lMNjRHUThuMFdTSGtSbFFPdFhSY3lEVTJETXFmaUs4dDJYMVdPN1RET1NfODNDVlF3cWtUdEtNNzRfUUhxa1VIR0IzblhCWENQOTNuNlZha3pYamtkRFp0M2hJRDZqMEJKay11WUNwYUNWbw?oc=5",
-   "i": ""
-  },
-  {
-   "s": "olhar",
-   "c": "Tecnologia",
-   "d": "2026-10-25",
-   "r": 3,
-   "t": "Smartphone, óculos inteligentes… O que pode e o que não pode entrar na cabine de votação?",
-   "x": "Regra valeu para o 1º turno e também para o 2º turno, a ser realizado neste domingo (25) O post Smartphone, óculos inteligentes… O que pode e o que não pode entrar na cabine de votação? apareceu primeiro em Olhar Digital .",
-   "u": "https://olhardigital.com.br/2026/10/25/pro/smartphone-oculos-inteligentes-o-que-pode-e-o-que-nao-pode-entrar-na-cabine-de-votacao/",
-   "i": "https://olhardigital.com.br/wp-content/uploads/2026/02/e-titulo-de-eleitor-app-1024x683.jpg"
-  },
-  {
-   "s": "olhar",
-   "c": "Tecnologia",
-   "d": "2026-10-25",
-   "r": 3,
-   "t": "Barcelona x Real Madrid: onde assistir, horário e escalações do jogo da La Liga",
-   "x": "Confira onde assistir, horário e prováveis escalações de Barcelona e Real Madrid; duelo é válido pela 10ª rodada da La Liga O post Barcelona x Real Madrid: onde assistir, horário e escalações do jogo da La Liga apareceu primeiro…",
-   "u": "https://olhardigital.com.br/2026/10/25/internet-e-redes-sociais/barcelona-x-real-madrid-onde-assistir-ao-jogo-da-la-liga-2026-2027/",
-   "i": ""
+   "x": "Eleitores que não puderem comparecer às urnas no segundo turno das Eleições 2026 podem justificar a ausência pelo e-Título. Hoje (25), o recurso pode ser usado por quem estiver fora do município onde deveria votar. Quem perder a…",
+   "u": "https://www.techtudo.com.br/dicas-e-tutoriais/2026/10/eleicoes-2026-como-usar-o-e-titulo-para-justificar-ausencia-no-2o-turno-edapps.ghtml",
+   "i": "https://s2-techtudo.glbimg.com/nOAMulVwDMpuJWv9ycDeEOzyeJQ=/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2026/J/l/pLj2iEQmWmY4pWsDQkRA/aplicativo-e-titulo-em-destaque.png"
   },
   {
    "s": "techtudo",
@@ -2167,9 +2307,9 @@
    "d": "2026-10-25",
    "r": 4,
    "t": "Xiaomi 17T vs Poco X8 Pro: o que realmente muda entre os celulares?",
-   "x": "Veja a matéria completa em TechTudo.",
-   "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaklZbVZnTlFyYURIZjRLV1pUd2x0TGEySEE4WHhrNkprZS1NMTNrTkFycThaVG9WZTFYQXZtOWlJRUdvYkRUUGxvMXI1OUx5MTFPVlhHZkVaZnJlQms4QmZjeDBORXlDT0N2ZWNfTGVIN1VIUmhVSTQxZmxSWHliakZueHJKNE1xMFc3Q1ZJZ2YtemJGcEU4N0ZZUXhRM0lBVTl1YVRtaENvNzVJUnRLcWdtcVFUbndNMENZVjVJOTfSAc8BQVVfeXFMTXk5a24yaGdvRDFvaXRKWW1DV0ZXT2dTb3Y5UmFfTXVhTG9xXzNLMG1waEdxY0VwVjB4QS1ETktUbGpQbGtlU0JvZ21USDc3VDVfcnJlNkozUXhILUJ3SzRUdzMtNXhRUDJTMG91al91U1BSN2hPc2t3RU5aeW1jZ3k0bUJ4YlEwMzljcnVIb1V1OVVZcnB2RUUxMmlEdzVCVVJVTTFJT05URFF4dWlHMGxhVEtoRXJtVnZXR2ItRjlDcmVJYUFOS2RwSkdTbG5F?oc=5",
-   "i": ""
+   "x": "O Xiaomi 17T e o Poco X8 Pro são celulares da mesma fabricante chinesa, mas focam em públicos distintos. Enquanto o Xiaomi 17T aposta em fotografia, com câmeras desenvolvidas em parceria com a Leica e zoom óptico de longo…",
+   "u": "https://www.techtudo.com.br/listas/2026/10/xiaomi-17t-vs-poco-x8-pro-o-que-realmente-muda-entre-os-celulares-edmobile.ghtml",
+   "i": "https://s2-techtudo.glbimg.com/rKVPxW03ajUrUXdR5SpffLr9jfs=/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2026/j/t/Q4x7TRTTOmyjZfBNDtqA/xiaomi17t-pocox8pro.png"
   },
   {
    "s": "gefla",
@@ -2185,31 +2325,11 @@
    "s": "gefla",
    "c": "Esportes",
    "d": "2026-10-25",
-   "r": 5,
+   "r": 4,
    "t": "De novo opção no Flamengo, Arrascaeta tenta recuperar seu 100% entre reta final e Data Fifa",
    "x": "Podcast avalia cobranças de pênaltis do Flamengo e postura dos jogadores após eliminação A dura eliminação na Libertadores teve ao menos um ponto positivo para o Flamengo: o retorno de Arrascaeta. O camisa 10 rubro-negro viveu…",
    "u": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/25/de-novo-opcao-no-flamengo-arrascaeta-tenta-recuperar-seu-100percent-entre-reta-final-e-data-fifa.ghtml",
    "i": "https://s2-ge.glbimg.com/NjbCt_wgahOat-IqSVbvrewIBno=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/D/j/SwAiSDR8aiM7t3Gm10Mg/whatsapp-image-2026-10-25-at-00.23.46.v1.jpg"
-  },
-  {
-   "s": "espn",
-   "c": "Esportes",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "- ESPN Brasil",
-   "x": "Veja a matéria completa em ESPN Flamengo.",
-   "u": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBSZDNBS0pSR01rUVpGTTRFSFcxdFRlTXJsZ0dWTWxmV0dGcVo1QlNxN1doTnBfTGpNWGxmSGkwSkJLMWxXb2xSWjRWQVAtdzBEX0s5N3R3YXo1NFdVSzZaa0MxX0ZaTVJhZWtkUTNGTHlQWndiTVcw?oc=5",
-   "i": ""
-  },
-  {
-   "s": "espn",
-   "c": "Esportes",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Kawasaki x Okayama (25 de out, 2026) Ao vivo",
-   "x": "Veja a matéria completa em ESPN Flamengo.",
-   "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBmTXhWYzdaM3ZIWW1sak16emNVTUdGLXJ2by1tcF9mNms1SURhWGstcFFLb3RwUld2RnhwWEY1d0h6c3FWcEVLZHh4YlhFYVk0Tk95a0VTZEluNDZmWmdNU2JDUnBnY3hM?oc=5",
-   "i": ""
   },
   {
    "s": "techtudo",
@@ -2217,19 +2337,19 @@
    "d": "2026-10-25",
    "r": 4,
    "t": "15 filmes eróticos da Netflix cheios de cenas de sexo picantes",
-   "x": "Veja a matéria completa em TechTudo.",
-   "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcGhVOF9jMGRKMHV2T05pWVhiTlNMR21BMlp6M294d1pwTWNITHBTYnJ0c1dvVzluMWhaWlhLSkprdzM0azhtVDJnLWhQd1JWcW8zXzNEZUxiV0psTUhUQlNRYjY1Zno2SHZ4SENaTEFwRmJ4WXIwSmozeE9HVms0ZnpZQ0I2OWJGQ1RROWxTN0xHMTEwYXloNFVsYUtFNURqSHVKTHVRUXZDbjVsTGFiZ3hGOEFkc0JtWkoweFpPMUnSAc8BQVVfeXFMUEdKamFPTUMyNFRDOEtLMS1HbHVxQzlUT3JPSHVxdlpkUUZKTXE2M0F5ZjdER1hteE9HSW0xa2RRTTk3MmF4ck1HTHhKd2J6cHM2c1BYbUJUSFE1MVVVUHVzazJsRkpUcjN2X2ZlOEpNcW5JQXNlemUyeW9fSnpsZEh1NE9CY093bjlpV1lHNGswMXJIekRHSFJQaFJrdk9jSXlFSWZ2MmdmMUQ4WlB6bTBYWF9xWGtJU0Q4NEpxQTNHaHNZdmJEa19FNzY5TEs0?oc=5",
-   "i": ""
+   "x": "Os filmes eróticos da Netflix estão cheios de cenas quentes de sexo que são proibidas para menores de 18 anos. Da comédia ao suspense policial, o que não faltam são obras turbinadas de momentos intensos e abrasivos direcionadas…",
+   "u": "https://www.techtudo.com.br/noticias/2026/10/15-filmes-eroticos-da-netflix-cheios-de-cenas-de-sexo-picantes-streaming.ghtml",
+   "i": "https://s2-techtudo.glbimg.com/162byXGmq-unDuYSNIR59vVKK5o=/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2026/5/M/heVB4FT7uLUeleGXLKxQ/16kvahzee881x6youbv4dfdpri4.webp"
   },
   {
    "s": "techtudo",
    "c": "Tecnologia",
    "d": "2026-10-25",
    "r": 3,
-   "t": "Compare: Poco F8 Pro vs Xiaomi 15T Pro",
-   "x": "Veja a matéria completa em TechTudo.",
-   "u": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONXVPOFU4R1JfTnFSZklITk1YTGN1MmdteW1xclpIT2ZMNUlpZzk3Z1gyRjJwRGVHMTVkR1R1ZDRHajI0Rko5czUxcS1abVc0UDVPLVQ0SUdNWDBTUkU4cUwtYl9GWGJHeGpOSU54V0ZXNjlPWUdfQ0htVlFMM09VcHZZZUthcGtrLXducmhNMy1LNlQ5bXRhc0hDc1VhaWpjanZ6Qw?oc=5",
-   "i": ""
+   "t": "Nintendo Switch 2 foi desbloqueado? Entenda os riscos e se pode dar ban",
+   "x": "O Nintendo Switch 2 teve sua primeira falha de segurança explorada em um processo de desbloqueio, também conhecido como jailbreak. Com ajuda do Codex, ferramenta de IA da OpenAI, usuários conseguiram executar programas não…",
+   "u": "https://www.techtudo.com.br/guia/2026/10/nintendo-switch-2-foi-desbloqueado-entenda-os-riscos-e-se-pode-dar-ban-edjogos.ghtml",
+   "i": "https://s2-techtudo.glbimg.com/31EJhWV-qS2rdityMuwm_wZntG0=/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2026/P/L/CX8ohHQuKjFqQ9zYUBUA/marisaguias-techtudo-435.jpg"
   },
   {
    "s": "techtudo",
@@ -2237,59 +2357,9 @@
    "d": "2026-10-25",
    "r": 3,
    "t": "15 melhores séries com romances lésbicos para assistir em 2026",
-   "x": "Veja a matéria completa em TechTudo.",
-   "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQS2NhTGY0WjRwUXFxTDUwM2cwakQycjNJN1FjLWlha1lmbWNqNW1wYWxud1lGVzRNMWFKcTdwMzhfcGpWemQ1TGZhNExGUUZ1a1NOZTFzamJfRldnMEdaMndpWTRBNk5IMnhxX0xvMXoyNHZ5UmdWX2FXcy1uVDY1Tkk1UGd5ZGRnaE9fOV9Oc0lJQnRuX3BtLXBjV2loYW9FeHJKWlNfM3RQS1BSb3BHdWJyWGdJZmVkOUs4Z05KYmLSAc8BQVVfeXFMTmp5UFFnYW9CdUdTMklFdFZ1UWpxZGZVeFoySHgzcGpyQjBTblRQQlVrQ25hRzY0anJ4elZqSEZZaUZEYmFCRU5HMk55RGt4TUdRWU1LV2NTZ1k0R3cwVEJQOVhJeXhqRHhOTi1iX1N4c2kzaFNYcjNkT1Jfc3FVR2dzVTUyMWtibk1HUnVtS3ozaDBSOTF0UFRVS3N2WmgtYVREMEhsTDJDTTAxdC1mU3oxUVRfTU9jNWFvMG1wWUZ3Q21SYXpMalVnalRlcy1j?oc=5",
-   "i": ""
-  },
-  {
-   "s": "espn",
-   "c": "Esportes",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Anastasios Antoniou",
-   "x": "Veja a matéria completa em ESPN Flamengo.",
-   "u": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1WQnlNbUVqZVRnVm9HU1ZldGMzSFJaSzZKdzZseFJDeUE2N1FXdnFEaUNaRmlMQ3ZpeUdscWE3dzJXb2pGY25KZ3dWczlrY0lqT0J0Y3J3SWk1MkxkU0hHVjByWXU3X2s4NE9iR3JMbzNZeGE5YU9LSVB0NEo?oc=5",
-   "i": ""
-  },
-  {
-   "s": "espn",
-   "c": "Esportes",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "O recado de técnico do Liverpool a joia que já gerou crise no Chelsea e o que assistir no Disney+",
-   "x": "Veja a matéria completa em ESPN Flamengo.",
-   "u": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPbjdHYXpacDBHOGwyRWdpcVZ4UEZfU3hiODRNUDFJOEtjNVF3bFJPZnFIeFVHYXBJYVlLVTdSZHlJSG41dTdOTWVlSll0N29GNkdoeHdCM0NVU0lOMFRLSENFRkFBSkR3MGc5NTNQa1dxVUZBYm1pemRDZEc4YjE2VWZKQUd6YWZQTWlUWHFPTHlqWWgwZnJDM1JPZ3NZdDFBZ3VGUFlfaUdLdjhZLUxyMDQxQ3VoOTVYNk1PQ2N2RUhaNEotZ3V2WDU4X3dCRlZJOVE5eGt1YWNGa2VD?oc=5",
-   "i": ""
-  },
-  {
-   "s": "espn",
-   "c": "Esportes",
-   "d": "2026-10-25",
-   "r": 4,
-   "t": "Seedorf vê Corinthians com 'raiva' e diz o que ouviu no vestiário após derrota: 'Não acabou aqui'",
-   "x": "Veja a matéria completa em ESPN Flamengo.",
-   "u": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPYXQ4dXV2OXlFTzRkR2pJSHdpdHpLVHdKMWtsR3FBeGJwYWN4dGpMTTcwMEJnTTV4ZVZTb2ZRbVZvY3BFN3pNeFRwS3h1Mm9LZmpCOTB2WDE1NWc0ZFhDaUU0SG02aFpGbENEOGoyRC1hVW9sWXlBRTJpRFItMHltTktsbW1RT3duOHVXX1hvaTVURTBScXpnTEVZR2xrdnlKTFhCVTNKOFBxak5fbWE0R044ekVVdDJ2RWlyd3JWOTRmWk4tX05fa3lBMFRITzhsdENqLTlvY3NiZkdRRjEwenNDLU9BdXYyQ3FJNHdR?oc=5",
-   "i": ""
-  },
-  {
-   "s": "espn",
-   "c": "Esportes",
-   "d": "2026-10-24",
-   "r": 3,
-   "t": "Neymar põe mão na boca durante discussão com Nestor, é expulso e reclama: 'Maior safadeza do futebol'",
-   "x": "Veja a matéria completa em ESPN Flamengo.",
-   "u": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNN25ZRjkwVWtMd1JJSm92R3JnQmNwSUFJOW5hOEdoeHJKS2tXcUpjaXc0OTM2X3VwRXdRVTlrOVdIaHBsTUVMM0Z4NHBCUGJyVnNhQXpWVWtTS3Bva3JVcnRaUUZjM3JabmZmMExTSTB0emVDbVRpR0xhQ2hIQlBDNGFFelZpekFRYlRRekJGejU4ZERoVWhZUXluLWdIZnZlWW5oNWRkSTZ6OGxMTHBFdjhoU2FtSHBSVjRPYXF6RW9iV0Yxc2tKa2J6WEprckt2TGJwNHlERkIzTkZPMkwyOERB?oc=5",
-   "i": ""
-  },
-  {
-   "s": "espn",
-   "c": "Esportes",
-   "d": "2026-10-24",
-   "r": 3,
-   "t": "Nestor explica treta com Neymar e detona craque do Santos: 'Falhou muito como pessoa'",
-   "x": "Veja a matéria completa em ESPN Flamengo.",
-   "u": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPTXZYczRldWlHNy0zS1E3cnN6OWNrU3hGc1Y5RTgwcjZQY0gyd2FGcUQ0NEVrMkZGRk43R2ZYLTFPVnJRRkZVVUhGV09fdEpYVUdRRzRaWFBpcnlyRGU2M3JxTjd6NHlucURHWTNlV094cjlGNkpxak9xZUxrLVhOX01samV3b0hGUF9UWDlia2RzcVEyUEtwLUhlbHloZno4WHZJT2pRZzVRSHRocVNMcGVuZXVMUEgwUnFYOG5XVlZUZkRYNGFSeGRlcE0zVjBnUUFnTnpNTHZyQQ?oc=5",
-   "i": ""
+   "x": "As séries com romances lésbicos conquistam cada vez mais espaço entre os fãs de produções LGBTQIA+, com histórias que exploram paixões inesperadas e relacionamentos sáficos. E indo de comédias românticas leves a dramas repletos…",
+   "u": "https://www.techtudo.com.br/noticias/2026/10/15-melhores-series-com-romances-lesbicos-para-assistir-em-2026-streaming.ghtml",
+   "i": "https://s2-techtudo.glbimg.com/SOGSWQqB6D45MWnmWcsYdA4zhhM=/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2026/X/o/GVDhksSUmVDl5Ata9LAQ/captura-de-tela-2026-04-21-114627.png"
   },
   {
    "s": "gefla",
@@ -2325,7 +2395,7 @@
    "s": "super",
    "c": "Ciência",
    "d": "2026-10-24",
-   "r": 5,
+   "r": 4,
    "t": "Eleições: entenda de uma vez a diferença entre votos brancos e nulos",
    "x": "Conheça a diferença prática entre eles e como influenciam a apuração das urnas.",
    "u": "https://super.abril.com.br/sociedade/eleicoes-entenda-de-uma-vez-a-diferenca-entre-votos-brancos-e-nulos/",
@@ -2365,7 +2435,7 @@
    "s": "super",
    "c": "Ciência",
    "d": "2026-10-24",
-   "r": 5,
+   "r": 4,
    "t": "Primata peçonhento “perdido” há quase um século reaparece na Indonésia",
    "x": "O lóris-lento-de-Bangka estava fora do radar dos cientistas, mas circulava por quintais, estradas e linhas de energia na ilha de Bangka.",
    "u": "https://super.abril.com.br/ciencia/primata-peconhento-perdido-ha-quase-um-seculo-reaparece-na-indonesia/",
@@ -2375,7 +2445,7 @@
    "s": "galileu",
    "c": "Ciência",
    "d": "2026-10-24",
-   "r": 5,
+   "r": 4,
    "t": "Fotografia autografada de Abraham Lincoln encontrada em escrivaninha antiga é vendida por R$ 800 mil",
    "x": "Veja a matéria completa em Galileu.",
    "u": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNOWRkc2FwUGhFclk5S3JQU3VRTVZCdGlzTXFWTlIyRFhqNzRmVERpMVdzWWVYT0RRVktHT1JndEE1bWxZMjRiN3dCem1aTHJlX19nejBuQ2hKLXBVNllWb1Y0SjE5X0J1Z1BCVFBXa05hM3JHYTZIMnlKQnBGQVJFV3hFWFlCN0hVVW51cEEzRm9RT1NGcGpzNjVPZWI1UFJMdFF2RG9QSlBvdDY5cW93U1Q0S2pJR3RPbEJrSEg3cXJuVDlXMnpWbXo0SFlPQTZSeWxZb0NRUW1xRXNkeDFVSXk3NU9pMGp1M1ZFaTI4QnVONFVNazM5X1VSRnNLaEw0dDFR0gGSAkFVX3lxTE04XzBGNV8ydTRhOFkzYU5PcGk1Nlk1aUhORVdnUWJXMTZPS0hmQXMxZUxZSjgzZEdHR25SR0NVVi1yVUdWaG5HWGRmQjZaOUo3UzFFajh6V3lJUm5PS1k5U3dnb2tNWkY5THBRWGh5NHVrTUotTk9EQWlIZi1qMU8xN0JEaXFsRjJTSzJrSHJQYWV4YUV0NTZXUVk3TnBhSFkxZWpURHdtNmg3b0FQczZ0YXNCOXh1ZkdFb2xablZQVDMzX1F4cVQ5Um0tcUZFQ3hFMTZ0UDBPNm12cEFNM3Z4aVVQbTE0WWNuS2dUbVVxa2dwTFJqWFdrWXJ0WExGMElaaV8zd2o5Q1pCaEs1ODZzQlE?oc=5",
@@ -2405,7 +2475,7 @@
    "s": "galileu",
    "c": "Ciência",
    "d": "2026-10-24",
-   "r": 5,
+   "r": 4,
    "t": "Nanorrobô criado nos EUA usa células humanas para se mover",
    "x": "Veja a matéria completa em Galileu.",
    "u": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMVlTYVRWUHFvYlhtZ0xONDhIdW9hUU14WVJZTDJjYXB5Z1hsMzhYb2JET1IzY3VudmlUcG9mSy1DRkw4R2h4ZGt3UWRpZy1QbmFiWkZSb0tpSU9BejZjWU9JZXlVZnJPWWlaVXQ0MkVPbmYwdXhEaUtPdDlIZk9nTklrRlFzZV8zZjkzcGVldGxEUTV4LXcwd2ZlY3o5a2l4ZmJ3bjNnYUktZGY2MV9hb3Q2ZUlhTDNOSXR3elFqSkFvZ9IB0AFBVV95cUxONUwyOFRaTmR0RjA4MGEzdkNlXzIwQWFkdUxhVlZSSl9UY0hRZ2dPLVByNDNMeFFDcWREaU1PUjJkZkFPUm5UMnpwMWE1azFfUVphbldHV2ctQlQxLUgxOXRKUU4tVm1CNXg3d2NmVkdHeDNETVh3Z3JpVHVNTklxOUxfdmVJMUlvNjRXX1p3UGFyUXJtb25YUzRueEx2dHo1OWpWUWdycUdTTzFpTVRPLXVWOUZhcWQzd1NXZnhSQnZrMDdiaEJNR1BYbHhWZVZ3?oc=5",
@@ -2435,7 +2505,7 @@
    "s": "gefla",
    "c": "Esportes",
    "d": "2026-10-24",
-   "r": 4,
+   "r": 3,
    "t": "Vasco abre venda de ingressos para jogo contra o Flamengo no Nilton Santos e indica público 90/10",
    "x": "Voz do Setorista: Sergio Santana detalha como foi a aprovação da venda da SAF do Vasco O Vasco anunciou que as vendas para o confronto contra o Flamengo, na próxima quinta-feira, em partida da 33ª rodada do Campeonato Brasileiro…",
    "u": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/24/vasco-abre-venda-de-ingressos-contra-no-flamengo-no-nilton-santos-e-indica-publico-9010-no-classico.ghtml",
@@ -2445,7 +2515,7 @@
    "s": "uoleco",
    "c": "Economia",
    "d": "2026-10-24",
-   "r": 4,
+   "r": 3,
    "t": "Lula a Janones: 'Trump, Xi Jinping e Putin têm inveja do nosso exército'",
    "x": "Veja a matéria completa em UOL Economia.",
    "u": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWmR0TFZzci1HSEZxcjNSclQ2anljbkF4WkkxQklMQkZWUGRzUGUxcTFyaUd2a0dwOTQxVlBEVkVTbTNKMzMyMzZFTTVtUHlRVE1LVWRMYlZvTFZMR0YySTJzS1JmZExMQmxYWEFzbG5SeXZzdHAxMUllSlRBbU1sT1h1UkdzbTltaUJaTmdPUV9ma2EySkVBTWFwQ0dYX3RyNDVjRXY0bWR6S2xueHhxUmpCaHhKVk5UNkE?oc=5",
@@ -2602,20 +2672,10 @@
    "i": ""
   },
   {
-   "s": "uoleco",
-   "c": "Economia",
-   "d": "2026-10-24",
-   "r": 3,
-   "t": "Giga+ confirma que manteve conversas com Sky sobre fusão, mas sem decisão ou acordos",
-   "x": "Veja a matéria completa em UOL Economia.",
-   "u": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNSmJIcmRWWXNFNmMwcDhjWlkxNFIzRlA3cHBIR2lHYURmZFU3MDNpaVFRZVRlSkotODRLMktxVnQyQy11VmViOVNpa3B1Y3loNl82ZUxORFk2TG9HU0tkRmUyazZURXR4QmtIMjN0Q3VQemZfN3ZPR0pCbE12VElZaFdqWHA4RlRmQ2NGZUwwU3NLUDBPM3QxNGhSOVpwZVNEcUx2bzlCNlVObEZUM1BUaEFTX2NnU0RibFdHZ3RZcXRPZFVWWTN1VldUVDZfbmFaRWdyT3FpN1d3cWZDQlhKRDhJRDVtNVIyVEtz?oc=5",
-   "i": ""
-  },
-  {
    "s": "galileu",
    "c": "Ciência",
    "d": "2026-10-24",
-   "r": 4,
+   "r": 3,
    "t": "Crianças ajudam arqueólogos a desvendar mistério de prédio desaparecido há quase 200 anos",
    "x": "Veja a matéria completa em Galileu.",
    "u": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPcFkzX3EyVHBrSXViNHM0WEJBR210ZDFGZkZRUW1tUTc2cmQ2MVBpcUFYSFlTOUF2YkxsZEVXbjZ3NzFmUTdHd0d2Ym9vdHU2ZHp2amJYS1FpTmFsZDhTdVFPamZEdXJYYl9tN2tmRTRkWVJ5Yko5X3o1MDd3Vkt2U3BkZnVkNk1xRVY1M0w1YjFlSXY2RWVBRWd0emY2a0dabVRtWUN6YjBlX1lYajNoX2hyZXhjdW96X3VsYmpZZzhUT2lSTEt3NUJtYThVYkFadGNrSTNrbmdHMXR3RlJSNDJhTk1EN2ZoOUxaWXBoS1JtMkNjZXNF0gGGAkFVX3lxTFBJZTFFS09IVzFFRHI5NXdzdDZlVGFuT1lBRC1mS1RqX2RYT01pM3NsbWFWNEtxUFl3QXBFLVNGbGVSSnZOZngyVXYzVkJ3TThNNS0xRUJ4NENxSW1uQnI2N1dUSjNSQ0gxcHZ6NHJ4ak8zNFFiQ2M1cjJtTUloMmJVMUlHVUxXd1RYVUNCZnVPdFhFTG1PXzZ6SXNKR3Z2UmV0N2lUMXd6ZnBLZ2R1R3RuY1VpUDFCY2RQWFdNbWtlWi04V0plcS1RQlcybTZvb09GTk45b29GOF9peWZFQzZtU3JYdXo2X1l5d2xFRmJYek9pUVl0NUNwQ0VqZEdteDNmTEFscnc?oc=5",
@@ -2685,31 +2745,11 @@
    "s": "galileu",
    "c": "Ciência",
    "d": "2026-10-24",
-   "r": 4,
+   "r": 3,
    "t": "Ciência | Galileu",
    "x": "Veja a matéria completa em Galileu.",
    "u": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mWVgydVpKUlhSdGstX0dyNWQxOVU5TG5UYmdweDBGWVk4MVVJU1RDOXlmMExBdl9na0hKaHNxSTNEMXpkRFF6Z1U4eFhFRHdXS2kxckM5Nlh0TW01LVdBQUxDc3I5NzYtZl9DX2k4OA?oc=5",
    "i": ""
-  },
-  {
-   "s": "galileu",
-   "c": "Ciência",
-   "d": "2026-10-24",
-   "r": 3,
-   "t": "Biologia | Galileu",
-   "x": "Veja a matéria completa em Galileu.",
-   "u": "https://news.google.com/rss/articles/CBMie0FVX3lxTE51UmEzSkRnTXQxTEhlRTdqZzFLR1JfejJJVTBRWnotTC1FUnpldE12WTFHTmlqOEpnSHBucEJPTGpfLS0zX0ctZ0dqUnE3U3FFT25LNmZ4SGpHNHFHSWVqOGtwYjB0TDZpU0RJZFc3NW1oWThyeGV1aGk2VQ?oc=5",
-   "i": ""
-  },
-  {
-   "s": "gefla",
-   "c": "Esportes",
-   "d": "2026-10-24",
-   "r": 3,
-   "t": "Flamengo tem precedente da Conmebol com o Santos para tentar mudar classificação na Libertadores",
-   "x": "Fred Gomes vê eliminação justa do Flamengo na Libertadores e cita erros de Jardim O Flamengo conta com um precedente da Conmebol em sua tentativa de mudar nos tribunais a classificação para a final da Libertadores, por uma…",
-   "u": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/24/flamengo-aposta-em-precedente-da-conmebol-com-o-santos-para-tentar-mudar-classificacao-na-libertadores.ghtml",
-   "i": "https://s2-ge.glbimg.com/v8p4hnEVl7edsySYMgUvmkLbZg0=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/6/a/Q4AOUZRmeEb8VjHqiLWg/gettyimages-2301555458.jpg"
   },
   {
    "s": "eo",
@@ -2742,20 +2782,10 @@
    "i": ""
   },
   {
-   "s": "galileu",
-   "c": "Ciência",
-   "d": "2026-10-23",
-   "r": 3,
-   "t": "Corvos podem tomar decisões duas vezes mais rápido do que humanos, avalia estudo",
-   "x": "Veja a matéria completa em Galileu.",
-   "u": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOOWpWVjJFMDdZeTJBdkdCaXBnTFhVMXBOb21MTkJHY09LMGtCaHJxeTVVYll4MTlwNkx4b1VQZ19aRmxVelpmNkZlbXh0QUxORWpmRHB5UVp4SmhwczRRQ295dVpMemc0c3ZGTVdmVG9RZVJRTGJmSmJJRHpGT3IwdElNM2hrTWh1QWhJTGRuZVRIVVBvNG00S1kxT1ZzVGlDRVR0dDduLTRONzB1ODZQVTN6OGdSR0ZOczZMc3VIaWtkWTJyLW9ONW5fbjJyX05UQjBDWkFPQV9wcGxCY3p6ZVhjZUh1d9IB9AFBVV95cUxPY0ZIUkZHWGNnX2hnWkFYT0RhZXRNVTI2eXNHX3NJMlZvLUlRS3loY0NLem10M3B2X0tzZGtLNFpwUEFkNVJYTkZkbzlZZm04bV9Gdl8zSHAtdjZmU1R1bXphNGJvLTV0V3RTOTFXMkFKZVI2cF95M2hRWkxjM2tBT29xODNXZUNNUmFsdGxFVEFWYzFiMHA0bFZEX0cxOW5iVUI3Sy1lQzgxMWJMZER4Q0hHNHQ4Yms4MTRTcEhoZUVocmxsX1djV3NMSlBrZlZCZFdHeFZPNW54WFVNMzQzeFl1dkhDdHQyLUxCRzZ2QnpkOE1L?oc=5",
-   "i": ""
-  },
-  {
    "s": "super",
    "c": "Ciência",
    "d": "2026-10-23",
-   "r": 4,
+   "r": 3,
    "t": "Eleições: por que a Constituição de 1988 instituiu o segundo turno?",
    "x": "Após a redemocratização, Brasil adotou o critério da maioria absoluta. Entenda.",
    "u": "https://super.abril.com.br/historia/eleicoes-por-que-a-constituicao-de-1988-instituiu-o-segundo-turno/",
@@ -2845,21 +2875,11 @@
    "s": "super",
    "c": "Ciência",
    "d": "2026-10-23",
-   "r": 4,
+   "r": 3,
    "t": "Por que o remake de Zelda pode fazer você reencontrar outra versão de si mesmo?",
    "x": "\"Ocarina of Time\" chega para o Nintendo Switch em 5 de novembro e promete uma overdose de nostalgia. Veja o que a psicologia tem a dizer sobre isso.",
    "u": "https://super.abril.com.br/cultura/por-que-o-remake-de-zelda-pode-fazer-voce-reencontrar-outra-versao-de-si-mesmo/",
    "i": "https://super.abril.com.br/wp-content/uploads/2026/10/SI_zelda-ocarina-of-time_site.jpg"
-  },
-  {
-   "s": "g1tec",
-   "c": "Tecnologia",
-   "d": "2026-10-23",
-   "r": 5,
-   "t": "Japão vai simular ataques hackers com IA após falha no PHP tirar sites do ar em vários países",
-   "x": "Veja a matéria completa em g1 Tecnologia.",
-   "u": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNUEU4RW5YNzFsMWx5VkNfdm5DWDJDYlFwcmVuTTRjNjQ2LTQ5LVptcEVndW1LanpiNTJ2TGhpWlZrRlE0bWxGQTJER0l4Ry1haHYyNl9TTDJKcXhzclBoWEVtRXdPbGlmZ1VtMjZtSGc2QVVYajAzdXVWODhOS1lSVGt6RWZKZzd0TEdHZkY5SlRfUElneV9WckNnb2p2Q1drOFUyUFdHNUJjd1Via09CR1h4ZWdNRlA5bWs5cjU5SFhsb0JRYzBuU3Z4cjU0Umx5TnlHcHl4RjJiSW9IZldON2ZudkRPb2pNNEJ0V2RlVVJhOHQ0X2pSedIBhwJBVV95cUxOQWEwN25CNk8zNklUS2Y0eFVxeEc3QWtBdHUzQlV5THR0MmsyZDNOXzBuUFBzeW5zWmp6aF9PU3FnMTlhU1Uyd210X0xBcEljcVVXZXpXSVJjWDdLVVRXUlpNVk5ZTlh3MHlMX0dCQlR2THhWSm1aam1tRE5BQzQwQXEtdlZuOTdPZ09fVzNTcVZFNUxoMzhoei1Mejhpd1JJX2EtMmdWRkZNUklHc2V2aE1KVjY2Nm1MWFo3MGRZb3pNMHhFYTFSWTRQOERtdW1uYkpnRHNxclY5Tll6TE8ySXlENUpjWXBYNE43NXVURzV2SzkyTTZyY0xNeWRIb3F1OFEySWFYVQ?oc=5",
-   "i": ""
   },
   {
    "s": "usp",
@@ -2912,16 +2932,6 @@
    "i": "https://jornal.usp.br/wp-content/uploads/2024/05/20240515_Erminia-Maricato-destaque-1024x538.jpg"
   },
   {
-   "s": "super",
-   "c": "Ciência",
-   "d": "2026-10-23",
-   "r": 3,
-   "t": "Horário do jantar, somado a estresse, pode influenciar na saúde intestinal, diz pesquisa",
-   "x": "Estudo sugere que a combinação entre alimentação após as 21h e estresse crônico está associada a maior risco de alterações no funcionamento do intestino",
-   "u": "https://super.abril.com.br/saude/horario-do-jantar-somado-a-estresse-pode-influenciar-na-saude-intestinal-diz-pesquisa/",
-   "i": "https://super.abril.com.br/wp-content/uploads/2026/10/SI_horario-de-janta_site.jpg"
-  },
-  {
    "s": "usp",
    "c": "Ciência",
    "d": "2026-10-23",
@@ -2950,16 +2960,6 @@
    "x": "O Brasil está diante de um momento decisivo. Não é “só” uma eleição normal, mas a definição entre dois projetos[.....] O post O voto das mulheres decide: domingo é lula! apareceu primeiro em Esquerda Online .",
    "u": "https://esquerdaonline.com.br/2026/10/23/o-voto-das-mulheres-decide-domingo-e-lula/?utm_source=rss&utm_medium=rss&utm_campaign=o-voto-das-mulheres-decide-domingo-e-lula",
    "i": ""
-  },
-  {
-   "s": "super",
-   "c": "Ciência",
-   "d": "2026-10-23",
-   "r": 3,
-   "t": "Amyr Klink: “Eu tinha uma relação muito complicada com o meu pai”",
-   "x": "O navegador bateu um papo com a Super sobre \"100 Dias\", filme que narra a sua trajetória pelo Atlântico Sul nos anos 1980 e que estreia dia 29 de outubro.",
-   "u": "https://super.abril.com.br/cultura/amyr-klink-eu-tinha-uma-relacao-muito-complicada-com-o-meu-pai/",
-   "i": "https://super.abril.com.br/wp-content/uploads/2026/10/SI_492_Playlist_Abre.jpg"
   },
   {
    "s": "diolinux",
