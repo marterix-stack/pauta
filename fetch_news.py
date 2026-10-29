@@ -8,6 +8,7 @@ import html
 import json
 import re
 import sys
+import time
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -356,6 +357,114 @@ def collect():
     return items[:TOTAL_MAX]
 
 
+# ---------------------------------------------------------------------------
+# Notícias locais ("Perto de você")
+# O app descobre onde a pessoa está e escolhe, entre os lugares abaixo, o mais próximo.
+# Estados: todos os 27 (capital usada só como ponto de referência).
+# Cidades: edite CIDADES para acrescentar ou tirar lugares (nome, UF, latitude, longitude).
+# ---------------------------------------------------------------------------
+ESTADOS = {
+    "AC": ("Acre", -9.9747, -67.8100), "AL": ("Alagoas", -9.6658, -35.7353),
+    "AP": ("Amapá", 0.0349, -51.0664), "AM": ("Amazonas", -3.1190, -60.0217),
+    "BA": ("Bahia", -12.9714, -38.5014), "CE": ("Ceará", -3.7319, -38.5267),
+    "DF": ("Distrito Federal", -15.7939, -47.8828), "ES": ("Espírito Santo", -20.3155, -40.3128),
+    "GO": ("Goiás", -16.6869, -49.2648), "MA": ("Maranhão", -2.5307, -44.3068),
+    "MT": ("Mato Grosso", -15.6014, -56.0979), "MS": ("Mato Grosso do Sul", -20.4697, -54.6201),
+    "MG": ("Minas Gerais", -19.9167, -43.9345), "PA": ("Pará", -1.4558, -48.4902),
+    "PB": ("Paraíba", -7.1195, -34.8450), "PR": ("Paraná", -25.4284, -49.2733),
+    "PE": ("Pernambuco", -8.0476, -34.8770), "PI": ("Piauí", -5.0892, -42.8019),
+    "RJ": ("Rio de Janeiro", -22.9068, -43.1729), "RN": ("Rio Grande do Norte", -5.7945, -35.2110),
+    "RS": ("Rio Grande do Sul", -30.0346, -51.2177), "RO": ("Rondônia", -8.7612, -63.9004),
+    "RR": ("Roraima", 2.8235, -60.6758), "SC": ("Santa Catarina", -27.5954, -48.5480),
+    "SP": ("São Paulo", -23.5505, -46.6333), "SE": ("Sergipe", -10.9472, -37.0731),
+    "TO": ("Tocantins", -10.1689, -48.3317),
+}
+CIDADES = {  # chave: (nome, UF, latitude, longitude)
+    "niteroi": ("Niterói", "RJ", -22.8832, -43.1034),
+    "campinas": ("Campinas", "SP", -22.9056, -47.0608),
+    "santos": ("Santos", "SP", -23.9608, -46.3336),
+    "juiz-de-fora": ("Juiz de Fora", "MG", -21.7642, -43.3503),
+    "londrina": ("Londrina", "PR", -23.3045, -51.1696),
+}
+LOCAL_MAX = 12          # matérias por lugar
+LOCAL_AGE_ESTADO = 3    # dias
+LOCAL_AGE_CIDADE = 7    # dias
+
+
+def gnews_q(query, days):
+    q = urllib.parse.quote(f"{query} when:{days}d")
+    return f"https://news.google.com/rss/search?hl=pt-BR&gl=BR&ceid=BR:pt-419&q={q}"
+
+
+def local_place(urls, days, rep):
+    """Tenta cada endereço até algum devolver matérias; devolve a lista no formato do site."""
+    oldest = datetime.now(timezone.utc) - timedelta(days=days)
+    for url in urls:
+        try:
+            entries = list(parse_feed(fetch(url)))
+        except Exception as exc:
+            print(f"[erro] local: {url} -> {exc}", file=sys.stderr)
+            time.sleep(0.5)
+            continue
+        time.sleep(0.5)
+        rep["recebidas"] += len(entries)
+        if entries:
+            break
+    else:
+        entries = []
+    entries = [e for e in entries if e["url"] and e["title"] and e["dt"] and e["dt"] >= oldest]
+    entries.sort(key=lambda e: e["dt"], reverse=True)
+    rep["recentes"] += len(entries)
+    out, seen = [], set()
+    for e in entries:
+        title, outlet = e["title"], "Notícia local"
+        if " - " in title:
+            title, outlet = title.rsplit(" - ", 1)
+        sig = norm(title)
+        if sig in seen:
+            continue
+        seen.add(sig)
+        out.append({
+            "s": outlet.strip()[:40],
+            "c": classify(title, "Brasil"),
+            "d": e["dt"].astimezone(BRT).strftime("%Y-%m-%d"),
+            "r": 3,
+            "t": title,
+            "x": f"Veja a matéria completa em {outlet.strip()}.",
+            "u": e["url"],
+            "i": "",
+        })
+        if len(out) >= LOCAL_MAX:
+            break
+    rep["mantidas"] += len(out)
+    return out
+
+
+def collect_local():
+    rep_e = {"nome": "Notícias locais — estados", "feeds": [], "recebidas": 0, "recentes": 0, "mantidas": 0}
+    rep_c = {"nome": "Notícias locais — cidades", "feeds": [], "recebidas": 0, "recentes": 0, "mantidas": 0}
+    estados, cidades = {}, {}
+    for uf, (nome, lat, lon) in ESTADOS.items():
+        urls = [gnews_q(f"site:g1.globo.com/{uf.lower()}", LOCAL_AGE_ESTADO),
+                gnews_q(f'"{nome}" notícias', LOCAL_AGE_ESTADO)]
+        items = local_place(urls, LOCAL_AGE_ESTADO, rep_e)
+        estados[uf] = {"nome": nome, "lat": lat, "lon": lon, "items": items}
+        if not items:
+            rep_e["feeds"].append({"url": nome, "ok": False, "n": 0, "erro": "sem notícias recentes"})
+    for key, (nome, uf, lat, lon) in CIDADES.items():
+        urls = [gnews_q(f'"{nome}" {uf}', LOCAL_AGE_CIDADE)]
+        items = local_place(urls, LOCAL_AGE_CIDADE, rep_c)
+        cidades[key] = {"nome": nome, "uf": uf, "lat": lat, "lon": lon, "items": items}
+        if not items:
+            rep_c["feeds"].append({"url": nome, "ok": False, "n": 0, "erro": "sem notícias recentes"})
+    for rep, total, tipo in ((rep_e, len(ESTADOS), "estados"), (rep_c, len(CIDADES), "cidades")):
+        bons = total - len(rep["feeds"])
+        rep["feeds"].insert(0, {"url": f"{bons} de {total} {tipo} com notícias", "ok": bons > 0, "n": rep["mantidas"], "erro": ""})
+    REPORT["local-estados"] = rep_e
+    REPORT["local-cidades"] = rep_c
+    return {"estados": estados, "cidades": cidades}
+
+
 def main():
     items = collect()
     if not items:
@@ -367,6 +476,10 @@ def main():
         "report": REPORT,
         "items": items,
     }
+    try:
+        data["local"] = collect_local()
+    except Exception as exc:  # notícias locais nunca derrubam o resto
+        print(f"[erro] notícias locais: {exc}", file=sys.stderr)
     with open("news.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=1)
     print(f"news.json gerado com {len(items)} matérias.")

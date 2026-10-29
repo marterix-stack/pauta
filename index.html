@@ -79,6 +79,10 @@ dialog .row{display:flex;gap:8px;margin-top:18px;flex-wrap:wrap}
 @media (max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hero{grid-template-columns:1fr}.hero .tw{min-height:170px;height:170px}}
 @media (max-width:560px){.grid{grid-template-columns:1fr}header,.bar-in,main{padding-left:16px;padding-right:16px}.hero h3{font-size:24px}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+.locbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin-bottom:16px}
+.locbar select{max-width:100%}
+.locbar .lmsg{font-size:13px;color:var(--mute);flex:1;min-width:160px}
+.locbar small{flex-basis:100%;color:var(--mute);font-size:12px;line-height:1.4}
 </style>
 </head>
 <body>
@@ -103,7 +107,7 @@ dialog .row{display:flex;gap:8px;margin-top:18px;flex-wrap:wrap}
 </main>
 <dialog id="dlg"></dialog>
 <script>
-let SNAP=new Date("2026-10-19T12:00:00"),UPD=null;
+let SNAP=new Date("2026-10-19T12:00:00"),UPD=null,LOCAL=null,LALL=[];
 const SRC={mh:["Mercado Hoje","#b45309"],tp:["Três Pontas Studio Live","#0b6e6e"],hc:["Hoje Cidades","#c2410c"],ab:["A Bola","#a21caf"],eu:["Euronews","#1d4ed8"],od:["Olhar Digital","#6b46c1"],tb:["Tecnoblog","#0e7490"],ga:["Revista Galérica","#be185d"],cc:["CCBB","#15803d"],on:["Oficina da Net","#4d7c0f"]};
 const H={Brasil:150,Economia:30,Mundo:215,Tecnologia:272,Ciência:190,Esportes:2,Cultura:325};
 const U={focus:"https://mercadohoje.uai.com.br/2026/10/19/noticias-hoje-19-10-2026/",tp:"https://www.trespontasstudiolive.com.br/principais-comemoracoes-do-brasil-e-do-mundo-desta-segunda-feira-19-de-outubro-de-2026/",hc:"https://hojecidades.com.br/jogos-de-hoje-19-outubro-2026-horarios-ms-onde-assistir/",ab:"https://www.abola.pt/noticias/19-de-outubro-de-2026-2026101823095909505",euT:"https://pt.euronews.com/video/2026/10/19/noticias-do-dia-19-de-outubro-2026-tarde",euM:"https://pt.euronews.com/video/2026/10/19/noticias-do-dia-19-de-outubro-2026-manha"};
@@ -136,15 +140,16 @@ const SNAPSHOT=[
 {s:"on",c:"Cultura",d:"2026-10-06",r:3,t:"Fim de outubro nos cinemas tem Ozzy e Black Sabbath e transmissão ao vivo do BTS",x:"O filme-show do Black Sabbath estreia dia 28, e a sessão do BTS em São Paulo, dia 30.",l:"No dia 29 chegam, entre outros, As Dez Vantagens de Morrer Depois de Você e o Festival de Cinema Francês do Brasil. Dia 24 há sessões do Hybe Cine Fest.",u:"https://www.oficinadanet.com.br/entretenimento/73132-filmes-cinemas-outubro-2026-estreias"}
 ].map(n=>({...n,id:hid(n.u+n.t)}));
 let NEWS=[];
-const ready=fetch("news.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(j=>{if(!j.items||!j.items.length)throw 0;Object.assign(SRC,j.sources||{});SNAP=new Date();UPD=j.updated;NEWS=j.items.map(n=>({...n,id:hid(n.u+n.t)}))}).catch(()=>{NEWS=SNAPSHOT});
+function prepLocal(l){if(!l||!l.estados)return;LALL=[];for(const g of [l.estados,l.cidades||{}])for(const p of Object.values(g)){p.items=(p.items||[]).map(n=>({...n,id:hid(n.u+n.t)}));LALL.push(...p.items)}LOCAL=l}
+const ready=fetch("news.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(j=>{if(!j.items||!j.items.length)throw 0;Object.assign(SRC,j.sources||{});SNAP=new Date();UPD=j.updated;NEWS=j.items.map(n=>({...n,id:hid(n.u+n.t)}));prepLocal(j.local)}).catch(()=>{NEWS=SNAPSHOT});
 const $=s=>document.querySelector(s);
 const PS=10;
-const byId=id=>NEWS.find(x=>x.id===id)||st.saved.get(id);
+const byId=id=>NEWS.find(x=>x.id===id)||LALL.find(x=>x.id===id)||st.saved.get(id);
 const sr=n=>SRC[n.s]||[n.s,"#888"];
-const st={cat:"Todas",q:"",off:new Set(),saved:new Map(),per:99,ord:"d",n:PS,fs:17};
+const st={cat:"Todas",q:"",off:new Set(),saved:new Map(),per:99,ord:"d",n:PS,fs:17,msg:"",loc:(()=>{try{return localStorage.getItem("pauta-local")||""}catch(e){return ""}})()};
 try{JSON.parse(localStorage.getItem("pauta-saved3")||"[]").forEach(n=>st.saved.set(n.id,n))}catch(e){}
 const persist=()=>{try{localStorage.setItem("pauta-saved3",JSON.stringify([...st.saved.values()]))}catch(e){}};
-const cats=["Todas","Brasil","Economia","Mundo","Tecnologia","Ciência","Esportes","Cultura","Salvas"];
+const cats=["Todas","Brasil","Economia","Mundo","Tecnologia","Ciência","Esportes","Cultura","Local","Salvas"];
 const age=d=>Math.round((SNAP-new Date(d+"T12:00:00"))/864e5);
 const when=d=>{const a=age(d);return a<=0?"hoje":a===1?"ontem":`há ${a} dias`};
 const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -157,24 +162,57 @@ const chip=n=>`<span class="chip" style="--h:${H[n.c]}">${n.c}</span>`;
 const meta=n=>`<div class="meta"><span class="dot" style="background:${sr(n)[1]}"></span><strong>${sr(n)[0]}</strong><span>${when(n.d)}</span></div>`;
 $("#date").textContent=SNAP.toLocaleDateString("pt-BR",{weekday:"long",day:"numeric",month:"long"});
 function nav(){
-  $("#cats").innerHTML=cats.map(c=>{const n=c==="Todas"?NEWS.length:c==="Salvas"?st.saved.size:NEWS.filter(x=>x.c===c).length;const d=H[c]!=null?`<span class="dot" style="background:hsl(${H[c]} 65% 50%)"></span>`:"";return `<button data-c="${c}" aria-pressed="${st.cat===c}">${d}${c}<b>${n}</b></button>`}).join("");
+  $("#cats").innerHTML=cats.map(c=>{const n=c==="Todas"?NEWS.length:c==="Salvas"?st.saved.size:c==="Local"?localItems().length:NEWS.filter(x=>x.c===c).length;const d=H[c]!=null?`<span class="dot" style="background:hsl(${H[c]} 65% 50%)"></span>`:"";return `<button data-c="${c}" aria-pressed="${st.cat===c}">${d}${c==="Local"?"📍 Perto de você":c}${c==="Local"&&!st.loc?"":`<b>${n}</b>`}</button>`}).join("");
   if(!$("#srcs").children.length||true){const open=document.activeElement&&document.activeElement.dataset&&document.activeElement.dataset.s;
     $("#srcs").innerHTML=Object.entries(SRC).map(([k,v])=>`<label><input type="checkbox" data-s="${k}" ${st.off.has(k)?"":"checked"}><span class="dot" style="background:${v[1]}"></span>${v[0]}</label>`).join("");
     if(open){const el=$(`[data-s="${open}"]`);if(el)el.focus()}}
 }
 function list(){
   const q=st.q.toLowerCase();
-  return (st.cat==="Salvas"?[...st.saved.values()]:NEWS).filter(n=>!st.off.has(n.s)&&age(n.d)<=st.per&&(st.cat==="Todas"||st.cat==="Salvas"||n.c===st.cat)&&(!q||(n.t+" "+n.x).toLowerCase().includes(q)))
+  return (st.cat==="Salvas"?[...st.saved.values()]:st.cat==="Local"?localItems():NEWS).filter(n=>!st.off.has(n.s)&&age(n.d)<=st.per&&(st.cat==="Todas"||st.cat==="Salvas"||st.cat==="Local"||n.c===st.cat)&&(!q||(n.t+" "+n.x).toLowerCase().includes(q)))
    .sort((a,b)=>st.ord==="r"?b.r-a.r||age(a.d)-age(b.d):age(a.d)-age(b.d)||b.r-a.r);
+}
+function localItems(){
+  if(!LOCAL||!st.loc)return [];
+  const [t,k]=st.loc.split(":");
+  if(t==="c"){const c=LOCAL.cidades[k];if(!c)return [];let a=c.items;const e=LOCAL.estados[c.uf];
+    if(a.length<6&&e){const seen=new Set(a.map(x=>x.id));a=a.concat(e.items.filter(x=>!seen.has(x.id)))}return a}
+  const e=LOCAL.estados[k];return e?e.items:[];
+}
+function placeName(){
+  if(!LOCAL||!st.loc)return "";
+  const [t,k]=st.loc.split(":"),p=t==="c"?LOCAL.cidades[k]:LOCAL.estados[k];
+  return p?`Mostrando notícias de ${p.nome}${t==="c"?" ("+p.uf+")":""}.`:"";
+}
+function setLoc(v,msg){st.loc=v;st.msg=msg||"";st.n=PS;try{localStorage.setItem("pauta-local",v)}catch(e){}render()}
+const km=(a,b,c,d)=>{const r=Math.PI/180,x=(c-a)*r,y=(d-b)*r,s=Math.sin(x/2)**2+Math.cos(a*r)*Math.cos(c*r)*Math.sin(y/2)**2;return 12742*Math.asin(Math.sqrt(s))};
+function geo(){
+  if(!LOCAL)return;
+  if(!navigator.geolocation){st.msg="Este aparelho não oferece localização. Escolha o lugar na lista.";render();return}
+  st.msg="Buscando sua localização…";render();
+  navigator.geolocation.getCurrentPosition(async p=>{
+    const la=p.coords.latitude,lo=p.coords.longitude;let uf="",est=false;
+    try{const r=await fetch(`https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${la}&longitude=${lo}&localityLanguage=pt`);const j=await r.json();const m=/BR-([A-Z]{2})/.exec(j.principalSubdivisionCode||"");if(m&&LOCAL.estados[m[1]])uf=m[1]}catch(e){}
+    if(!uf){est=true;let b=1e9;for(const [k,e] of Object.entries(LOCAL.estados)){const d=km(la,lo,e.lat,e.lon);if(d<b){b=d;uf=k}}}
+    let city="",b=45;for(const [k,c] of Object.entries(LOCAL.cidades)){const d=km(la,lo,c.lat,c.lon);if(d<b){b=d;city=k}}
+    setLoc(city?"c:"+city:"e:"+uf,est?"Localização aproximada (pela capital mais próxima). Se estiver errado, escolha na lista.":"")
+  },err=>{st.msg=err.code===1?"Permissão negada. Escolha o lugar na lista.":"Não consegui obter sua localização. Escolha o lugar na lista.";render()},{timeout:12000,maximumAge:600000});
+}
+function locbar(){
+  if(!LOCAL)return `<div class="locbar"><span class="lmsg">As notícias locais aparecem depois da próxima atualização automática do site.</span></div>`;
+  const srt=o=>Object.entries(o).sort((a,b)=>a[1].nome.localeCompare(b[1].nome,"pt")),
+    op=(v,x)=>`<option value="${v}"${st.loc===v?" selected":""}>${esc(x)}</option>`,
+    cs=srt(LOCAL.cidades||{}),es=srt(LOCAL.estados);
+  return `<div class="locbar"><button class="btn p" data-geo>Usar minha localização</button><select id="locsel" aria-label="Escolher lugar"><option value="">Escolher lugar…</option>${cs.length?`<optgroup label="Cidades">${cs.map(([k,c])=>op("c:"+k,`${c.nome} (${c.uf})`)).join("")}</optgroup>`:""}<optgroup label="Estados">${es.map(([k,e])=>op("e:"+k,e.nome)).join("")}</optgroup></select><span class="lmsg">${esc(st.msg||placeName())}</span><small>Sua posição é usada só neste aparelho. Para descobrir o estado, as coordenadas são enviadas ao serviço gratuito BigDataCloud; o Pauta não guarda nada.</small></div>`;
 }
 const acts=n=>`<div class="act"><button class="save" data-v="${n.id}" aria-pressed="${st.saved.has(n.id)}">${st.saved.has(n.id)?"Salva":"Salvar"}</button><button class="btn" data-o="${n.id}">Ler resumo</button><a class="btn" href="${n.u}" target="_blank" rel="noopener">Fonte</a></div>`;
 function render(){
   nav();
-  const l=list(),f=$("#feed");
+  const l=list(),f=$("#feed"),pre=st.cat==="Local"?locbar():"";
   $("#count").textContent=`${l.length} ${l.length===1?"notícia":"notícias"}`;
-  if(!l.length){f.innerHTML=`<div class="empty">${st.cat==="Salvas"?"Você ainda não salvou nenhuma notícia. Use o botão Salvar em qualquer matéria.":"Nenhuma notícia encontrada. Limpe a busca, amplie o período ou ative mais fontes."}</div>`;$("#more").hidden=true;return}
+  if(!l.length){f.innerHTML=pre+`<div class="empty">${st.cat==="Salvas"?"Você ainda não salvou nenhuma notícia. Use o botão Salvar em qualquer matéria.":st.cat==="Local"?(st.loc?"Nenhuma notícia recente para este lugar. Tente outro lugar ou amplie o período.":"Use sua localização ou escolha um lugar na lista acima para ver notícias locais."):"Nenhuma notícia encontrada. Limpe a busca, amplie o período ou ative mais fontes."}</div>`;$("#more").hidden=true;return}
   const v=l.slice(0,st.n),[a,...rest]=v;
-  f.innerHTML=`<article class="hero">${thumb(a,"H")}<div class="in">${chip(a)}<h3 data-o="${a.id}" tabindex="0">${hl(a.t)}</h3><p class="s">${hl(a.x)}</p>${meta(a)}${acts(a)}</div></article>`+
+  f.innerHTML=pre+`<article class="hero">${thumb(a,"H")}<div class="in">${chip(a)}<h3 data-o="${a.id}" tabindex="0">${hl(a.t)}</h3><p class="s">${hl(a.x)}</p>${meta(a)}${acts(a)}</div></article>`+
    `<div class="grid">`+rest.map(n=>`<article class="card">${thumb(n)}<div class="in">${chip(n)}<h3 data-o="${n.id}" tabindex="0">${hl(n.t)}</h3><p class="s">${hl(n.x)}</p>${meta(n)}${acts(n)}</div></article>`).join("")+`</div>`;
   $("#more").hidden=l.length<=st.n;
 }
@@ -184,6 +222,7 @@ function open(id){
   d.dataset.id=id;if(!d.open)d.showModal();
 }
 document.addEventListener("click",e=>{
+  if(e.target.closest("[data-geo]")){geo();return}
   const c=e.target.closest("[data-c]");if(c){st.cat=c.dataset.c;st.n=PS;render();return}
   const v=e.target.closest("[data-v]");if(v){const id=+v.dataset.v;st.saved.has(id)?st.saved.delete(id):st.saved.set(id,byId(id));persist();render();if($("#dlg").open)open(id);return}
   const f=e.target.closest("[data-fs]");if(f){st.fs=Math.min(26,Math.max(14,st.fs+ +f.dataset.fs));open(+$("#dlg").dataset.id);return}
@@ -191,7 +230,8 @@ document.addEventListener("click",e=>{
   const o=e.target.closest("[data-o]");if(o)open(+o.dataset.o);
 });
 document.addEventListener("keydown",e=>{if(e.key==="Enter"&&e.target.dataset.o)open(+e.target.dataset.o)});
-document.addEventListener("change",e=>{const s=e.target.dataset.s;if(s){e.target.checked?st.off.delete(s):st.off.add(s);st.n=PS;render()}});
+document.addEventListener("change",e=>{if(e.target.id==="locsel"){setLoc(e.target.value);return}
+  const s=e.target.dataset.s;if(s){e.target.checked?st.off.delete(s):st.off.add(s);st.n=PS;render()}});
 $("#q").addEventListener("input",e=>{st.q=e.target.value.trim();st.n=PS;render()});
 $("#per").addEventListener("change",e=>{st.per=+e.target.value;st.n=PS;render()});
 $("#ord").addEventListener("change",e=>{st.ord=e.target.value;render()});
