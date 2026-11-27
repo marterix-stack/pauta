@@ -1,0 +1,30 @@
+name: Atualizar notícias
+
+on:
+  schedule:
+    # De 2 em 2 horas, das 05h07 às 23h07 (horário de Brasília = UTC-3), 10 vezes ao dia
+    - cron: "7 8,10,12,14,16,18,20,22,0,2 * * *"
+  workflow_dispatch:       # permite rodar na mão pela aba Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar-noticias
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python fetch_news.py
+      - name: Publicar mudanças
+        run: |
+          git config user.name "pauta-bot"
+          git config user.email "pauta-bot@users.noreply.github.com"
+          git add news.json
+          git diff --cached --quiet || (git commit -m "Atualiza notícias" && git pull --rebase && git push)

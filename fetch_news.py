@@ -380,11 +380,11 @@ ESTADOS = {
     "TO": ("Tocantins", -10.1689, -48.3317),
 }
 CIDADES = {  # chave: (nome, UF, latitude, longitude)
-    "niteroi": ("Niterói", "RJ", -22.8832, -43.1034),
-    "campinas": ("Campinas", "SP", -22.9056, -47.0608),
-    "santos": ("Santos", "SP", -23.9608, -46.3336),
-    "juiz-de-fora": ("Juiz de Fora", "MG", -21.7642, -43.3503),
-    "londrina": ("Londrina", "PR", -23.3045, -51.1696),
+    "volta-redonda": ("Volta Redonda", "RJ", -22.5231, -44.1040),
+    "barra-mansa": ("Barra Mansa", "RJ", -22.5441, -44.1714),
+    "pinheiral": ("Pinheiral", "RJ", -22.5128, -43.9997),
+    "paty-do-alferes": ("Paty do Alferes", "RJ", -22.4300, -43.4282),
+    "miguel-pereira": ("Miguel Pereira", "RJ", -22.4569, -43.4650),
 }
 LOCAL_MAX = 12          # matérias por lugar
 LOCAL_AGE_ESTADO = 3    # dias
