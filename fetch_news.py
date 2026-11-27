@@ -379,12 +379,14 @@ ESTADOS = {
     "SP": ("São Paulo", -23.5505, -46.6333), "SE": ("Sergipe", -10.9472, -37.0731),
     "TO": ("Tocantins", -10.1689, -48.3317),
 }
-CIDADES = {  # chave: (nome, UF, latitude, longitude)
+CIDADES = {  # chave: (nome, UF, latitude, longitude[, buscas])
     "volta-redonda": ("Volta Redonda", "RJ", -22.5231, -44.1040),
     "barra-mansa": ("Barra Mansa", "RJ", -22.5441, -44.1714),
     "pinheiral": ("Pinheiral", "RJ", -22.5128, -43.9997),
     "paty-do-alferes": ("Paty do Alferes", "RJ", -22.4300, -43.4282),
     "miguel-pereira": ("Miguel Pereira", "RJ", -22.4569, -43.4650),
+    # 5º item (opcional): buscas próprias. Aqui evita misturar com notícias do estado inteiro.
+    "rio-de-janeiro": ("Rio de Janeiro", "RJ", -22.9068, -43.1729, ['"cidade do Rio"', '"prefeitura do Rio"']),
 }
 LOCAL_MAX = 12          # matérias por lugar
 LOCAL_AGE_ESTADO = 3    # dias
@@ -451,8 +453,9 @@ def collect_local():
         estados[uf] = {"nome": nome, "lat": lat, "lon": lon, "items": items}
         if not items:
             rep_e["feeds"].append({"url": nome, "ok": False, "n": 0, "erro": "sem notícias recentes"})
-    for key, (nome, uf, lat, lon) in CIDADES.items():
-        urls = [gnews_q(f'"{nome}" {uf}', LOCAL_AGE_CIDADE)]
+    for key, (nome, uf, lat, lon, *extra) in CIDADES.items():
+        queries = extra[0] if extra else [f'"{nome}" {uf}']
+        urls = [gnews_q(q, LOCAL_AGE_CIDADE) for q in queries]
         items = local_place(urls, LOCAL_AGE_CIDADE, rep_c)
         cidades[key] = {"nome": nome, "uf": uf, "lat": lat, "lon": lon, "items": items}
         if not items:
